@@ -67,4 +67,6 @@ popd >/dev/null
 UNSIGNED_PKG="$OUTPUT_DIR/${PACKAGE_NAME}-squirrel-${SQUIRREL_VERSION}-unsigned.pkg"
 pkgutil --flatten "$WORKDIR/package" "$UNSIGNED_PKG"
 
+rm -f "$OUTPUT_DIR/$PKG_NAME"
+
 echo "Built: $UNSIGNED_PKG"
