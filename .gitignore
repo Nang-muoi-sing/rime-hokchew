@@ -1,0 +1,10 @@
+data/*.tsv
+
+.envrc
+
+*.py[codz]
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.pdm-python
