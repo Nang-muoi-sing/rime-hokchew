@@ -2,7 +2,7 @@
 # encoding: UTF-8
 
 schema:
-  schema_id: yngping
+  schema_id: hokchew_yngping
   name: 榕拼手写方案（福州城里）
   version: "2025.05.18.1"
   author:
@@ -44,7 +44,7 @@ speller:
     - derive/y/yu/
 
 translator:
-  dictionary: Yngping
+  dictionary: hokchew_yngping
   # 設定 table_translator 使用的詞典名
   spelling_hints: 12
   enable_sentence: true

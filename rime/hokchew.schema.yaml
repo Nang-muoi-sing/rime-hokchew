@@ -2,7 +2,7 @@
 # encoding: UTF-8 w/o BOM
 
 schema:
-  schema_id: hukziu
+  schema_id: hokchew
   name: 福州話輸入方案
   version: "2025.08.04.02"
   author:
@@ -139,7 +139,7 @@ speller:
     - derive/eoyng/eyong/
     - derive/eo/oe/
 translator:
-  dictionary: Hukziu
+  dictionary: hokchew
   spelling_hints: 12
   enable_sentence: true
   enable_encoder: true

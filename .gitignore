@@ -1,4 +1,5 @@
-data/*.tsv
+data/*
+!data/weights.yaml
 
 .envrc
 

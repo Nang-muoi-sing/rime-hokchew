@@ -2,7 +2,7 @@
 # encoding: UTF-8
 
 schema:
-  schema_id: hukziu_roma
+  schema_id: hokchew_roma
   name: 福州話教會羅馬字
   version: "2024.11.02.2"
   author:
@@ -44,7 +44,7 @@ speller:
     - derive/erurng/eung/
 
 translator:
-  dictionary: FoochowRomanization
+  dictionary: hokchew
   # 設定 table_translator 使用的詞典名
   spelling_hints: 12
   enable_sentence: true
