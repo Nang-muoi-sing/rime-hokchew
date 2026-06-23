@@ -7,8 +7,7 @@ permissions:
   contents: read
 
 env:
-  RELEASE_BRANCH: release
-  SCHEMA_DIR: schema
+  SCHEMA_DIR: rime
   OUTPUT_DIR: output
 
 jobs:
@@ -19,12 +18,6 @@ jobs:
     steps:
       - name: Checkout source repository
         uses: actions/checkout@v4
-
-      - name: Checkout clean Rime release branch
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ env.RELEASE_BRANCH }}
-          path: ${{ env.SCHEMA_DIR }}
 
       - name: Install NSIS
         run: choco install nsis -y
@@ -51,12 +44,6 @@ jobs:
     steps:
       - name: Checkout source repository
         uses: actions/checkout@v4
-
-      - name: Checkout clean Rime release branch
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ env.RELEASE_BRANCH }}
-          path: ${{ env.SCHEMA_DIR }}
 
       - name: Build macOS package
         run: |
