@@ -23,14 +23,17 @@ echo "Downloading: $INSTALLER_URL"
 curl -L "$INSTALLER_URL" -o "$OUTPUT_DIR/$INSTALLER"
 
 rm -rf "$OUTPUT_DIR/weasel"
-7z x "$OUTPUT_DIR/$INSTALLER" -aoa -o"$OUTPUT_DIR/weasel"
+7z x "$OUTPUT_DIR/$INSTALLER" -aou -o"$OUTPUT_DIR/weasel"
 
 pushd "$OUTPUT_DIR/weasel" >/dev/null
 
 mkdir -p Win32
 
-shopt -s nullglob
 for file in *_1.*; do
+  if [ ! -e "$file" ]; then
+    continue
+  fi
+
   extension="${file##*.}"
   base_file="${file%_1.*}.$extension"
 
@@ -51,7 +54,13 @@ for file in *_1.*; do
     mv "$file" "Win32/$base_file"
   fi
 done
-shopt -u nullglob
+
+if [ ! -f "Win32/WeaselDeployer.exe" ]; then
+  echo "Win32/WeaselDeployer.exe not found after arranging files" >&2
+  echo "Current directory files:" >&2
+  find . -maxdepth 2 -name "WeaselDeployer.exe" -print >&2
+  exit 1
+fi
 
 # 保留 weasel.yaml，替换其余预置方案文件
 find data -mindepth 1 -maxdepth 1 ! -name "weasel.yaml" -exec rm -rf {} +
