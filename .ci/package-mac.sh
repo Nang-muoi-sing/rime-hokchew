@@ -46,8 +46,10 @@ if [ ! -d "$SUPPORT_DIR" ]; then
   exit 1
 fi
 
-# 保留 squirrel.yaml，替换其余预置方案文件
-find "$SUPPORT_DIR" -mindepth 1 -maxdepth 1 ! -name "squirrel.yaml" -exec rm -rf {} +
+# 移除官方内置的其他输入方案，但保留明月拼音依赖
+find "$SUPPORT_DIR" -maxdepth 1 -type f \( -name "*.schema.yaml" -o -name "*.dict.yaml" \) \
+  ! -name "luna_pinyin*" \
+  -delete
 
 cp -R "../../../$SCHEMA_DIR"/. "$SUPPORT_DIR"/
 
