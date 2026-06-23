@@ -1,0 +1,78 @@
+name: Publish release branch
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "rime/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-release-branch
+  cancel-in-progress: true
+
+env:
+  SOURCE_DIR: rime
+  RELEASE_BRANCH: release
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Prepare release contents
+        run: |
+          set -euo pipefail
+
+          rm -rf "$RUNNER_TEMP/release-content"
+          mkdir -p "$RUNNER_TEMP/release-content"
+          cp -a "$SOURCE_DIR"/. "$RUNNER_TEMP/release-content"/
+
+      - name: Checkout or create release branch
+        run: |
+          set -euo pipefail
+
+          if git ls-remote --exit-code --heads origin "$RELEASE_BRANCH" >/dev/null 2>&1; then
+            git fetch origin "$RELEASE_BRANCH":"$RELEASE_BRANCH"
+            git switch "$RELEASE_BRANCH"
+          else
+            git switch --orphan "$RELEASE_BRANCH"
+          fi
+
+      - name: Replace release branch contents
+        run: |
+          set -euo pipefail
+
+          git rm -rf . >/dev/null 2>&1 || true
+
+          find . -mindepth 1 -maxdepth 1 \
+            ! -name .git \
+            -exec rm -rf {} +
+
+          cp -a "$RUNNER_TEMP/release-content"/. .
+
+      - name: Commit and push release branch
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No release branch changes."
+            exit 0
+          fi
+
+          git commit -m "release: update rime files at $(date '+%Y-%m-%d %H:%M:%S %z')"
+          git push -u origin "$RELEASE_BRANCH"
