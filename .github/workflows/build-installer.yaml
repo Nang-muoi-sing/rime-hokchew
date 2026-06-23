@@ -15,6 +15,9 @@ jobs:
     name: Build Windows installer
     runs-on: windows-latest
 
+    env:
+      GH_TOKEN: ${{ github.token }}
+
     steps:
       - name: Checkout source repository
         uses: actions/checkout@v4
@@ -40,6 +43,9 @@ jobs:
   build-macos:
     name: Build macOS package
     runs-on: macos-latest
+
+    env:
+      GH_TOKEN: ${{ github.token }}
 
     steps:
       - name: Checkout source repository
