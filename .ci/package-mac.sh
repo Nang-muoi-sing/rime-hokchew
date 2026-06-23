@@ -34,7 +34,10 @@ PAYLOAD_ROOT="payload-root"
 rm -rf "$PAYLOAD_ROOT"
 mkdir -p "$PAYLOAD_ROOT"
 
-cat Payload | gunzip -dc | cpio -i -D "$PAYLOAD_ROOT"
+(
+  cd "$PAYLOAD_ROOT"
+  gunzip -dc ../Payload | cpio -i
+)
 
 SUPPORT_DIR="$PAYLOAD_ROOT/Squirrel.app/Contents/SharedSupport"
 
