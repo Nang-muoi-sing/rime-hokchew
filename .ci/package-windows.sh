@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SCHEMA_DIR="${SCHEMA_DIR:-schema}"
+SCHEMA_DIR="${SCHEMA_DIR:-rime}"
 OUTPUT_DIR="${OUTPUT_DIR:-output}"
 
 PACKAGE_NAME="rime-hokchew"
@@ -22,9 +22,36 @@ echo "Downloading: $INSTALLER_URL"
 
 curl -L "$INSTALLER_URL" -o "$OUTPUT_DIR/$INSTALLER"
 
+rm -rf "$OUTPUT_DIR/weasel"
 7z x "$OUTPUT_DIR/$INSTALLER" -aoa -o"$OUTPUT_DIR/weasel"
 
 pushd "$OUTPUT_DIR/weasel" >/dev/null
+
+mkdir -p Win32
+
+shopt -s nullglob
+for file in *_1.*; do
+  extension="${file##*.}"
+  base_file="${file%_1.*}.$extension"
+
+  if [ ! -f "$base_file" ]; then
+    echo "Base file not found for $file: $base_file" >&2
+    continue
+  fi
+
+  if file "$base_file" | grep -q "x86-64"; then
+    :
+  else
+    mv "$base_file" "Win32/$base_file"
+  fi
+
+  if file "$file" | grep -q "x86-64"; then
+    mv "$file" "$base_file"
+  else
+    mv "$file" "Win32/$base_file"
+  fi
+done
+shopt -u nullglob
 
 # 保留 weasel.yaml，替换其余预置方案文件
 find data -mindepth 1 -maxdepth 1 ! -name "weasel.yaml" -exec rm -rf {} +
@@ -34,6 +61,8 @@ cp -R "../../$SCHEMA_DIR"/. data/
 curl -L "https://raw.githubusercontent.com/rime/weasel/${WEASEL_VERSION}/output/install.nsi" -o install.nsi
 mkdir -p ../resource
 curl -L "https://raw.githubusercontent.com/rime/weasel/${WEASEL_VERSION}/resource/weasel.ico" -o ../resource/weasel.ico
+
+mkdir -p archives
 
 MAKENSIS="${MAKENSIS:-}"
 
@@ -61,7 +90,7 @@ echo "Using makensis: $MAKENSIS"
 
 popd >/dev/null
 
-FOUND_INSTALLER="$(find "$OUTPUT_DIR/weasel" -maxdepth 1 -name "weasel-*.exe" | head -n 1)"
+FOUND_INSTALLER="$(find "$OUTPUT_DIR/weasel/archives" -maxdepth 1 -name "weasel-*.exe" | head -n 1)"
 
 if [ -z "$FOUND_INSTALLER" ]; then
   echo "Failed to find generated Weasel installer" >&2
