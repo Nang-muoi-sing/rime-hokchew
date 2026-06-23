@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SCHEMA_DIR="${SCHEMA_DIR:-schema}"
+SCHEMA_DIR="${SCHEMA_DIR:-rime}"
 OUTPUT_DIR="${OUTPUT_DIR:-output}"
 
 PACKAGE_NAME="rime-hokchew"
@@ -30,12 +30,13 @@ pkgutil --expand "$OUTPUT_DIR/$PKG_NAME" "$WORKDIR/package"
 
 pushd "$WORKDIR/package" >/dev/null
 
-mkdir -p payload
-pushd payload >/dev/null
-cat ../Payload | gunzip -dc | cpio -i
-popd >/dev/null
+PAYLOAD_ROOT="payload-root"
+rm -rf "$PAYLOAD_ROOT"
+mkdir -p "$PAYLOAD_ROOT"
 
-SUPPORT_DIR="payload/Squirrel.app/Contents/SharedSupport"
+cat Payload | gunzip -dc | cpio -i -D "$PAYLOAD_ROOT"
+
+SUPPORT_DIR="$PAYLOAD_ROOT/Squirrel.app/Contents/SharedSupport"
 
 if [ ! -d "$SUPPORT_DIR" ]; then
   echo "SharedSupport directory not found: $SUPPORT_DIR" >&2
@@ -47,12 +48,14 @@ find "$SUPPORT_DIR" -mindepth 1 -maxdepth 1 ! -name "squirrel.yaml" -exec rm -rf
 
 cp -R "../../../$SCHEMA_DIR"/. "$SUPPORT_DIR"/
 
+# 重新打包 Payload
 rm -f Payload
-pushd payload >/dev/null
-find . | cpio -o --format odc | gzip -c > ../Payload
-popd >/dev/null
+(
+  cd "$PAYLOAD_ROOT"
+  find . | cpio -o --format odc | gzip -c > ../Payload
+)
 
-rm -rf payload
+rm -rf "$PAYLOAD_ROOT"
 
 popd >/dev/null
 

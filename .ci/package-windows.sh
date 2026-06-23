@@ -35,7 +35,26 @@ curl -L "https://raw.githubusercontent.com/rime/weasel/${WEASEL_VERSION}/output/
 mkdir -p ../resource
 curl -L "https://raw.githubusercontent.com/rime/weasel/${WEASEL_VERSION}/resource/weasel.ico" -o ../resource/weasel.ico
 
-makensis.exe \
+MAKENSIS="${MAKENSIS:-}"
+
+if [ -z "$MAKENSIS" ]; then
+  if command -v makensis.exe >/dev/null 2>&1; then
+    MAKENSIS="makensis.exe"
+  elif command -v makensis >/dev/null 2>&1; then
+    MAKENSIS="makensis"
+  elif [ -x "/c/Program Files (x86)/NSIS/makensis.exe" ]; then
+    MAKENSIS="/c/Program Files (x86)/NSIS/makensis.exe"
+  elif [ -x "/c/Program Files/NSIS/makensis.exe" ]; then
+    MAKENSIS="/c/Program Files/NSIS/makensis.exe"
+  else
+    echo "makensis not found" >&2
+    exit 1
+  fi
+fi
+
+echo "Using makensis: $MAKENSIS"
+
+"$MAKENSIS" \
   //DWEASEL_VERSION="$WEASEL_VERSION" \
   //DPRODUCT_VERSION="$WEASEL_VERSION" \
   install.nsi
