@@ -1,0 +1,80 @@
+name: Update Rime dictionary
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  UPSTREAM_REPO: Nang-muoi-sing/seedict-admin
+  UPSTREAM_REF: master
+  UPSTREAM_TSV_PATH: resources/PronunciationResource.tsv
+  OUTPUT_DICT_PATH: rime/hokchew.dict.yaml
+
+jobs:
+  update-dict:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout current repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Checkout upstream repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.UPSTREAM_REPO }}
+          ref: ${{ env.UPSTREAM_REF }}
+          ssh-key: ${{ secrets.UPSTREAM_SSH_KEY }}
+          path: _upstream
+          persist-credentials: false
+
+      - name: Copy TSV from upstream
+        run: |
+          set -euo pipefail
+
+          src="_upstream/$UPSTREAM_TSV_PATH"
+          dst="$RUNNER_TEMP/seedict/PronunciationResource.tsv"
+
+          if [ ! -f "$src" ]; then
+              echo "TSV file not found: $src" >&2
+              exit 1
+          fi
+
+          mkdir -p "$(dirname "$dst")"
+          cp "$src" "$dst"
+
+          echo "LOCAL_TSV_PATH=$dst" >> "$GITHUB_ENV"
+
+      - name: Setup PDM
+        uses: pdm-project/setup-pdm@v4
+
+      - name: Install dependencies
+        run: pdm sync
+
+      - name: Build Rime dictionary
+        run: |
+          set -euo pipefail
+
+          pdm run python -m scripts.build_dict --input "$LOCAL_TSV_PATH" --output "$OUTPUT_DICT_PATH"
+
+      - name: Show changes
+        run: git status --short
+
+      - name: Commit changes
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet -- "$OUTPUT_DICT_PATH"; then
+            echo "No dictionary changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add "$OUTPUT_DICT_PATH"
+          git commit -m "data: update rime dictionary"
+          git push
