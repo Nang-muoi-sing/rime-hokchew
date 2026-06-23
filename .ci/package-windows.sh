@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCHEMA_DIR="${SCHEMA_DIR:-schema}"
+OUTPUT_DIR="${OUTPUT_DIR:-output}"
+
+PACKAGE_NAME="rime-hokchew"
+
+mkdir -p "$OUTPUT_DIR"
+
+# 注入安装包默认启用方案配置
+bash .ci/prepare-schema.sh
+
+WEASEL_VERSION="$(gh release view --repo rime/weasel --json tagName --jq .tagName)"
+WEASEL_VERSION="${WEASEL_VERSION#v}"
+
+INSTALLER="weasel-${WEASEL_VERSION}.0-installer.exe"
+INSTALLER_URL="https://github.com/rime/weasel/releases/download/${WEASEL_VERSION}/${INSTALLER}"
+
+echo "Using Weasel version: $WEASEL_VERSION"
+echo "Downloading: $INSTALLER_URL"
+
+curl -L "$INSTALLER_URL" -o "$OUTPUT_DIR/$INSTALLER"
+
+7z x "$OUTPUT_DIR/$INSTALLER" -aoa -o"$OUTPUT_DIR/weasel"
+
+pushd "$OUTPUT_DIR/weasel" >/dev/null
+
+# 保留 weasel.yaml，替换其余预置方案文件
+find data -mindepth 1 -maxdepth 1 ! -name "weasel.yaml" -exec rm -rf {} +
+
+cp -R "../../$SCHEMA_DIR"/. data/
+
+curl -L "https://raw.githubusercontent.com/rime/weasel/${WEASEL_VERSION}/output/install.nsi" -o install.nsi
+mkdir -p ../resource
+curl -L "https://raw.githubusercontent.com/rime/weasel/${WEASEL_VERSION}/resource/weasel.ico" -o ../resource/weasel.ico
+
+makensis.exe \
+  //DWEASEL_VERSION="$WEASEL_VERSION" \
+  //DPRODUCT_VERSION="$WEASEL_VERSION" \
+  install.nsi
+
+popd >/dev/null
+
+FOUND_INSTALLER="$(find "$OUTPUT_DIR/weasel" -maxdepth 1 -name "weasel-*.exe" | head -n 1)"
+
+if [ -z "$FOUND_INSTALLER" ]; then
+  echo "Failed to find generated Weasel installer" >&2
+  exit 1
+fi
+
+FINAL_NAME="${PACKAGE_NAME}-weasel-${WEASEL_VERSION}.exe"
+mv "$FOUND_INSTALLER" "$OUTPUT_DIR/$FINAL_NAME"
+
+echo "Built: $OUTPUT_DIR/$FINAL_NAME"

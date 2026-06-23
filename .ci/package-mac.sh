@@ -1,0 +1,62 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCHEMA_DIR="${SCHEMA_DIR:-schema}"
+OUTPUT_DIR="${OUTPUT_DIR:-output}"
+
+PACKAGE_NAME="rime-hokchew"
+
+mkdir -p "$OUTPUT_DIR"
+
+# 注入安装包默认启用方案配置
+bash .ci/prepare-schema.sh
+
+SQUIRREL_TAG="$(gh release view --repo rime/squirrel --json tagName --jq .tagName)"
+SQUIRREL_VERSION="${SQUIRREL_TAG#v}"
+
+PKG_NAME="Squirrel-${SQUIRREL_VERSION}.pkg"
+PKG_URL="https://github.com/rime/squirrel/releases/download/${SQUIRREL_TAG}/${PKG_NAME}"
+
+echo "Using Squirrel version: $SQUIRREL_TAG"
+echo "Downloading: $PKG_URL"
+
+curl -L "$PKG_URL" -o "$OUTPUT_DIR/$PKG_NAME"
+
+WORKDIR="$OUTPUT_DIR/squirrel-work"
+rm -rf "$WORKDIR"
+mkdir -p "$WORKDIR"
+
+pkgutil --expand "$OUTPUT_DIR/$PKG_NAME" "$WORKDIR/package"
+
+pushd "$WORKDIR/package" >/dev/null
+
+mkdir -p payload
+pushd payload >/dev/null
+cat ../Payload | gunzip -dc | cpio -i
+popd >/dev/null
+
+SUPPORT_DIR="payload/Squirrel.app/Contents/SharedSupport"
+
+if [ ! -d "$SUPPORT_DIR" ]; then
+  echo "SharedSupport directory not found: $SUPPORT_DIR" >&2
+  exit 1
+fi
+
+# 保留 squirrel.yaml，替换其余预置方案文件
+find "$SUPPORT_DIR" -mindepth 1 -maxdepth 1 ! -name "squirrel.yaml" -exec rm -rf {} +
+
+cp -R "../../../$SCHEMA_DIR"/. "$SUPPORT_DIR"/
+
+rm -f Payload
+pushd payload >/dev/null
+find . | cpio -o --format odc | gzip -c > ../Payload
+popd >/dev/null
+
+rm -rf payload
+
+popd >/dev/null
+
+UNSIGNED_PKG="$OUTPUT_DIR/${PACKAGE_NAME}-squirrel-${SQUIRREL_VERSION}-unsigned.pkg"
+pkgutil --flatten "$WORKDIR/package" "$UNSIGNED_PKG"
+
+echo "Built: $UNSIGNED_PKG"

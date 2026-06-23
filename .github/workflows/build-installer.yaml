@@ -1,0 +1,70 @@
+name: Build installers
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  RELEASE_BRANCH: release
+  SCHEMA_DIR: schema
+  OUTPUT_DIR: output
+
+jobs:
+  build-windows:
+    name: Build Windows installer
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+
+      - name: Checkout clean Rime release branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.RELEASE_BRANCH }}
+          path: ${{ env.SCHEMA_DIR }}
+
+      - name: Install NSIS
+        run: choco install nsis -y
+
+      - name: Install 7-Zip
+        run: choco install 7zip -y
+
+      - name: Build Windows installer
+        shell: bash
+        run: |
+          set -euo pipefail
+          bash .ci/package-windows.sh
+
+      - name: Upload Windows installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: rime-hokchew-windows-installer
+          path: output/*.exe
+
+  build-macos:
+    name: Build macOS package
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+
+      - name: Checkout clean Rime release branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.RELEASE_BRANCH }}
+          path: ${{ env.SCHEMA_DIR }}
+
+      - name: Build macOS package
+        run: |
+          set -euo pipefail
+          bash .ci/package-mac.sh
+
+      - name: Upload macOS package
+        uses: actions/upload-artifact@v4
+        with:
+          name: rime-hokchew-macos-package
+          path: output/*.pkg
