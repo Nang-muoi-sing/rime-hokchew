@@ -11,7 +11,7 @@ fi
 cat > "$SCHEMA_DIR/default.custom.yaml" <<'EOF'
 patch:
   schema_list:
-    - schema: hukziu
-    - schema: hukziu_roma
-    - schema: yngping
+    - schema: hokchew
+    - schema: hokchew_roma
+    - schema: hokchew_yngping
 EOF
