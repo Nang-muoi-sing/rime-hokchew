@@ -75,7 +75,7 @@ if [ ! -f "data/weasel.yaml" ]; then
   exit 1
 fi
 
-python "../../.ci/preset_color.py" \
+pdm run python "../../.ci/preset_color.py" \
   "data/weasel.yaml" \
   "../../$SCHEMA_DIR/../theme/seedict.weasel.yaml"
 

@@ -59,7 +59,7 @@ if [ ! -f "$SUPPORT_DIR/squirrel.yaml" ]; then
   exit 1
 fi
 
-python3 "../../../.ci/preset_color.py" \
+pdm run python "../../../.ci/preset_color.py" \
   "$SUPPORT_DIR/squirrel.yaml" \
   "../../../theme/seedict.squirrel.yaml"
 
