@@ -69,6 +69,16 @@ find data -maxdepth 1 -type f \( -name "*.schema.yaml" -o -name "*.dict.yaml" \)
 
 cp -R "../../$SCHEMA_DIR"/. data/
 
+# 注入主题
+if [ ! -f "data/weasel.yaml" ]; then
+  echo "data/weasel.yaml not found" >&2
+  exit 1
+fi
+
+python "../../.ci/preset_color.py" \
+  "data/weasel.yaml" \
+  "../../$SCHEMA_DIR/../theme/seedict.weasel.yaml"
+
 curl -L "https://raw.githubusercontent.com/rime/weasel/${WEASEL_VERSION}/output/install.nsi" -o install.nsi
 mkdir -p ../resource
 curl -L "https://raw.githubusercontent.com/rime/weasel/${WEASEL_VERSION}/resource/weasel.ico" -o ../resource/weasel.ico

@@ -53,6 +53,17 @@ find "$SUPPORT_DIR" -maxdepth 1 -type f \( -name "*.schema.yaml" -o -name "*.dic
 
 cp -R "../../../$SCHEMA_DIR"/. "$SUPPORT_DIR"/
 
+# 注入主题
+if [ ! -f "$SUPPORT_DIR/squirrel.yaml" ]; then
+  echo "$SUPPORT_DIR/squirrel.yaml not found" >&2
+  exit 1
+fi
+
+python "../../.ci/preset_color.py" \
+  "$SUPPORT_DIR/squirrel.yaml" \
+  "../../$SCHEMA_DIR/../theme/seedict.squirrel.yaml"
+
+
 # 重新打包 Payload
 rm -f Payload
 (
