@@ -59,10 +59,9 @@ if [ ! -f "$SUPPORT_DIR/squirrel.yaml" ]; then
   exit 1
 fi
 
-python "../../.ci/preset_color.py" \
+python3 "../../../.ci/preset_color.py" \
   "$SUPPORT_DIR/squirrel.yaml" \
-  "../../$SCHEMA_DIR/../theme/seedict.squirrel.yaml"
-
+  "../../../theme/seedict.squirrel.yaml"
 
 # 重新打包 Payload
 rm -f Payload

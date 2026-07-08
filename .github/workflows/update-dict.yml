@@ -52,7 +52,7 @@ jobs:
         uses: pdm-project/setup-pdm@v4
 
       - name: Install dependencies
-        run: pdm sync
+        run: pdm sync -G default
 
       - name: Build Rime dictionary
         run: |
