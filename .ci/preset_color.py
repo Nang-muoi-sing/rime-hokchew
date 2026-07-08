@@ -7,6 +7,22 @@ from pathlib import Path
 import yaml
 
 
+def read_yaml(path: Path) -> dict:
+    text = path.read_text(encoding="utf-8")
+
+    # Some upstream Rime config files contain tabs before comments, e.g.
+    #   max_width: 0\t#set 0 to disable max width
+    # PyYAML follows YAML strictly and rejects tabs.
+    text = text.replace("\t", "    ")
+
+    data = yaml.safe_load(text) or {}
+
+    if not isinstance(data, dict):
+        raise RuntimeError(f"{path} must contain a mapping at top level")
+
+    return data
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("target_yaml")
@@ -26,14 +42,8 @@ def main() -> int:
     target_path = Path(args.target_yaml)
     preset_path = Path(args.preset_yaml)
 
-    target = yaml.safe_load(target_path.read_text(encoding="utf-8")) or {}
-    presets = yaml.safe_load(preset_path.read_text(encoding="utf-8")) or {}
-
-    if not isinstance(target, dict):
-        raise RuntimeError(f"{target_path} must contain a mapping at top level")
-
-    if not isinstance(presets, dict):
-        raise RuntimeError(f"{preset_path} must contain a mapping at top level")
+    target = read_yaml(target_path)
+    presets = read_yaml(preset_path)
 
     target.setdefault("preset_color_schemes", {})
 
