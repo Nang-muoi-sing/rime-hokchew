@@ -3,8 +3,8 @@
 
 schema:
   schema_id: hokchew
-  name: 福州話輸入方案
-  version: "2025.08.04.02"
+  name: 榕拼輸入法：漢字
+  version: "2026.07.08"
   author:
     - 負責：ZySieng <zysieng@gmail.com>
     - 程序：ztl8702、ZySieng
