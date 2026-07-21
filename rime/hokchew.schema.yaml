@@ -19,8 +19,7 @@ switches:
     states: [ 汉字, 字母 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: zh_fz
-    reset: 1
+  - name: simplification
     states: [ 繁體, 简体 ]
 
 engine:
@@ -44,7 +43,7 @@ engine:
     - script_translator
     - reverse_lookup_translator
   filters:
-    - simplifier@zh_fz
+    - simplifier
     - uniquifier
 
 speller:
@@ -723,15 +722,18 @@ punctuator:
 
 key_binder:
   import_preset: default
+  bindings/+:
+    - { when: always, toggle: simplification, accept: Control+Shift+8 }
 
 recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "`[a-z]*'?$"
 
-zh_fz:
-  opencc_config: t2sh.json
-  option_name: zh_fz
+simplifier:
+  opencc_config: t2s.json
+  option_name: simplification
+  tips: none
 
 style: 
   font_face: "Times New Roman"
