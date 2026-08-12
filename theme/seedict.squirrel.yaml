@@ -19,19 +19,19 @@ seedict:
   alpha: 1
   spacing: 10
   color_space: srgb
-  back_color: "0xF0F5F7"
-  border_color: "0xDCE6EF"
-  hilited_candidate_back_color: "0xBAD1E6"
-  label_color: "0x7E89A8"
-  hilited_candidate_label_color: "0x363F57"
-  candidate_text_color: "0x1E222E"
-  hilited_candidate_text_color: "0x13151B"
-  comment_text_color: "0x677396"
-  hilited_comment_text_color: "0x363F57"
-  text_color: "0x505E85"
-  hilited_text_color: "0x1E222E"
-  preedit_back_color: "0xDCE6EF"
-  hilited_back_color: "0xDCE6EF"
+  back_color: 0xF0F5F7
+  border_color: 0xDCE6EF
+  hilited_candidate_back_color: 0xBAD1E6
+  label_color: 0x7E89A8
+  hilited_candidate_label_color: 0x363F57
+  candidate_text_color: 0x1E222E
+  hilited_candidate_text_color: 0x13151B
+  comment_text_color: 0x677396
+  hilited_comment_text_color: 0x363F57
+  text_color: 0x505E85
+  hilited_text_color: 0x1E222E
+  preedit_back_color: 0xDCE6EF
+  hilited_back_color: 0xDCE6EF
 
 seedict_dark:
   name: "米时暗／Seedict Dark"
@@ -54,16 +54,16 @@ seedict_dark:
   alpha: 1
   spacing: 10
   color_space: srgb
-  back_color: "0x13151B"
-  border_color: "0x14212E"
-  hilited_candidate_back_color: "0x3D566D"
-  label_color: "0x7E89A8"
-  hilited_candidate_label_color: "0xE4E7EE"
-  candidate_text_color: "0xE4E7EE"
-  hilited_candidate_text_color: "0xF1F3F6"
-  comment_text_color: "0x97A0B9"
-  hilited_comment_text_color: "0xCACEDC"
-  text_color: "0xCACEDC"
-  hilited_text_color: "0xF1F3F6"
-  preedit_back_color: "0x1E222E"
-  hilited_back_color: "0x1E222E"
+  back_color: 0x13151B
+  border_color: 0x14212E
+  hilited_candidate_back_color: 0x3D566D
+  label_color: 0x7E89A8
+  hilited_candidate_label_color: 0xE4E7EE
+  candidate_text_color: 0xE4E7EE
+  hilited_candidate_text_color: 0xF1F3F6
+  comment_text_color: 0x97A0B9
+  hilited_comment_text_color: 0xCACEDC
+  text_color: 0xCACEDC
+  hilited_text_color: 0xF1F3F6
+  preedit_back_color: 0x1E222E
+  hilited_back_color: 0x1E222E
