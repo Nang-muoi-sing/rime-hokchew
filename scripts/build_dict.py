@@ -11,6 +11,7 @@ import yaml
 
 TEXT_FIELD = "word__text"
 CODE_FIELD = "yngping"
+Entry = tuple[str, str, int | None]
 
 
 def default_version() -> str:
@@ -109,37 +110,39 @@ def write_dict(
     weights = load_weights(weights_path)
 
     seen: set[tuple[str, str]] = set()
-    written = 0
-    weighted = 0
+    entries: list[Entry] = []
     skipped_duplicates = 0
+
+    for text, code in iter_entries(input_paths):
+        key = (text, code)
+
+        if dedupe and key in seen:
+            skipped_duplicates += 1
+            continue
+
+        seen.add(key)
+        entries.append((text, code, weights.get(key)))
+
+    entries.sort(key=lambda entry: (entry[1], -(entry[2] or 0), entry[0]))
 
     with output_path.open("w", encoding="utf-8", newline="\n") as out:
         out.write(header)
         if not header.endswith("\n"):
             out.write("\n")
 
-        for text, code in iter_entries(input_paths):
-            key = (text, code)
-
-            if dedupe and key in seen:
-                skipped_duplicates += 1
-                continue
-
-            seen.add(key)
-
+        for text, code, weight in entries:
             out.write(text)
             out.write("\t")
             out.write(code)
 
-            weight = weights.get(key)
             if weight is not None:
                 out.write("\t")
                 out.write(str(weight))
-                weighted += 1
 
             out.write("\n")
-            written += 1
 
+    written = len(entries)
+    weighted = sum(1 for _, _, weight in entries if weight is not None)
     print(f"wrote {written} entries to {output_path}")
     print(f"applied {weighted} weights")
     if weights_path is not None:
