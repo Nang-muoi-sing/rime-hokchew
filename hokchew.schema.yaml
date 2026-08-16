@@ -114,6 +114,8 @@ speller:
     - derive/ooyng/ayng/
     - derive/ooyk/ayk/
     - derive/ooy/eoy/
+    - derive/eoyng/eong/
+    - derive/eoyng/oyng/
     # 泥來混
     - derive/^[ln](.*)$/l$1/
     - derive/^[nl](.*)$/n$1/
@@ -131,11 +133,8 @@ speller:
     - derive/nja/ia/
     # 关于eo的模糊音
     - derive/eoyng/eong/
-    - derive/eoyng/eung/
-    - derive/eoyng/eyng/
     - derive/eoyng/oeyng/
     - derive/eoyng/oyeng/
-    - derive/eoyng/oyng/
     - derive/eoyng/eyong/
     - derive/eo/oe/
 translator:
