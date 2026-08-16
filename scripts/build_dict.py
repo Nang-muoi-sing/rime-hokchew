@@ -11,7 +11,10 @@ import yaml
 
 TEXT_FIELD = "word__text"
 CODE_FIELD = "yngping"
+SANDHI_FIELD = "is_sandhi"
+PRIMARY_FIELD = "is_primary"
 Entry = tuple[str, str, int | None]
+TRUE_VALUES = {"1", "true", "yes", "y"}
 
 
 def default_version() -> str:
@@ -24,6 +27,17 @@ def normalize_text(value: str) -> str:
 
 def normalize_code(value: str) -> str:
     return " ".join(value.strip().lower().split())
+
+
+def is_true(value: str | None) -> bool:
+    return (value or "").strip().lower() in TRUE_VALUES
+
+
+def should_skip_pronunciation(row: dict[str, str], fieldnames: set[str]) -> bool:
+    if {SANDHI_FIELD, PRIMARY_FIELD} - fieldnames:
+        return False
+
+    return not is_true(row.get(SANDHI_FIELD)) and not is_true(row.get(PRIMARY_FIELD))
 
 
 def read_header(template_path: Path, *, version: str) -> str:
@@ -46,9 +60,14 @@ def iter_entries(tsv_paths: Iterable[Path]):
                     f"{tsv_path}: missing required columns: {missing_cols}"
                 )
 
+            fieldnames = set(reader.fieldnames)
+
             for line_no, row in enumerate(reader, start=2):
-                text = normalize_text(row.get(TEXT_FIELD, ""))
-                code = normalize_code(row.get(CODE_FIELD, ""))
+                if should_skip_pronunciation(row, fieldnames):
+                    continue
+
+                text = normalize_text(row.get(TEXT_FIELD) or "")
+                code = normalize_code(row.get(CODE_FIELD) or "")
 
                 if not text or not code:
                     continue
