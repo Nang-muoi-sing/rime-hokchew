@@ -2,7 +2,7 @@
 # encoding: utf-8
 ---
 name: hokchew
-version: "2026.08.16.130622"
+version: "2026.08.22.074900"
 use_preset_vocabulary: false
 sort: by_weight
 ...
