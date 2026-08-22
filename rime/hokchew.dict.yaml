@@ -2,7 +2,7 @@
 # encoding: utf-8
 ---
 name: hokchew
-version: "2026.08.22.074900"
+version: "2026.08.22.075537"
 use_preset_vocabulary: false
 sort: by_weight
 ...
@@ -20,9 +20,9 @@ sort: by_weight
 下半長	a21 buang55 doung53
 下半暝	a21 buang55 mang53
 下半年	a21 buang55 nieng53
-下斗邊	a21 dau21 being55	666666
+後斗邊	a21 dau21 being55
 下晝時	a21 dau55 si53
-下斗勢	a21 dau55 sie213	666666
+後斗勢	a21 dau55 sie213
 下底邊	a21 de21 being55	666666
 下底底	a21 de24 de33	666666
 下底勢	a21 de55 sie213	666666
@@ -36,10 +36,10 @@ sort: by_weight
 阿蛦殼	a21 i55 kooyk24
 阿蛦殼	a21 ji55 kooyk24
 亞魁	a21 kui55
-下斗邊	a21 lau21 being55	666666
+後斗邊	a21 lau21 being55
 下晝時	a21 lau55 li53
-下斗勢	a21 lau55 lie213	666666
-下斗勢	a21 lau55 sie213	666666
+後斗勢	a21 lau55 lie213
+後斗勢	a21 lau55 sie213
 下底邊	a21 le21 being55	666666
 下底邊	a21 le21 weing55
 下底底	a21 le24 le33	666666
@@ -88,9 +88,8 @@ sort: by_weight
 婭	a33
 拗	a33
 氬	a33
-下斗	a33 dau33
 下底	a33 de33	66666666
-下斗	a33 lau33
+後斗	a33 lau33
 下底	a33 le33	66666666
 吓	a53
 下下	a53 a242	123104
@@ -434,6 +433,7 @@ sort: by_weight
 拗九	au53 gau33
 後向	au53 hyong213	66666
 後頭骲	au53 lau21 bau242	12374839
+後斗	au53 lau33
 後代	au53 looy242
 後郎罷	au53 loung21 ba242	675785
 後郎罷	au53 loung21 ma242	675785
@@ -736,7 +736,7 @@ sort: by_weight
 白片雞	bah21 wieng55 gie55
 白䭕䭕	bah21 ziang24 ziang33	763521
 白褶	bah21 ziek24
-白鯽䭕	bah21 zik24 ziang33	763521
+白吱䭕	bah21 zik24 ziang33
 白棗	bah21 zo33	6298381
 白水泉	bah21 zui21 zuong53
 白水䭕	bah21 zui24 ziang33
@@ -1197,7 +1197,7 @@ sort: by_weight
 白手成家	beik21 ciu21 sing55 a55	1000000
 白手成家	beik21 ciu21 sing55 ga55	1000000
 白手成家	beik21 ciu21 sing55 nga55	1000000
-別塊	beik21 dooy213	6666661
+別塊	beik21 dooy21
 仈長	beik21 duong53
 八更早	beik21 gang53 nja33
 八角𰱗	beik21 geoyk55 coo213
@@ -1284,6 +1284,7 @@ sort: by_weight
 仈字	beik5 zei242	4123421
 仈症	beik5 zeing213	1535433
 拔錢	beik5 zieng53
+別塊	beik53 dooy21
 八蠣	beik55 die242
 拔直	beik55 dik5
 拔直去	beik55 dik5 go0
@@ -3504,9 +3505,6 @@ sort: by_weight
 矢	ci33
 豕	ci33
 齒	ci33
-茨來花	ci33 li33 hua55
-茨來花	ci33 li33 ua55
-茨來	ci33 li53
 茨	ci53
 𩔌	ci53
 飼飯	ci53 buong242	854625
@@ -3532,6 +3530,7 @@ sort: by_weight
 試車	ci55 jia55
 伺牀	ci55 joung53
 佽單	ci55 lang55
+吱來花	ci55 li55 ua55
 飼牛	ci55 ngu53
 車後斗	cia21 au53 dau33
 車車動	cia21 cia53 dooyng242	8462512
@@ -3664,8 +3663,6 @@ sort: by_weight
 栨	cie213
 熾	cie213
 翅	cie213
-茨	cie213
-莿	cie213
 饎	cie213
 侈	cie33
 恀	cie33
@@ -5802,8 +5799,6 @@ sort: by_weight
 地動	di53 dooyng242
 地澗	di53 gang213
 地棍	di53 goung213	2000000
-俤隻	di53 ieh24
-俤隻	di53 jieh24
 地主	di53 juo33
 地理	di53 li33
 地鐵	di53 tiek24
@@ -5942,7 +5937,9 @@ sort: by_weight
 地兜	die55 dau55	66666666
 俤塊	die55 dooy213	999999999
 裏向	die55 hyong213	66666
+俤隻	die55 ieh24
 俤人	die55 ing53
+俤隻	die55 jieh24
 裏出	die55 jouk24	777777
 地兜	die55 lau55	66666666
 裏勢	die55 lie213	6666666
@@ -6449,6 +6446,7 @@ sort: by_weight
 刀枕	do53 zing33	999999999
 刀	do55	300
 多	do55	100
+哆	do55
 忉	do55
 朷	do55
 氘	do55
@@ -6906,8 +6904,6 @@ sort: by_weight
 大少爺	duai21 liu55 ie53	500000
 大目蚶	duai21 meoyk5 hang55	1029833
 大母骹	duai21 mo21 ka55
-大拇哥	duai21 mo55 go55	99999999
-大拇拇	duai21 mo55 mo55	876542
 大儂大相	duai21 neoyng21 duai53 suong213	600000
 大儂大相	duai21 neoyng21 nuai53 luong213	600000
 大細姑	duai21 se55 gu55	543634
@@ -7021,6 +7017,8 @@ sort: by_weight
 大聲	duai55 liang55
 大食	duai55 lieh5	954625
 大腸	duai55 loung53
+大拇哥	duai55 mo55 go55
+大拇拇	duai55 mo55 mo55
 大門	duai55 muong53	854621
 大儂	duai55 neoyng53	9000000
 大牙	duai55 nga53	8342412
@@ -9498,6 +9496,7 @@ sort: by_weight
 轎車	giu55 ia55	846251
 韭菜	giu55 jai213
 轎車	giu55 jia55	846251
+叫更	giu55 uang55
 舅公	giu55 ung55	879009
 轎班	giu55 wang55	584625
 糾正	giu55 zeing213
@@ -9520,6 +9519,7 @@ sort: by_weight
 藁	go33
 藁藁	go33 go33
 㾸	go53
+嗃	go53
 囫	go53
 滈	go53
 告假	go53 a213	321548
@@ -9554,6 +9554,7 @@ sort: by_weight
 鼛	go55
 膏巴	go55 ba55	896754
 告別	go55 biek5
+嗃哆	go55 do55
 高中	go55 dyng55
 高魂	go55 hung53	1094
 高宅	go55 lah5
@@ -9580,7 +9581,7 @@ sort: by_weight
 袼落下	goh21 loh5 a242
 各儂	gok21 neoyng53	999999999
 各樣	gok55 yong242
-告	goo213	1500
+告	goo21
 個	goo213	100
 筶	goo213
 誥	goo213
@@ -9797,6 +9798,7 @@ sort: by_weight
 鼓攏𥄹	gu21 lung55 bau213	869587
 鼓攏𥄹	gu21 lung55 mau213	869587
 古董店	gu21 lung55 naing213
+滾々摙	gu21 lung55 nieng21
 故㑚傼	gu21 na53 hang213
 鼓山	gu21 sang55	63393453
 鼓槌	gu21 tui53
@@ -10349,7 +10351,7 @@ sort: by_weight
 過誤	guo53 nguo242
 過秤	guo53 njeing213
 過運	guo53 oung242
-過帕	guo53 pa213
+過帕	guo53 pa21
 過世	guo53 sie213
 過位	guo53 ui242
 過雲雨	guo53 ung33 y33
@@ -10735,7 +10737,7 @@ sort: by_weight
 蝦醬	ha21 zuong213
 孝	ha213
 孝滿	ha213 muang33
-許所	ha24 neo33
+許塊所	ha24 neo33
 下	ha242
 哈	ha242
 嗄	ha242
@@ -11009,7 +11011,6 @@ sort: by_weight
 傼的	hang213 nik0
 罕囝	hang24 giang33	500000
 罕囝	hang24 iang33	500000
-許所	hang24 neo33
 罕囝	hang24 ngiang33	500000
 憾	hang242
 撼	hang242
@@ -11107,7 +11108,7 @@ sort: by_weight
 孝	hau213
 酵	hau213
 鱟	hau213
-許所	hau24 neo33
+許塊所	hau24 neo33
 校	hau242	200
 效	hau242	110
 候	hau242
@@ -11138,7 +11139,7 @@ sort: by_weight
 孝孫	hau55 soung55
 盻	he33
 悽慘	he53 ciang33
-許意	he53 ei213
+許式	he53 eik24
 罅	he55
 罅々	he55 le55
 嚛	heh5
@@ -11251,6 +11252,7 @@ sort: by_weight
 姁	heoy213
 煦	heoy213
 酗	heoy213
+許所	heoy24 neo33
 嘿	heoy53
 吸	heoyh24
 勖	heoyk24
@@ -11366,6 +11368,7 @@ sort: by_weight
 許盒	hi33 ak5
 許隻	hi53 ieh24	425335467547
 許隻	hi53 jieh24	425335467547
+許蜀隻	hi53 loh21 ieh24
 許位	hi53 ui242	425335467547
 希望	hi53 uong242
 許隻	hi53 zieh24	425335467547
@@ -11397,6 +11400,7 @@ sort: by_weight
 許塊	hi55 dooy213	999999999
 飛機	hi55 gi55
 許角	hi55 gooyk24	999999999
+許隻	hi55 ieh24
 嬉遊	hi55 iu53
 喜慶	hi55 keing213
 許蜀隻	hi55 loh21 ieh24
@@ -11754,6 +11758,7 @@ sort: by_weight
 訃	hou213
 賦	hou213
 賻	hou213
+許塊所	hou24 neo33
 扶	hou242	600
 䪝	hou242
 互	hou242
@@ -12872,6 +12877,7 @@ sort: by_weight
 和麵	huo21 mieng242	8542153
 沎	huo213
 貨	huo213
+許塊所	huo24 neo33
 㘞	huo242
 和	huo242
 盉	huo242
@@ -12895,7 +12901,6 @@ sort: by_weight
 禾	huo53
 許蜀隻	huo53 ieh24
 雨漏	huo53 lau242
-許蜀隻	huo53 zieh24
 吙	huo55
 貨車	huo55 cia55
 夥計	huo55 ei213
@@ -13140,6 +13145,7 @@ sort: by_weight
 香柴扇	hyong53 nja21 lieng213	999999999
 香柴扇	hyong53 nja21 sieng213	999999999
 香菜	hyong53 njai213
+香爐菜	hyong53 nu21 jai21
 香爐耳	hyong53 nu21 ngei242	486521
 香片	hyong53 pieng213
 香線	hyong53 siang213
@@ -14579,6 +14585,7 @@ sort: by_weight
 髷	keoyk24
 麴	keoyk24
 殼灰	keoyk5 hui55	500000
+殼菜	keoyk55 cai21
 䛪	keoyng21
 空翹骹	keoyng21 iu55 a55	777777
 空翹骹	keoyng21 kiu55 ka55	777777
@@ -15348,7 +15355,6 @@ sort: by_weight
 環環餅	kuang33 uang33 miang33
 環	kuang53	1500
 〇	kuang53
-圈	kuang53
 圜	kuang53
 寰	kuang53
 還	kuang53
@@ -16705,6 +16711,7 @@ sort: by_weight
 流星	liu55 sing55	1000000
 了褪	liu55 tooung213
 留光	liu55 uong55
+羅漢肉	lo21 ang55 nyk5
 老後年	lo21 au55 nieng53	6123987
 老後日	lo21 au55 nik5
 癆病	lo21 bang242
@@ -16750,6 +16757,7 @@ sort: by_weight
 老昨年	lo21 soh55 nieng53	14829332
 鑼鼓板	lo21 u24 weing33
 老鴰	lo21 ua55
+羅漢肉	lo21 uang55 nyk5
 癆病	lo21 wang242
 鑼盆架	lo21 wuong21 ga213	999999999
 老鼠拖尾	lo21 y21 lai53 mui33	236854
@@ -18284,6 +18292,7 @@ sort: by_weight
 無交插	mo21 gau53 cak24
 無夠秤	mo21 gau53 ceing213
 無行着	mo21 giang55 duoh5
+無計了	mo21 gie21 lau0
 毛蟹	mo21 ha242
 無解數	mo21 hai53 lou213
 無解數	mo21 hai53 sou213
@@ -18867,6 +18876,7 @@ sort: by_weight
 門後角	muong21 au53 gooyk24	562358
 門後角	muong21 au53 ooyk24	562358
 門閂	muong21 cooung213	8654215
+門喙	muong21 cui21
 門墊	muong21 daing242	8954625
 門搭	muong21 dak24	5621541
 晚冬	muong21 deoyng55
@@ -18894,7 +18904,6 @@ sort: by_weight
 悗想	muong24 suong33
 悗	muong33
 晚	muong33
-門斗	muong33 dau33
 門肘	muong33 diu33	8546251
 門囝	muong33 giang33	8954215
 門槓	muong33 goung53	854625
@@ -18904,7 +18913,6 @@ sort: by_weight
 門樓房	muong33 lau33 bung53
 門樓口	muong33 lau33 kau33
 門楣	muong33 mi53	564251
-門斗	muong33 nau33
 門頭口	muong33 nau33 kau33	666666
 門樓房	muong33 nau33 wung53
 門頭	muong33 nau53
@@ -18932,6 +18940,7 @@ sort: by_weight
 晚粙	muong55 diu242
 悗去	muong55 koo213
 悗算	muong55 looung213
+門頭	muong55 nau53
 悗去	muong55 ngoo213
 文書	muong55 njy55
 悗去	muong55 oo213
@@ -18939,6 +18948,7 @@ sort: by_weight
 文書	muong55 zy55
 拉屎尿	na21 lai55 niu242
 㑚是講	na21 li53 goung33	4343143433
+㑚是講	na21 li53 oung33
 拉硬屎	na21 ngeing53 sai33
 拉尿	na21 niu242
 拉屎尿	na21 sai55 niu242
@@ -19300,6 +19310,7 @@ sort: by_weight
 衙	nga53
 齖	nga53
 𠾒	nga55
+閻羅王	nga55 la55 uong53
 杌	ngah5
 牙齒膏	ngai21 go55	999999999
 呆腳	ngai21 gyoh24	750000
@@ -19522,11 +19533,11 @@ sort: by_weight
 耳臍	ngi55 sai53	2057392
 疑心	ngi55 sing55	52346355
 耳珠	ngi55 zuo55	2849332
-閻羅王	ngia33 la33 uong53
 閻王	ngia33 uong53
 疑	ngia53
 𦡸	ngia53
 奇	ngia55
+閻羅王	ngia55 la55 uong53
 𩓥𩓥癢	ngiak21 ngiak21 suong242
 𡅅	ngiak24
 𩓥	ngiak5
@@ -20916,11 +20927,9 @@ sort: by_weight
 拍拳頭其	pah21 gung55 tau53 gi0
 拍飛機	pah21 hi55 gi55
 拍核桃	pah21 houk33 to53	596231
-拍字法	pah21 i53 uak24
 拍劫樶	pah21 iek21 leoy55
 拍腰鼓	pah21 iu53 gu33
 拍腰鼓	pah21 iu53 u33
-拍字法	pah21 ji53 uak24
 拍喙花	pah21 jui55 ua55
 拍獅馬	pah21 lai53 ma33
 拍鐵鐧	pah21 liek24 gang33	800000
@@ -24543,6 +24552,7 @@ sort: by_weight
 上齋	suong55 ze55	6851530
 四川囝	sy21 cuong53 ngiang33
 詞匯	sy21 hui242
+輸入法	sy21 ik53 huak24
 私生子	sy21 leing53 njy33	4000000
 暑邪	sy21 lia53
 辭退	sy21 looy213
@@ -24579,6 +24589,7 @@ sort: by_weight
 事故	sy53 gou213
 伺候	sy53 hau242
 仕宦	sy53 huang242
+輸入法	sy53 ik21 huak24
 師大	sy53 lai242
 司令	sy53 leing242
 師大	sy53 luai242
@@ -25633,6 +25644,7 @@ sort: by_weight
 很拈	to21 lieng55
 討新婦	to21 ling53 mou242
 討小海	to21 liu24 ai33
+沰々窩	to21 louk53 uo33
 妥當儂	to21 loung55 neoyng53	2000000
 討魚	to21 ngy53
 討魚婆	to21 ngy55 bo53	770000
@@ -25692,6 +25704,7 @@ sort: by_weight
 妥當	to55 looung213	846575
 討論	to55 looung242
 討數	to55 lou213
+沰々	to55 louk5
 吞々	to55 loung55
 討聖	to55 siang213
 討勢	to55 sie213
@@ -25740,12 +25753,10 @@ sort: by_weight
 兔	tou213
 吐	tou213
 菟	tou213
-沰々	tou55 louk5
 𠟶	touh24
 沰腸	touk21 doung53
 沰價	touk21 ga213
 託兒所	touk21 i33 lu33
-沰 々窩	touk21 louk53 uo33
 脫胎	touk21 tai55	999999999
 㤕	touk24
 怵	touk24
@@ -26520,13 +26531,13 @@ sort: by_weight
 魰	ung53
 鼤	ung53
 蕹菜	ung53 cai213
-瘟戇	ung53 doung213
+瘟戇	ung53 doung21
 運動	ung53 doung242
 運氣	ung53 kei213
 運氣好	ung53 kei213 ho33
 蕹菜	ung53 njai213
 運數	ung53 nou213
-瘟戇	ung53 noung213
+瘟戇	ung53 noung21
 運數	ung53 sou213
 翁	ung55	111
 㬈	ung55
@@ -26631,6 +26642,7 @@ sort: by_weight
 往兩幫	uong21 nang55 moung55
 黃豆	uong21 nau242
 䘼頭	uong21 nau53
+黃甲	uong21 ngak24
 黃蛤	uong21 ngak24
 黃蟻	uong21 ngie242
 忘恩背義	uong21 ngoung21 bui53 ngie242
@@ -26781,6 +26793,7 @@ sort: by_weight
 冤仇	uong55 siu53
 昏頭摔腦	uong55 tau53 leoyk24 no33
 昏頭摔腦	uong55 tau53 seoyk24 no33
+黃沉	uong55 teing53
 黃瓜	uong55 ua55
 遠洋路	uong55 yong21 lou242
 黃占	uong55 zieng55
@@ -26971,6 +26984,7 @@ sort: by_weight
 用刑	yng55 hing53
 榕腔	yng55 kyong55
 傭錢	yng55 njieng53
+榕拼	yng55 ping55
 榕城	yng55 siang53	33155515
 傭錢	yng55 zieng53
 喲	yo0
@@ -27261,7 +27275,7 @@ sort: by_weight
 迮	za213
 早起	za24 i33
 早米	za24 mi33
-這所	za24 neo33
+這塊所	za24 neo33
 乍	za242
 劑	za242
 鑇	za242
@@ -27455,7 +27469,6 @@ sort: by_weight
 賺	zang213
 贊	zang213
 酇	zang213
-這所	zang24 neo33
 井水	zang24 zui33	771368
 暫	zang242
 棧	zang242
@@ -27544,7 +27557,7 @@ sort: by_weight
 走反	zau24 huang33
 走水	zau24 jui33
 走馬	zau24 ma33
-這所	zau24 neo33
+這塊所	zau24 neo33
 走水	zau24 zui33
 嘲	zau242
 悼	zau242
@@ -27620,7 +27633,7 @@ sort: by_weight
 纃布	ze53 buo213
 齋菜	ze53 cai213	800000
 纃帳	ze53 duong213
-這意	ze53 ei213
+這式	ze53 eik24
 齋攪	ze53 geo33
 䭣囝	ze53 iang33
 齋友	ze53 iu33	100000
@@ -27827,6 +27840,7 @@ sort: by_weight
 蛀	zeoy213
 馵	zeoy213
 駐	zeoy213
+這所	zeoy24 neo33
 住	zeoy242
 埾	zeoy242
 柱	zeoy242
@@ -27935,13 +27949,11 @@ sort: by_weight
 這幾隻	zi21 gui55 zieh24	999999999
 這回	zi21 hui53	999999999
 懿旨菜	zi21 i53 jai213
-吱吱花	zi21 i55 ua55
 自家儂	zi21 ia55 neoyng53	1200000
 這由	zi21 iu53
 字紙籃	zi21 jai21 lang53
 字紙爐	zi21 jai21 lu53
 懿旨菜	zi21 ji53 jai213
-吱吱花	zi21 ji55 ua55
 這樁	zi21 joung55
 子紗	zi21 la55	999999999
 這兩幫	zi21 lang55 boung55	66666
@@ -27982,7 +27994,6 @@ sort: by_weight
 字紙籃	zi21 zai21 lang53
 字紙爐	zi21 zai21 lu53
 懿旨菜	zi21 zi53 cai213
-吱吱花	zi21 zi55 hua55
 這樁	zi21 zoung55
 這滿	zi21 {mang}	999999999
 這滿	zi21 {muang}
@@ -28028,7 +28039,7 @@ sort: by_weight
 焠	zi53
 蛦	zi53
 辻	zi53
-𩼑	zi53
+鰦	zi53
 字簿	zi53 buo242
 字典	zi53 dieng33
 字據	zi53 eoy213
@@ -28066,10 +28077,12 @@ sort: by_weight
 這角	zi55 gooyk24
 自家	zi55 ia55	36543
 自家厝	zi55 ia55 cuo213	999999999
-這隻	zi55 jieh24
+這隻	zi55 ieh24
 這塊	zi55 kuai213
 這価	zi55 la242
 這頭勢	zi55 lau21 lie213
+吱來花	zi55 li55 ua55
+這蜀隻	zi55 loh21 ieh24
 這蜀類	zi55 loh21 lui242
 這塊	zi55 looy213	999999999
 這面	zi55 meing213
@@ -28966,6 +28979,7 @@ sort: by_weight
 罪	zooy242
 粽	zooyng213	1500
 詛	zou213
+這塊所	zou24 neo33
 助	zou242	300
 就	zou242
 作佳	zouk21 ga55	845025
@@ -29308,6 +29322,7 @@ sort: by_weight
 注	zuo213
 註	zuo213
 鑄	zuo213
+這塊所	zuo24 neo33
 祚	zuo242
 胙	zuo242
 阼	zuo242
@@ -29319,7 +29334,6 @@ sort: by_weight
 珠套	zuo53 loo213	765855
 鑄鐵	zuo53 tiek24
 珠套	zuo53 too213	765855
-這蜀隻	zuo53 zieh24
 侏	zuo55
 朱	zuo55
 珠	zuo55
