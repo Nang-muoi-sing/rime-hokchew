@@ -27,9 +27,13 @@ git clone "$TRIME_REPO" "$TRIME_WORKDIR"
 pushd "$TRIME_WORKDIR" >/dev/null
 git checkout "$TRIME_REF"
 git submodule update --init --recursive --filter=blob:none
+git config --global --add safe.directory "$PWD"
 
 TRIME_VERSION="$(git describe --tags --long --always --exclude=nightly)"
+TRIME_COMMIT="$(git rev-parse HEAD)"
+TRIME_BUILDER="${GITHUB_ACTOR:-Seedict CI}"
 echo "Using Trime version: $TRIME_VERSION"
+echo "Using Trime commit: $TRIME_COMMIT"
 
 python3 - <<'PY'
 import os
@@ -45,23 +49,15 @@ text = text.replace(old, f'applicationId = "{app_id}"')
 path.write_text(text, encoding="utf-8")
 PY
 
-# Build a single universal APK instead of ABI-specific APKs.
-python3 - <<'PY'
-from pathlib import Path
-
-path = Path("build-logic/convention/src/main/kotlin/NativeBaseConventionPlugin.kt")
-text = path.read_text(encoding="utf-8")
-old = "isUniversalApk = false"
-if old not in text:
-    raise SystemExit(f"{path}: failed to find {old!r}")
-text = text.replace(old, "isUniversalApk = true")
-path.write_text(text, encoding="utf-8")
-PY
+echo "Patched Trime Gradle config:"
+sed -n '25,40p' app/build.gradle.kts
 
 SHARED_ASSETS="app/src/main/assets/shared"
 mkdir -p "$SHARED_ASSETS"
 
 cp -R "$REPO_ROOT/$SCHEMA_DIR"/. "$SHARED_ASSETS"/
+echo "Injected Rime schemas into $SHARED_ASSETS:"
+find "$SHARED_ASSETS" -maxdepth 1 -type f \( -name "hokchew*.yaml" -o -name "default.custom.yaml" \) -print | sort
 
 if [ -n "${ANDROID_KEYSTORE_BASE64:-}" ]; then
   if [ -z "${ANDROID_KEYSTORE_PASSWORD:-}" ] || [ -z "${ANDROID_KEY_PASSWORD:-}" ] || [ -z "${ANDROID_KEY_ALIAS:-}" ]; then
@@ -98,6 +94,16 @@ keyAlias=$KEY_ALIAS
 storeFile=$STORE_FILE
 EOF
 
+echo "Building Trime APK with upstream Makefile:"
+printf '  BUILD_GIT_REPO=%s\n' "$TRIME_REPO"
+printf '  BUILD_VERSION_NAME=%s\n' "$TRIME_VERSION"
+printf '  BUILD_COMMIT_HASH=%s\n' "$TRIME_COMMIT"
+printf '  CI_NAME=%s\n' "$TRIME_BUILDER"
+
+BUILD_GIT_REPO="$TRIME_REPO" \
+BUILD_VERSION_NAME="$TRIME_VERSION" \
+BUILD_COMMIT_HASH="$TRIME_COMMIT" \
+CI_NAME="$TRIME_BUILDER" \
 make release
 
 popd >/dev/null
