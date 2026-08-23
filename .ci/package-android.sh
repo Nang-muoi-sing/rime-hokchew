@@ -99,11 +99,13 @@ printf '  BUILD_GIT_REPO=%s\n' "$TRIME_REPO"
 printf '  BUILD_VERSION_NAME=%s\n' "$TRIME_VERSION"
 printf '  BUILD_COMMIT_HASH=%s\n' "$TRIME_COMMIT"
 printf '  CI_NAME=%s\n' "$TRIME_BUILDER"
+printf '  BUILD_ABI=%s\n' "${BUILD_ABI:-}"
 
 BUILD_GIT_REPO="$TRIME_REPO" \
 BUILD_VERSION_NAME="$TRIME_VERSION" \
 BUILD_COMMIT_HASH="$TRIME_COMMIT" \
 CI_NAME="$TRIME_BUILDER" \
+BUILD_ABI="${BUILD_ABI:-arm64-v8a}" \
 make release
 
 popd >/dev/null
