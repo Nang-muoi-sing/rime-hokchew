@@ -1,0 +1,1137 @@
+# SPDX-FileCopyrightText: 2015 - 2024 Rime community
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+# Trime custom style settings
+# encoding: utf-8
+
+config_version: "3.0"
+name: 日光灯
+author: 第灬定律
+
+height:
+  # 以下适用于短边 720 px 的全面屏手机 (已在中兴远航 41 上进行过测试)：
+  # 1: &candidate_spacing 9.0           # 候选项间距。
+  # 2: &candidate_view_height 38        # 候选区高度。
+  # 3: &key_height 48                   # 按键高度 (也就是行高)。
+  # 4: &key_long_text_size_s 14         # 一般按键超小字号
+  # 5: &key_long_text_size 16           # 一般按键小字号
+  # 6: &key_text_size 20                # 一般按键字号。
+  # 7: &key_text_size_m 18              # 一般按键中字号。
+  # 8: &key_text_size_big 24            # 一般按键大字号。
+  # 9: &symbol_text_size 10             # 按键上方符号字号
+  # 10: &keyboard_height 250            # 正常 (竖屏) 下最大键盘高度。
+  # 11: &keyboard_height_land 200       # 横屏模式下最大键盘高度，必要时会覆盖按键高度。
+  # 12: &keyboard_padding 2             # 键盘左右两边的空白边距。
+  # 13: &keyboard_padding_bottom 28     # 正常 (竖屏) 键盘下方预留空间。
+  # 14: &keyboard_padding_land_bottom 0 # 横屏模式键盘下方预留空间。
+  # 15: &horizontal_gap 8               # 按键水平间距。
+  # 16: &vertical_gap 6                 # 按键垂直间距 (也就是行间距)。
+  ###############################################################################
+  # 以下适用于短边 1080 px 的全面屏手机 (已在小米 13 上进行过测试)：
+  1: &candidate_spacing 9.0           # 候选项间距。
+  2: &candidate_view_height 42        # 候选区高度。
+  3: &key_height 52                   # 按键高度 (也就是行高)。
+  4: &key_long_text_size_s 16         # 一般按键超小字号
+  5: &key_long_text_size 18           # 一般按键小字号
+  6: &key_text_size 22                # 一般按键字号。
+  7: &key_text_size_m 20              # 一般按键中字号。
+  8: &key_text_size_big 26            # 一般按键大字号。
+  9: &symbol_text_size 10             # 按键上方符号字号
+  10: &keyboard_height 250            # 正常 (竖屏) 下最大键盘高度。
+  11: &keyboard_height_land 200       # 横屏模式下最大键盘高度，必要时会覆盖按键高度。
+  12: &keyboard_padding 4             # 键盘左右两边的空白边距。
+  13: &keyboard_padding_bottom 32     # 正常 (竖屏) 键盘下方预留空间。
+  14: &keyboard_padding_land_bottom 0 # 横屏模式键盘下方预留空间。
+  15: &horizontal_gap 12              # 按键水平间距。
+  16: &vertical_gap 6                 # 按键垂直间距 (也就是行间距)。
+  ###############################################################################
+  # 以下适用于短边 1840 px 的平板 (已在联想小新 Pad 12.7 骁龙版上进行过测试)：
+  # 1: &candidate_spacing 9.0           # 候选项间距。
+  # 2: &candidate_view_height 52        # 候选区高度。
+  # 3: &key_height 72                   # 按键高度 (也就是行高)。
+  # 4: &key_long_text_size_s 20         # 一般按键超小字号
+  # 5: &key_long_text_size 22           # 一般按键小字号
+  # 6: &key_text_size 26                # 一般按键字号。
+  # 7: &key_text_size_m 24              # 一般按键中字号。
+  # 8: &key_text_size_big 30            # 一般按键大字号。
+  # 9: &symbol_text_size 12             # 按键上方符号字号
+  # 10: &keyboard_height 350            # 正常 (竖屏) 下最大键盘高度。
+  # 11: &keyboard_height_land 320       # 横屏模式下最大键盘高度，必要时会覆盖按键高度。
+  # 12: &keyboard_padding 4             # 键盘左右两边的空白边距。
+  # 13: &keyboard_padding_bottom 28     # 正常 (竖屏) 键盘下方预留空间。
+  # 14: &keyboard_padding_land_bottom 0 # 横屏模式键盘下方预留空间。
+  # 15: &horizontal_gap 14              # 按键水平间距。
+  # 16: &vertical_gap 6                 # 按键垂直间距 (也就是行间距)。
+  ###############################################################################
+  # 以下适用短边 1904 px 的平板 (已在联想拯救者 Y700 四代上进行过测试)：
+  # 1: &candidate_spacing 9.0           # 候选项间距。
+  # 2: &candidate_view_height 52        # 候选区高度。
+  # 3: &key_height 80                   # 按键高度 (也就是行高)。
+  # 4: &key_long_text_size_s 20         # 一般按键超小字号
+  # 5: &key_long_text_size 22           # 一般按键小字号
+  # 6: &key_text_size 26                # 一般按键字号。
+  # 7: &key_text_size_m 24              # 一般按键中字号。
+  # 8: &key_text_size_big 30            # 一般按键大字号。
+  # 9: &symbol_text_size 12             # 按键上方符号字号
+  # 10: &keyboard_height 350            # 正常 (竖屏) 下最大键盘高度。
+  # 11: &keyboard_height_land 320       # 横屏模式下最大键盘高度，必要时会覆盖按键高度。
+  # 12: &keyboard_padding 4             # 键盘左右两边的空白边距。
+  # 13: &keyboard_padding_bottom 28     # 正常 (竖屏) 键盘下方预留空间。
+  # 14: &keyboard_padding_land_bottom 0 # 横屏模式键盘下方预留空间。
+  # 15: &horizontal_gap 16              # 按键水平间距。
+  # 16: &vertical_gap 8                 # 按键垂直间距 (也就是行间距)。
+
+round_corner:
+  # 以下适用于短边 720-1080 px 的全面屏手机 (已在中兴远航 41、小米 13 上进行过测试)：
+  1: &round_corner 6 # 按键圆角 (也用于 window 圆角等地方)。
+  ######################################################
+  # 以下适用于短边 1840-1904 px 的平板 (已在联想小新 Pad 12.7 骁龙版、联想拯救者 Y700 四代上进行过测试)：
+  # 1: &round_corner 10 # 按键圆角 (也用于 window 圆角等地方)。
+
+style:
+  auto_caps: false
+  candidate_font: HarmonyOS_Sans_SC_Regular.ttf
+  candidate_padding: 5
+  candidate_spacing: *candidate_spacing
+  candidate_text_size: *key_text_size
+  candidate_view_height: *candidate_view_height
+  comment_font: HarmonyOS_Sans_SC_Regular.ttf
+  comment_height: 0
+  comment_on_top: false
+  comment_text_size: *key_text_size_m
+  hanb_font: HarmonyOS_Sans_TC_Regular.ttf
+  horizontal_gap: *horizontal_gap
+  key_font: Geist-Medium.ttf
+  key_height: *key_height
+  key_long_text_size: *key_long_text_size
+  key_text_size: *key_text_size
+  key_width: 10.0
+  label_text_size: *key_text_size
+  label_font: HarmonyOS_Sans_SC_Regular.ttf
+  latin_font: latin.ttf
+  keyboard_height: *keyboard_height
+  keyboard_height_land: *keyboard_height_land
+  keyboard_padding: *keyboard_padding
+  keyboard_padding_bottom: *keyboard_padding_bottom
+  keyboard_padding_land: *keyboard_padding
+  keyboard_padding_land_bottom: *keyboard_padding_land_bottom
+  popup_font: Geist-Medium.ttf
+  popup_width: 38
+  popup_height: 48
+  popup_bottom_margin: 68
+  popup_key_height: 48
+  popup_text_size: 23
+  proximity_correction: true
+  reset_ascii_mode: false
+  round_corner: *round_corner
+  shadow_radius: 0
+  symbol_font: Geist-Medium.ttf
+  symbol_text_size: *symbol_text_size
+  text_font: HarmonyOS_Sans_SC_Regular.ttf
+  vertical_correction: -5
+  vertical_gap: *vertical_gap
+  enter_label_mode: 0
+  enter_labels:
+    go: "ic@web"                       # 前往
+    done: "ic@check"                   # 完成
+    next: "ic@arrow_down_bold_outline" # 下个
+    pre: "ic@arrow_up_bold_outline"    # 上个
+    search: "ic@magnify"               # 搜索
+    send: "ic@send"                    # 发送
+    default: "ic@keyboard-return"      # 默认
+
+preedit:
+  horizontal_padding: 8
+  top_end_radius: *round_corner
+  alpha: 1.0
+  foreground:
+    font_size: *key_long_text_size
+
+window:
+  min_width: 0
+  corner_radius: *round_corner
+  alpha: 1.0
+  insets:
+    vertical: 4
+    horizontal: 4
+  item_padding:
+    vertical: 4
+    horizontal: 4
+  foreground:
+    label_font_size: *key_text_size_m
+    text_font_size: *key_text_size
+    comment_font_size: *key_text_size_m
+
+fallback_colors:
+  candidate_text_color: text_color
+  comment_text_color: candidate_text_color
+  border_color: back_color
+  candidate_separator_color: border_color
+  hilited_text_color: text_color
+  hilited_back_color: back_color
+  hilited_candidate_text_color: hilited_text_color
+  hilited_candidate_back_color: hilited_back_color
+  hilited_label_color: hilited_candidate_text_color
+  hilited_comment_text_color: comment_text_color
+  hilited_key_back_color: hilited_candidate_back_color
+  hilited_key_text_color: hilited_candidate_text_color
+  hilited_key_symbol_color: hilited_comment_text_color
+  hilited_off_key_back_color: hilited_key_back_color
+  hilited_on_key_back_color: hilited_key_back_color
+  hilited_off_key_text_color: hilited_key_text_color
+  hilited_on_key_text_color: hilited_key_text_color
+  key_back_color: back_color
+  key_border_color: border_color
+  key_text_color: candidate_text_color
+  key_symbol_color: comment_text_color
+  label_color: candidate_text_color
+  off_key_back_color: key_back_color
+  off_key_text_color: key_text_color
+  on_key_back_color: hilited_key_back_color
+  on_key_text_color: hilited_key_text_color
+  preview_back_color: key_back_color
+  preview_text_color: key_text_color
+  shadow_color: border_color
+  root_background: back_color
+  candidate_background: back_color
+  keyboard_back_color: border_color
+  liquid_keyboard_background: keyboard_back_color
+  text_back_color: back_color
+  long_text_back_color: key_back_color
+
+color:
+  1: &themeColor 0xff028afa
+  2: &textColor 0xff242424
+  3: &backColor 0xffffffff
+  4: &textColorLighter 0xff666666
+  5: &textColorLightest 0xffaaaaaa
+  6: &backColorDarker 0xffe2e2e2
+  7: &backColorDarkest 0xff9e9e9e
+  8: &keyboardBackColor 0xfff0f0f0
+  9: &keyboardBackColor4Dark 0xff000000
+  10: &backColor4Dark 0xff212121
+  11: &backColor4DarkDarker 0xff111111
+  12: &textColor4Dark 0xffdadada
+  13: &textColor4DarkDarker 0xff5e5e5e
+
+preset_color_schemes:
+  default:
+    name: 浅色
+    author: 第灬定律
+    dark_scheme: dark
+    back_color: *backColor
+    candidate_separator_color: *backColor
+    candidate_text_color: *textColor
+    hilited_back_color: *backColor
+    hilited_candidate_back_color: *backColor
+    hilited_candidate_text_color: *themeColor
+    comment_text_color: *textColorLighter
+    hilited_comment_text_color: *themeColor
+    key_back_color: *backColor
+    hilited_key_back_color: *backColorDarker
+    key_symbol_color: *textColorLightest
+    hilited_key_symbol_color: *textColorLightest
+    key_text_color: *textColor
+    hilited_key_text_color: *textColor
+    keyboard_back_color: *keyboardBackColor
+    label_color: *textColor
+    off_key_back_color: *backColorDarker
+    hilited_off_key_back_color: *backColorDarkest
+    off_key_text_color: *textColorLighter
+    hilited_off_key_text_color: *textColorLighter
+    on_key_back_color: *themeColor
+    on_key_text_color: *backColor
+    preview_back_color: *backColor
+    preview_text_color: *textColor
+    text_color: *textColor
+    hilited_text_color: *textColor
+    text_back_color: *backColor
+    tkb: *keyboardBackColor
+    tkt: *textColorLighter
+  dark:
+    name: 深色
+    author: 第灬定律
+    back_color: *backColor4Dark
+    candidate_separator_color: *backColor4Dark
+    candidate_text_color: *textColor4Dark
+    hilited_back_color: *backColor4Dark
+    hilited_candidate_back_color: *backColor4Dark
+    hilited_candidate_text_color: *themeColor
+    comment_text_color: *textColor4DarkDarker
+    hilited_comment_text_color: *themeColor
+    key_back_color: *backColor4Dark
+    hilited_key_back_color: *backColor4DarkDarker
+    key_symbol_color: *textColor4DarkDarker
+    hilited_key_symbol_color: *textColor4DarkDarker
+    key_text_color: *textColor4Dark
+    hilited_key_text_color: *textColor4Dark
+    keyboard_back_color: *keyboardBackColor4Dark
+    label_color: *textColor4Dark
+    off_key_back_color: *keyboardBackColor4Dark
+    hilited_off_key_back_color: *backColor4DarkDarker
+    off_key_text_color: *textColor4DarkDarker
+    hilited_off_key_text_color: *textColor4DarkDarker
+    on_key_back_color: *themeColor
+    on_key_text_color: *backColor
+    preview_back_color: *backColor4Dark
+    preview_text_color: *textColor4Dark
+    text_color: *textColor4Dark
+    hilited_text_color: *textColor4Dark
+    text_back_color: *backColor4Dark
+    tkb: *keyboardBackColor4Dark
+    tkt: *textColor4DarkDarker
+
+tool_bar:
+  button_spacing: 5
+  button_font: []
+  primary_button:
+    background:
+      type: circle
+      corner_radius: 10
+      normal: 0x00
+      highlight: hilited_candidate_button_color
+      vertical_inset: 4
+      horizontal_inset: 0
+    foreground:
+      style: "ic@dots_horizontal"
+      font_size: *key_long_text_size
+      normal: candidate_text_color
+      padding: 10
+    action: $Menu
+  hide_button: &hide_button
+    foreground:
+      style: "ic@keyboard_close"
+      font_size: *key_long_text_size
+      normal: candidate_text_color
+    action: $HideKeyboard
+  emoji_button: &emoji_button
+    foreground:
+      style: "ic@emoticon_outline"
+      font_size: *key_long_text_size
+    action: $KeyboardEmoji0
+  clipboard_button: &clipboard_button
+    foreground:
+      style: "ic@clipboard_multiple_outline"
+      font_size: *key_long_text_size
+    action: $ClipboardWindow
+  edit_button: &edit_button
+    foreground:
+      style: "ic@arrow_all"
+      font_size: *key_long_text_size
+    action: $KeyboardEditor
+  cut_button: &cut_button
+    foreground:
+      style: "ic@content_duplicate"
+      font_size: *key_long_text_size
+    action: $Cut
+  copy_button: &copy_button
+    foreground:
+      style: "ic@content_copy"
+      font_size: *key_long_text_size
+    action: $Copy
+  paste_button: &paste_button
+    foreground:
+      style: "ic@clipboard_outline"
+      font_size: *key_long_text_size
+    action: $Paste
+  full_shape_button: &full_shape_button
+    foreground:
+      option_styles: ["ic@circle_half_full", "ic@circle"]
+      font_size: *key_long_text_size
+    action: $ZenkakuHankaku
+  buttons:
+    - *hide_button
+    - *full_shape_button
+    - *emoji_button
+    - *clipboard_button
+    - *edit_button
+    - *paste_button
+    - *copy_button
+    - *cut_button
+
+preset_keyboards:
+  default:
+    author: 第灬定律
+    name: 全键盘
+    width: 10
+    key_symbol_offset_y: 3
+    key_press_offset_x: 1
+    key_press_offset_y: 1
+    ascii_mode: 0
+    reset_ascii_mode: false
+    keys:
+      - { click: $Q, long_click: 1 }
+      - { click: $W, long_click: 2 }
+      - { click: $E, long_click: 3 }
+      - { click: $R, long_click: 4 }
+      - { click: $T, long_click: 5 }
+      - { click: $Y, long_click: 6 }
+      - { click: $U, long_click: 7 }
+      - { click: $I, long_click: 8 }
+      - { click: $O, long_click: 9 }
+      - { click: $P, long_click: 0 }
+      - { width: 5 }
+      - { click: $A }
+      - { click: $S }
+      - { click: $D }
+      - { click: $F }
+      - { click: $G }
+      - { click: $H }
+      - { click: $J }
+      - { click: $K }
+      - { click: $L }
+      - { width: 5 }
+      - {
+          click: $Shift,
+          long_click: $ShiftLock,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          key_text_size: *key_text_size,
+        }
+      - { click: $Z }
+      - { click: $X }
+      - { click: $C }
+      - { click: $V }
+      - { click: $B }
+      - { click: $N }
+      - { click: $M }
+      - {
+          click: $BackSpace,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+          key_text_size: *key_text_size,
+        }
+      # 以下开始最后一行。
+      - {
+          click: $KeyboardSymbol0,
+          width: 12.5,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - {
+          click: $KeyboardNumber,
+          width: 12.5,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - { click: "," }
+      - { click: $Space, width: 30, key_text_size: *key_text_size }
+      - { click: "." }
+      - {
+          click: $ModeSwitch,
+          long_click: $SchemeSettings,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - {
+          click: $Return,
+          composing: $ReturnStatic,
+          width: 15,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      # 以上结束最后一行。
+  emoji_0:
+    author: 第灬定律
+    name: 表情键盘其一
+    width: 10
+    key_symbol_offset_y: 3
+    key_press_offset_x: 1
+    key_press_offset_y: 1
+    keys:
+      - { click: ☺️ }
+      - { click: 😄 }
+      - { click: 😁 }
+      - { click: 😂 }
+      - { click: 😅 }
+      - { click: 😢 }
+      - { click: 😭 }
+      - { click: 😡 }
+      - { click: 😱 }
+      - { click: 😍 }
+      - { click: 😘 }
+      - { click: 😜 }
+      - { click: 😎 }
+      - { click: ✊, key_text_size: *key_long_text_size }
+      - { click: ✌️ }
+      - { click: ☝️ }
+      - { click: ✋ }
+      - { click: ✍️ }
+      - { click: 👍 }
+      - { click: 👎 }
+      - {
+          click: $KeyboardEmoji1,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+          key_text_size: *key_text_size,
+        }
+      - { click: 👏 }
+      - { click: 🙌 }
+      - { click: 🤝 }
+      - { click: ☀️ }
+      - { click: ⛅️ }
+      - { click: ☁️ }
+      - { click: 🌧 }
+      - {
+          click: $BackSpace,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+          key_text_size: *key_text_size,
+        }
+      # 以下开始最后一行。
+      - {
+          click: $KeyboardDefault,
+          width: 12.5,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - {
+          click: $KeyboardNumber,
+          width: 12.5,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - { click: "," }
+      - { click: $Space, width: 30, key_text_size: *key_text_size }
+      - { click: "." }
+      - {
+          click: $ModeSwitch,
+          long_click: $SchemeSettings,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - {
+          click: $Return,
+          composing: $ReturnStatic,
+          width: 15,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      # 以上结束最后一行。
+  emoji_1:
+    author: 第灬定律
+    name: 表情键盘其二
+    width: 10
+    key_symbol_offset_y: 3
+    key_press_offset_x: 1
+    key_press_offset_y: 1
+    keys:
+      - { click: ❄️ }
+      - { click: ☃️ }
+      - { click: 🌩 }
+      - { click: 🌪 }
+      - { click: 🌫 }
+      - { click: 🌙 }
+      - { click: ⭐️ }
+      - { click: ✨ }
+      - { click: ⚡️ }
+      - { click: ☄️ }
+      - { click: 🌊 }
+      - { click: 🌱 }
+      - { click: 🌸 }
+      - { click: 🌻 }
+      - { click: 🌲 }
+      - { click: 🍎 }
+      - { click: 🍌 }
+      - { click: 🍇 }
+      - { click: 🍉 }
+      - { click: 🍓 }
+      - {
+          click: $KeyboardEmoji0,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+          key_text_size: *key_text_size,
+        }
+      - { click: ✈️ }
+      - { click: 🚗 }
+      - { click: 🚕 }
+      - { click: 🚙 }
+      - { click: 🚌 }
+      - { click: 🚎 }
+      - { click: 🚲 }
+      - {
+          click: $BackSpace,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+          key_text_size: *key_text_size,
+        }
+      # 以下开始最后一行。
+      - {
+          click: $KeyboardDefault,
+          width: 12.5,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - {
+          click: $KeyboardNumber,
+          width: 12.5,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - { click: "," }
+      - { click: $Space, width: 30, key_text_size: *key_text_size }
+      - { click: "." }
+      - {
+          click: $ModeSwitch,
+          long_click: $SchemeSettings,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - {
+          click: $Return,
+          composing: $ReturnStatic,
+          width: 15,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      # 以上结束最后一行。
+  symbol_0:
+    author: 第灬定律
+    name: 符号键盘其一
+    width: 10
+    key_symbol_offset_y: 3
+    key_press_offset_x: 1
+    key_press_offset_y: 1
+    ascii_mode: 0
+    reset_ascii_mode: false
+    keys:
+      - { click: "^" }
+      - { click: "\\" }
+      - { click: "|" }
+      - { click: "/" }
+      - { click: "<" }
+      - { click: ">" }
+      - { click: "[" }
+      - { click: "]" }
+      - { click: "(" }
+      - { click: ")" }
+      - { click: "×" }
+      - { click: "`" }
+      - { click: "#" }
+      - { click: "+" }
+      - { click: "&" }
+      - { click: "*" }
+      - { click: "_" }
+      - { click: ";" }
+      - { click: ":" }
+      - { click: '"' }
+      - {
+          click: $KeyboardSymbol1,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+          key_text_size: *key_text_size,
+        }
+      - { click: "=" }
+      - { click: "@" }
+      - { click: "!" }
+      - { click: "?" }
+      - { click: "~" }
+      - { click: "-" }
+      - { click: "'" }
+      - {
+          click: $BackSpace,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+          key_text_size: *key_text_size,
+        }
+      # 以下开始最后一行。
+      - {
+          click: $KeyboardDefault,
+          width: 12.5,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - {
+          click: $KeyboardNumber,
+          width: 12.5,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - { click: "," }
+      - { click: $Space, width: 30, key_text_size: *key_text_size }
+      - { click: "." }
+      - {
+          click: $ModeSwitch,
+          long_click: $SchemeSettings,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - {
+          click: $Return,
+          composing: $ReturnStatic,
+          width: 15,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      # 以上结束最后一行。
+  symbol_1:
+    author: 第灬定律
+    name: 符号键盘其二
+    width: 10
+    key_symbol_offset_y: 3
+    key_press_offset_x: 1
+    key_press_offset_y: 1
+    ascii_mode: 0
+    reset_ascii_mode: false
+    keys:
+      - { click: "‘" }
+      - { click: "’" }
+      - { click: "【" }
+      - { click: "】" }
+      - { click: "〖" }
+      - { click: "〗" }
+      - { click: "〔" }
+      - { click: "〕" }
+      - { click: "{" }
+      - { click: "}" }
+      - { click: "〈" }
+      - { click: "〉" }
+      - { click: "・" }
+      - { click: "℃" }
+      - { click: "℉" }
+      - { click: "°" }
+      - { click: "%" }
+      - { click: "®" }
+      - { click: "™" }
+      - { click: "©" }
+      - {
+          click: $KeyboardSymbol0Alter,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+          key_text_size: *key_text_size,
+        }
+      - { click: "⟨" }
+      - { click: "⟩" }
+      - { click: "€" }
+      - { click: "£" }
+      - { click: "$" }
+      - { click: "“" }
+      - { click: "”" }
+      - {
+          click: $BackSpace,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+          key_text_size: *key_text_size,
+        }
+      # 以下开始最后一行。
+      - {
+          click: $KeyboardDefault,
+          width: 12.5,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - {
+          click: $KeyboardNumber,
+          width: 12.5,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - { click: "," }
+      - { click: $Space, width: 30, key_text_size: *key_text_size }
+      - { click: "." }
+      - {
+          click: $ModeSwitch,
+          long_click: $SchemeSettings,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - {
+          click: $Return,
+          composing: $ReturnStatic,
+          width: 15,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      # 以上结束最后一行。
+  number:
+    author: 第灬定律
+    name: 数字键盘
+    width: 10
+    key_symbol_offset_y: 3
+    key_press_offset_x: 1
+    key_press_offset_y: 1
+    keys:
+      - { click: 1, width: 25, key_text_size: *key_text_size_big }
+      - { click: 2, width: 25, key_text_size: *key_text_size_big }
+      - { click: 3, width: 25, key_text_size: *key_text_size_big }
+      - {
+          click: "-",
+          width: 25,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - { click: 4, width: 25, key_text_size: *key_text_size_big }
+      - { click: 5, width: 25, key_text_size: *key_text_size_big }
+      - { click: 6, width: 25, key_text_size: *key_text_size_big }
+      - {
+          click: $Space,
+          width: 25,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - { click: 7, width: 25, key_text_size: *key_text_size_big }
+      - { click: 8, width: 25, key_text_size: *key_text_size_big }
+      - { click: 9, width: 25, key_text_size: *key_text_size_big }
+      - {
+          click: $BackSpace,
+          width: 25,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+          key_text_size: *key_text_size,
+        }
+      # 以下开始最后一行。
+      - {
+          click: $KeyboardDefault,
+          width: 12.5,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - {
+          click: $KeyboardSymbol0,
+          width: 12.5,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - { click: 0, width: 25, key_text_size: *key_text_size_big }
+      - {
+          click: ",",
+          width: 12.5,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - {
+          click: ".",
+          width: 12.5,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - {
+          click: $Return,
+          composing: $ReturnStatic,
+          width: 25,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      # 以上结束最后一行。
+  editor:
+    author: 第灬定律
+    name: 编辑键盘
+    width: 10
+    key_symbol_offset_y: 3
+    key_press_offset_x: 1
+    key_press_offset_y: 1
+    keys:
+      - {
+          click: $Escape,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+          key_text_size: *key_text_size,
+        }
+      - { width: 23.33 }
+      - {
+          click: $MoveUp,
+          width: 23.33,
+          key_text_size: *key_long_text_size_s,
+          key_back_color: tkb,
+          key_text_color: tkt,
+        }
+      - { width: 23.33 }
+      - {
+          click: $Redo,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+          key_text_size: *key_text_size_m,
+        }
+      - {
+          click: $SelectAll,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+          key_text_size: *key_text_size_m,
+        }
+      - {
+          click: $MoveLeft,
+          width: 23.33,
+          key_text_size: *key_long_text_size_s,
+          key_back_color: tkb,
+          key_text_color: tkt,
+        }
+      - { width: 23.33 }
+      - {
+          click: $MoveRight,
+          width: 23.33,
+          key_text_size: *key_long_text_size_s,
+          key_back_color: tkb,
+          key_text_color: tkt,
+        }
+      - {
+          click: $Undo,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+          key_text_size: *key_text_size_m,
+        }
+      - {
+          click: $Shift,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          key_text_size: *key_text_size,
+        }
+      - { width: 23.33 }
+      - {
+          click: $MoveDown,
+          width: 23.33,
+          key_text_size: *key_long_text_size_s,
+          key_back_color: tkb,
+          key_text_color: tkt,
+        }
+      - { width: 23.33 }
+      - {
+          click: $BackSpace,
+          width: 15,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+          key_text_size: *key_text_size,
+        }
+      # 以下开始最后一行。
+      - {
+          click: $KeyboardDefault,
+          width: 15,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - {
+          click: $KeyboardSymbol0,
+          width: 15,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - { click: $Space, width: 40, key_text_size: *key_text_size }
+      - {
+          click: $KeyboardNumber,
+          width: 15,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      - {
+          click: $Return,
+          composing: $ReturnStatic,
+          width: 15,
+          key_text_size: *key_text_size,
+          key_back_color: off_key_back_color,
+          key_text_color: off_key_text_color,
+          hilited_key_back_color: hilited_off_key_back_color,
+        }
+      # 以上结束最后一行。
+
+preset_keys:
+  $Q: { send: q }
+  $W: { send: w }
+  $E: { send: e }
+  $R: { send: r }
+  $T: { send: t }
+  $Y: { send: y }
+  $U: { send: u }
+  $I: { send: i }
+  $O: { send: o }
+  $P: { send: p }
+  $A: { send: a }
+  $S: { send: s }
+  $D: { send: d }
+  $F: { send: f }
+  $G: { send: g }
+  $H: { send: h }
+  $J: { send: j }
+  $K: { send: k }
+  $L: { send: l }
+  $Z: { send: z }
+  $X: { send: x }
+  $C: { send: c }
+  $V: { send: v }
+  $B: { send: b }
+  $N: { send: n }
+  $M: { send: m }
+  $BackSpace:
+    {
+      label: "ic@backspace",
+      repeatable: true,
+      functional: false,
+      slide_delete: true,
+      send: BackSpace,
+    }
+  $Return: { label: enter_labels, functional: false, send: Return }
+  $ReturnStatic:
+    { label: "ic@keyboard_return", functional: false, send: Return }
+  $Space:
+    {
+      repeatable: false,
+      functional: false,
+      slide_cursor: true,
+      label: "ic@keyboard_space",
+      send: space,
+    }
+  $ModeSwitch:
+    {
+      toggle: ascii_mode,
+      functional: false,
+      send: Mode_switch,
+      states: ["ic@ideogram_cjk", "ic@alphabet_latin"],
+    }
+  $HideKeyboard: { send: BACK }
+  $ZenkakuHankaku:
+    { toggle: full_shape, send: Mode_switch, states: [半角, 全角] }
+  $Cut: { label: 剪切, functional: false, send: Control+x }
+  $Copy: { label: 复制, functional: false, send: Control+c }
+  $Paste: { label: 粘贴, functional: false, send: Control+v }
+  $Menu: { label: 菜单, send: function, command: menu_keyboard }
+  $SchemeSettings: { label: "方案", functional: false, send: Menu }
+  $KeyboardEmoji0:
+    {
+      label: "ic@arrow_up_bold_outline",
+      functional: false,
+      send: Eisu_toggle,
+      select: emoji_0,
+    }
+  $KeyboardEmoji1:
+    {
+      label: "ic@arrow_down_bold_outline",
+      functional: false,
+      send: Eisu_toggle,
+      select: emoji_1,
+    }
+  $KeyboardNumber:
+    {
+      label: "ic@numeric",
+      functional: false,
+      send: Eisu_toggle,
+      select: number,
+    }
+  $KeyboardSymbol0:
+    {
+      label: "ic@symbol",
+      functional: false,
+      send: Eisu_toggle,
+      select: symbol_0,
+    }
+  $KeyboardSymbol0Alter:
+    {
+      label: "ic@arrow_up_bold_outline",
+      functional: false,
+      send: Eisu_toggle,
+      select: symbol_0,
+    }
+  $KeyboardSymbol1:
+    {
+      label: "ic@arrow_down_bold_outline",
+      functional: false,
+      send: Eisu_toggle,
+      select: symbol_1,
+    }
+  $KeyboardDefault:
+    {
+      label: "ic@keyboard_backspace",
+      functional: false,
+      send: Eisu_toggle,
+      select: default,
+    }
+  $KeyboardEditor:
+    {
+      label: "ic@keyboard_backspace",
+      functional: false,
+      send: Eisu_toggle,
+      select: editor,
+    }
+  $Shift: { label: "ic@upload_outline", functional: false, send: Shift_L }
+  $ShiftLock: { label: " ", functional: false, send: Shift_L, shift_lock: long }
+  $MoveLeft: { label: "ic@chevron_left", functional: false, send: Left }
+  $MoveRight: { label: "ic@chevron_right", functional: false, send: Right }
+  $MoveUp: { label: "ic@chevron_up", functional: false, send: Up }
+  $MoveDown: { label: "ic@chevron_down", functional: false, send: Down }
+  $Redo: { label: "ic@redo", functional: false, send: Control+Shift+z }
+  $Undo: { label: "ic@undo", functional: false, send: Control+z }
+  $Escape: { label: "ic@keyboard_esc", functional: false, send: Escape }
+  $SelectAll: { label: "ic@select_all", functional: false, send: Control+a }
+  $ClipboardWindow:
+    { label: "剪贴板", send: function, command: "clipboard_window" }
