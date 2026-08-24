@@ -22,7 +22,7 @@ height:
   10: &keyboard_height 250            # 正常 (竖屏) 下最大键盘高度。
   11: &keyboard_height_land 200       # 横屏模式下最大键盘高度，必要时会覆盖按键高度。
   12: &keyboard_padding 4             # 键盘左右两边的空白边距。
-  13: &keyboard_padding_bottom 32     # 正常 (竖屏) 键盘下方预留空间。
+  13: &keyboard_padding_bottom 4      # 正常 (竖屏) 键盘下方预留空间。
   14: &keyboard_padding_land_bottom 0 # 横屏模式键盘下方预留空间。
   15: &horizontal_gap 4               # 按键水平间距。
   16: &vertical_gap 12                # 按键垂直间距 (也就是行间距)。
@@ -110,32 +110,32 @@ round_corner:
 
 style:
   auto_caps: false
-  candidate_font: han.ttf
+  candidate_font: ["Plangothic.ttc"]
   candidate_padding: 5
   candidate_spacing: *candidate_spacing
-  candidate_text_size: *key_text_size
+  candidate_text_size: *key_text_size_m
   candidate_view_height: *candidate_view_height
   comment_font: comment.ttf
   comment_height: 0
   comment_on_top: false
-  comment_text_size: *key_text_size_m
-  hanb_font: PlangothicP1-Regular.ttf
+  comment_text_size: *key_long_text_size
+  hanb_font: ["Plangothic.ttc"]
   horizontal_gap: *horizontal_gap
-  key_font: Geist-Medium.ttf
+  key_font: ["Geist-Medium.ttf"]
   key_height: *key_height
   key_long_text_size: *key_long_text_size
   key_text_size: *key_text_size
   key_width: 10.0
   label_text_size: *key_text_size
   label_font: label.ttf
-  latin_font: latin.ttf
+  latin_font: ["Geist-Medium.ttf"]
   keyboard_height: *keyboard_height
   keyboard_height_land: *keyboard_height_land
   keyboard_padding: *keyboard_padding
   keyboard_padding_bottom: *keyboard_padding_bottom
   keyboard_padding_land: *keyboard_padding
   keyboard_padding_land_bottom: *keyboard_padding_land_bottom
-  popup_font: Geist-Medium.ttf
+  popup_font: ["Geist-Medium.ttf"]
   popup_width: 38
   popup_height: 48
   popup_bottom_margin: 68
@@ -145,7 +145,7 @@ style:
   reset_ascii_mode: false
   round_corner: *round_corner
   shadow_radius: 0
-  symbol_font: Geist-Medium.ttf
+  symbol_font: ["Geist-Medium.ttf"]
   symbol_text_size: *symbol_text_size
   text_font: latin.ttf
   vertical_correction: -5
