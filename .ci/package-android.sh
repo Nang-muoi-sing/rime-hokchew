@@ -59,19 +59,6 @@ cp -R "$REPO_ROOT/$SCHEMA_DIR"/. "$SHARED_ASSETS"/
 echo "Injected Rime schemas into $SHARED_ASSETS:"
 find "$SHARED_ASSETS" -maxdepth 1 -type f \( -name "hokchew*.yaml" -o -name "default.custom.yaml" \) -print | sort
 
-find "$REPO_ROOT/theme" -maxdepth 1 -type f -name "*.trime.yaml" -exec cp {} "$SHARED_ASSETS"/ \;
-if [ -d "$REPO_ROOT/theme/fonts" ]; then
-  mkdir -p "$SHARED_ASSETS/fonts"
-  find "$REPO_ROOT/theme/fonts" -maxdepth 1 -type f \
-    \( -name "*.ttf" -o -name "*.otf" -o -name "*.ttc" \) \
-    -exec cp {} "$SHARED_ASSETS/fonts"/ \;
-fi
-echo "Injected Trime themes into $SHARED_ASSETS:"
-find "$SHARED_ASSETS" -maxdepth 2 \( \
-  -type f -name "*.trime.yaml" \
-  -o -type f -path "$SHARED_ASSETS/fonts/*" \
-\) -print | sort
-
 if [ -n "${ANDROID_KEYSTORE_BASE64:-}" ]; then
   if [ -z "${ANDROID_KEYSTORE_PASSWORD:-}" ] || [ -z "${ANDROID_KEY_PASSWORD:-}" ] || [ -z "${ANDROID_KEY_ALIAS:-}" ]; then
     echo "ANDROID_KEYSTORE_PASSWORD, ANDROID_KEY_PASSWORD, and ANDROID_KEY_ALIAS are required when ANDROID_KEYSTORE_BASE64 is set" >&2
