@@ -61,10 +61,16 @@ find "$SHARED_ASSETS" -maxdepth 1 -type f \( -name "hokchew*.yaml" -o -name "def
 
 find "$REPO_ROOT/theme" -maxdepth 1 -type f -name "*.trime.yaml" -exec cp {} "$SHARED_ASSETS"/ \;
 if [ -d "$REPO_ROOT/theme/fonts" ]; then
-  find "$REPO_ROOT/theme/fonts" -maxdepth 1 -type f -exec cp {} "$SHARED_ASSETS"/ \;
+  mkdir -p "$SHARED_ASSETS/fonts"
+  find "$REPO_ROOT/theme/fonts" -maxdepth 1 -type f \
+    \( -name "*.ttf" -o -name "*.otf" -o -name "*.ttc" \) \
+    -exec cp {} "$SHARED_ASSETS/fonts"/ \;
 fi
 echo "Injected Trime themes into $SHARED_ASSETS:"
-find "$SHARED_ASSETS" -maxdepth 1 -type f \( -name "*.trime.yaml" -o -name "*.ttf" -o -name "*.otf" \) -print | sort
+find "$SHARED_ASSETS" -maxdepth 2 \( \
+  -type f -name "*.trime.yaml" \
+  -o -type f -path "$SHARED_ASSETS/fonts/*" \
+\) -print | sort
 
 if [ -n "${ANDROID_KEYSTORE_BASE64:-}" ]; then
   if [ -z "${ANDROID_KEYSTORE_PASSWORD:-}" ] || [ -z "${ANDROID_KEY_PASSWORD:-}" ] || [ -z "${ANDROID_KEY_ALIAS:-}" ]; then
