@@ -10,6 +10,25 @@ name: 日光灯
 author: 第灬定律
 
 height:
+  1: &candidate_spacing 0.0           # 候选项间距。
+  2: &candidate_view_height 28        # 候选区高度。
+  3: &key_height 48                   # 主键盘按键高度 (也就是行高)。
+  4: &key_long_text_size_s 16         # 一般按键超小字号。
+  5: &key_long_text_size 16           # 一般按键小字号。
+  6: &key_text_size 24                # 一般按键字号。
+  7: &key_text_size_m 20              # 一般按键中字号。
+  8: &key_text_size_big 26            # 一般按键大字号。
+  9: &symbol_text_size 10             # 按键上方符号字号。
+  10: &keyboard_height 250            # 正常 (竖屏) 下最大键盘高度。
+  11: &keyboard_height_land 200       # 横屏模式下最大键盘高度，必要时会覆盖按键高度。
+  12: &keyboard_padding 4             # 键盘左右两边的空白边距。
+  13: &keyboard_padding_bottom 32     # 正常 (竖屏) 键盘下方预留空间。
+  14: &keyboard_padding_land_bottom 0 # 横屏模式键盘下方预留空间。
+  15: &horizontal_gap 4               # 按键水平间距。
+  16: &vertical_gap 12                # 按键垂直间距 (也就是行间距)。
+  17: &emoji_key_height 30            # 表情键盘按键高度。
+  18: &symbol_key_height 39.5         # 符号、编辑键盘按键高度。
+  ###############################################################################
   # 以下适用于短边 720 px 的全面屏手机 (已在中兴远航 41 上进行过测试)：
   # 1: &candidate_spacing 9.0           # 候选项间距。
   # 2: &candidate_view_height 38        # 候选区高度。
@@ -29,22 +48,22 @@ height:
   # 16: &vertical_gap 6                 # 按键垂直间距 (也就是行间距)。
   ###############################################################################
   # 以下适用于短边 1080 px 的全面屏手机 (已在小米 13 上进行过测试)：
-  1: &candidate_spacing 9.0           # 候选项间距。
-  2: &candidate_view_height 42        # 候选区高度。
-  3: &key_height 52                   # 按键高度 (也就是行高)。
-  4: &key_long_text_size_s 16         # 一般按键超小字号
-  5: &key_long_text_size 18           # 一般按键小字号
-  6: &key_text_size 22                # 一般按键字号。
-  7: &key_text_size_m 20              # 一般按键中字号。
-  8: &key_text_size_big 26            # 一般按键大字号。
-  9: &symbol_text_size 10             # 按键上方符号字号
-  10: &keyboard_height 250            # 正常 (竖屏) 下最大键盘高度。
-  11: &keyboard_height_land 200       # 横屏模式下最大键盘高度，必要时会覆盖按键高度。
-  12: &keyboard_padding 4             # 键盘左右两边的空白边距。
-  13: &keyboard_padding_bottom 32     # 正常 (竖屏) 键盘下方预留空间。
-  14: &keyboard_padding_land_bottom 0 # 横屏模式键盘下方预留空间。
-  15: &horizontal_gap 12              # 按键水平间距。
-  16: &vertical_gap 6                 # 按键垂直间距 (也就是行间距)。
+  # 1: &candidate_spacing 9.0           # 候选项间距。
+  # 2: &candidate_view_height 42        # 候选区高度。
+  # 3: &key_height 52                   # 按键高度 (也就是行高)。
+  # 4: &key_long_text_size_s 16         # 一般按键超小字号
+  # 5: &key_long_text_size 18           # 一般按键小字号
+  # 6: &key_text_size 22                # 一般按键字号。
+  # 7: &key_text_size_m 20              # 一般按键中字号。
+  # 8: &key_text_size_big 26            # 一般按键大字号。
+  # 9: &symbol_text_size 10             # 按键上方符号字号
+  # 10: &keyboard_height 250            # 正常 (竖屏) 下最大键盘高度。
+  # 11: &keyboard_height_land 200       # 横屏模式下最大键盘高度，必要时会覆盖按键高度。
+  # 12: &keyboard_padding 4             # 键盘左右两边的空白边距。
+  # 13: &keyboard_padding_bottom 32     # 正常 (竖屏) 键盘下方预留空间。
+  # 14: &keyboard_padding_land_bottom 0 # 横屏模式键盘下方预留空间。
+  # 15: &horizontal_gap 12              # 按键水平间距。
+  # 16: &vertical_gap 6                 # 按键垂直间距 (也就是行间距)。
   ###############################################################################
   # 以下适用于短边 1840 px 的平板 (已在联想小新 Pad 12.7 骁龙版上进行过测试)：
   # 1: &candidate_spacing 9.0           # 候选项间距。
@@ -91,16 +110,16 @@ round_corner:
 
 style:
   auto_caps: false
-  candidate_font: HarmonyOS_Sans_SC_Regular.ttf
+  candidate_font: han.ttf
   candidate_padding: 5
   candidate_spacing: *candidate_spacing
   candidate_text_size: *key_text_size
   candidate_view_height: *candidate_view_height
-  comment_font: HarmonyOS_Sans_SC_Regular.ttf
+  comment_font: comment.ttf
   comment_height: 0
   comment_on_top: false
   comment_text_size: *key_text_size_m
-  hanb_font: HarmonyOS_Sans_TC_Regular.ttf
+  hanb_font: PlangothicP1-Regular.ttf
   horizontal_gap: *horizontal_gap
   key_font: Geist-Medium.ttf
   key_height: *key_height
@@ -108,7 +127,7 @@ style:
   key_text_size: *key_text_size
   key_width: 10.0
   label_text_size: *key_text_size
-  label_font: HarmonyOS_Sans_SC_Regular.ttf
+  label_font: label.ttf
   latin_font: latin.ttf
   keyboard_height: *keyboard_height
   keyboard_height_land: *keyboard_height_land
@@ -128,7 +147,7 @@ style:
   shadow_radius: 0
   symbol_font: Geist-Medium.ttf
   symbol_text_size: *symbol_text_size
-  text_font: HarmonyOS_Sans_SC_Regular.ttf
+  text_font: latin.ttf
   vertical_correction: -5
   vertical_gap: *vertical_gap
   enter_label_mode: 0
@@ -446,6 +465,7 @@ preset_keyboards:
     author: 第灬定律
     name: 表情键盘其一
     width: 10
+    height: *emoji_key_height
     key_symbol_offset_y: 3
     key_press_offset_x: 1
     key_press_offset_y: 1
@@ -534,6 +554,7 @@ preset_keyboards:
     author: 第灬定律
     name: 表情键盘其二
     width: 10
+    height: *emoji_key_height
     key_symbol_offset_y: 3
     key_press_offset_x: 1
     key_press_offset_y: 1
@@ -622,6 +643,7 @@ preset_keyboards:
     author: 第灬定律
     name: 符号键盘其一
     width: 10
+    height: *symbol_key_height
     key_symbol_offset_y: 3
     key_press_offset_x: 1
     key_press_offset_y: 1
@@ -712,6 +734,7 @@ preset_keyboards:
     author: 第灬定律
     name: 符号键盘其二
     width: 10
+    height: *symbol_key_height
     key_symbol_offset_y: 3
     key_press_offset_x: 1
     key_press_offset_y: 1
@@ -885,6 +908,7 @@ preset_keyboards:
     author: 第灬定律
     name: 编辑键盘
     width: 10
+    height: *symbol_key_height
     key_symbol_offset_y: 3
     key_press_offset_x: 1
     key_press_offset_y: 1
