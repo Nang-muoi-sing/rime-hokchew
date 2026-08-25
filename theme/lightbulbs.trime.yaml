@@ -121,21 +121,21 @@ style:
   comment_text_size: *key_long_text_size
   hanb_font: ["Plangothic.ttc"]
   horizontal_gap: *horizontal_gap
-  key_font: ["Geist-Medium.ttf"]
+  key_font: ["NotoSans-Medium.ttf"]
   key_height: *key_height
   key_long_text_size: *key_long_text_size
   key_text_size: *key_text_size
   key_width: 10.0
   label_text_size: *key_text_size
   label_font: label.ttf
-  latin_font: ["Geist-Medium.ttf"]
+  latin_font: ["NotoSans-Medium.ttf"]
   keyboard_height: *keyboard_height
   keyboard_height_land: *keyboard_height_land
   keyboard_padding: *keyboard_padding
   keyboard_padding_bottom: *keyboard_padding_bottom
   keyboard_padding_land: *keyboard_padding
   keyboard_padding_land_bottom: *keyboard_padding_land_bottom
-  popup_font: ["Geist-Medium.ttf"]
+  popup_font: ["NotoSans-Medium.ttf"]
   popup_width: 38
   popup_height: 48
   popup_bottom_margin: 68
@@ -145,7 +145,7 @@ style:
   reset_ascii_mode: false
   round_corner: *round_corner
   shadow_radius: 0
-  symbol_font: ["Geist-Medium.ttf"]
+  symbol_font: ["NotoSans-Medium.ttf"]
   symbol_text_size: *symbol_text_size
   text_font: latin.ttf
   vertical_correction: -5
