@@ -1,5 +1,6 @@
 data/*
 !data/weights.yaml
+!data/rime-luna-pinyin
 
 .envrc
 

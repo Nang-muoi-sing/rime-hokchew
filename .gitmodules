@@ -1,0 +1,3 @@
+[submodule "data/rime-luna-pinyin"]
+	path = data/rime-luna-pinyin
+	url = https://github.com/rime/rime-luna-pinyin.git
