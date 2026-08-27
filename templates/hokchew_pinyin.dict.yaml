@@ -1,0 +1,10 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# From rime-luna-pinyin: https://github.com/rime/rime-luna-pinyin
+---
+name: hokchew_pinyin
+version: "{version}"
+sort: by_weight
+use_preset_vocabulary: true
+...

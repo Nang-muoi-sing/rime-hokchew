@@ -11,7 +11,7 @@ schema:
     
   description: 輸入方案詳見《榕拼方案规范文档分册：福州城里》（https://jcnf40n3hvft.feishu.cn/wiki/Xs7HwuxwUiV4cmkzrrPck9uTnne）。
   dependencies:
-    - luna_pinyin
+    - hokchew_pinyin
 
 switches:
   - name: ascii_mode
@@ -36,13 +36,15 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
+    - affix_segmentor@pinyin
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - script_translator
-    - reverse_lookup_translator
+    - script_translator@pinyin
   filters:
+    - reverse_lookup_filter@pinyin_lookup
     - simplifier
     - uniquifier
 
@@ -706,8 +708,10 @@ translator:
     # 聲調上標
     #- xlit/012345/⁰¹²³⁴⁵/
 
-reverse_lookup:
-  dictionary: luna_pinyin
+pinyin:
+  tag: pinyin
+  dictionary: hokchew_pinyin
+  enable_user_dict: false
   prefix: "`"
   suffix: "'"
   tips: 〔普通话拼音反查〕
@@ -715,6 +719,11 @@ reverse_lookup:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
+
+pinyin_lookup:
+  tags: [ pinyin ]
+  dictionary: hokchew
+  overwrite_comment: true
   comment_format: *comment_rules
 
 punctuator:
@@ -728,7 +737,7 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "`[a-z]*'?$"
+    pinyin: "`[a-z]*'?$"
 
 simplifier:
   opencc_config: t2s.json
