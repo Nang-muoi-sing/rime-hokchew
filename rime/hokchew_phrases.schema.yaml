@@ -1,0 +1,9 @@
+# Rime schema
+# encoding: UTF-8 w/o BOM
+schema:
+  schema_id: hokchew_phrases
+  name: 榕拼多字词反查（无需启用）
+  version: "1"
+
+translator:
+  dictionary: hokchew_phrases
