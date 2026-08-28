@@ -14,6 +14,62 @@ env:
   BUILD_ABI: arm64-v8a
 
 jobs:
+  build-rime-zip:
+    name: Build Rime schema zip
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+
+      - name: Build Rime schema zip
+        run: |
+          set -euo pipefail
+          mkdir -p output
+          (
+            cd rime
+            zip -r ../output/rime-hokchew.zip .
+          )
+
+      - name: Upload Rime schema zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: rime-hokchew.zip
+          path: output/rime-hokchew.zip
+          if-no-files-found: error
+
+  build-bim-zip:
+    name: Build BIM schema zip
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+
+      - name: Setup PDM
+        uses: pdm-project/setup-pdm@v4
+
+      - name: Install dependencies
+        run: pdm sync -G default
+
+      - name: Build BIM schema zip
+        run: |
+          set -euo pipefail
+          mkdir -p output/bim-hokchew
+          cp -R bim/. output/bim-hokchew/
+          pdm run python scripts/build_bim.py -s rime -o output/bim-hokchew
+          (
+            cd output
+            zip -r bim-hokchew.zip bim-hokchew
+          )
+
+      - name: Upload BIM schema zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: bim-hokchew.zip
+          path: output/bim-hokchew.zip
+          if-no-files-found: error
+
   build-windows:
     name: Build Windows installer
     runs-on: windows-latest
