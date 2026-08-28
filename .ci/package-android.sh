@@ -30,9 +30,11 @@ git submodule update --init --recursive --filter=blob:none
 git config --global --add safe.directory "$PWD"
 
 TRIME_VERSION="$(git describe --tags --long --always --exclude=nightly)"
+TRIME_PACKAGE_VERSION="${TRIME_REF#v}"
 TRIME_COMMIT="$(git rev-parse HEAD)"
 TRIME_BUILDER="${GITHUB_ACTOR:-Seedict CI}"
 echo "Using Trime version: $TRIME_VERSION"
+echo "Using Trime package version: $TRIME_PACKAGE_VERSION"
 echo "Using Trime commit: $TRIME_COMMIT"
 
 python3 - <<'PY'
@@ -122,9 +124,14 @@ if [ "${#APKS[@]}" -eq 0 ]; then
   exit 1
 fi
 
+if [ "${#APKS[@]}" -ne 1 ]; then
+  echo "Expected exactly one APK in $APK_OUTPUT_DIR, found ${#APKS[@]}" >&2
+  printf '%s\n' "${APKS[@]}" >&2
+  exit 1
+fi
+
 for apk in "${APKS[@]}"; do
-  apk_base="$(basename "$apk")"
-  final_name="${PACKAGE_NAME}-trime-${TRIME_VERSION}-${apk_base}"
+  final_name="${PACKAGE_NAME}-trime-${TRIME_PACKAGE_VERSION}-${BUILD_ABI:-arm64-v8a}.apk"
   cp "$apk" "$OUTPUT_DIR/$final_name"
   echo "Built: $OUTPUT_DIR/$final_name"
 done

@@ -43,11 +43,26 @@ jobs:
           set -euo pipefail
           bash .ci/package-windows.sh
 
+      - name: Locate Windows installer
+        id: windows-artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t artifacts < <(find output -maxdepth 1 -type f -name 'rime-hokchew-weasel-*.exe' | sort)
+          if [ "${#artifacts[@]}" -ne 1 ]; then
+            printf 'Expected exactly one Windows installer, found %s\n' "${#artifacts[@]}" >&2
+            printf '%s\n' "${artifacts[@]}" >&2
+            exit 1
+          fi
+          printf 'artifact_path=%s\n' "${artifacts[0]}" >> "$GITHUB_OUTPUT"
+          printf 'artifact_name=%s\n' "$(basename "${artifacts[0]}")" >> "$GITHUB_OUTPUT"
+
       - name: Upload Windows installer
         uses: actions/upload-artifact@v4
         with:
-          name: rime-hokchew-windows-installer
-          path: output/rime-hokchew-weasel-*.exe
+          name: ${{ steps.windows-artifact.outputs.artifact_name }}
+          path: ${{ steps.windows-artifact.outputs.artifact_path }}
+          if-no-files-found: error
 
   build-macos:
     name: Build macOS package
@@ -71,11 +86,25 @@ jobs:
           set -euo pipefail
           bash .ci/package-mac.sh
 
+      - name: Locate macOS package
+        id: macos-artifact
+        run: |
+          set -euo pipefail
+          artifacts=(output/rime-hokchew-squirrel-*.pkg)
+          if [ "${#artifacts[@]}" -ne 1 ] || [ ! -f "${artifacts[0]}" ]; then
+            printf 'Expected exactly one macOS package, found %s\n' "${#artifacts[@]}" >&2
+            printf '%s\n' "${artifacts[@]}" >&2
+            exit 1
+          fi
+          printf 'artifact_path=%s\n' "${artifacts[0]}" >> "$GITHUB_OUTPUT"
+          printf 'artifact_name=%s\n' "$(basename "${artifacts[0]}")" >> "$GITHUB_OUTPUT"
+
       - name: Upload macOS package
         uses: actions/upload-artifact@v4
         with:
-          name: rime-hokchew-macos-package
-          path: output/rime-hokchew-squirrel-*.pkg
+          name: ${{ steps.macos-artifact.outputs.artifact_name }}
+          path: ${{ steps.macos-artifact.outputs.artifact_path }}
+          if-no-files-found: error
 
   build-android:
     name: Build Android APK
@@ -117,8 +146,22 @@ jobs:
           set -euo pipefail
           bash .ci/package-android.sh
 
+      - name: Locate Android APK
+        id: android-artifact
+        run: |
+          set -euo pipefail
+          artifacts=(output/rime-hokchew-trime-*.apk)
+          if [ "${#artifacts[@]}" -ne 1 ] || [ ! -f "${artifacts[0]}" ]; then
+            printf 'Expected exactly one Android APK, found %s\n' "${#artifacts[@]}" >&2
+            printf '%s\n' "${artifacts[@]}" >&2
+            exit 1
+          fi
+          printf 'artifact_path=%s\n' "${artifacts[0]}" >> "$GITHUB_OUTPUT"
+          printf 'artifact_name=%s\n' "$(basename "${artifacts[0]}")" >> "$GITHUB_OUTPUT"
+
       - name: Upload Android APK
         uses: actions/upload-artifact@v4
         with:
-          name: rime-hokchew-android-apk
-          path: output/rime-hokchew-trime-*.apk
+          name: ${{ steps.android-artifact.outputs.artifact_name }}
+          path: ${{ steps.android-artifact.outputs.artifact_path }}
+          if-no-files-found: error
