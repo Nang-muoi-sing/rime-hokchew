@@ -1,0 +1,10 @@
+name: 榕拼
+author: SeeDict
+version: 1.0.0
+description: 方案自米时典
+url: https://https://github.com/Nang-muoi-sing/rime-hokchew
+create_time: 2026-08-26
+update_time: 2026-08-26
+
+use_theme:
+  default: "themes/default"

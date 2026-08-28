@@ -2,6 +2,13 @@ data/*
 !data/weights.yaml
 !data/rime-luna-pinyin
 
+
+# Beyond Input Method
+```gitignore
+/bim/*
+!/bim/default.yaml
+!/bim/info.yaml
+
 .envrc
 
 *.py[codz]
