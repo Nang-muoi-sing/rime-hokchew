@@ -5,19 +5,20 @@
 -- 1. 单字：
 --      ma53 mau55 miu53
 --    ->
---      <ma53> <mau55> <miu53>
+--      <mà> <mau> <mìu>
 --
 -- 2. 已收录词汇：
 --      huang55+ny53 huang55+sy53
 --    ->
---      <huang55 ny53> <huang55 sy53>
+--      <huang nǜ> <huang sǜ>
 --
 -- 3. 未收录多字 fallback：
 --      ma53|mau55|miu53 mi33|mi55
 --    ->
---      <ma53·mau55·miu53> <mi33·mi55>
+--      <mà·mau·mìu> <mī·mi>
 
 local M = {}
+local renderer = require("yngping_render")
 
 local function split(text, sep)
   local result = {}
@@ -60,16 +61,28 @@ end
 
 local function format_group(group)
   -- 已收录词汇的一条完整读音
-  -- huang55+ny53 -> <huang55 ny53>
+  -- huang55+ny53 -> <huang nǜ>
   if group:find("+", 1, true) ~= nil then
     local syllables = split(group, "+")
-    return "<" .. table.concat(syllables, " ") .. ">"
+    local rendered = {}
+
+    for _, syllable in ipairs(syllables) do
+      rendered[#rendered + 1] = renderer.render_syllable(syllable)
+    end
+
+    return "<" .. table.concat(rendered, " ") .. ">"
   end
 
   -- 单字 native / fallback 的一个字
-  -- ma53|mau55 -> <ma53·mau55>
+  -- ma53|mau55 -> <mà·mau>
   local readings = split(group, "|")
-  return "<" .. table.concat(readings, "·") .. ">"
+  local rendered = {}
+
+  for _, reading in ipairs(readings) do
+    rendered[#rendered + 1] = renderer.render_syllable(reading)
+  end
+
+  return "<" .. table.concat(rendered, "·") .. ">"
 end
 
 local function format_comment(comment)
@@ -87,6 +100,8 @@ local function format_comment(comment)
 
   return table.concat(result, " ")
 end
+
+M.format_comment = format_comment
 
 function M.func(input, env)
   local context = env.engine.context
