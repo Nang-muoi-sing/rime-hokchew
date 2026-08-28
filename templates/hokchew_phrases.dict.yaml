@@ -1,0 +1,10 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 多字词反查词表
+---
+name: hokchew_phrases
+version: "{version}"
+sort: by_weight
+use_preset_vocabulary: false
+...
