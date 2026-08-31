@@ -1,0 +1,9 @@
+# Rime schema
+# encoding: UTF-8 w/o BOM
+schema:
+  schema_id: hokchew_pinyin
+  name: 榕拼普通話反查（无需启用）
+  version: "1"
+
+translator:
+  dictionary: hokchew_pinyin
