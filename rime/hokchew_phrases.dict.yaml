@@ -4,7 +4,7 @@
 # 多字词反查词表
 ---
 name: hokchew_phrases
-version: "2026.08.28.145507"
+version: "2026.11.20.130440"
 sort: by_weight
 use_preset_vocabulary: false
 ...
@@ -17,6 +17,7 @@ use_preset_vocabulary: false
 拗九粥	a21+au55+jeoyk24
 拗九節	a21+au55+zaik24
 拗九粥	a21+au55+zeoyk24
+阿罷無𪏸拉	a21+ba242+mo21+ni55+la55
 下八洞	a21+beik55+dooyng242
 下半爿	a21+buang55+being53
 下半長	a21+buang55+doung53
@@ -108,7 +109,9 @@ use_preset_vocabulary: false
 下渡	a53+lou242
 下檔	a53+loung33
 下路	a53+luo242	2427234
+阿妹囝	a53+mei33+iang33
 阿命	a53+miang242	1000000
+廈門橄欖鹽	a53+muong53+ga21+lang21+nieng53
 下南話	a53+nang21+ngua242
 下南粿	a53+nang33+gui33	967854
 下南粿	a53+nang33+ngui33	967854
@@ -137,6 +140,7 @@ use_preset_vocabulary: false
 下回	a55+hui53	6666666
 阿蛦	a55+i53
 下岐	a55+ie53
+阿爺	a55+ie53
 下人	a55+ing53
 阿蛦	a55+ji53
 下漳	a55+juong55
@@ -174,6 +178,7 @@ use_preset_vocabulary: false
 揖偖揖偖	ah24+zia53+ah24+zia53
 揖揖	ah53+ah24
 哀吓	ai0+ia0
+倚痾	ai21+o55
 哀吓	ai55+a53
 倚傍	ai55+booung242	8234214
 哀求	ai55+giu53
@@ -188,8 +193,11 @@ use_preset_vocabulary: false
 唉哈	aik24+ha242	242423434
 鴨嘔色	ak21+au55+laik24
 鴨嘔色	ak21+au55+saik24
+鴨啤	ak21+bi55
+壓邊	ak21+bieng55
 押搬	ak21+buang55
 押條	ak21+deu53
+鴨交	ak21+gau55
 鴨囝囝	ak21+giang24+giang33
 鴨囝囝	ak21+giang24+iang33
 鴨囝囝	ak21+giang24+ngiang33
@@ -200,8 +208,10 @@ use_preset_vocabulary: false
 鴨骹囝	ak21+ka53+giang33
 鴨骹囝	ak21+ka53+iang33
 鴨骹秮	ak21+ka55+dai55
+鴨卵形	ak21+loung53+hing53
 鴨卵椅	ak21+loung53+ie33
 鴨卵椅	ak21+loung53+ngie33
+鴨卵草	ak21+loung53+njau33
 鴨母徘	ak21+mo21+bai53
 鴨母骹	ak21+mo21+ka55
 鴨母泅	ak21+mo21+liu53
@@ -228,12 +238,14 @@ use_preset_vocabulary: false
 安安心	ang21+ang55+ning55
 安安心	ang21+ang55+sing55
 衡病	ang21+bang242
+案爆去	ang21+boouk24+go0
 暗黢黢	ang21+cuk5+cuk5
 衡硩	ang21+dah24
 衡囝鬼	ang21+giang24+gui33
 衡囝蒂	ang21+giang55+dei213	5500000
 衡囝鬼	ang21+iang24+gui33
 衡囝蒂	ang21+iang55+dei213	5500000
+安𤏪𤏪	ang21+lo53+loo21
 衡病	ang21+mang242
 暗暝觸	ang21+mang53+ceoyk24
 暗暝毒	ang21+mang55+duk5
@@ -269,7 +281,9 @@ use_preset_vocabulary: false
 暗看	ang53+kang213
 安使	ang53+nai33
 暗色	ang53+naik24
+銲箸	ang53+neoy242
 暗看	ang53+ngang213
+按骨	ang53+ngoouk24
 暗槓	ang53+ngooung213
 暗火	ang53+ngui33
 暗袋	ang53+nooy242
@@ -316,6 +330,7 @@ use_preset_vocabulary: false
 後天井	au21+tieng53+zang33
 候官縣	au21+uang53+aing242
 候官縣	au21+uang53+ngaing242
+後架	au53+a21
 後九	au53+au33
 拗九	au53+au33
 後伯	au53+bah24	867553
@@ -439,6 +454,7 @@ use_preset_vocabulary: false
 霸霸	ba21+wa213	8465779
 霸霸囝	ba21+wa53+iang33	9465222
 霸霸露	ba21+wa53+lou213
+霸霸儂	ba21+wa55+neoyng53
 扒糞掃	ba21+wung53+noo213
 芭蕉果	ba21+ziu53+guo33	26983921
 耙耙	ba33+ba53
@@ -447,6 +463,7 @@ use_preset_vocabulary: false
 爬僕	ba33+buk5
 耙田	ba33+ceing53
 爬牆	ba33+cuong53
+扒底	ba33+de33
 扒裏	ba33+die33
 爬擒	ba33+ieng53	666666
 扒手	ba33+jiu33
@@ -485,6 +502,7 @@ use_preset_vocabulary: false
 蹣跚	ba55+lang55
 扒船	ba55+lung53
 飽膩	ba55+neoy213	862154
+把握	ba55+ouk24
 爬山	ba55+sang55
 扒船	ba55+sung53
 把法	ba55+uak24
@@ -502,6 +520,7 @@ use_preset_vocabulary: false
 白菜囝	bah21+cai53+giang33
 白菜裨	bah21+cai55+bie55
 白菜裨	bah21+cai55+wie55
+白市	bah21+cei242
 白切	bah21+ciek24
 白𢯽𢯽	bah21+co53+coo213
 白芍	bah21+cuok24	27209843
@@ -516,6 +535,7 @@ use_preset_vocabulary: false
 百幾隻	bah21+gui55+ieh24
 百幾隻	bah21+gui55+jieh24
 百幾隻	bah21+gui55+zieh24
+白依鼠	bah21+i53+cy33
 白燕	bah21+ieng213
 百一一	bah21+ik55+eik24
 百一兩	bah21+ik55+lang242
@@ -529,6 +549,7 @@ use_preset_vocabulary: false
 白菜裨	bah21+jai55+bie55
 白菜裨	bah21+jai55+wie55
 白棗	bah21+jo33	6298381
+白水雞	bah21+jui21+ie55
 白水泉	bah21+jui21+juong53
 白澈	bah21+lah24
 白帶	bah21+lai213
@@ -541,6 +562,7 @@ use_preset_vocabulary: false
 百三三	bah21+lang55+nang55
 百姓家	bah21+lang55+nga55	200000
 白頭孫	bah21+lau55+loung55
+白豆乾	bah21+lau55+uang55
 白洗睨	bah21+le24+nge33
 白洗洗	bah21+le33+le33
 百六四	bah21+leoyk53+sei213
@@ -559,6 +581,8 @@ use_preset_vocabulary: false
 白面	bah21+meing213	920000
 白墨拗	bah21+meoyk53+au213
 白墨粉	bah21+meoyk53+hung33
+白目眶	bah21+meoyk53+kuong242
+白蜜桃	bah21+mik5+to53
 白面厝	bah21+ming53+cuo213	330000
 白面厝	bah21+ming53+njuo213	330000
 白面猴	bah21+ming55+gau53
@@ -584,6 +608,7 @@ use_preset_vocabulary: false
 白洗洗	bah21+se33+se33
 白瀉瀉	bah21+sia53+sia213	900000
 白豉	bah21+sie242
+白雪菜	bah21+suok5+cai21
 白雪雪	bah21+suok5+suok24	800000
 百上畝	bah21+suong53+muo33
 白澈	bah21+tah24
@@ -627,6 +652,8 @@ use_preset_vocabulary: false
 白丸囝	bah33+uong33+ngiang33	967855
 白紙	bah33+zai33
 白子	bah33+zi33
+白渾	bah5+hung53
+白獅	bah5+lai55
 白煠	bah5+lak5
 白鰱	bah5+leing53
 白鰳	bah5+lik5
@@ -648,12 +675,14 @@ use_preset_vocabulary: false
 百上	bah53+suong242
 百歲	bah53+ui213
 白粿	bah53+ui33
+百慒	bah53+zeo33
 伯叔	bah53+zeoyk24	869543
 白白食	bah55+bah55+lieh5
 白白食	bah55+bah55+sieh5
 白膠	bah55+gau55
 伯公	bah55+gung55	756553
 擘頦	bah55+hai53
+白鷳	bah55+hang53
 百頁	bah55+hiek5
 白膠	bah55+kau55
 白煠卵	bah55+lak5+looung242
@@ -664,7 +693,10 @@ use_preset_vocabulary: false
 白身	bah55+ling55
 白燒	bah55+liu55	5946152
 白桃	bah55+lo53
+白喪	bah55+loung55
 白茅根	bah55+mau55+goung55
+白蜜	bah55+mik5
+白蜜黃螺	bah55+mik5+uong55+neoy53
 白茫茫	bah55+moung55+moung53	2500000
 百儂	bah55+neoyng53
 擘牙	bah55+nga53
@@ -684,6 +716,7 @@ use_preset_vocabulary: false
 誹市鬼	bai21+ci53+ui33	1000000
 敗尾囝	bai21+mui24+giang33
 敗尾囝	bai21+mui24+iang33
+敗儥赴㔌	bai242+me53+hou21+zoouk24
 擺骹	bai33+ka55
 拜揖	bai53+ah24
 拜把	bai53+ba33
@@ -717,6 +750,7 @@ use_preset_vocabulary: false
 平骹村	bang21+a55+joung55
 平八	bang21+baik24	764521
 柄柄	bang21+bang213
+邦邦脹	bang21+bang53+duong21
 平輩	bang21+bui213	675556
 病清潔	bang21+cing53+giek24
 病清潔	bang21+cing53+iek24
@@ -752,6 +786,7 @@ use_preset_vocabulary: false
 平做	bang21+njoo21
 平厝	bang21+njuo213
 平素	bang21+nou213	66666
+病吐泣	bang21+nu53+keik24
 病吐瀉	bang21+nu53+lia213
 平素常	bang21+nu55+luong53	66666
 平煞	bang21+sak24
@@ -776,6 +811,7 @@ use_preset_vocabulary: false
 平平懸	bang33+mang33+ngeing53	3000000
 平懸	bang33+ngeing53	3000000
 平洋	bang33+ngyong53
+平鼎	bang33+niang33
 平直	bang33+nik5	8765260
 平剪	bang33+njeing33
 平長	bang33+noung53	846521
@@ -786,7 +822,9 @@ use_preset_vocabulary: false
 病啞	bang53+a33
 平扁	bang53+bieng33
 病笨	bang53+boung242
+病滓	bang53+dai33
 斑直腿	bang53+dik33+teoy33
+邦脹	bang53+duong21
 病囝	bang53+giang33
 斑橫腿	bang53+huang33+neoy33
 斑橫腿	bang53+huang33+teoy33
@@ -797,12 +835,12 @@ use_preset_vocabulary: false
 病笨	bang53+moung242
 病尾	bang53+mui33
 病癩	bang53+nai242
-病屎	bang53+nai33
+病滓	bang53+nai33
 病啞	bang53+nga33
 病瀉	bang53+nia213
 病疼	bang53+niang213
+病節	bang53+njaik24
 病錢使	bang53+njieng33+nai33
-病屎	bang53+sai33
 病瀉	bang53+sia213
 病腿	bang53+teoy33
 病疼	bang53+tiang213
@@ -819,6 +857,7 @@ use_preset_vocabulary: false
 病儂	bang55+neoyng53
 平骹	bang55+nga55	986533
 平衣	bang55+ngi55
+平胡	bang55+ngu53
 平常間	bang55+nuong55+ang55
 平常間	bang55+nuong55+ngang55
 平常間	bang55+suong55+gang55
@@ -841,9 +880,11 @@ use_preset_vocabulary: false
 包秀	bau53+siu213	964325
 包被	bau53+wui242
 包劑	bau53+za242
+豹子	bau53+zy33
 包包	bau55+bau55
 包肥	bau55+bui53
 包車	bau55+cia55	8697850
+包春	bau55+cung55
 包墘	bau55+gieng53
 包袱	bau55+huk5
 包車	bau55+ia55	8697850
@@ -862,6 +903,7 @@ use_preset_vocabulary: false
 排斥	be21+jeik24
 排祭	be21+jie213
 牌照	be21+jiu213	9864032
+擺頭	be21+lau53
 睥々睨	be21+le53+nge33
 睥々西	be21+le55+se55	888888
 反々邊	be21+leing21+being55	666666
@@ -890,6 +932,7 @@ use_preset_vocabulary: false
 睥睨	be24+nge33
 擺娘奶	be24+nuong33+ne33
 牌九	be33+au33
+牌九大嫩	be33+au33+duai53+nooung242
 牌板	be33+being33
 排打	be33+da33	666666
 排場	be33+duong53
@@ -913,10 +956,12 @@ use_preset_vocabulary: false
 排街	be55+ge55	777777
 牌坊	be55+huong55	888888
 睥々	be55+le55
+排暝	be55+mang53
 排攤	be55+tang55
 排攤其	be55+tang55+gi0
 排攤其	be55+tang55+i0
 排攤其	be55+tang55+ngi0
+牌風	be55+ung55
 牌坊	be55+uong55	888888
 排班	be55+wang55
 箅箅	bei21+bei21
@@ -929,19 +974,23 @@ use_preset_vocabulary: false
 別塊	beik21+dooy21
 仈長	beik21+duong53
 八更早	beik21+gang53+nja33
+八角瓜	beik21+geoyk21+gua55
 八角𰱗	beik21+geoyk55+coo213
 北京	beik21+ging55
 八股索	beik21+gu55+looh24
 八股索	beik21+gu55+sooh24
 八卦地	beik21+gua53+lei242
+八卦飛	beik21+gua55+wui55
 八果包	beik21+guo21+bau55
 八果包	beik21+guo21+wau55
 八果飯	beik21+guo55+buong242	865947
 八果飯	beik21+guo55+wuong242	865947
+百香果	beik21+hyong53+nguo33
 八音	beik21+ing55
 八十一	beik21+leik53+eik24
 八月中秋	beik21+nguok21+dyng55+ciu55	8767865555
 八月中秋	beik21+nguok21+dyng55+njiu55	8767865555
+八月梨	beik21+nguok55+li53
 別乇	beik21+nooh24
 八十	beik21+seik5
 百十	beik21+seik5
@@ -950,6 +999,7 @@ use_preset_vocabulary: false
 仈勢況	beik21+sie53+uong213
 八仙桌	beik21+sieng53+dooh24
 八仙桌	beik21+sieng53+nooh24
+拔索尾	beik21+soh53+mui33
 別位	beik21+ui242
 別位處	beik21+ui53+ceoy242	6666661
 拔節	beik21+zaik24
@@ -961,6 +1011,8 @@ use_preset_vocabulary: false
 百子炮	beik21+zy55+pau213
 百子炮	beik21+zy55+wau213
 八餅	beik24+biang33
+八囝	beik24+giang33
+八府	beik24+hu33
 仈釐戥	beik24+lie33+ding33
 仈釐戥	beik24+lie33+ling33
 別其	beik33+gi53	8000000
@@ -984,13 +1036,13 @@ use_preset_vocabulary: false
 拔老鼠尾	beik5+lo21+y24+mui33
 拔麵	beik5+mieng242	865498
 仈勢	beik5+sie213	1856737
-拔索尾	beik5+soh53+mui33
 拔透	beik5+tau213
 拔透透	beik5+tau53+tau213
 仈字	beik5+zei242	4123421
 仈症	beik5+zeing213	1535433
 拔錢	beik5+zieng53
 別塊	beik53+dooy21
+八八	beik55+baik24
 八蠣	beik55+die242
 拔直	beik55+dik5
 拔直去	beik55+dik5+go0
@@ -1060,15 +1112,22 @@ use_preset_vocabulary: false
 琵琶兜莢	bi21+ba21+dau53+gieh24
 比滴促	bi21+lik55+ceoyk24	823651
 脾胃	bi21+ui242
+琵琶扣	bi21+wa21+kau21
 琵琶帶	bi21+wa21+lai213
 琵琶兜莢	bi21+wa21+lau53+ieh24
 琵琶兜壁	bi21+wa21+lau53+wieh24
+啤啤囝	bi21+wi53+iang33
+鼙鼙豆	bi21+wi53+lau242
+鼙鼙響	bi21+wi53+yong33
 比手劃骹	bi24+jiu33+uah5+ka55
 枇杷	bi33+ba53	29148919
 脾土	bi33+lu33
 脾土	bi33+tu33
 枇杷	bi33+wa53	29148919
 備辦	bi53+baing242
+捭彩	bi53+cai33
+脾倒去	bi53+do33+o0
+斃犯	bi53+huang242
 庇佑	bi53+iu242	777777
 啤酒	bi53+iu33
 啤酒	bi53+jiu33
@@ -1115,7 +1174,9 @@ use_preset_vocabulary: false
 摒水	biang53+nui33
 併數	biang53+sou213
 摒水	biang53+zui33
+摒棚	biang55+bang53
 並排	biang55+be53
+並村並鄉	biang55+coung55+biang55+hyong55
 摒家	biang55+ga55
 並排	biang55+me53
 餅店	biang55+naing213
@@ -1138,6 +1199,7 @@ use_preset_vocabulary: false
 壁櫥	bieh55+diu53
 壁櫥	bieh55+liu53
 壁枋	bieh55+wung55
+㧙㧙褲	biek21+biek55+kou21
 鱉裙	biek21+gung53
 蹩々縛	biek21+lie55+buoh5	666666
 別針	biek21+zeing55
@@ -1158,7 +1220,9 @@ use_preset_vocabulary: false
 扁耙	bieng21+ma53
 變把戲	bieng21+ma55+ie213
 變把法	bieng21+ma55+uak24
+扁牌	bieng21+me53
 扁裨	bieng21+mie55
+扁擔𰱗	bieng21+nang53+njoo21
 扁擔	bieng21+nang55
 扁擔刀	bieng21+nang55+no55
 蝙蝠蛇	bieng21+nguk21+sie53
@@ -1174,6 +1238,7 @@ use_preset_vocabulary: false
 扁䭣	bieng21+ze55	7826423
 變無去	bieng213+mo53+ko0	999999
 變無去	bieng213+mo53+o0	999999
+扁扁	bieng24+mieng33
 忭躍	bieng242+yoh5
 辮辮辮	bieng53+bieng21+bieng242
 便便	bieng53+bieng242
@@ -1212,6 +1277,7 @@ use_preset_vocabulary: false
 筆管錔	bik21+guong55+tak24
 䦼々	bik21+leik24
 畢業	bik21+ngiek5
+畢業相	bik21+ngiek53+suong21
 畢業照	bik21+ngiek53+ziu213
 筆錔管	bik21+tak24+guong33
 筆錔尺	bik21+tak5+cuoh24
@@ -1234,6 +1300,7 @@ use_preset_vocabulary: false
 筆錔	bik55+tak24
 瓶瓶蓋	bing21+bing21+gai213
 瓶瓶塞	bing21+bing21+seik24
+𠰳棒乳	bing21+boung55+neing53
 彬德橋	bing21+deik21+gyo53
 冰凍凍	bing21+deoyng53+dooyng213
 蘋果綠	bing21+guo21+luoh5	468752
@@ -1273,6 +1340,7 @@ use_preset_vocabulary: false
 並且	bing53+ia33
 兵囝	bing53+iang33
 檳榔芋	bing53+loung21+uo242
+冰豆	bing53+nau242
 兵囝	bing53+ngiang33
 並且	bing53+njia33
 冰棕	bing53+njooyng213
@@ -1285,6 +1353,7 @@ use_preset_vocabulary: false
 屏山	bing55+nang55	52923179
 平安	bing55+ngang55
 兵哥	bing55+ngo55
+冰棺	bing55+nguang55
 兵船	bing55+nung53
 兵哥	bing55+o55
 冰雹	bing55+peoyk5	4333123
@@ -1294,6 +1363,7 @@ use_preset_vocabulary: false
 裱褙店	biu21+bui53+daing213
 裱褙店	biu21+bui53+laing213
 表親	biu21+cing55	800000
+婊趨姑	biu21+cy55+gu55
 表弟人	biu21+de55+ing53	674555
 表侄	biu21+dik5
 表侄女	biu21+dik53+ny33
@@ -1308,6 +1378,7 @@ use_preset_vocabulary: false
 婊子場	biu21+jy21+luong53
 婊子囝	biu21+jy24+iang33	190000
 表弟人	biu21+le55+ing53	674555
+婊子囝儂	biu21+y21+iang21+neoyng53
 婊子囝	biu21+y24+iang33	190000
 表姐妹	biu21+zia55+mui213	876565
 婊子場	biu21+zy21+duong53
@@ -1346,9 +1417,11 @@ use_preset_vocabulary: false
 表叔	biu55+zeoyk24	876753
 保家	bo21+a55	860000
 菠菠草	bo21+bo53+cau33
+抱抱意	bo21+bo53+ei21
 菠菠粿	bo21+bo53+gui33	978566
 寶杯	bo21+bui55
 抱不平	bo21+buk21+bing53
+保鮮	bo21+cieng55
 保長公	bo21+duong21+gung55	500000
 保長媽	bo21+duong24+ma33	600000
 保家	bo21+ga55	860000
@@ -1358,12 +1431,14 @@ use_preset_vocabulary: false
 保險櫃	bo21+ieng55+gui242
 寶藍	bo21+lang53	795844
 暴窿總	bo21+leoyng55+zeoyng33	6962543
+保身家	bo21+ling55+nga55
 玻當𥻵	bo21+loung55+ni53
 玻當𥻵	bo21+loung55+si53
 保長公	bo21+luong21+ngung55	500000
 保長公	bo21+luong21+ung55	500000
 保長媽	bo21+luong24+ma33	600000
 婆奶婆	bo21+ne21+bo53
+婆奶囝	bo21+ne24+iang33
 暴惱躁	bo21+no21+coo213
 保姆奶	bo21+u24+ne33
 寶圓	bo21+uong53	25709834
@@ -1380,6 +1455,7 @@ use_preset_vocabulary: false
 保險	bo24+ieng33
 保姆	bo24+mu33
 保守	bo24+siu33
+保管	bo24+uang33
 婆婆	bo33+bo53	8000000
 保轉	bo33+duong33
 婆奶	bo33+ne33
@@ -1404,6 +1480,7 @@ use_preset_vocabulary: false
 報折	bo53+ziek24
 報水	bo53+zui33	7982341
 菠菠	bo55+bo55
+褒褒	bo55+bo55
 寶店	bo55+daing213
 寶貴	bo55+gui213
 抱裙	bo55+gung53
@@ -1443,8 +1520,11 @@ use_preset_vocabulary: false
 博囇	boouk24+da242
 博打	boouk24+da33
 博囇	boouk24+la242
+爆爆斷	bouk21+bouk24+doung33
+駁駁扣	bouk21+bouk55+kau21
 爆家	bouk21+ga55
 薄幸	bouk21+haing242
+爆糟	bouk21+zau55
 駁打	bouk24+da33	43334331
 博打	bouk24+da33
 薄情	bouk33+zing53	19239842
@@ -1479,11 +1559,14 @@ use_preset_vocabulary: false
 幫喙	boung55+cui213	24348943
 幫工	boung55+eoyng55
 幫工	boung55+geoyng55
+幫伊福	boung55+i55+houk24
 旁邊	boung55+mieng55	6666666
 綁票	boung55+miu213
+幫鋪	boung55+muo55
 幫工	boung55+ngeoyng55
 幫齋	boung55+nje55
 幫洲	boung55+njiu55
+帮厨	boung55+nuo53
 綁票	boung55+piu213
 幫齋	boung55+ze55
 匏蒂	bu21+dei213	682371
@@ -1527,10 +1610,12 @@ use_preset_vocabulary: false
 伏囝	bu53+giang33
 復去	bu53+koo213
 復是	bu53+lei242	5928551
+复蜀國其	bu53+loh21+guok24+gi0
 伏卵	bu53+looung242	5584848554
 復去	bu53+oo213
 復是	bu53+sei242	5928551
 蒲包	bu55+bau55	999999999
+复笞复勾	bu55+ci55+bu55+gau55
 匏桸	bu55+hie55
 匏桸	bu55+ie55
 蚨蝶	bu55+liek5
@@ -1540,6 +1625,7 @@ use_preset_vocabulary: false
 富儂	bu55+neoyng53	900000
 蚨蠅斑	bu55+sing55+being55
 蒲包	bu55+wau55	999999999
+匏爿	bu55+weing53
 復糟復醬	bu55+zau55+bu53+zuong213	1000000
 拜墊	buai53+daing242
 拜斗	buai53+dau33
@@ -1572,6 +1658,7 @@ use_preset_vocabulary: false
 跋傷	buak5+suong55
 跋杯	buak55+bui55
 撥刺	buak55+cie213
+跋牙	buak55+nga53
 半寒不暖	buang21+ang21+buk24+noung33
 半寒不暖	buang21+ang21+muk24+noung33
 半邊中	buang21+being53+deoyng213
@@ -1615,6 +1702,8 @@ use_preset_vocabulary: false
 半半價	buang21+muang53+nga213
 半半日	buang21+muang55+nik5
 半腹飽	buang21+muk24+ba33
+半不仈	buang21+muk55+baik24
+半不大	buang21+muk55+duai242
 半晡暗	buang21+muo53+ang21
 半臺中	buang21+nai55+noung55
 盤答	buang21+nak24	7433553
@@ -1623,6 +1712,7 @@ use_preset_vocabulary: false
 半生熟	buang21+nang55+nyk5	865423
 半寒不暖	buang21+ngang21+muk24+noung33
 盤費	buang21+ngie213
+半季考	buang21+ngie53+o33
 盤結	buang21+ngiek24
 盤骨	buang21+ngoouk24	542132
 半開門	buang21+ngui55+muong53	500000
@@ -1632,7 +1722,9 @@ use_preset_vocabulary: false
 半天遠	buang21+nieng53+nguong242
 半天遠	buang21+nieng53+uong242
 半天懸	buang21+nieng55+eing53
+半鏈盒	buang21+nieng55+ngak5
 半天懸	buang21+nieng55+ngeing53
+半新舊	buang21+ning53+ngou242
 盤秤	buang21+njeing213
 盤錢路債	buang21+njieng21+lu53+jai213
 盤數	buang21+nou213
@@ -1665,6 +1757,7 @@ use_preset_vocabulary: false
 盤本	buang33+muong33
 盤子	buang33+nji33
 盤錢	buang33+njieng53
+盤手	buang33+njiu33
 盤子	buang33+zi33
 盤錢	buang33+zieng53
 搬架	buang53+a213
@@ -1682,6 +1775,7 @@ use_preset_vocabulary: false
 搬架	buang53+ga213
 半鹹淡	buang53+geing21+dang242	5400000
 搬火	buang53+hui33
+半仈半不仈	buang53+maik24+buang21+muk55+baik24
 半暝後	buang53+mang21+au242
 半暝頓	buang53+mang21+dooung213	633335
 半暝後	buang53+mang21+ngau242
@@ -1712,6 +1806,7 @@ use_preset_vocabulary: false
 半山腰	buang53+sang55+iu55
 半前所	buang53+seing33+neo33
 半死	buang53+si33
+拌索	buang53+sooh24
 半含通	buang55+ang55+neoyng55
 半爿	buang55+being53
 半爿儂	buang55+being55+neoyng53
@@ -1762,6 +1857,7 @@ use_preset_vocabulary: false
 半仙	buang55+sieng55
 半番	buang55+uang55	5554564645
 盤書	buang55+zy55
+肥肥草	bui21+bui21+jau33
 肥胍胍	bui21+gua55+gua55
 陪訓	bui21+houng213
 肥座	bui21+joo242
@@ -1771,7 +1867,9 @@ use_preset_vocabulary: false
 肥呶呶	bui21+neo55+neo55	765252
 賠話	bui21+ua242
 肥胍胍	bui21+ua55+ua55
+賠不是	bui21+wuk5+sei242
 肥座	bui21+zoo242
+肥田粉	bui33+lieng33+ngung33
 肥母	bui33+mo33
 培養	bui33+yong33
 背綁	bui53+boung33	777777
@@ -1797,6 +1895,7 @@ use_preset_vocabulary: false
 飛檐	bui55+sieng53	786549
 背心	bui55+sing55
 飛船	bui55+sung53	625421
+賠胡	bui55+u53
 背書	bui55+zy55
 腹腸	buk21+doung53
 不見天	buk21+gieng55+tieng55
@@ -1808,6 +1907,7 @@ use_preset_vocabulary: false
 腹老裏	buk21+lo24+lie33
 腹老尾	buk21+lo24+mui33
 腹老下	buk21+lo55+a242
+不律耳	buk21+lu53+ngei242
 不律翼	buk21+luk55+sik5
 腹痧	buk21+sa55
 腹臍	buk21+sai53
@@ -1871,6 +1971,7 @@ use_preset_vocabulary: false
 放錢債	bung53+njieng21+njai213
 放錢紙	bung53+njieng33+njai33
 糞掃	bung53+noo213
+放炮	bung53+pau21
 糞掃	bung53+soo213
 放帖	bung53+taik24
 糞桶	bung53+teoyng33
@@ -1902,6 +2003,7 @@ use_preset_vocabulary: false
 糞桸	bung55+ngie55
 糞池	bung55+nie53
 糞池頭	bung55+nie55+nau53
+糞池花	bung55+nie55+ua55
 放心	bung55+ning55
 放齋	bung55+nje55
 放生	bung55+seing55
@@ -1911,9 +2013,13 @@ use_preset_vocabulary: false
 糞蟲	bung55+teoyng53
 放齋	bung55+ze55
 簿簿	buo21+buo242
+補花	buo21+hua55
+佈政使	buo21+ing53+nai21
+布袋呢	buo21+leoy55+ni53
 補眠	buo21+ming53
 補碗擔	buo21+uang21+dang55
 補碗擔	buo21+uang21+nang55
+补員	buo21+uong53
 蒲節	buo21+zaik24	6855553
 補鼎	buo24+diang33
 補鼎其	buo24+diang33+gi0
@@ -1923,6 +2029,8 @@ use_preset_vocabulary: false
 補鼎其	buo24+liang33+i0
 補鼎其	buo24+liang33+ngi0
 補鼎師父	buo24+liang33+sa53+au242
+补尾	buo24+mui33
+補補	buo24+wuo33
 捕衙差	buo242+nga53+ce55
 捕衙差	buo242+nga53+je55
 葡萄紫	buo33+do33+zie33
@@ -1940,6 +2048,7 @@ use_preset_vocabulary: false
 布榖	buo53+gouk24
 部分	buo53+houng242
 蒲草	buo53+jau33	21489205
+播田索	buo53+jeing21+nooh24
 布尺	buo53+juoh24	999999999
 布店	buo53+laing213
 晡時雨	buo53+li33+y33	635352
@@ -1964,6 +2073,8 @@ use_preset_vocabulary: false
 埔前	buo55+leing53
 晡時	buo55+li53	733829
 補䋎	buo55+lieng213	952315
+蒲鹽尋	buo55+lieng55+cieng53
+布肉	buo55+nyk5
 布坯	buo55+pui55
 布衫	buo55+sang55
 晡時	buo55+si53	733829
@@ -1972,6 +2083,7 @@ use_preset_vocabulary: false
 埠頭	buo55+tau53	307554
 布頭	buo55+tau53
 補䋎	buo55+tieng213	952315
+布拖	buo55+tua55
 布槌	buo55+tui53	999999999
 剝皮魚	buoh21+pui33+ngy53
 縛束	buoh21+souk24
@@ -2019,6 +2131,7 @@ use_preset_vocabulary: false
 分家財	buong21+nga55+jai53
 本洋	buong21+ngyong53	2376435
 本地儂	buong21+ni55+neoyng53	900000
+本定去	buong21+niang53+ngoo21
 本身	buong21+ning55	433312331
 本錢	buong21+njieng53
 本生父	buong21+seing53+hou242	895743
@@ -2027,18 +2140,22 @@ use_preset_vocabulary: false
 本錢	buong21+zieng53
 本底	buong24+de33	433312331
 本底	buong24+ne33	433312331
+飯食頭去	buong242+sieh5+tau53+oo0
 盆盆	buong33+buong53	999999999
 盆魚目	buong33+ngy33+meoyk5
 盆魚	buong33+ngy53
 飯飲	buong53+ang33	876594
+飯伯	buong53+bah24
 飯鉢	buong53+buak24
 飯底	buong53+de33
 飯頓	buong53+dooung213	8451261
 飯洞	buong53+dooyng242	5783928
+飯米	buong53+mi33
 飯鉢	buong53+muak24
 飯配	buong53+mui213	1500000
 飯匙骨	buong53+nie21+goouk24	765482
 飯匙骨	buong53+nie21+oouk24	765482
+飯匙	buong53+nie53
 飯汁	buong53+njaik24	897845
 分竈	buong53+njau213
 飯甑箅	buong53+njeing21+mei213
@@ -2098,6 +2215,7 @@ use_preset_vocabulary: false
 柴棟	ca21+doung213
 炒豬肝	ca21+dy55+ngang55
 柴棍	ca21+goung21
+柴灶	ca21+jau21
 車子紗	ca21+ji21+la55
 柴客	ca21+kah24
 柴色	ca21+laik24	846995
@@ -2139,6 +2257,7 @@ use_preset_vocabulary: false
 柴房	ca33+bung53
 柴屐	ca33+kiak5
 柴頭	ca33+lau53
+柴馬	ca33+ma33
 柴魚	ca33+ngy53	5100000
 柴頭	ca33+tau53
 柴碗	ca33+uang33
@@ -2157,12 +2276,18 @@ use_preset_vocabulary: false
 叉𡅏	ca55+le0
 柴堆	ca55+leoy55
 柴刀	ca55+lo55
+炒燉	ca55+loung242
 柴箱	ca55+luong55
+差蜀火	ca55+soh33+hui33
 柴箱	ca55+suong55
+差天肘地去	ca55+tieng55+diu55+dei242+o0
+差萬八丈去	ca55+uang21+beik55+dooung242+o0
 柴屏門	ca55+wing55+muong53	564213
 柴㷮	ca55+zau55
 柴櫼	ca55+zieng55
+菜鴨鬼	cai21+ak24+gui33
 採青	cai21+ciang55
+菜野厚	cai21+ia55+hau242
 菜師父	cai21+la53+au242
 彩紗	cai21+la55	999999999
 彩頭	cai21+lau53
@@ -2180,6 +2305,7 @@ use_preset_vocabulary: false
 採礦	cai24+kuong33
 菜鴨	cai53+ak24	45454855554
 菜豆	cai53+dau242
+菜底	cai53+de53
 菜管	cai53+guang33
 菜蕨	cai53+guok24
 菜姐	cai53+ia33
@@ -2228,12 +2354,15 @@ use_preset_vocabulary: false
 菜頭	cai55+tau53
 菜頭箬	cai55+tau55+nuoh5
 菜瓜	cai55+ua55
+菜花	cai55+ua55
 菜園	cai55+uong53
 菜包	cai55+wau55
 菜裨	cai55+wie55
+菜香	cai55+yong55
 菜栽	cai55+zai55
 菜椒	cai55+ziu55
 插入	cak21+ik5	999999999
+插蟶	cak21+teing55
 偛疾	cak5+cik5	4867535
 殘骹殘手	cang21+a21+cang24+njiu33	856263
 嶄嶄新	cang21+cang21+sing55	817000
@@ -2243,12 +2372,14 @@ use_preset_vocabulary: false
 殘骹殘手	cang21+ka21+cang24+ciu33	856263
 生𢯾𢯾	cang21+mo53+moo213
 生摸摸	cang21+moh53+mooh24	600000
+青尾沙	cang21+mui21+la55
 青蛤頭	cang21+ngak21+tau53
 生驚儂	cang21+ngiang55+neoyng53	35623472
 殘牛殘馬	cang21+ngu21+cang33+ma33	563698
 青花盞	cang21+ngua53+jang33
 嶄嶄新	cang21+njang21+ning55	817000
 生煎排	cang21+njieng55+me53
+青竹蛇	cang21+nyk21+sie53
 青花盞	cang21+ua53+jang33
 殘手	cang24+ciu33
 草蜢	cang24+mang33
@@ -2270,6 +2401,7 @@ use_preset_vocabulary: false
 青囝	cang53+iang33	9074901
 青頭髮	cang53+lau21+uok24
 青盲算	cang53+mang21+nooung21
+青盲鼠	cang53+mang33+njy33
 青蠓	cang53+meoyng33
 青布	cang53+muo213
 青飯	cang53+muong242	324565
@@ -2288,6 +2420,7 @@ use_preset_vocabulary: false
 青藻	cang53+zau33	16184178
 生煮白灴	cang53+zy33+bah33+goung53	456825
 殘骹	cang55+a55
+慘切	cang55+ciek24
 生瘲	cang55+cyng53
 青紅	cang55+eoyng53
 參加	cang55+ga55
@@ -2316,6 +2449,7 @@ use_preset_vocabulary: false
 青苔	cang55+ni53	24910983
 生煎	cang55+njieng55	685213
 青椒	cang55+njiu55
+青須	cang55+ny55
 參商日星	cang55+suong55+nik5+sing55
 青苔	cang55+ti53	24910983
 生煎	cang55+zieng55	685213
@@ -2335,10 +2469,13 @@ use_preset_vocabulary: false
 臭骹縫	cau21+ka53+poung213
 臭骹縫	cau21+ka53+woung213
 臭豆乳	cau21+lau53+juo33	800000
+草頭通	cau21+lau53+teoyng55
 草堆	cau21+leoy55	900000
 草寮	cau21+leu53	700000
 草笠	cau21+lik5
 草莓	cau21+mui53
+臭尾痔	cau21+mui55+lei242
+臭耳聾	cau21+ngi55+leoyng53
 臭薟薟	cau21+ngiang55+ngiang55
 草包	cau21+wau55
 草房	cau21+wung53	888888
@@ -2349,6 +2486,7 @@ use_preset_vocabulary: false
 草鞋囝	cau24+e33+giang33	1800000
 草鞋囝	cau24+e33+iang33	1800000
 吵擾	cau24+iu33
+草馬	cau24+ma33
 草蜢	cau24+mang33
 草儂囝	cau24+neoyng33+giang33
 草儂囝	cau24+neoyng33+iang33
@@ -2358,6 +2496,7 @@ use_preset_vocabulary: false
 抄厝	cau53+cuo213
 臭洞	cau53+dooyng242
 臭垢	cau53+gau33	846203
+臭九	cau53+gau33
 抄化	cau53+hua213
 抄正	cau53+iang213
 抄正	cau53+jiang213
@@ -2370,6 +2509,7 @@ use_preset_vocabulary: false
 臭宿	cau53+seoyk24	688888
 臭塗氣	cau53+tu21+ei213	8462308
 臭塗氣	cau53+tu21+gei213	8462308
+臭話	cau53+ua242
 抄正	cau53+ziang213
 操坪	cau55+bang53
 臭生	cau55+cang55	846203
@@ -2381,7 +2521,9 @@ use_preset_vocabulary: false
 草薦	cau55+jaing213
 草箭	cau55+jieng213
 湊骹	cau55+ka55
+草鱧	cau55+la242
 草墊	cau55+laing242
+草信	cau55+leing21
 臭聾	cau55+leoyng53
 操埕	cau55+liang53
 臭燒	cau55+liu55	655556
@@ -2398,6 +2540,7 @@ use_preset_vocabulary: false
 臭蔫	cau55+yong55	644445
 草薦	cau55+zaing213
 臭脂	cau55+zie55	462302
+草隻隻	cau55+zieh21+ieh24
 草箭	cau55+zieng213
 臭焦	cau55+ziu55	656666
 粞粞白	ce21+ce55+bah5	456825
@@ -2422,6 +2565,7 @@ use_preset_vocabulary: false
 賊去關門	ceik5+koo213+guong55+muong53	900000
 賊心	ceik5+sing55	300000
 測字	ceik55+zei242
+田塍傍	ceing21+cing21+booung242
 筅帚星	ceing21+ciu21+sing55
 筅堂	ceing21+doung53
 蠶繭箬	ceing21+eing21+nuoh5
@@ -2446,6 +2590,7 @@ use_preset_vocabulary: false
 蠶繭囝	ceing21+ngeing24+ngiang33
 蠶繭卵	ceing21+ngeing55+looung242
 蠶繭樹	ceing21+ngeing55+njiu213
+田塍豆	ceing21+nging21+nau242
 筅帚星	ceing21+njiu21+ling55
 筅堂	ceing21+noung53
 秤平	ceing213+bang53
@@ -2470,6 +2615,7 @@ use_preset_vocabulary: false
 襯衣	ceing55+i55
 田螺姑娘	ceing55+leoy53+gu55+nuong53
 襯衣	ceing55+ngi55
+田雞	ceing55+ngie55
 初初白	ceo21+ceo55+bah5	450000
 初一早	ceo21+ik24+za33
 初初白	ceo21+jeo55+bah5	450000
@@ -2482,6 +2628,7 @@ use_preset_vocabulary: false
 初九	ceo53+gau33
 初七	ceo53+jeik24
 初四	ceo53+lei213
+𠿝罵喝	ceo53+ma21+hak24
 𰱗母	ceo53+mo33
 初二	ceo53+nei242
 初五	ceo53+ngou242
@@ -2511,6 +2658,7 @@ use_preset_vocabulary: false
 催請	ceoy53+ciang33
 剉樹	ceoy53+ciu213
 碎喘	ceoy53+cuang33	23894141
+碎夾	ceoy53+giek24
 碎講	ceoy53+goung33
 碎做	ceoy53+joo213
 碎使	ceoy53+lai33
@@ -2525,6 +2673,7 @@ use_preset_vocabulary: false
 碎寫	ceoy53+sia33
 碎聽	ceoy53+tiang213
 碎票	ceoy53+wiu213
+碎配	ceoy53+wui21
 碎做	ceoy53+zoo213
 碎工	ceoy55+eoyng55
 碎工	ceoy55+geoyng55
@@ -2561,6 +2710,7 @@ use_preset_vocabulary: false
 試味	ci53+ei242	685215
 飼囝	ci53+giang33
 市尺	ci53+juoh24
+試桶	ci53+leoyng33
 試鼎	ci53+liang33
 市二	ci53+nei242
 市二醫院	ci53+nei242+i53+ieng242
@@ -2580,6 +2730,7 @@ use_preset_vocabulary: false
 車子紗心	cia21+ji21+la55+sing55
 車車動	cia21+jia53+looyng242	8462512
 車車圓	cia21+jia55+ieng53	896523
+車胎底	cia21+lai53+de33
 車利	cia21+lei213
 柴欄厝	cia21+liang21+njuo213
 車尾箱	cia21+mui21+luong55
@@ -2596,6 +2747,7 @@ use_preset_vocabulary: false
 車子	cia53+i33	999999999
 鑔鑔	cia53+ia242
 車囝	cia53+iang33	5946542
+車站	cia53+jang242
 車子	cia53+ji33	999999999
 鑔鑔	cia53+jia242
 車水	cia53+jui33
@@ -2610,6 +2762,7 @@ use_preset_vocabulary: false
 車水	cia53+zui33
 斜條	cia55+deu53	563252
 車池	cia55+die53
+車骹	cia55+ka55
 車頭	cia55+lau53	666666
 車𡅏	cia55+le0
 車前	cia55+leing53	666666
@@ -2625,6 +2778,8 @@ use_preset_vocabulary: false
 車頭	cia55+tau53	666666
 礤礤	ciak21+ciak24
 礤番薯米	ciak24+huang53+ny33+mi33
+礤背	ciak55+bui21
+蠘生	ciak55+cang55
 鏟箕	ciang21+gi55
 請花	ciang21+hua55
 請回門	ciang21+hui33+muong53
@@ -2649,6 +2804,7 @@ use_preset_vocabulary: false
 請裏	ciang24+die33
 請裏	ciang24+nie33
 請酒	ciang24+njiu33
+鏟䇭	ciang24+no33
 請酒	ciang24+ziu33
 城門	ciang33+muong53
 青菜	ciang53+njai213
@@ -2670,12 +2826,16 @@ use_preset_vocabulary: false
 請將	ciang55+zuong213
 伬唱	cie53+cuong213
 伬館	cie53+guang33
+熾火	cie53+huo33
 伬唱	cie53+juong213
 刺麻帶	cie53+ma21+dai213
 刺麻帶	cie53+ma21+lai213
+刺瓜	cie55+gua55
 刺溪	cie55+ke55	3000000
 刺絲	cie55+li55
 遷々	cie55+lieng55
+刺藨	cie55+wo55
+勺勺	cieh5+cieh5
 蠘抱卵	ciek21+bo53+looung242
 砌牆	ciek21+cuong53
 砌磚	ciek21+zuong55
@@ -2700,6 +2860,7 @@ use_preset_vocabulary: false
 蠶豆花	cieng21+nau55+hua55
 蠶豆攤	cieng21+nau55+lang55
 蠶豆花	cieng21+nau55+ua55
+千儂𠚺，萬儂騎	cieng21+neoyng21+sa21+uang55+neoyng53+kie53
 簽押桌	cieng21+ngak55+dooh24
 淺紅	cieng21+ngeoyng53	8945210
 淺灰	cieng21+ngui55	779458
@@ -2778,22 +2939,28 @@ use_preset_vocabulary: false
 七古八怪	cik21+gu21+beik55+guai213
 七骹八手	cik21+ka21+beik24+ciu33
 赤骹醫生	cik21+ka21+i55+leing55
+七粒扣	cik21+lak53+kau21
 七十一	cik21+leik53+eik24
+七木黃	cik21+muk55+huong53
 七月七夕	cik21+nguok21+cik21+sik5	45378655
 七月半	cik21+nguok5+buang55	863337
 七月七	cik21+nguok5+ceik24	45378655
 七月十五	cik21+nguok5+seik21+ngou242	863337
 七言八語	cik21+ngyong53+beik24+ngy33
+七箬心	cik21+nuoh55+ling55
+七箬根	cik21+nuoh55+yng55
 七拼八湊	cik21+ping21+beik55+cau213
 漆師父	cik21+sa53+au242
 漆師父	cik21+sa53+hau242
 漆師父	cik21+sa53+hou242
 七十	cik21+seik5
 七十一	cik21+seik53+eik24
+七斜八倒	cik21+sia53+beik24+do33
 七夕	cik21+sik5
 七星櫥	cik21+sing55+diu53
 七星櫥	cik21+sing55+niu53
 七做八做	cik21+zo21+beik55+zoo213
+七囝	cik24+giang33
 七講八聽	cik24+goung33+beik55+tiang213
 疾疾族族	cik33+cik5+cuk33+cuk5
 疾𨙒	cik33+ik5	777777
@@ -2832,6 +2999,7 @@ use_preset_vocabulary: false
 親家姨	cing21+ga55+i53	500000
 親家俚	cing21+ga55+la53	720000
 清熱糕	cing21+iek5+go55	800000
+清一色	cing21+ik5+saik24
 凊飯𥻵	cing21+muong55+ni53
 親家門頭	cing21+nga21+muong33+nau53	300000
 親家伯	cing21+nga53+bah24	500000
@@ -2922,6 +3090,7 @@ use_preset_vocabulary: false
 手㬹卵	ciu21+lang53+looung242
 手㬹	ciu21+lang55
 手頭	ciu21+lau53	9465252
+手頭長	ciu21+lau53+doung53
 手提包	ciu21+li55+bau55	999999999
 手提箱	ciu21+li55+luong55
 手提箱	ciu21+li55+suong55
@@ -2953,6 +3122,7 @@ use_preset_vocabulary: false
 手巾囝	ciu21+yng53+iang33
 手巾囝	ciu21+yng53+ngiang33
 手巾	ciu21+yng55
+手巾蛇	ciu21+yng55+nie53
 手指夾	ciu21+zai21+geik5	776585
 手指尾	ciu21+zai24+mui33	876585
 手掌指	ciu21+zieng24+zai33	846520
@@ -2992,6 +3162,7 @@ use_preset_vocabulary: false
 秋季	ciu53+ie213
 秋褲	ciu53+kou213
 笑色	ciu53+laik24	645489
+樹宿	ciu53+leoyk24
 秋𧜛	ciu53+loung33
 笑面	ciu53+meing213	888888
 樹尾	ciu53+mui33
@@ -3032,7 +3203,9 @@ use_preset_vocabulary: false
 手絡	ciu55+looh24
 秋涼	ciu55+luong53	778984
 手面	ciu55+meing213	946577
+樹乳	ciu55+neing55
 樹椏	ciu55+nge55
+樹𪏸	ciu55+ni55
 樹箬	ciu55+nuoh5
 手票	ciu55+piu213
 樹皮	ciu55+pui53
@@ -3066,6 +3239,7 @@ use_preset_vocabulary: false
 鱢羅	co55+lo53	856421
 搓儥辯師	co55+ma242+bieng242+sa55
 草字	co55+zei242
+闖々	cooung21+looung21
 撮藥	couk21+yoh5
 出水珠	couk21+zui21+juo55
 出來	couk24+di0	999999
@@ -3091,6 +3265,7 @@ use_preset_vocabulary: false
 牀裙	coung33+gung53
 牀裙	coung33+ngung53
 牀櫥	coung33+niu53
+存存寶	coung33+njoung33+mo33
 牀裙	coung33+ung53
 倉厝	coung53+cuo213	500000
 艙堵	coung53+du33	585421
@@ -3133,17 +3308,22 @@ use_preset_vocabulary: false
 初中	cu55+dyng55
 初伏	cu55+huk5
 粗殘	cu55+jang53	862300
+粗蘆	cu55+lu53
 初中	cu55+lyng55
 粗蠻	cu55+mang53	765498
 粗頑	cu55+nguang53	896745
+粗搦	cu55+nieh5
 粗坯	cu55+pui55
 醋心	cu55+sing55	34676845
 粗平直	cu55+wang55+nik5	845263
 粗坯	cu55+wui55
 餐館	cuang53+nguang33
 喙喙	cui21+cui213
+喙鈍	cui21+doung55
+喙甕甕喏	cui21+eoyng53+ooyng21+nuoh24
 喙野歞	cui21+ia55+ngooung242
 喙野𫣠	cui21+ia55+ooh24
+喙盡窄	cui21+zing53+zah24
 喙擘大	cui213+bah24+duai242	888888
 喙白	cui213+bah5
 喙殘	cui213+cang53
@@ -3163,7 +3343,9 @@ use_preset_vocabulary: false
 炊包	cui55+bau55	865421
 猜拳	cui55+gung53
 吹風	cui55+hung55	786499
+喙師	cui55+la55
 喙舌	cui55+liek5
+喙舌無骨	cui55+liek5+mo21+goouk24
 炊甑	cui55+loung53
 喙脣皮	cui55+lung55+pui53	6392381
 翠毛鳥	cui55+mo53+zeu33
@@ -3183,6 +3365,7 @@ use_preset_vocabulary: false
 出家	cuk21+ga55
 出家儂	cuk21+ga55+neoyng53
 出蛟	cuk21+gau55	568910
+出懷	cuk21+geoy53
 出恭	cuk21+gyng55
 出遊廊	cuk21+iu55+loung53	845125
 出名	cuk21+miang53
@@ -3204,17 +3387,20 @@ use_preset_vocabulary: false
 出產	cuk24+sang33
 出伏	cuk5+bou242	48484855
 出虹	cuk5+keoyng242
+出秤	cuk55+ceing21
 出痘	cuk55+dau242
 出賬	cuk55+duong213
 出血	cuk55+haik24
 出發	cuk55+huak24
 出藝	cuk55+ngie242
 出運	cuk55+oung242
+出殯	cuk55+peing21
 出式	cuk55+seik24
 出仕	cuk55+seoy242
 出世	cuk55+sie213
 出數	cuk55+sou213
 出師	cuk55+sy55
+出葬	cuk55+zooung21
 蠢物	cung21+uk5
 睶睶兩下	cung24+cung33+lang53+a242
 睶睶兩下	cung24+cung33+nang53+nga242
@@ -3261,6 +3447,7 @@ use_preset_vocabulary: false
 厝瓦	cuo53+ngua242	3000000
 厝脊	cuo53+zeik24	896556
 厝主	cuo53+zuo33	1500000
+厝間	cuo55+ang55
 厝邊	cuo55+bieng55
 俥螺風	cuo55+leoy55+hung55
 俥螺紋	cuo55+leoy55+ung53
@@ -3293,9 +3480,11 @@ use_preset_vocabulary: false
 搶拍奪	cuong21+mah55+douk5
 牆頭角	cuong21+nau21+gooyk24	66666
 牆頭帽	cuong21+nau21+moo242	6666
+搶金	cuong21+nging55
 穿心爿	cuong21+ning55+meing53
 搶齋	cuong21+nje55
 穿心爿	cuong21+sing55+being53
+搶槽	cuong21+so53
 牆頭角	cuong21+tau21+gooyk24	66666
 牆頭帽	cuong21+tau21+moo242	6666
 搶齋	cuong21+ze55
@@ -3311,6 +3500,7 @@ use_preset_vocabulary: false
 牆𡅏	cuong53+le0	66666
 串頭戲	cuong53+nau21+hie213
 串頭戲	cuong53+nau21+ie213
+像意	cuong53+ngei21
 穿行貨	cuong53+ngoung21+nguo213
 像樣	cuong53+ngyong242
 穿手	cuong53+njiu33	777777
@@ -3318,6 +3508,7 @@ use_preset_vocabulary: false
 穿行貨	cuong53+oung21+huo213
 穿行貨	cuong53+oung21+uo213
 串頭戲	cuong53+tau21+hie213
+像芋	cuong53+uo242
 像樣	cuong53+yong242
 上水	cuong53+zui33
 鞝鞋	cuong55+e53	532652
@@ -3386,6 +3577,7 @@ use_preset_vocabulary: false
 喙皮	cy55+wui53
 雖然	cy55+yong53
 歜怒	cyk55+nou242
+充底	cyng53+de33
 衝數	cyng53+nou213
 衝數	cyng53+sou213
 沖甌	cyng55+eu55
@@ -3400,9 +3592,13 @@ use_preset_vocabulary: false
 茶店	da21+daing213
 打單橫	da21+dang55+huang53
 茶桌	da21+dooh24
+焦糟鰻	da21+jau55+muang53
 焦確確	da21+kouk55+koouk24
 焦確確	da21+kouk55+koouk5
+焦打纏	da21+la21+dieng53
 焦打辯	da21+la55+bieng242
+焦打撙	da21+la55+coung242
+焦打扭	da21+la55+niu21
 帶帶	da21+lai213
 茶色	da21+laik24	476589
 茶店	da21+laing213
@@ -3457,6 +3653,7 @@ use_preset_vocabulary: false
 茶子	da33+zi33
 茶錢	da33+zieng53
 豆腐	da53+au242	2000000
+弟弟	da53+da242
 榨袋	da53+dooy242
 事使	da53+lai33
 榨袋	da53+looy242
@@ -3482,6 +3679,7 @@ use_preset_vocabulary: false
 硩花樹	dah21+hua53+ciu213
 硩花會	dah21+hua53+hui242
 硩花會	dah21+hua53+ui242
+硩番薯	dah21+huang55+ny53
 硩糟魚	dah21+jau55+ngy53
 硩厝脊	dah21+juo53+jeik24
 硩桶囝	dah21+leoyng24+iang33
@@ -3494,7 +3692,6 @@ use_preset_vocabulary: false
 硩歲錢	dah21+u55+ieng53
 硩花樹	dah21+ua53+iu213
 硩花樹	dah21+ua53+jiu213
-硩番薯	dah21+uang55+ny53
 硩歲錢	dah21+ui55+jieng53
 硩糟魚	dah21+zau55+ngy53
 硩去	dah24+goo213
@@ -3580,20 +3777,29 @@ use_preset_vocabulary: false
 臺灣	dai55+uang55	1523458
 大黃	dai55+uong53	9302747
 大王	dai55+uong53
+搭搭針	dak21+dak21+zeing55
 搭搭好	dak21+dak24+ho33	999999999
+鎝鎝扣	dak21+dak55+kau21
+踏斗間	dak21+dau21+ang55
+踏斗下	dak21+dau55+a242
+搭乾	dak21+gang55
 搭鉤	dak21+gau55	999999999
 搭骹	dak21+ka55
 搭𧜞	dak21+mang55
+鎝針	dak21+zeing55
 踏板	dak33+being33
 䶀䶀鼓	dak33+dak33+gu33
 䶀䶀	dak33+dak5
 踏斗	dak33+dau33
 達遘	dak5+gau213
+踏浮去	dak5+pu53+o0
+搭座	dak5+zoo242
 踏車	dak55+cia55
 搭尺	dak55+cuoh24
 搭搭	dak55+dak24	999999999
 答應	dak55+eing213
 搭骨	dak55+goouk24
+鎝扣	dak55+kau21
 踏蹺	dak55+kiu55
 搭被	dak55+pui242	852164
 單骹跳	dang21+a53+liu213
@@ -3603,15 +3809,18 @@ use_preset_vocabulary: false
 單倒頭	dang21+do55+lau53	9876231153
 單骹跳	dang21+ka53+tiu213
 單目墘	dang21+meoyk5+gieng53	6784937
+單不信	dang21+muk55+seing21
 賺了賺成	dang21+nau21+dang55+ciang53	486252
 賺了賺成	dang21+nau21+dang55+njiang53	486252
 單骹跳	dang21+nga53+liu213
 鄭家樓	dang21+nga55+lau53
+單骹蟶	dang21+nga55+leing55
 鄭家樓	dang21+nga55+leu53
 單耳爿	dang21+ngi21+being53
 單耳爿	dang21+ngi21+meing53
 單身哥	dang21+ning55+ngo55	12000000
 單身哥	dang21+ning55+o55	12000000
+彈市	dang21+njei242
 淡水瓜	dang21+njui21+gua55
 淡水鰻	dang21+njui21+muang53
 單倒做	dang21+no53+joo213	336497
@@ -3646,6 +3855,7 @@ use_preset_vocabulary: false
 擔戴	dang53+dai213	33546346
 擔擔	dang53+dang213
 擔擔其	dang53+dang213+gi0
+單釣	dang53+diu21
 單倒	dang53+doo213	9876231154
 耽當	dang53+dooung213
 彈着	dang53+duoh5
@@ -3664,6 +3874,7 @@ use_preset_vocabulary: false
 耽擱	dang53+ngooh24
 珊瑚嶼	dang53+ngu21+leoy242	671460
 珊瑚嶼	dang53+ngu21+seoy242	671460
+單扇	dang53+nieng21
 淡菜	dang53+njai213
 單手	dang53+njiu33
 單倒	dang53+noo213	9876231154
@@ -3676,6 +3887,8 @@ use_preset_vocabulary: false
 賺成	dang55+ciang53
 單單	dang55+dang55	98762311
 彈彈新	dang55+dang55+sing55
+彈直	dang55+dik5
+彈蹚	dang55+doung53
 擔當	dang55+doung55
 單重墘	dang55+dyng53+gieng53	7683492
 單重墘	dang55+dyng53+ieng53	7683492
@@ -3687,6 +3900,7 @@ use_preset_vocabulary: false
 彈棉機	dang55+mieng55+gi55	999999999
 彈棉弓	dang55+mieng55+gyng55
 單單	dang55+nang55	98762311
+彈彈聲	dang55+nang55+siang55
 彈彈新	dang55+nang55+sing55
 蛋糕	dang55+ngo55
 珊瑚	dang55+ngu53	618769
@@ -3716,6 +3930,7 @@ use_preset_vocabulary: false
 豆腐乾	dau21+hu55+gang55	1000000
 豆腐皮	dau21+hu55+pui53	1000000
 豆腐漿	dau21+hu55+zuong55	1555555
+骰子块	dau21+i55+looy21
 豆沙粽	dau21+la53+jooyng21
 鬥底磚	dau21+le21+zuong55	3000000
 斗笠	dau21+lik5
@@ -3756,10 +3971,12 @@ use_preset_vocabulary: false
 兜搭	dau53+lak24	2481798
 脰領	dau53+liang33
 豆豉	dau53+lie242	700000
+豆尾	dau53+mui33
 脰骨	dau53+oouk24	4673382
 脰骨挫腫	dau53+oouk24+co53+yng33
 脰骨挫腫	dau53+oouk24+co53+zyng33
 豆豉	dau53+sie242	700000
+脰蕨	dau53+uok24
 豆乳	dau53+zuo33	1000000
 豆青	dau55+cang55
 投東	dau55+deoyng55
@@ -3786,8 +4003,11 @@ use_preset_vocabulary: false
 蹄骹柄	de21+ka53+bang213
 蹄骹柄	de21+ka53+wang213
 蹄庫	de21+kou213
+底儥光	de21+me55+guong55
+底門	de21+muong53
 第二日	de21+ni55+nik5
 帝君江	de21+ung55+ngeoyng55
+蹄窩塊	de21+uo53+looy21
 底般	de21+wuang55
 第一	de21+{ik}
 第一	de21+{lik}
@@ -3841,6 +4061,7 @@ use_preset_vocabulary: false
 得法	deik5+huak24
 特零意	deik53+ling21+ei213	4564865
 特零意	deik53+ling21+ngei213	4564865
+特殊	deik55+sy53
 填價	deing21+a213
 點半鐘	deing21+buang55+zyng55
 填價	deing21+ga213
@@ -3849,6 +4070,7 @@ use_preset_vocabulary: false
 點半鐘	deing21+muang55+zyng55
 店頭面	deing21+nau21+meing213
 填價	deing21+nga213
+點工	deing21+ngeoyng55
 填願	deing21+nguong242
 填數	deing21+nou213
 填數	deing21+sou213
@@ -3869,6 +4091,7 @@ use_preset_vocabulary: false
 店囝	deing53+ngiang33
 店主	deing53+njuo33
 𠕆道	deing53+noo242
+燈泡	deing53+pau242
 𠕆炭	deing53+tang213	5000000
 店主	deing53+zuo33
 點半	deing55+buang213
@@ -3904,6 +4127,7 @@ use_preset_vocabulary: false
 對不住	deoy21+buk55+zeoy242
 對對面	deoy21+deoy53+meing213	666666
 袋袋	deoy21+dooy242
+短機	deoy21+i55
 短衣	deoy21+i55
 短䘿	deoy21+kouk5
 對對面	deoy21+leoy53+meing213	666666
@@ -3932,8 +4156,10 @@ use_preset_vocabulary: false
 對頭辯	deoy53+lau21+bieng242	18734934
 對頭做	deoy53+lau21+zoo213	777777
 對頭講	deoy53+lau33+oung33	22412340
+對趁	deoy53+leing21
 對重	deoy53+looyng242	777777
 對面	deoy53+meing213	6666666
+對除外	deoy53+neoy21+ngui242
 對相	deoy53+suong213	666666
 對頭辯	deoy53+tau21+bieng242	18734934
 對頭做	deoy53+tau21+zoo213	777777
@@ -4017,6 +4243,7 @@ use_preset_vocabulary: false
 棟樑	deoyng55+luong53
 東邊	deoyng55+mieng55	6666666
 同門	deoyng55+muong53
+同同	deoyng55+neoyng53
 冬雞	deoyng55+ngie55
 冬鮭	deoyng55+ngie55
 冬瓜	deoyng55+ngua55
@@ -4030,6 +4257,7 @@ use_preset_vocabulary: false
 抖𡅏	deu33+le0
 雕印	deu53+eing213	777777
 雕雕	deu55+deu55
+地九泣	di21+au55+keik24
 地棚桁	di21+bang21+hooung213	652314
 遲到	di21+doo213	9485452
 地主媽	di21+juo24+ma33	450000
@@ -4050,13 +4278,16 @@ use_preset_vocabulary: false
 地窨	di53+ang213	888888
 地澗	di53+ang213
 地板	di53+being33
+地地	di53+dei242
 地動	di53+dooyng242
 地澗	di53+gang213
 地棍	di53+goung213	2000000
 地主	di53+juo33
 地理	di53+li33
+地槓	di53+ooung21
 地鐵	di53+tiek24
 地板	di53+weing33
+地子	di53+y33
 治罪	di53+zooy242
 地主	di53+zuo33
 地棚	di55+bang53	623514
@@ -4070,6 +4301,7 @@ use_preset_vocabulary: false
 地攤	di55+lang55
 地頭神	di55+lau55+sing53	200000
 地場	di55+luong53	100000
+地龍	di55+lyng53
 地木	di55+muk5	234561
 地牛轉肩	di55+ngu53+duong21+gieng55
 地牛轉肩	di55+ngu53+duong21+ieng55
@@ -4080,6 +4312,8 @@ use_preset_vocabulary: false
 地頭神	di55+tau55+sing53	200000
 地方	di55+uong55
 地棚	di55+wang53	623514
+地牌	di55+we53
+地棕	di55+zeoyng55
 地支	di55+zie55	300000
 擲骰	diah5+dau53
 鼎巴	diang21+ba55	896754
@@ -4087,6 +4321,7 @@ use_preset_vocabulary: false
 鼎邊糊	diang21+bieng55+gu53	9768456
 鼎邊量	diang21+bieng55+luong53	652352
 鼎筅竹	diang21+ceing55+deoyk24
+鼎敆	diang21+gah5
 鼎煙	diang21+ieng55
 鼎爐	diang21+lu53
 鼎邊糊攤	diang21+mieng21+ngu55+lang55
@@ -4131,8 +4366,11 @@ use_preset_vocabulary: false
 俤蜀邊	die21+loh55+weing55
 裏場	die21+luong53
 俤邊	die21+meing55
+裏仙	die21+sieng55
 俤新婦	die21+sing53+bou242
+裏心	die21+sing55
 俤邊	die21+weing55
+蠣餅勺	die21+wiang21+ciah5
 裏房	die21+wung53
 池座	die21+zoo242
 裏堵	die24+du33	666666
@@ -4142,6 +4380,7 @@ use_preset_vocabulary: false
 池螺	die33+leoy53
 池塗	die33+lu53	8000000
 池塗	die33+tu53	8000000
+地下	die53+a242
 蠣餅	die53+biang33
 俤囝	die53+iang33
 蠣囝	die53+iang33
@@ -4151,6 +4390,7 @@ use_preset_vocabulary: false
 俤蜀隻	die53+loh21+jieh24
 俤儂裏	die53+neoyng33+die33	999999999
 俤儂裏	die53+neoyng33+nie33	999999999
+俤勢	die53+sie21
 俤位	die53+ui242
 蠣餅	die53+wiang33
 俤隻	die53+zieh24
@@ -4182,6 +4422,8 @@ use_preset_vocabulary: false
 碟碟	diek5+diek5
 謫鼓	diek53+gu33
 纏絆	dieng21+buang242	3124142
+電飯煲	dieng21+buong53+bo33
+電飯鍋	dieng21+buong55+guo55
 電唱機	dieng21+cuong55+gi55	999999999
 電光師父	dieng21+guong21+sa53+hau242
 電光師父	dieng21+guong21+sa53+hou242
@@ -4193,12 +4435,15 @@ use_preset_vocabulary: false
 纏腰蛇	dieng21+iu55+lie53
 纏腰蛇	dieng21+iu55+sie53
 纏絆	dieng21+muang242	3124142
+電熱器	dieng21+ngiek5+kei21
 電光師父	dieng21+nguong21+na53+au242
 電光罩	dieng21+nguong53+dau213	999999999
 電光囝	dieng21+nguong53+ngiang33	999999999
 電光線	dieng21+nguong53+niang213	999999999
 電光泡	dieng21+nguong53+pau242	999999999
 電光柱	dieng21+nguong53+tiu242	999999999
+電光胲	dieng21+nguong55+gai55
+電光龍	dieng21+nguong55+lyng53
 電光脬	dieng21+nguong55+pa55
 燈芯草	dieng21+ning53+cau33	999999999
 點心囝	dieng21+ning53+iang33
@@ -4208,6 +4453,7 @@ use_preset_vocabulary: false
 點心	dieng21+ning55	6888885
 電唱機	dieng21+njuong55+gi55	999999999
 纏套	dieng21+noo213	2342525
+電動車	dieng21+nung55+njia55
 燈芯草	dieng21+sing53+cau33	999999999
 點心店	dieng21+sing53+daing213
 點心囝	dieng21+sing53+giang33
@@ -4224,15 +4470,19 @@ use_preset_vocabulary: false
 電光柱	dieng21+uong53+tiu242	999999999
 纏琴	dieng33+king53	4389533
 纏龍	dieng33+nyng53	3524334
+電霸	dieng53+ba21
 電報	dieng53+boo213
 電䀇	dieng53+gu33
 電戲	dieng53+hie213
+電蓄	dieng53+hooyk24
 癲犬	dieng53+keing33	586
+電銲	dieng53+ngang242
 電熨	dieng53+ngouk24
 電話	dieng53+ngua242
 甜粿	dieng53+ngui33
 電燭	dieng53+njuoh24
 甜醬	dieng53+njuong213
+電磁灶	dieng53+njy21+jau21
 電子	dieng53+njy33
 電子歌	dieng53+njy33+go55
 癲腦	dieng53+no33
@@ -4244,17 +4494,20 @@ use_preset_vocabulary: false
 纏骹	dieng55+a55	764511
 展限	dieng55+aing242
 甜包	dieng55+bau55
+電吹	dieng55+cui55
 甜瓜	dieng55+gua55	20572819
 電光	dieng55+guong55	999999999
 癲形	dieng55+hing53
 癲形癲狀	dieng55+hing53+dieng53+zooung242
 顛翻	dieng55+huang55	777777
 纏骹	dieng55+ka55	764511
+電瓶車	dieng55+ming55+njia55
 電梯	dieng55+nai55
 纏骹	dieng55+nga55	764511
 甜瓜	dieng55+ngua55	20572819
 電光	dieng55+nguong55	999999999
 燈芯	dieng55+ning55
+電爐絲	dieng55+nu55+li55
 癲脬	dieng55+pa55
 燈芯	dieng55+sing55
 電梯	dieng55+tai55
@@ -4262,7 +4515,10 @@ use_preset_vocabulary: false
 甜瓜	dieng55+ua55	20572819
 電光	dieng55+uong55	999999999
 點燭	dieng55+zuoh24
+直播	dik21+boo21
 直背椅	dik21+bui53+ie33
+的著	dik21+duoh5
+的確良	dik21+kouk21+luong242
 侄女婿	dik21+ny55+lai213
 侄女婿	dik21+ny55+sai213
 的士	dik21+seoy242	9850394
@@ -4274,6 +4530,7 @@ use_preset_vocabulary: false
 侄女	dik33+ny33
 侄新婦	dik5+sing53+bou242
 侄新婦	dik5+sing53+mou242
+的的	dik55+deik24
 直𨎩	dik55+guang55
 的要	dik55+iu213
 的士	dik55+seoy242
@@ -4287,6 +4544,7 @@ use_preset_vocabulary: false
 鎮海樓	ding21+ngai21+leu53
 丁香魺	ding21+ngyong53+ngoo213
 頂針	ding21+njeing55
+藤蕹	ding21+oung21
 丁香魺	ding21+yong53+oo213
 頂針	ding21+zeing55
 藤盤老	ding33+buang33+lo33
@@ -4314,6 +4572,7 @@ use_preset_vocabulary: false
 砧板	ding53+meing33
 鎮色	ding53+naik24	648452
 燈罩	ding53+nau213	999999999
+燈籠籽	ding53+neoyng33+nji33
 燈盞	ding53+njang33	999999999
 燈座	ding53+njoo242	999999999
 ⿱穴占厝	ding53+njuo213	600000
@@ -4323,6 +4582,7 @@ use_preset_vocabulary: false
 釘送	ding53+sooyng213
 燈盞	ding53+zang33	999999999
 燈座	ding53+zoo242	999999999
+⿱穴占	ding55
 燈棚	ding55+bang53
 澄清	ding55+cing55
 定艙	ding55+coung55
@@ -4374,6 +4634,7 @@ use_preset_vocabulary: false
 粙馬	diu53+ma33
 釣餌	diu53+nei213
 粙穗	diu53+sui213
+吊主	diu53+zuo33
 肘銃	diu55+ceoyng213	14332520
 朝東	diu55+deoyng55	77777
 調𢫝	diu55+dung55
@@ -4404,6 +4665,9 @@ use_preset_vocabulary: false
 倒街	do21+ge55
 倒手拐	do21+iu24+guai33
 倒手拐	do21+jiu24+guai33
+掏水裏	do21+jui24+lie33
+掏水出	do21+jui55+jouk24
+倒水瀉	do21+jui55+lia21
 道士	do21+lai242
 道山街	do21+lang55+nge55
 倒彈光	do21+lang55+nguong55
@@ -4411,16 +4675,15 @@ use_preset_vocabulary: false
 道德鏡	do21+leik5+giang213	740000
 倒立	do21+lik5
 倒泅	do21+liu53
+道道道	do21+lo53+loo242
 多多講	do21+lo53+oung33
 多多講多多聽	do21+lo53+oung33+do21+lo53+tiang213
 多多聽	do21+lo53+tiang213
-道山街	do21+luong55+e55	34637554
 道山街	do21+luong55+nge55	34637554
 掏箸手	do21+ly53+ciu33	846575
 掏箸手	do21+ly53+iu33	846575
 掏箸手	do21+ly53+jiu33	846575
 倒泅	do21+siu53
-道山街	do21+suong55+ge55	34637554
 掏碗手	do21+uang24+ciu33	9451230
 掏碗手	do21+uang24+njiu33	9451230
 倒邊手	do21+weing53+njiu33	765421
@@ -4440,15 +4703,19 @@ use_preset_vocabulary: false
 到底	do53+de33	29262453
 道教	do53+gau213
 刀囝	do53+giang33
+掏起去	do53+i33+o0
 刀囝	do53+iang33	999999999
 倒手	do53+jiu33	7654820
 掏出	do53+jouk24
+道歉	do53+kiek24
 倒彈影	do53+lang33+ngoung33
 倒彈影	do53+lang33+oung33
 到底	do53+le33	29262453
 多頌	do53+leoyng242
+道道	do53+loo242
 多數	do53+lou213
 道路	do53+lou242
+刀路	do53+luo242
 多頌	do53+seoyng242
 多數	do53+sou213
 刀枕	do53+zing33	999999999
@@ -4462,6 +4729,7 @@ use_preset_vocabulary: false
 掏熏	do55+houng55
 倒竈	do55+jau213
 倒店	do55+laing213
+道頭	do55+lau53
 掏擇	do55+leik5
 島嶼	do55+leoy242
 倒定	do55+liang242
@@ -4469,6 +4737,7 @@ use_preset_vocabulary: false
 刀石	do55+luoh5	999999999
 倒賬	do55+luong213
 道場	do55+luong53
+多乳	do55+neing53
 刀魚	do55+ngy53
 倒運	do55+oung242
 島嶼	do55+seoy242
@@ -4496,6 +4765,7 @@ use_preset_vocabulary: false
 桌頭	doh55+tau53
 桌裙	doh55+ung53
 道山路	doo21+lang53+lou242
+琢磨	doouk24+mo53
 啄鳥卦	doouk24+zeu55+gua213
 啄鳥卦	doouk24+zeu55+ua213
 逿去	dooung242+ko0	999999
@@ -4513,6 +4783,7 @@ use_preset_vocabulary: false
 奪𡅏	douk5+de0
 奪魁	douk5+kui55
 奪𡅏	douk5+le0
+琢磨	douk55+moo242
 丈夫囝	doung21+buo53+giang33	100000000
 逿晡時	doung21+buo55+li53
 丈夫儂	doung21+buo55+neoyng53	80000000
@@ -4521,26 +4792,30 @@ use_preset_vocabulary: false
 漲大水	doung21+duai53+jui33
 漲大水	doung21+duai53+zui33
 長棍	doung21+goung213
+長股川	doung21+gu21+juong55
 堂兄弟	doung21+hing53+da242	987676
 堂兄弟	doung21+hing53+na242	987676
 長杖	doung21+luong242
 長柄鬼	doung21+mang53+gui33
 長柄鬼	doung21+mang53+ngui33
 長柄鬼	doung21+mang53+ui33
-當儥帶	doung21+me53+dai213
-當儥帶	doung21+me53+lai213
+當儥襶	doung21+me53+dai213
+當儥襶	doung21+me53+lai213
 長尾哥	doung21+mui21+o55
 丈夫囝	doung21+muo53+iang33	100000000
 丈夫儂老	doung21+muo53+neoyng21+lau242
 丈夫儂	doung21+muo55+neoyng53	80000000
 斷臍	doung21+nai53
+長頭甕	doung21+nau21+ooyng21
 長短骹	doung21+neoy21+a55
+長短扇	doung21+neoy55+lieng21
 長骹壽	doung21+nga53+liu242
 長棍	doung21+ngoung213
 逿雨天	doung21+ngy21+lieng55
 逿雨囝	doung21+ngy24+iang33	433338
 逿雨濛	doung21+ngy55+moung213
 中洲島	doung21+njiu53+lo33
+長長甕	doung21+noung21+ngooyng21
 斷杖	doung21+nuong242
 長棍	doung21+oung213
 斷臍	doung21+sai53
@@ -4567,10 +4842,12 @@ use_preset_vocabulary: false
 當店	doung53+daing213
 中晝	doung53+dau213
 斷滴	doung53+deik24
+當大	doung53+duai242
 斷路	doung53+duo242
 斷氣	doung53+ei213
 段警	doung53+ging33
 逿雨	doung53+huo242
+當拾其	doung53+kak24+gi0
 斷氣	doung53+kei213
 段長	doung53+luong33
 當面	doung53+meing213	7471357
@@ -4608,11 +4885,13 @@ use_preset_vocabulary: false
 中軀	doung55+ku55	555555
 緞靴	doung55+kuo55
 丈夫	doung55+muo55	896745
+中門	doung55+muong53
 長衫	doung55+nang55
 當頭	doung55+nau53
 斷乳	doung55+neing53
 長燈	doung55+neing55
 當家	doung55+nga55
+長機	doung55+ngi55
 堂兄	doung55+nging55	564741
 丈篙	doung55+ngo55
 當時	doung55+ni53	666666
@@ -4622,6 +4901,8 @@ use_preset_vocabulary: false
 唐僧	doung55+njeing55
 當真	doung55+njing55
 中洲	doung55+njiu55
+長梭	doung55+no55
+斷落	doung55+noh5
 當師	doung55+ny55
 丈篙	doung55+o55	765154
 長衫	doung55+sang55
@@ -4630,6 +4911,7 @@ use_preset_vocabulary: false
 當頭	doung55+tau53
 中柱	doung55+tiu242	564213
 長齋	doung55+ze55	666666
+當住	doung55+zeoy242
 當真	doung55+zing55	28282422
 肚爿	du21+being53
 肚爿帶	du21+being53+dai213
@@ -4677,6 +4959,7 @@ use_preset_vocabulary: false
 堵板	du24+being33	643215
 肚爿囝	du24+being33+giang33
 堵堵	du24+du33	9262518
+賭錢鬼	du24+ieng33+gui33
 堵堵	du24+lu33	9262518
 堵板	du24+weing33	643215
 肚爿囝	du24+weing33+iang33
@@ -4693,6 +4976,7 @@ use_preset_vocabulary: false
 都是	du53+sei242
 肚袋	du55+dooy242
 賭棍	du55+goung213	1000000
+渡頭	du55+lau53
 度繩	du55+ling53
 肚袋	du55+looy242
 嘟々	du55+lu55
@@ -4703,6 +4987,7 @@ use_preset_vocabulary: false
 賭棍	du55+oung213	1000000
 度繩	du55+sing53
 渡船	du55+sung53	642515
+大家裏	duai21+a53+lie33
 大骹袋	duai21+a53+looy242
 大邊手	duai21+being53+ciu33	9465220
 大邊骹	duai21+being55+ka55	996874
@@ -4710,8 +4995,10 @@ use_preset_vocabulary: false
 大半工	duai21+buang55+geoyng55
 大半日	duai21+buang55+nik5
 大腹老	duai21+buk24+lo33
+大手段	duai21+ciu55+looung242
 袋袋	duai21+duai242
 大樹下	duai21+jiu53+a242
+大水螠	duai21+jui21+iak5
 大厝坪	duai21+juo55+wang53
 大骹桶	duai21+ka53+leoyng33	999999999
 大骹桶	duai21+ka53+teoyng33	999999999
@@ -4741,6 +5028,7 @@ use_preset_vocabulary: false
 大半日	duai21+wuang55+nik5
 大格	duai53+ah24	60000000
 大限	duai53+aing242
+大九	duai53+au33
 大伯	duai53+bah24	876954
 大病	duai53+bang242
 大筆	duai53+beik24
@@ -4771,7 +5059,9 @@ use_preset_vocabulary: false
 大頭魺	duai53+lau21+koo213	2000000
 大頭老	duai53+lau21+lau242	765112
 大鼎	duai53+liang33
+大食配	duai53+lieh21+pui21
 大嫂	duai53+lo33
+大逿	duai53+looung242
 大量	duai53+luong242	846523
 大暑	duai53+ly33	764766
 大媽	duai53+ma33	778699
@@ -4779,6 +5069,7 @@ use_preset_vocabulary: false
 大母	duai53+mo33	3000000
 大姆	duai53+mu33	654754
 大門外	duai53+muong21+ngie242	66666
+大耳	duai53+ngei242
 大細	duai53+sa213	9000000
 大雪	duai53+suok24	873941
 大暑	duai53+sy33	764766
@@ -4806,6 +5097,7 @@ use_preset_vocabulary: false
 大秮	duai55+dai55
 大條橋	duai55+deu55+gyo53	8456125
 大腸	duai55+doung53
+大除大摔	duai55+dy53+duai53+sooyk24
 大䙎	duai55+e55
 大紅	duai55+eoyng53	876584
 大胲	duai55+gai55
@@ -4834,6 +5126,7 @@ use_preset_vocabulary: false
 大條橋	duai55+leu55+yo53	8456125
 大聲	duai55+liang55
 大食	duai55+lieh5	954625
+大食鹹	duai55+lieh5+geing53
 大腸	duai55+loung53
 大拇哥	duai55+mo55+go55
 大拇拇	duai55+mo55+mo55
@@ -4861,8 +5154,10 @@ use_preset_vocabulary: false
 端午	duang53+ngu33
 端午節	duang53+ngu33+zaik24
 捶門拍戶	dui33+muong53+pah53+hou242	666666
+捶拍練	dui53+pah24+lieng242
 捶𩩍	dui55+piang55	888888
 獨眼龍	duk21+ngang21+lyng53
+涿紅	duk24+eoyng53
 東家主	dung21+a53+juo33
 同厝	dung21+cuo213	1000000
 東家主	dung21+ga53+zuo33
@@ -4894,6 +5189,7 @@ use_preset_vocabulary: false
 童謠歌	dung55+ngiu55+o55
 動物	dung55+nguk5
 同居	dung55+ngy55	1000000
+燉蟶	dung55+teing55
 動物	dung55+uk5
 同居	dung55+y55	1000000
 廚師父	duo21+la53+au242
@@ -4929,7 +5225,10 @@ use_preset_vocabulary: false
 着痧	duoh55+sa55
 着三不着兩	duoh55+sang55+buk21+duoh55+lang242
 着三不着兩	duoh55+sang55+muk21+duoh55+lang242
+轉肥	duong21+bui53
 長房	duong21+bung53	435365
+長留長底	duong21+lau21+duong53+de33
+轉暝	duong21+mang53
 長房	duong21+mung53	435365
 長男	duong21+nang53
 長頭胎	duong21+nau55+leoy55
@@ -4973,9 +5272,12 @@ use_preset_vocabulary: false
 帳簾	duong55+lieng53
 帳棚	duong55+mang53
 帳帷	duong55+mi53
+轉播	duong55+moo21
+轉磨	duong55+moo242
 長輩	duong55+mui213	876578
 帳篷	duong55+mung53
 長沙	duong55+na55
+轉晝	duong55+nau21
 丈儂	duong55+neoyng53
 轉世	duong55+nie213
 長樂	duong55+noh5
@@ -4985,20 +5287,26 @@ use_preset_vocabulary: false
 長進	duong55+zeing213
 豬骹爪	dy21+a53+jau33
 豬喙舌	dy21+cy55+liek5
+豬血草	dy21+eik24+cau33
 豬囝牙	dy21+giang21+nga53
 豬囝頭	dy21+giang21+tau53	100000
 豬囝氈	dy21+giang21+zieng55
 豬囝豆	dy21+giang55+dau242
+豬醫生	dy21+i55+leing55
+豬囝車	dy21+iang21+cia55
 豬囝牙	dy21+iang21+nga53
 豬囝頭	dy21+iang21+tau53	100000
 豬囝氈	dy21+iang21+zieng55
 豬囝豆	dy21+iang55+dau242
 豬囝豆	dy21+iang55+nau242
 豬喙舌	dy21+jy55+liek5
+豬屎數	dy21+lai55+lou21
 豬母針	dy21+mo21+zeing55	999999999
 豬母菜	dy21+mo55+cai213
 豬母菜	dy21+mo55+jai213
 豬母鏈	dy21+mo55+lieng242	999999999
+豬母耳	dy21+mo55+ngei242
+豬毛鑷	dy21+mo55+ngiek24
 豬喙舌	dy21+y55+liek5
 除草	dy33+cau33
 豬喙	dy53+cui21
@@ -5016,6 +5324,7 @@ use_preset_vocabulary: false
 豬頭面	dy53+lau21+meing213
 豬頭骨	dy53+lau21+oouk24
 豬頭瘴	dy53+lau21+zuong213
+豬利	dy53+lei21
 豬射	dy53+lia242
 豬宿	dy53+liu213	700000
 箸籠	dy53+looyng242
@@ -5046,6 +5355,7 @@ use_preset_vocabulary: false
 豬槽	dy55+so53	800000
 豬豚	dy55+toung53
 豬鬃	dy55+zeoyng55	787855545
+竹飛	dyk21+bui55
 竹牀	dyk21+coung53
 竹席	dyk21+cuoh5
 築牆	dyk21+cuong53
@@ -5071,6 +5381,7 @@ use_preset_vocabulary: false
 竹筍	dyk24+sung33
 逐出	dyk5+couk24
 逐工	dyk5+geoyng55
+竹蒜	dyk5+sooung21
 築壩	dyk55+ba213	680671
 竹桌	dyk55+dooh24
 竹殼	dyk55+kooyk24
@@ -5124,6 +5435,7 @@ use_preset_vocabulary: false
 中旬	dyng55+sung53	33958340
 中風	dyng55+ung55
 中藥	dyng55+yoh5
+鞋愛	e21+ai21
 矮八鬼	e21+beik24+gui33
 矮八腯	e21+beik55+toung242
 會出式	e21+cuk5+seik24	3675665
@@ -5139,6 +5451,7 @@ use_preset_vocabulary: false
 鞋桶裏	e21+leoyng24+lie33
 鞋靸	e21+liak24
 鞋老屐	e21+lo21+kiak5
+矮大儂	e21+luai55+neoyng53
 矮碌碌	e21+luk55+louk24	467585
 鞋面	e21+meing213
 矮儂	e21+neoyng53	800000
@@ -5153,6 +5466,7 @@ use_preset_vocabulary: false
 矮囝	e24+giang33	7500000
 矮囝	e24+iang33	7500000
 矮種	e24+jyng33	300000
+矮儂媽	e24+neoyng33+ma33
 矮種	e24+yng33	300000
 矮種	e24+zyng33	300000
 鞋拔	e33+beik5
@@ -5168,6 +5482,7 @@ use_preset_vocabulary: false
 鞋掌	e33+zuong33
 會仈	e53+baik24	567823
 會仈寅卯	e53+baik24+ing33+mau33
+會仈芋	e53+baik24+uo242
 會貴	e53+gui213
 會曉	e53+hiu33	8453543
 會赴	e53+hou213	9876523
@@ -5195,7 +5510,9 @@ use_preset_vocabulary: false
 矮腯	e55+toung242	845758
 矮八	e55+waik24
 挨延	e55+yong53
+癔病	ei21+bang242
 扼勒	eik21+leik5
+扼扣	eik55+kau21
 陰烏天	eing21+ngu55+lieng55
 閒時下	eing21+ni21+a242
 閒時晏	eing21+ni21+ang213
@@ -5215,6 +5532,7 @@ use_preset_vocabulary: false
 鸚哥	eing55+go55
 鸚哥鼻	eing55+go55+pei213	5833913
 限期	eing55+i55	66666
+閒金	eing55+ing55
 閒閒落落	eing55+ngeing53+loh33+loh5
 限期	eing55+ngi55	66666
 鸚哥	eing55+ngo55
@@ -5229,6 +5547,7 @@ use_preset_vocabulary: false
 愛食	eoy55+lieh5	41389213
 愛挃	eoy55+lih5	33198912
 愛食	eoy55+sieh5	41389213
+紅七	eoyng21+ceik24
 紅笑	eoyng21+ciu213	765213
 紅丹	eoyng21+dang55	584762
 紅丹丹	eoyng21+dang55+dang55	710000
@@ -5244,6 +5563,8 @@ use_preset_vocabulary: false
 紅麴	eoyng21+keoyk24
 紅樓夢	eoyng21+lau21+mooyng213
 紅卵	eoyng21+looung242
+紅白墨	eoyng21+mah5+meoyk5
+黃白墨	eoyng21+mah5+meoyk5
 紅目腯	eoyng21+meoyk53+toung242
 紅丹	eoyng21+nang55	584762
 紅丹丹	eoyng21+nang55+nang55	710000
@@ -5252,7 +5573,10 @@ use_preset_vocabulary: false
 紅蟻宿	eoyng21+ngie53+liu213
 紅蟻宿	eoyng21+ngie53+siu213
 紅柚	eoyng21+ngiu242	25989384
+紅核囝龍眼	eoyng21+ngouk53+giang33+leing33+ngeing33
 紅花草	eoyng21+ngua53+jau33
+紅鳳菜	eoyng21+ngung53+njai21
+紅根菜	eoyng21+ngyng53+njai21
 紅尿	eoyng21+niu242
 紅尿水	eoyng21+niu53+zui33
 紅紙包	eoyng21+njai21+wau55
@@ -5263,6 +5587,7 @@ use_preset_vocabulary: false
 紅字簿	eoyng21+zi53+buo242
 紅蘿蔔	eoyng33+lo33+buk5
 紅蘿蔔	eoyng33+lo33+wuk5
+紅米	eoyng33+mi33
 紅毛猴	eoyng33+mo33+au53
 紅毛猴	eoyng33+mo33+gau53
 紅毛囝	eoyng33+mo33+giang33
@@ -5291,10 +5616,18 @@ use_preset_vocabulary: false
 紅蚣	eoyng55+eoyng55
 紅蚣	eoyng55+geoyng55
 紅鰱	eoyng55+leing53
+紅牌	eoyng55+me53
+紅蜜	eoyng55+mik5
+紅毛丹	eoyng55+mo55+lang55
+紅膜	eoyng55+moh5
+紅六	eoyng55+neoyk5
 紅蚣	eoyng55+ngeoyng55
+紅衣	eoyng55+ngi55
+紅菇	eoyng55+ngu55
 甕伲	eoyng55+nie53
 紅燒	eoyng55+niu55	5629451
 紅糟	eoyng55+njau55
+紅十	eoyng55+seik5
 紅燒	eoyng55+siu55	5629451
 紅糟	eoyng55+zau55
 紅磚	eoyng55+zuong55
@@ -5312,6 +5645,7 @@ use_preset_vocabulary: false
 家法省	ga21+huak24+sang33	400000
 家法大	ga21+huak53+duai242	500000
 家法船	ga21+huak55+sung53	684515
+加熱器	ga21+iek53+kei21
 虼蚤色	ga21+jau55+laik24
 茭𤳯包	ga21+jy55+wau55
 家叔孫	ga21+jyk21+soung55
@@ -5328,7 +5662,10 @@ use_preset_vocabulary: false
 加三碼	ga21+lang53+ma33
 加三側	ga21+lang53+zaik24
 加三側𡅏睏	ga21+lang53+zaik24+le0+kooung213
+橄欖撙	ga21+lang55+coung242
+橄欖串	ga21+lang55+cuong21
 加三欹	ga21+lang55+ki55
+橄欖菜	ga21+lang55+njai21
 家私店	ga21+li53+laing213
 咬舌叵	ga21+liek33+beo33
 咬舌叵	ga21+liek53+beo33
@@ -5348,6 +5685,7 @@ use_preset_vocabulary: false
 家法省	ga21+uak24+sang33	400000
 家法大	ga21+uak53+duai242	500000
 家法船	ga21+uak55+sung53	684515
+蚯蚓龍	ga21+ung21+lyng53
 假仈師	ga21+weik21+sa55	1200000
 假仈通	ga21+weik21+tung55	1000000
 假仈精	ga21+weik5+zing55
@@ -5357,6 +5695,7 @@ use_preset_vocabulary: false
 家叔孫	ga21+zyk21+soung55
 虼蚤	ga24+jau33
 橄欖	ga24+lang33	43019821
+橄欖形	ga24+lang33+nging53
 假使	ga24+ly33
 假使	ga24+sy33
 虼蚤	ga24+zau33
@@ -5377,10 +5716,12 @@ use_preset_vocabulary: false
 家父	ga53+hou242	895435
 家法	ga53+huak24	800000
 家和做	ga53+huo21+zoo213
+架椅	ga53+ie33
 家做	ga53+joo213
 加料	ga53+lau242
 家庭事	ga53+ling21+neoy242
 家嬸	ga53+ling33	879655
+嘉陵囝	ga53+ling33+ngiang33
 筊䇭	ga53+lo33
 家道	ga53+loo242	690000
 家擂	ga53+looy242	220000
@@ -5396,6 +5737,7 @@ use_preset_vocabulary: false
 蚯蚓	ga53+sung33
 家法	ga53+uak24	800000
 家和做	ga53+uo21+joo213
+膠布	ga53+wuo21
 鉸剪	ga53+zeing33	999999999
 家叔	ga53+zeoyk24	775633
 家姐	ga53+zia33	868565
@@ -5422,11 +5764,15 @@ use_preset_vocabulary: false
 家資	ga55+jy55
 咬𧏫	ga55+lak5
 泇流	ga55+lau53
+泇流床	ga55+lau55+coung53
+泇流環	ga55+lau55+kuang53
+泇流珠	ga55+lau55+zuo33
 加𡅏	ga55+le0
 家私	ga55+li55
 價聲	ga55+liang55
 鉸刀	ga55+lo55
 家堂	ga55+loung53
+家堂暝	ga55+loung55+mang53
 家嚴	ga55+ngieng53	895334
 假歞	ga55+ngooung242
 咬𧏫	ga55+sak5
@@ -5445,17 +5791,22 @@ use_preset_vocabulary: false
 家慈	ga55+zy53	857564
 教書	ga55+zy55	8465215
 家資	ga55+zy55
+敆壁	gah21+bieh24
 格格	gah21+gah24
 格眼紙	gah21+ngang24+zai33
 格囝	gah24+giang33	647756
 格囝	gah24+iang33	647756
+撬撬	gah5+gah5
 隔頓	gah53+dooung213	6348512
 隔頓	gah53+looung213	6348512
+隔年飯	gah53+nieng21+muong242
+隔年米	gah53+nieng33+mi33
 隔暝	gah55+mang53
 芥菜裨	gai21+cai55+bie55
 芥菜裨	gai21+cai55+wie55
 蓋蓋	gai21+gai213	999999999
 解放麵	gai21+huong53+mieng242
+芥菜包	gai21+jai55+bau55
 芥菜裨	gai21+jai55+bie55
 芥菜裨	gai21+jai55+wie55
 解放麵	gai21+uong53+mieng242
@@ -5472,6 +5823,7 @@ use_preset_vocabulary: false
 芥藍菜	gai53+lang21+cai213
 芥藍菜	gai53+lang21+njai213
 介紹	gai53+liu242
+該拓	gai53+loouk24
 介去	gai53+oo213
 該死	gai53+si33	777777
 蓋世	gai53+sie213	123453133
@@ -5482,6 +5834,7 @@ use_preset_vocabulary: false
 該當	gai55+doung55	777777
 芥辣	gai55+lak5
 芥藍球	gai55+lang55+giu53
+芥藍花	gai55+lang55+ngua55
 介來	gai55+li53
 該當	gai55+loung55	777777
 芥末	gai55+muak5
@@ -5505,6 +5858,7 @@ use_preset_vocabulary: false
 佮的呆	gak21+lik21+ngai53
 佮的好	gak21+lik24+ho33
 割麥	gak21+mah5
+蛤苗	gak21+miu53
 敆鼻齉	gak21+pi53+nooyng213
 夾紗掛	gak21+sa53+gua213
 夾紗掛	gak21+sa53+ua213
@@ -5522,6 +5876,7 @@ use_preset_vocabulary: false
 佮夥	gak24+huo33
 葛岭	gak24+liang33
 夾襖	gak24+o33
+割頭囝	gak24+tau33+iang33
 佮桶	gak24+teoyng33
 甲水	gak24+zy33
 敆題	gak33+de53
@@ -5533,6 +5888,7 @@ use_preset_vocabulary: false
 敆𡅏	gak5+le0
 佮陣	gak55+deing242
 割粙	gak55+diu242
+佮界	gak55+gai213
 佮國	gak55+guok24
 夾粒	gak55+lak5	846215
 敆坡	gak55+po55
@@ -5546,6 +5902,7 @@ use_preset_vocabulary: false
 乾拌麵	gang21+buang53+mieng242
 乾貝卵	gang21+bui53+looung242
 簡單	gang21+dang55	846520
+哽胲	gang21+gai55
 寒寒戰	gang21+gang21+zieng213	555555
 乾乾焦	gang21+gang55+na55
 奸狡利	gang21+giu55+lei242	9000000
@@ -5563,10 +5920,12 @@ use_preset_vocabulary: false
 間壁厝	gang21+mieh53+juo213
 幹乜勢	gang21+mieh53+lie213
 幹乜勢	gang21+mieh53+sie213
+間壁位	gang21+mieh53+ui242
 間邊厝	gang21+mieng53+cuo213
 間邊厝	gang21+mieng53+njuo213
 間邊排	gang21+mieng55+be53
 間邊排	gang21+mieng55+me53
+感冒聲	gang21+mo55+liang242
 乾拌麵	gang21+muang53+mieng242
 乾貝卵	gang21+mui53+looung242
 乾貝墘	gang21+mui55+gieng53
@@ -5575,7 +5934,9 @@ use_preset_vocabulary: false
 簡單	gang21+nang55	846520
 寒寒戰	gang21+ngang21+zieng213	555555
 乾乾焦	gang21+ngang55+na55
+間間三	gang21+ngang55+nang55
 奸狡利	gang21+ngiu55+lei242	9000000
+趕去死	gang21+ngo53+ni33
 挸身	gang21+ning55
 挸身	gang21+sing55
 趕墟	gang21+y55	2526747
@@ -5586,6 +5947,7 @@ use_preset_vocabulary: false
 趕緊	gang24+ing33	2434272
 趕趕	gang24+ngang33	242124212
 趕緊	gang24+nging33	2434272
+趕死	gang24+si33
 趕頭刀	gang33+tau55+do55	1000000
 趕頭刀	gang33+tau55+lo55	1000000
 尷尬	gang53+ai213	846754
@@ -5626,6 +5988,7 @@ use_preset_vocabulary: false
 干證	gang53+njeing213
 甘蔗	gang53+njia213	30194819
 甘草	gang53+njo33
+甘草橄欖	gang53+njo33+ga21+lang33
 寒去	gang53+o0
 乾塞	gang53+seik24
 乾燥	gang53+soo213	846253
@@ -5647,11 +6010,14 @@ use_preset_vocabulary: false
 感覺	gang55+goouk24
 汗巾	gang55+gyng55
 監牢	gang55+lo53
+間牌	gang55+me53
 汗斑	gang55+meing55
 間壁	gang55+mieh24
 乾焦	gang55+na55
 艱難	gang55+nang53	948521
+間間	gang55+ngang55
 㔶瓦	gang55+ngua242	654789
+汗風	gang55+ngung55
 汗巾	gang55+ngyng55
 奸邪	gang55+nia53	876525
 菅菁	gang55+njing55	18592047
@@ -5668,12 +6034,14 @@ use_preset_vocabulary: false
 厚熏筒母	gau21+houng21+deoyng33+mo33
 厚熏筒	gau21+houng55+deoyng53
 厚熏筒油	gau21+houng55+deoyng55+iu53
+鉤囝索	gau21+iang55+nooh24
 九彩園	gau21+jai21+uong53
 九彩弄	gau21+jai55+looyng242
 九彩巷	gau21+jai55+ooyng213
 猴店	gau21+laing213
 九十	gau21+leik5
 九十一	gau21+leik53+eik24
+猴聖王表妹	gau21+ling55+nguong53+biu55+mui21
 猴聖王	gau21+ling55+uong53
 教師椅	gau21+ly53+ie33
 遘終尾	gau21+lyng53+mui33	66666
@@ -5683,6 +6051,7 @@ use_preset_vocabulary: false
 鉤耳爿	gau21+ngi55+being53
 鉤耳爿	gau21+ngi55+weing53
 九月九	gau21+nguok5+gau33	38345358
+九月烏	gau21+nguok5+u55
 厚熏筒母	gau21+oung21+neoyng33+mo33
 厚熏筒	gau21+oung55+neoyng53
 厚熏筒油	gau21+oung55+neoyng55+iu53
@@ -5692,8 +6061,11 @@ use_preset_vocabulary: false
 九十	gau21+seik5
 九十一	gau21+seik53+eik24
 教師椅	gau21+sy53+ie33
+猴股川	gau21+u21+juong55
 猴舞杖	gau21+u55+tuong242
 遘了	gau213+lau33
+九九	gau24+au33
+九囝	gau24+iang33
 九早	gau24+ja33
 九彩	gau24+jai33
 九重粿	gau24+lyng33+ngui33	687794
@@ -5730,6 +6102,7 @@ use_preset_vocabulary: false
 交家	gau55+a55
 九百	gau55+bah24
 交家	gau55+ga55
+猴猴	gau55+gau53
 鉤鉤	gau55+gau55
 厚菇	gau55+gu55	17338294
 九怪	gau55+guai213	765230
@@ -5741,6 +6114,7 @@ use_preset_vocabulary: false
 九隻	gau55+jieh24
 交骹	gau55+ka55
 郊區	gau55+ky55	234251
+遘仱	gau55+lang55
 九世	gau55+lie213	222222
 鉤鐮	gau55+lieng53
 鉤鐮槍	gau55+lieng55+cuong55
@@ -5767,7 +6141,9 @@ use_preset_vocabulary: false
 解水	ge24+zui33
 夾々	ge33+leik5	888888
 懸頂	ge33+leing33	66666666
+解儥赴㔌	ge33+me53+hou21+zoouk24
 䲅囝	ge53+iang33
+䲅魺	ge53+koo21
 街中	ge55+doung55	666666
 解勸	ge55+kuong213	34523524
 街中	ge55+loung55	666666
@@ -5794,6 +6170,7 @@ use_preset_vocabulary: false
 懸大	geing21+duai242	865254
 妗妗	geing21+geing242
 懸下	geing21+gia242	985687
+鹹鼓山	geing21+gu21+lang55
 懸下心	geing21+ia55+ling55	865754
 懸骹桶	geing21+ka53+teoyng33	999999999
 鹹卵	geing21+looung242
@@ -5804,12 +6181,17 @@ use_preset_vocabulary: false
 鹹配	geing21+mui213	1800000
 揀肥	geing21+mui53
 懸骹桶	geing21+nga53+teoyng33	999999999
+鹹蛤	geing21+ngak24
 懸下	geing21+ngia242	985687
+懸下粒	geing21+ngia55+lak5
 懸下心	geing21+ngia55+ling55	865754
 懸下心	geing21+ngia55+sing55	865754
 懸勢	geing21+nie213
 鹹菜	geing21+njai213	1800000
 鹹粽	geing21+njooyng21
+鹹露苦	geing21+nu53+ku33
+鹹露露	geing21+nu53+lou21
+鹹露炭	geing21+nu53+tang21
 懸大	geing21+nuai242	865254
 懸下層	geing24+gia55+zeing53
 懸下層	geing24+ia55+zeing53
@@ -5832,10 +6214,13 @@ use_preset_vocabulary: false
 庚帖	geing53+taik24
 鹹䭕	geing53+ziang33
 更褒	geing55+bo55
+懸雞下鴨	geing55+gie55+gia53+ak24
 懸哥	geing55+go55
 懸哥	geing55+ngo55
+鹹𥻵	geing55+ni53
 縣城	geing55+niang53
 鹹蜆	geing55+niu53
+鹹厨	geing55+nuo53
 懸哥	geing55+o55
 縣城	geing55+siang53
 告告叫	geo21+eo53+iu213	9231314
@@ -5843,6 +6228,7 @@ use_preset_vocabulary: false
 告叫	geo53+giu213	24897234
 告救	geo53+giu213	23342534
 告叫	geo53+iu213	24897234
+挌後鼎去	geoh5+au53+liang33+o0
 挌迨	geoh5+dai242
 挌迨去	geoh5+dai242+ko0
 挌迨去	geoh5+dai242+o0
@@ -5854,14 +6240,17 @@ use_preset_vocabulary: false
 角番	geoyk21+huang55
 ⿰汆頁	geoyk24
 角黍	geoyk24+sy33
+角⿱艹初	geoyk55+coo21
 角黍	geoyk55+seoy213
 工夫茶	geoyng21+hu55+da53
+公母縫	geoyng21+mo55+woung21
 工夫茶	geoyng21+ngu55+la53
 共汝講	geoyng21+ny24+goung33	71209843
 工夫茶	geoyng21+u55+la53
 工具	geoyng53+geoy242
 共囝	geoyng53+giang33
 共囝	geoyng53+ngiang33
+工操	geoyng55+cau55
 工工	geoyng55+geoyng55
 江墘	geoyng55+gieng53	450213
 江墘頭	geoyng55+gieng55+kau53	450214
@@ -5877,6 +6266,7 @@ use_preset_vocabulary: false
 工頭	geoyng55+tau53	500000
 工夫	geoyng55+u55
 工錢	geoyng55+zieng53
+枸杞	geu24+i33
 狗子	geu24+jy33
 狗子	geu24+zy33
 其乇	gi0+nooh24
@@ -5938,7 +6328,9 @@ use_preset_vocabulary: false
 几桌	gi55+dooh24
 乩堂	gi55+doung53
 其中	gi55+doung55
+嘰唲	gi55+eo55
 旗杆	gi55+gang55
+嘰猴罵捎	gi55+gau53+ma55+sau55
 嘰趉	gi55+gouk24
 機關	gi55+guang55
 幾乎	gi55+hu55
@@ -5947,10 +6339,12 @@ use_preset_vocabulary: false
 計時	gi55+li53
 記時	gi55+li53
 嘰哩咕嚕	gi55+li55+gu55+lu55	9337242
+機修	gi55+liu55
 几桌	gi55+looh24
 乩堂	gi55+loung53
 其中	gi55+loung55
 記錄	gi55+luoh5
+機場	gi55+luong242
 幾何車	gi55+o55+jia55
 旗山	gi55+sang55
 計時	gi55+si53
@@ -5970,6 +6364,7 @@ use_preset_vocabulary: false
 袈裟	gia55+la55
 袈裟	gia55+lia55
 袈裟	gia55+sia55
+𧼨礱臂	giak21+leoyng21+mie21
 揭㾸去	giak33+go53+ko0
 揭㾸去	giak33+go53+o0
 揭𡅏	giak5+de0
@@ -5987,6 +6382,7 @@ use_preset_vocabulary: false
 囝生	giang21+neing55
 行行動	giang21+ngiang21+nooyng242	666666
 驚伓驚	giang21+ngiang55
+驚伓快	giang21+nging53+nga21
 驚死儂	giang21+ni21+neoyng53	8695255
 囝伲	giang21+nie53
 行竈	giang21+njau213	200000
@@ -5996,6 +6392,7 @@ use_preset_vocabulary: false
 囝孫	giang21+noung55
 行路	giang21+nuo242	86333123
 行帳	giang21+nuong213
+鏡箱屜	giang21+nuong53+na21
 驚生分	giang21+sang53+houng242	53425256
 驚生分	giang21+sang53+ngoung242	53425256
 驚生分	giang21+sang53+oung242	53425256
@@ -6003,6 +6400,7 @@ use_preset_vocabulary: false
 驚死儂	giang21+si21+neoyng53	8695255
 囝孫	giang21+soung55
 驚畏羞	giang21+ui55+ciu55	35235233
+行劑	giang21+za242
 行竈	giang21+zau213	200000
 行正倚歪	giang21+ziang21+kie55+uai55
 行正	giang21+ziang213
@@ -6021,6 +6419,8 @@ use_preset_vocabulary: false
 驚凊	giang53+ceing213
 行裏	giang53+die33
 驚場面	giang53+duong21+meing21
+行儥進	giang53+me53+zeing21
+經豆	giang53+nau242
 行裏	giang53+nie33
 行去	giang53+oo213
 驚死	giang53+si33	72314243
@@ -6032,6 +6432,7 @@ use_preset_vocabulary: false
 囝旦	giang55+dang213
 鏡櫥	giang55+diu53
 驚光	giang55+guong55
+行雲	giang55+hung53
 驚風	giang55+hung55
 行骹	giang55+ka55	666666
 驚去	giang55+ko0	45236367
@@ -6045,6 +6446,8 @@ use_preset_vocabulary: false
 行骹	giang55+nga55	666666
 驚去	giang55+ngo0	45236367
 鏡櫥	giang55+niu53
+囝菜	giang55+njai21
+行齋	giang55+nje55
 鏡箱	giang55+nuong55
 驚去	giang55+o0	45236367
 行鋪	giang55+puo55
@@ -6058,18 +6461,24 @@ use_preset_vocabulary: false
 雞角囝	gie21+geoyk24+giang33	7888787787
 雞角指	gie21+geoyk24+zai33
 雞囝囝	gie21+giang24+giang33	45545454
+雞肣膜	gie21+ging55+moh5
 雞髻花	gie21+gui55+hua55	31094842
 雞囝囝	gie21+iang24+iang33	45545454
 雞囝囝	gie21+iang24+ngiang33	45545454
+階座層	gie21+jo55+jeing53
 繼娶奶	gie21+jy53+ne33	635467
+雞骹樹	gie21+ka53+iu21
+雞骹箬	gie21+ka55+nuoh5
 雞腿柄	gie21+leoy55+wang213
 雞翼骨	gie21+lik53+goouk24
 𩸞滷	gie21+lou242
+雞啄啄	gie21+louk5+doouk24
 雞卵花	gie21+loung55+ngua55
 雞母雞囝	gie21+mo21+gie53+iang33
 雞母囝	gie21+mo24+giang33	5548484
 雞母囝	gie21+mo24+iang33	5548484
 雞母指	gie21+mo24+zai33
+雞肉絲	gie21+nyk5+si55
 雞翼骨	gie21+sik53+goouk24
 雞腿柄	gie21+teoy55+bang213
 桂花魚	gie21+ua55+ngy53
@@ -6090,12 +6499,14 @@ use_preset_vocabulary: false
 繼娶	gie53+jeoy213
 階座	gie53+joo242	564855
 雞氣	gie53+kei213	454554545
+雞痘	gie53+lau242
 寄信	gie53+leing213	684512
 繼點	gie53+leing33
 雞腿	gie53+leoy33
 寄宿	gie53+leoyk24	632514
 雞籠罩	gie53+leoyng21+dau213	600000
 雞籠䍜	gie53+leoyng21+dooyk24	600000
+雞籠底	gie53+leoyng33+die33
 雞宿	gie53+liu213	800000
 雞老	gie53+lo33
 雞卵	gie53+looung242	454545455
@@ -6104,9 +6515,11 @@ use_preset_vocabulary: false
 㑥大	gie53+luai242
 雞毛拂	gie53+mo21+houk24
 雞母	gie53+mo33	484949494
+季考	gie53+o33
 雞角	gie53+ooyk24	54848477
 繼縫	gie53+poung213	999999999
 寄信	gie53+seing213	684512
+雞腎	gie53+seing242
 寄宿	gie53+seoyk24	632514
 雞宿	gie53+siu213	800000
 雞豚囝	gie53+toung33+giang33	775584848
@@ -6124,10 +6537,12 @@ use_preset_vocabulary: false
 桂花	gie55+hua55	27014982
 雞胸	gie55+hyng55
 雞骹	gie55+ka55	565545454
+雞師	gie55+la55
 雞籠	gie55+leoyng53	888888
 雞櫥	gie55+liu53	888888
 繼刀	gie55+lo55	946525
 繼續	gie55+lyk5
+雞盲	gie55+mang53
 今年暝	gie55+nieng55+mang53	34278637
 閨閣	gie55+ooh24	584621
 寄批	gie55+pie55
@@ -6138,14 +6553,18 @@ use_preset_vocabulary: false
 桂花	gie55+ua55	27014982
 舅公	gie55+ung55	879009
 寄爬生	gie55+wa55+lang55
+雞婆	gie55+wo53
 結冰	giek21+bing55	4333123
 結腸	giek21+duong53
 夾夾	giek21+giek24
 結局	giek21+guoh5
 結婚	giek21+huong55
+結婚書	giek21+huong55+njy55
 蠍雄	giek21+hyng53
 結縲	giek21+leoy55
 結丸	giek21+uong53
+結針	giek21+zeing55
+結打	giek24+da33
 蠍囝	giek24+giang33
 擷去	giek24+go0
 結果	giek24+guo33
@@ -6175,7 +6594,6 @@ use_preset_vocabulary: false
 儉儉	gieng53+gieng242	3533353
 見覺	gieng53+gooyk24	14241234
 見隻	gieng53+ieh24
-間裏	gieng53+lie33
 肩布	gieng53+muo213
 見事	gieng53+nai242
 儉省	gieng53+nang33	846252
@@ -6184,10 +6602,13 @@ use_preset_vocabulary: false
 見隻	gieng53+ngieh24
 儉儉	gieng53+ngieng242	3533353
 見覺	gieng53+ngooyk24	14241234
+見影	gieng53+ngoung33
+間裏	gieng53+nie33
 見伺	gieng53+njei213
 見覺	gieng53+ooyk24	14241234
 儉省	gieng53+sang33	846252
 肩頭骨	gieng53+tau21+goouk24	555555
+兼配	gieng53+wui21
 見隻	gieng53+zieh24
 見瘥	gieng55+ca55
 見逐	gieng55+dyk5	45345635553
@@ -6196,6 +6617,7 @@ use_preset_vocabulary: false
 見官	gieng55+guang55
 乾坤	gieng55+koung55
 肩頭	gieng55+nau53	9465215
+肩頭野扛	gieng55+nau53+ia21+goung55
 見官	gieng55+nguang55
 乾元	gieng55+nguong53
 見廳	gieng55+niang55
@@ -6216,6 +6638,7 @@ use_preset_vocabulary: false
 急屎	gik24+sai33
 吉時有	gik24+si33+iu33
 扱力	gik33+lik5	888888
+急凍	gik5+doung21
 趌𧼨	gik5+giak24	666666
 橘瓣	gik5+pa213	17398402
 吉利	gik55+lei213
@@ -6230,7 +6653,9 @@ use_preset_vocabulary: false
 緊腰蛇	ging21+iu55+lie53
 緊腰蛇	ging21+iu55+sie53
 今旦日	ging21+nang55+nik5
+金豆尾	ging21+nau53+mui33
 緊腰蛇	ging21+ngiu55+lie53
+金瓜水	ging21+ngua53+jui33
 京果店	ging21+nguo55+laing213
 金絲熏	ging21+ni55+oung55
 錦綢	ging21+niu53
@@ -6243,6 +6668,7 @@ use_preset_vocabulary: false
 金髓	ging53+ceoy33
 經手	ging53+ciu33
 禁喙	ging53+cui213
+金雀	ging53+cuok24
 金店	ging53+daing213
 今旦	ging53+dang213
 金豆	ging53+dau242
@@ -6292,7 +6718,12 @@ use_preset_vocabulary: false
 金瓜	ging55+gua55
 金龜	ging55+gui55
 驚風	ging55+hung55
+金遊	ging55+iu53
+金騎	ging55+kie53
 緊糗	ging55+kiu213	8462030
+金邊	ging55+mieng55
+金匏	ging55+mu53
+金匏油	ging55+mu55+iu53
 金蚨蠅	ging55+mu55+ling53
 金蚨蠅屎腹	ging55+mu55+ling53+sai55+wouk24
 今晡	ging55+muo55
@@ -6311,6 +6742,8 @@ use_preset_vocabulary: false
 警察	ging55+njak24
 金針	ging55+njeing55	1000000
 驚堂木	ging55+noung33+muk5
+金龍	ging55+nyng53
+金枹	ging55+pau55
 境社	ging55+sia242
 金鐲	ging55+soh5
 金瓜	ging55+ua55
@@ -6323,9 +6756,11 @@ use_preset_vocabulary: false
 求福	giu21+houk24
 救火會	giu21+huo55+hui242
 九彩園	giu21+jai21+uong53
+韭菜臺	giu21+jai55+deoy53
 韭菜心	giu21+jai55+ling55
 九彩弄	giu21+jai55+looyng242
 九彩巷	giu21+jai55+ooyng213
+韭菜花	giu21+jai55+ua55
 韭菜園	giu21+jai55+uong53
 韭菜裨	giu21+jai55+wie55
 球線	giu21+liang213	999999999
@@ -6364,11 +6799,13 @@ use_preset_vocabulary: false
 舅公	giu55+ung55	879009
 轎班	giu55+wang55	584625
 糾正	giu55+zeing213
+高壓鍋	go21+ak21+guo55
 滈盪	go21+dooung242
 滈盪喙	go21+doung53+cui213
 㾸𤶁	go21+loo242
 滈盪	go21+looung242
 囫圇下	go21+loung21+a242
+囫圇慶	go21+loung21+keing21
 囫圇下	go21+loung21+nga242
 囫圇隻	go21+loung21+njieh24
 滈盪喙	go21+loung53+njui213
@@ -6396,6 +6833,7 @@ use_preset_vocabulary: false
 高魂	go55+hung53	1094
 高宅	go55+lah5
 稿頭蒂	go55+lau21+dei213
+高緹	go55+le53
 囫圇	go55+loung53
 囫圇晡	go55+loung55+buo55
 囫圇工	go55+loung55+geoyng55
@@ -6419,16 +6857,21 @@ use_preset_vocabulary: false
 各儂	gok21+neoyng53	999999999
 各樣	gok55+yong242
 滑滑菜	gouk21+gouk53+cai21
+刮光	gouk21+guong55
 骨灰	gouk21+hu55
 滑々傘	gouk21+louk53+sang33
 各儂	gouk21+neoyng53
 刮舌	gouk21+siek5	999999999
 骨簪	gouk21+zang55
+骨精	gouk21+zing55
+骨髓	gouk24+ceoy33
 刮鼎	gouk24+diang33
 各種	gouk24+zyng33
+滑寶	gouk33+bo33
 滑々	gouk33+louk5	999999
 滑々溜	gouk33+louk5+liu242
 蛒蝀	gouk5+dooyng213
+刮鼻	gouk55+pei21
 各色	gouk55+saik24
 各式	gouk55+seik24
 各樣	gouk55+yong242
@@ -6437,8 +6880,11 @@ use_preset_vocabulary: false
 講親	goung21+cing55
 講大話	goung21+duai53+ua242
 耩耩䠓	goung21+goung21+cy53
+講古典	goung21+gu24+lieng33
 扛棺材其	goung21+guang55+njai53+i0
+講戏文	goung21+hie55+ung53
 講服	goung21+huk5
+講儥𦾳	goung21+me53+looyk24
 灴麵	goung21+mieng242
 講親	goung21+njing55
 講脬	goung21+pa55	2489334
@@ -6478,13 +6924,14 @@ use_preset_vocabulary: false
 講價	goung55+ga213
 根基	goung55+gi55	884652
 降乩	goung55+gi55
+講何套	goung55+ho21+loo21
 講好套	goung55+ho21+loo213	30918234
 講好套	goung55+ho21+too213	30918234
 降乩	goung55+i55
 鋼琴	goung55+king53
 講囇	goung55+la242	114514
 降班	goung55+mang55	521626
-講評話	goung55+ming21+ua242
+講無算	goung55+mo21+looung21
 缸婆	goung55+mo53
 江西	goung55+ne55
 降乩	goung55+ngi55
@@ -6521,12 +6968,15 @@ use_preset_vocabulary: false
 鼓腰	gu21+iu55
 鼓腰舀水	gu21+iu55+iu24+zui33
 股錢	gu21+jieng53
+鴣隹飯	gu21+jui53+wuong242
 股川䫌	gu21+juong53+me33	9458744
 股川樹	gu21+juong53+njiu21
 股川	gu21+juong55	9958462
 股川夾	gu21+juong55+geik5	886954
 股川空	gu21+juong55+keoyng55	886548
+股川有疤疤	gu21+juong55+u55+ba55+ba55
 鼓山	gu21+lang55	63393453
+鼓山耙杈	gu21+lang55+ba21+ja21
 鼓山骹	gu21+lang55+ka55
 鼓樓	gu21+lau53
 舊底底	gu21+le24+le33	666666
@@ -6534,14 +6984,17 @@ use_preset_vocabulary: false
 故𡅏未	gu21+le55+mui242
 古老儂	gu21+lo21+neoyng53	900000
 古老套	gu21+lo55+too213
+孤獨相	gu21+luk53+suong21
 鼓攏母	gu21+lung24+mo33	765842
 鼓攏𥄹	gu21+lung55+bau213	869587
 鼓攏𥄹	gu21+lung55+mau213	869587
 古董店	gu21+lung55+naing213
 滾々摙	gu21+lung55+nieng21
+故儥捨	gu21+me53+lia33
 故㑚傼	gu21+na53+hang213
 鼓山	gu21+sang55	63393453
 鼓槌	gu21+tui53
+鼓風機	gu21+ung55+ngi55
 姑博嫂	gu21+wouk24+so33
 股川	gu21+yong55
 股錢	gu21+zieng53
@@ -6578,6 +7031,7 @@ use_preset_vocabulary: false
 姑嫂	gu53+lo33
 痼𤶁	gu53+lo33
 姑丈	gu53+luong242	987675
+舊母	gu53+mo33
 故未	gu53+mui242	5312355
 舊硯	gu53+ngieng213
 舊乇	gu53+nooh24
@@ -6615,11 +7069,14 @@ use_preset_vocabulary: false
 糊鯊	gu55+sai55
 舊時儂	gu55+si55+neoyng53
 姑夫	gu55+u55	987705
+姑換嫂	gu55+uang53+so33
 舊錢	gu55+zieng53
 鴣隹	gu55+zui55
 舊書	gu55+zy55
 掛長燈	gua21+doung55+deing55
 掛長燈	gua21+doung55+neing55
+瓜籽菜	gua21+i55+jai21
+瓜子杮	gua21+i55+pui21
 瓜子	gua53+i33	27098238
 瓜子	gua53+ji33	27098238
 掛門搭	gua53+muong21+dak24
@@ -6628,14 +7085,17 @@ use_preset_vocabulary: false
 瓜子	gua53+zi33	27098238
 掛瓶	gua55+bing53
 寡婦	gua55+hou242
+掛機	gua55+i55
 卦資	gua55+jy55
 寡料	gua55+lau242
 掛櫥	gua55+liu53
+瓜木	gua55+muk5
 卦爻	gua55+ngau53
 瓜魚	gua55+ngy53
 瓜肉	gua55+nyk5	24981731
 掛心	gua55+sing55	57865543
 掛瓶	gua55+wing53
+掛袍	gua55+wo53
 卦資	gua55+y55
 卦資	gua55+zy55
 拐頭	guai21+lau53
@@ -6648,6 +7108,7 @@ use_preset_vocabulary: false
 怪形怪狀	guai55+hing53+guai53+jooung242
 拐帶	guai55+lai213	620000
 𦳋𩔀	guai55+nguai242
+怪糟怪醬	guai55+zau55+guai53+zuong21
 筈筈	guak21+guak24
 聒聒叫	guak21+guak55+giu213
 𣢯裏	guak5+die33
@@ -6673,10 +7134,12 @@ use_preset_vocabulary: false
 關岳廟	guang21+ngoh55+miu242
 觀世音痣	guang21+ni21+ing53+njei213
 觀世音	guang21+ni55+ing55
+觀音媽	guang21+ning53+ma33
 觀音痣	guang21+ning53+njei213
 觀音痣	guang21+ning53+zei213
 觀世音痣	guang21+si21+ing53+zei213
 觀世音	guang21+si55+ing55
+管絞	guang24+nga33
 管管	guang33+guang33
 棺材店	guang53+cai21+daing213
 關帝	guang53+da213
@@ -6714,6 +7177,7 @@ use_preset_vocabulary: false
 官司	guang55+ni55
 官廳	guang55+niang55
 觀音	guang55+ning55
+觀音菜	guang55+ning55+njai21
 棺材	guang55+njai53
 棺材罩	guang55+njai53+dau213
 棺材罩	guang55+njai53+lau213
@@ -6795,11 +7259,13 @@ use_preset_vocabulary: false
 公案桌	gung21+ang53+dooh24
 公案桌	gung21+ang53+nooh24
 滾邊	gung21+bieng55	888888
+滾床	gung21+coung53
 滾肚痧	gung21+du55+sa55
 棍棍	gung21+goung213
 拳頭師父	gung21+nau21+la53+au242	120000
 公案桌	gung21+ngang53+nooh24
 公座椅	gung21+njo53+ie33
+君子牌	gung21+njy21+we53
 滾湯	gung21+noung55	1999063
 滾肚痧	gung21+nu55+la55
 滾々	gung21+nung33	777777
@@ -6857,6 +7323,7 @@ use_preset_vocabulary: false
 公攤	gung55+tang55
 公園	gung55+uong53
 軍裝	gung55+zoung55
+過火草	guo21+hui24+jau33
 過頭過耳	guo21+lau21+guo53+ngei242
 過來	guo21+li0
 過身過後	guo21+ling21+nguo53+au242
@@ -6894,12 +7361,14 @@ use_preset_vocabulary: false
 過道	guo53+loo242	9854858
 過渡	guo53+lou242	451258
 過路	guo53+luo242
+過路紅蚣	guo53+luo242+eoyng55+ngeoyng55
 過眼	guo53+ngang33	777777
 過癮	guo53+ngieng213
 過誤	guo53+nguo242
 過秤	guo53+njeing213
 過運	guo53+oung242
 過帕	guo53+pa21
+過疕	guo53+pi33
 過世	guo53+sie213
 過位	guo53+ui242
 過雲雨	guo53+ung33+y33
@@ -6914,14 +7383,17 @@ use_preset_vocabulary: false
 過堂	guo55+doung53
 過膠	guo55+ga55
 過期	guo55+gi55
+過飢失飽	guo55+gi55+sik24+bau33
 過關	guo55+guang55
 鍋鍋	guo55+guo55
 過橋丟拐	guo55+gyo53+liu53+guai33
 過番	guo55+huang55
 過熱	guo55+iek5
+過來	guo55+li53
 過甜	guo55+lieng55	690000
 過身	guo55+ling55
 過堂	guo55+loung53
+過鞔	guo55+mang55
 過門	guo55+muong53
 過熬	guo55+ngo53	864521
 過月	guo55+nguok5
@@ -6954,6 +7426,7 @@ use_preset_vocabulary: false
 廣東囝	guong21+neoyng53+ngiang33
 廣東厝	guong21+neoyng53+njuo213
 顴骨	guong21+ngoouk24	20983743
+廣瓜帽	guong21+ngua53+moo242
 廣瓜	guong21+ngua55
 廣州	guong21+njiu55
 顴骨	guong21+oouk24	20983743
@@ -7003,6 +7476,7 @@ use_preset_vocabulary: false
 光翔	guong55+suong53	762302
 光頭	guong55+tau53	48439234
 光番	guong55+uang55
+關水頭𡅏	guong55+zui21+lau53+le0
 具具	gy21+geoy242	999999999
 舉人	gy21+ing53
 舉手	gy24+ciu33	888888
@@ -7028,6 +7502,7 @@ use_preset_vocabulary: false
 居民	gy55+ming53	5000000
 鋸糠	gy55+oung55
 侷促	gyk21+ceoyk24
+乞乞	gyk21+geoyk24
 菊花	gyk21+hua55	24985917
 跼蹐	gyk21+zeik24
 𬇴𬇴飲	gyk33+gyk5+ang33	567895
@@ -7055,6 +7530,9 @@ use_preset_vocabulary: false
 斤上	gyng53+suong242
 共總	gyng53+zung33	433312331
 根根	gyng55+gyng55
+筋心	gyng55+ning55
+茄菜	gyo21+jai21
+茄白菜	gyo21+wah53+jai21
 茄囝	gyo33+giang33
 茄囝	gyo33+iang33
 橋頭	gyo55+lau53
@@ -7067,6 +7545,7 @@ use_preset_vocabulary: false
 決定	gyok55+deing242
 決定	gyok55+diang242
 決意	gyok55+ei213	5342551
+薑母證	gyong21+mo55+njeing21
 強頭強腦	gyong21+nau21+yong33+no33
 強做風	gyong21+zo55+hung55
 強做風	gyong21+zo55+ung55
@@ -7137,6 +7616,7 @@ use_preset_vocabulary: false
 夏至	ha53+zei213	898748
 下平	ha55+bing53
 蝦青	ha55+cang55	652254
+蝦生	ha55+cang55
 䶎䶑	ha55+cei242	999999
 蝦䘋蟆	ha55+cieng53+mouk24
 蝦䘋	ha55+cieng55
@@ -7144,21 +7624,25 @@ use_preset_vocabulary: false
 蝦乾肉餅	ha55+gang55+nyk33+biang33
 廈航	ha55+houng53
 孝服	ha55+huk5
+蝦車	ha55+ia55
 蝦精鱉怪	ha55+iang55+biek24+guai213
 下入	ha55+ik5
 蝦青	ha55+jang55	652254
 蝦精鱉怪	ha55+jiang55+biek24+guai213
 蝦糠	ha55+koung55
 蝦蛄	ha55+ku55
+蝦環	ha55+kuang53
 孝簾	ha55+lieng53
 蝦酥	ha55+lu55	869675
 廈門	ha55+muong53
 蝦酥	ha55+su55	869675
 孝服	ha55+uk5
+蝦丸	ha55+uong53
 蝦精鱉怪	ha55+ziang55+biek24+guai213
 海賊	hai21+ceik5	900000
 海鰍	hai21+ciu55
 硋店	hai21+daing213
+海底月	hai21+de21+nguok5
 硋器	hai21+ei213
 海墘	hai21+gieng53	363770
 骸骨	hai21+goouk24
@@ -7194,11 +7678,13 @@ use_preset_vocabulary: false
 海囝	hai24+giang33	700000
 海囝	hai24+iang33	700000
 海碗	hai24+uang33
+𧳧犬	hai33+eing33
 咳咳呻	hai33+hai33+ceing55	5342982
 孩兒剪	hai33+i33+jeing33
 孩兒剪	hai33+i33+zeing33
 硋窯	hai33+iu53
-海壀	hai33+piah5
+亥菜	hai53+jai21
+解數野兼	hai53+lou21+ia21+gieng55
 解數	hai53+lou213
 解數	hai53+sou213
 海菜	hai55+cai213	1000000
@@ -7216,15 +7702,18 @@ use_preset_vocabulary: false
 海帶	hai55+lai213	1000000
 海亂	hai55+looung213	379034
 海漲	hai55+looung213
+海袋	hai55+looy242
 海毛蟹	hai55+mang21+a242
 海毛蟹	hai55+mang21+nga242
 海毛蟹	hai55+mo21+a242
 海毛蟹	hai55+mo21+ha242
+害儂貓	hai55+neoyng55+ma53
 海角	hai55+ooyk24	387093
 亥時	hai55+si53	600000
 海漲	hai55+tooung213
 硋鍋	hai55+uo55
 海鯽	hai55+zeik24
+幸得	haing242+daik24
 合倍	hak21+bui242
 合歡酒	hak21+huang53+njiu33
 合歡酒	hak21+huang53+ziu33
@@ -7268,6 +7757,7 @@ use_preset_vocabulary: false
 含癲不遂	hang21+nieng21+muk55+sui242
 寒暑針	hang21+ny21+jeing55	999999999
 寒暑針	hang21+ny21+zeing55	999999999
+蚶䱝草	hang21+pe21+jau33
 寒士	hang21+seoy242
 寒暑針	hang21+sy21+zeing55	999999999
 含糊七	hang21+u21+ceik24	945230
@@ -7293,29 +7783,36 @@ use_preset_vocabulary: false
 含啼	hang33+tie53	666666
 漢馬	hang53+ma33
 傼謝	hang53+nia242
+鼾聽	hang53+niang21
 傼謝	hang53+sia242
 蚶爿	hang55+being53
 蚶櫥	hang55+diu53
 蚶櫥貓	hang55+diu55+ma53
 蚶蜱	hang55+me53
 蚶爿	hang55+meing53
+罕無価	hang55+mo21+la242
+罕無四	hang55+mo21+lei21
 汗衫	hang55+nang55
 蚶螯	hang55+ngo53
 漢文	hang55+ngung53
 含身	hang55+ning55
 蚶櫥	hang55+niu53
 蚶櫥貓	hang55+niu55+ma53
+嫻熟	hang55+nyk5
 汗衫	hang55+sang55
+罕四	hang55+sei21
 含身	hang55+sing55
 漢文	hang55+ung53
 鱟殼扇	hau21+eoyk55+sieng213
 鱟殼扇	hau21+geoyk55+sieng213
 學校	hau21+hau242	9564326
+鱟桸草	hau21+ie53+jau33
 後生囝	hau21+lang53+iang33	9000000
 後生囝	hau21+lang53+ngiang33	9000000
 後生俤	hau21+lang53+nie242
 後生俤	hau21+sang53+die242
 後生囝	hau21+sang53+giang33	9000000
+吼裏	hau24+die33
 許塊所	hau24+neo33
 薅草	hau53+cau33
 孝順	hau53+loung242
@@ -7327,6 +7824,7 @@ use_preset_vocabulary: false
 孝男	hau55+nang53
 後生	hau55+sang55	10000000
 孝孫	hau55+soung55
+淒慘	he53+cang33
 悽慘	he53+ciang33
 許式	he53+eik24
 罅々	he55+le55
@@ -7335,6 +7833,7 @@ use_preset_vocabulary: false
 血池	heik21+die53	876585
 黑龍江	heik21+lyng55+geoyng55
 黑龍江	heik21+lyng55+ngeoyng55
+血絲菜	heik21+si53+jai21
 黑板	heik24+being33
 血母	heik24+mo33
 血水	heik24+zui33
@@ -7360,6 +7859,7 @@ use_preset_vocabulary: false
 莧菜	heing53+cai213
 莧菜	heing53+njai213
 哼喝	heing55+hak24	8342772
+哼喝𠿝罵	heing55+hak24+ceo53+ma33
 杏仁	heing55+ing53	23558523
 杏仁酥	heing55+ing55+nu55
 杏仁酥	heing55+ing55+su55
@@ -7395,6 +7895,7 @@ use_preset_vocabulary: false
 魟魚鮝	heoyng53+ngy33+suong33
 巷角	heoyng53+ooyk24
 烘火	heoyng53+ui33
+烘乾	heoyng55+gang55
 臖核	heoyng55+houk5
 臖熱	heoyng55+iek5
 臖核	heoyng55+ngouk5
@@ -7456,6 +7957,7 @@ use_preset_vocabulary: false
 許隻	hi55+ieh24
 嬉遊	hi55+iu53
 喜慶	hi55+keing213
+許前後	hi55+leing21+ngau242
 許蜀隻	hi55+loh21+ieh24
 許塊	hi55+looy213	999999999
 飛檐泊壁	hi55+sieng53+boh21+biah24	700000
@@ -7530,6 +8032,7 @@ use_preset_vocabulary: false
 嫌棄	hieng53+ei213	43338250
 現現	hieng53+hieng242	456756745
 現現	hieng53+ieng242	456756745
+現久	hieng53+iu33
 現刻	hieng53+kaik24	66666666
 嫌棄	hieng53+kei213	43338250
 現刻	hieng53+ngaik24	66666666
@@ -7559,9 +8062,11 @@ use_preset_vocabulary: false
 興化兄	hing21+hua55+hiang55	500000
 形款	hing21+kuang33
 形色	hing21+naik24
+眩豆	hing21+nau242
 形骸	hing21+ngai242
 興化粉	hing21+ngua53+ung33	9686566
 興化兄	hing21+ngua55+iang55	500000
+興化丸	hing21+ngua55+uong53
 興化巾	hing21+ngua55+yng55
 形款	hing21+nguang33
 形狀	hing21+njooung242
@@ -7579,6 +8084,7 @@ use_preset_vocabulary: false
 興化	hing53+ngua213
 興化	hing53+ua213
 眩車	hing55+cia55
+眩機	hing55+gi55
 眩車	hing55+njia55
 興三敗兩	hing55+sang55+bai53+lang242
 僥倖	hiu53+haing242
@@ -7596,6 +8102,10 @@ use_preset_vocabulary: false
 好食	ho21+lieh5
 好天	ho21+lieng55
 好心	ho21+ling55
+窢々	ho21+lou21
+好豬	ho21+ly55
+好命儂	ho21+miang55+neoyng53
+何面苦	ho21+mieng53+ngu33
 好儂	ho21+neoyng53	10000000
 好心	ho21+sing55
 何在	ho21+zai242	999999999
@@ -7628,6 +8138,7 @@ use_preset_vocabulary: false
 豪豬	ho55+ly55
 喉嚨根	ho55+lyng55+gyng55
 好命	ho55+miang242
+好呆話	ho55+ngai21+ua242
 好乇	ho55+nooh24
 好睏	ho55+ooung213
 好疼	ho55+tiang213	9546231
@@ -7635,8 +8146,10 @@ use_preset_vocabulary: false
 好腳	ho55+yoh24	870000
 桁桁	hooung213+hooung213
 許塊所	hou24+neo33
+扶𡅏拜堂	hou242+le0+buai55+loung53
 扶握來	hou242+ouk24+li53	666666
 鶴喙	houk21+cui213
+學季	houk21+gie21
 學校	houk21+hau242	9564326
 學問	houk21+oung242
 學識	houk21+seik24
@@ -7727,11 +8240,13 @@ use_preset_vocabulary: false
 湖鰍豆	hu21+liu53+dau242
 湖鰍鯽	hu21+liu53+jeik24
 湖鰍豆	hu21+liu53+lau242
+胡蒜	hu21+looung21
 葫蒜	hu21+looung213
 和尚	hu21+luong242
 和尚院	hu21+luong53+ieng21
 和尚頭	hu21+luong55+tau53	1723842
 胡鬧	hu21+nau242
+附䐯膣會	hu21+neoy21+zi53+ui242
 湖色	hu21+saik24	457877
 葫蒜	hu21+sooung213
 和尚	hu21+suong242
@@ -7741,6 +8256,7 @@ use_preset_vocabulary: false
 虎頭鯊	hu21+tau55+sai55
 護髮素	hu21+uak55+sou213
 呼和浩特	hu21+uo21+ho55+deik5
+虎婆	hu21+wo53
 虎災	hu21+zai55
 符咒	hu21+ziu213
 虎牙齒	hu24+ngai33	6869733
@@ -7773,6 +8289,7 @@ use_preset_vocabulary: false
 富豪	hu55+ho53	8494523
 灰灰	hu55+hu55
 呼吆喝六	hu55+iu55+hak21+leoyk5	12843904
+扶梯	hu55+lai242
 護城河	hu55+liang55+o53	346536
 湖鰍	hu55+liu55
 胡椒	hu55+liu55
@@ -7823,6 +8340,7 @@ use_preset_vocabulary: false
 花樹	hua53+ciu213
 花旦	hua53+dang213
 花架	hua53+ga213
+花格	hua53+gak24
 花蛤	hua53+gak24
 花轎	hua53+giu242
 花捲	hua53+guong33
@@ -7854,12 +8372,16 @@ use_preset_vocabulary: false
 花油	hua55+iu53
 花齋	hua55+je55
 花席	hua55+juoh5
+花箍	hua55+ku55
 花辣	hua55+lak5
 花頭	hua55+lau53
+花頭白	hua55+lau55+wah5
 花生	hua55+leing55	48672849
 花哩雞	hua55+li55+ie55
+花狸貓	hua55+li55+ma53
 花廳	hua55+liang55
 花銷	hua55+liu55
+花蔑	hua55+miek5
 花糕	hua55+o55
 花師	hua55+sa55
 花生	hua55+seing55	48672849
@@ -7879,6 +8401,7 @@ use_preset_vocabulary: false
 花齋	hua55+ze55
 許塊所	huai24+neo33
 懷疑	huai33+ngi53	72453421
+發白	huak21+bah5
 發初	huak21+ceo55	10498382
 發癲	huak21+dieng55	198243948
 發掘	huak21+guk5
@@ -7897,12 +8420,15 @@ use_preset_vocabulary: false
 發揚	huak21+yong53
 發表	huak24+biu33
 發展	huak24+dieng55
+發機	huak24+gi55
 發去	huak24+goo213
 發起	huak24+ki33
 發蒙囝	huak24+meoyng33+giang33
 發蒙囝	huak24+meoyng33+iang33
 發蒙囝	huak24+meoyng33+ngiang33
 法語	huak24+ngy33
+發吱哥	huak24+zi55+o55
+伐鏟	huak33+ciang33
 滑草	huak33+co33	976523
 罰款	huak33+kuang33
 乏力	huak33+lik5
@@ -7915,6 +8441,7 @@ use_preset_vocabulary: false
 滑稽	huak55+kie55	769521
 發射	huak55+sia242
 滑湯	huak55+toung55
+發劑	huak55+za242
 發財票	huak55+zai21+piu213
 發財票	huak55+zai21+wiu213
 橫案桌	huang21+ang53+nooh24
@@ -7928,6 +8455,7 @@ use_preset_vocabulary: false
 番囝薯	huang21+iang21+ny53
 番囝婆	huang21+iang21+wo53	800000
 番客媽	huang21+kah53+ma33
+番柿囝	huang21+ki53+iang33
 橫頭案	huang21+nau21+ang213
 橫頭桌	huang21+nau21+looh24
 橫豎	huang21+neoy242	54374852
@@ -7940,6 +8468,7 @@ use_preset_vocabulary: false
 番囝薯	huang21+ngiang21+ny53
 番囝婆	huang21+ngiang21+wo53	800000
 番囝囝	huang21+ngiang24+ngiang33	400000
+番囝刺	huang21+ngiang55+njie21
 橫惡	huang21+ngoouk24
 翻講翻聽	huang21+ngoung21+huang53+niang213
 番石榴	huang21+nuoh5+liu53	20598384
@@ -8026,6 +8555,7 @@ use_preset_vocabulary: false
 翻去	huang55+ko0
 翻腔	huang55+kyong55
 番邦	huang55+mang55	845679
+反磨	huang55+moo242
 橫三	huang55+nang55
 犯儂	huang55+neoyng53	5000000
 番儂	huang55+neoyng53	400000
@@ -8115,17 +8645,21 @@ use_preset_vocabulary: false
 火灸	hui24+giu33
 火管	hui24+guong33
 火灸	hui24+iu33
+火龍果	hui24+lyng33+nguo33
 火管	hui24+uong33
 火把	hui24+wa33
 火㖹暗去	hui33+bung53+ang213+ko0
 火㖹暗去	hui33+bung53+ang213+ngo0
 火㖹暗去	hui33+bung53+ang213+o0
 迴廊	hui33+loung53	985454
+回龍水	hui33+lyng33+njui33
+回龍酒	hui33+lyng33+njui33
 回門酒	hui33+muong33+njiu33
 回門酒	hui33+muong33+ziu33
 回門	hui33+muong53
 回南	hui33+nang53	886309
 火熟	hui33+syk5	5621521
+回梓	hui33+zy33
 會伯	hui53+bah24	5000000
 歲飯	hui53+buong242
 會意	hui53+ei213	4865845
@@ -8152,13 +8686,21 @@ use_preset_vocabulary: false
 火氣	hui55+kei213
 火帝	hui55+la213
 火癩	hui55+lai242
+火信	hui55+leing21
 火箸	hui55+leoy242
 回爐	hui55+lu53
 回爐生	hui55+lu55+leing55
+伙廚擔	hui55+luo21+lang21
+回龍	hui55+lyng53
+回龍堂	hui55+lyng55+noung53
 火艾	hui55+ngie213
+回虞	hui55+ngy53
 回批	hui55+pie55
 會頭	hui55+tau53
 火罐	hui55+uang213
+回魂	hui55+ung53
+火補	hui55+wuo33
+回陽	hui55+yong53
 會齊	hui55+ze53
 火占	hui55+zieng213
 會錢	hui55+zieng53
@@ -8178,8 +8720,10 @@ use_preset_vocabulary: false
 服事	huk21+seoy242
 伏勢	huk21+sie213	765421
 佛跳牆	huk21+tiu55+cuong53
+福州口	huk21+ziu53+au33
 福州戲	huk21+ziu53+hie213
 福州菜	huk21+ziu53+jai21
+福州事	huk21+ziu53+lai242
 福州話	huk21+ziu53+ua242
 福州	huk21+ziu55
 福州淪陷	huk21+ziu55+lung21+hang242
@@ -8201,6 +8745,7 @@ use_preset_vocabulary: false
 復三	huk55+sang55
 粉乾	hung21+ang55	8696765
 奉教堂	hung21+au55+loung53
+渾㗑㗑	hung21+bai55+bai55
 粉牌	hung21+be53
 逢事	hung21+dai242
 逢塊	hung21+dooy213
@@ -8219,6 +8764,7 @@ use_preset_vocabulary: false
 粉乾	hung21+ngang55	8696765
 奉教堂	hung21+ngau55+loung53
 粉紅	hung21+ngeoyng53	467589
+逢現現	hung21+ngieng53+ngieng242
 渾化	hung21+ngua213	465521
 紛紛亂	hung21+ngung53+looung242
 粉絲	hung21+ni55	665845
@@ -8229,6 +8775,7 @@ use_preset_vocabulary: false
 逢式	hung21+seik24
 粉絲	hung21+si55	665845
 分數簿	hung21+su53+buo242
+風雪衣	hung21+suok21+i55
 風颱囝	hung21+tai53+giang33
 風颱氣	hung21+tai53+kei213
 渾化	hung21+ua213	465521
@@ -8250,6 +8797,7 @@ use_preset_vocabulary: false
 魂驚散去	hung53+giang55+sang213+ko0
 魂驚散去	hung53+giang55+sang213+ngo0	454212
 魂驚散去	hung53+giang55+sang213+o0	454212
+風櫃	hung53+gui242
 封建	hung53+gyong213
 風寒囝	hung53+hang33+giang33
 分發	hung53+huak24	777777
@@ -8258,6 +8806,7 @@ use_preset_vocabulary: false
 風囝	hung53+iang33
 風氣	hung53+kei213
 風帽	hung53+moo242
+風蚊㲺	hung53+muong21+ceih24
 風蚊袋	hung53+muong21+looy242
 風蚊袋	hung53+muong21+nooy242
 風蚊摔	hung53+muong21+nooyk24
@@ -8273,6 +8822,7 @@ use_preset_vocabulary: false
 風向	hung53+ngyong213	555363
 風扇	hung53+nieng213
 風水	hung53+njui33
+吩數	hung53+nou21
 分數	hung53+nou213
 風軟	hung53+nuong33
 風煞	hung53+sak24
@@ -8300,6 +8850,7 @@ use_preset_vocabulary: false
 風野透	hung55+ia55+lau213	889876
 風野透	hung55+ia55+tau213	889876
 粉扣	hung55+kau213	600000
+風爐	hung55+lu53
 風無去了	hung55+mo53+o0+lau0
 風波	hung55+mo55
 風篷	hung55+mung53	765157
@@ -8315,6 +8866,8 @@ use_preset_vocabulary: false
 份頭	hung55+nau53
 風頭	hung55+nau53
 風寒	hung55+ngang53
+風寒肘㪠	hung55+ngang53+diu55+kaing21
+風鉤	hung55+ngau55
 風衣	hung55+ngi55
 封棺	hung55+nguang55
 魂幡	hung55+nguang55
@@ -8370,11 +8923,15 @@ use_preset_vocabulary: false
 貨車	huo55+ia55
 貨車	huo55+jia55
 雨蜞	huo55+ki53
+貨師	huo55+la55
+和和	huo55+uo53
+和牌	huo55+we53
 皇帝	huong21+da213	3000000
 皇帝星	huong21+de55+sing55
 園地	huong21+dei242
 紡綢	huong21+diu53
 方塊肉	huong21+leoy55+nyk5
+皇帝	huong21+na21
 皇帝	huong21+na213	3000000
 皇帝星	huong21+ne55+ling55
 園地	huong21+nei242
@@ -8401,8 +8958,11 @@ use_preset_vocabulary: false
 方纔	huong55+cai55
 荒田	huong55+ceing53
 荒唐	huong55+doung53
+黃烚烚	huong55+kak5+kak5
 荒田	huong55+njeing53
 慌慞	huong55+njuong55	886592
+園鋤	huong55+ny53
+黃蜱蜱	huong55+pe55+pe53
 婚喪	huong55+soung55
 防颱	huong55+tai55
 楦頭	huong55+tau53
@@ -8439,6 +8999,7 @@ use_preset_vocabulary: false
 香港骹	hyong21+geoyng21+ka55
 香几桌	hyong21+gi55+dooh24
 香几桌	hyong21+i55+looh24
+鄉下角	hyong21+nga53+gooyk24
 鄉下魯	hyong21+nga53+leo33	990000
 鄉下妹	hyong21+nga53+mui213	3500000
 鄉下儂	hyong21+nga55+neoyng53	1000000
@@ -8510,6 +9071,7 @@ use_preset_vocabulary: false
 香雲紗	hyong55+ung55+na55
 香櫞	hyong55+yong53
 憲書	hyong55+zy55
+伊講	i0+oung0
 依大頭	i21+duai55+tau53	100000
 姨丈	i21+duong242
 以懸	i21+geing53	66666
@@ -8522,11 +9084,13 @@ use_preset_vocabulary: false
 胰皂子樹	i21+jo53+zi33+ciu213
 胰皂	i21+joo242	999999999
 依璋師	i21+juong55+na55
+伊拉克紅棗	i21+la53+kaik24+eoyng33+njo33
 姨太	i21+lai213	546376
 醫生姐	i21+leing53+zia33
 貽順	i21+loung242	8000000
 味素哈	i21+lu55+ha55
 依大頭	i21+luai55+tau53	100000
+兒童桌	i21+lung21+nooh24
 貽順哥	i21+lung55+ngo55	8000000
 貽順哥	i21+lung55+o55	8000000
 衣裳師父	i21+luong21+na53+au242
@@ -8583,12 +9147,23 @@ use_preset_vocabulary: false
 衣裳板	i53+luong33+meing33	999999999
 衣裳囝	i53+luong33+ngiang33
 依媽	i53+ma33	856372
+依妹囝	i53+mei33+iang33
 薏米	i53+mi33	20436278
 依命	i53+miang242	1000000
 依姆	i53+mu33	885733
 依妹	i53+mui213	869678
 依奶	i53+ne33	887464
 伊奶	i53+ne33
+伊奶霸霸	i53+ne33+ba21+wa21
+伊奶霸霸疼	i53+ne33+ba21+wa21+tiang21
+依奶表伯	i53+ne33+biu55+wah24
+伊奶倩我𠚺	i53+ne33+ciang21+nguai55+sa21
+依奶擱其	i53+ne33+gooh24+gi0
+伊奶乞犬𠚺	i53+ne33+kyk24+keing33+sa21
+伊奶乞儂𠚺	i53+ne33+kyk55+neoyng21+sa21
+伊奶我𠚺	i53+ne33+nguai55+sa21
+伊奶膣䫌	i53+ne33+zi53+we33
+依外	i53+ngie242
 伊娘奶	i53+noung33+ne33	974674
 依竮	i53+piang33
 意思	i53+seoy213
@@ -8629,12 +9204,15 @@ use_preset_vocabulary: false
 醫生	i55+leing55
 衣食	i55+lik5
 衣食晡	i55+lik55+buo55
+兒童席	i55+lung55+nik5
 衣裳	i55+luong53
 衣裳車	i55+luong55+cia55	999999999
 衣裳鉤	i55+luong55+gau55
 衣裳䙎	i55+luong55+ke55
+衣裳池	i55+luong55+nie53
 衣裳櫥	i55+luong55+niu53
 衣裳車	i55+luong55+njia55	999999999
+衣裳槽	i55+luong55+no53
 衣裳槌	i55+luong55+tui53	999999999
 依嬤	i55+ma55	879066
 伊儂	i55+neoyng53	999999999
@@ -8663,17 +9241,20 @@ use_preset_vocabulary: false
 野懸	ia21+geing53
 野雞	ia21+gie55
 野花	ia21+hua55	50193823
+冶山	ia21+lang55
 野価隻	ia21+le53+ieh24
 野価隻	ia21+le53+jieh24
 野価隻	ia21+le53+zieh24
 野価回	ia21+le55+hui53
 野価日	ia21+le55+nik5
 野価回	ia21+le55+ui53
+也是實其	ia21+li55+lik5+gi0
 野靈	ia21+ling53
 野爽快	ia21+loung55+uai213
 耶穌教	ia21+lu53+gau213
 野貓	ia21+ma53
 野拉	ia21+na53
+冶南	ia21+nang53
 野儂	ia21+neoyng53	800000
 野呆	ia21+ngai53
 野鵝	ia21+ngie53	1514545451
@@ -8686,6 +9267,7 @@ use_preset_vocabulary: false
 野価回	ia21+se55+hui53
 野爽快	ia21+soung55+uai21
 耶穌教	ia21+su53+gau213
+野薯	ia21+sy53
 也有好	ia21+u53+ho33	9462532
 野有価	ia21+u53+la242	846523
 也有好	ia21+u53+o33	9462532
@@ -8698,9 +9280,13 @@ use_preset_vocabulary: false
 野狠	ia24+heing33	6355235
 野好	ia24+ho33	4123533
 野囝	ia24+iang33	1000000
+野犬	ia24+keing33
+野犬生其	ia24+keing33+sang55+ngi0
+野魯	ia24+lu33
 野軟	ia24+nuong33
 野好	ia24+o33	4123533
 野講	ia24+oung33	34378921
+野走	ia24+zau33
 野快	ia33+ka213
 夜燕	ia53+ieng213
 也是	ia53+lei242
@@ -8718,6 +9304,7 @@ use_preset_vocabulary: false
 野俊	ia55+joung21
 野価	ia55+la242	99896532
 野襶	ia55+lai213
+野𠕆	ia55+laing242
 冶山	ia55+lang55	26346865
 野獸	ia55+liu213
 野硬	ia55+ngaing242
@@ -8727,6 +9314,7 @@ use_preset_vocabulary: false
 野霸	ia55+wa213
 夜班	ia55+wang55
 野背	ia55+wui242
+野芹菜	ia55+yng21+njai21
 野俊	ia55+zoung21
 搧紙片	iak21+zai55+wieng213
 油炸粿	iak24+gui33	987645
@@ -8752,6 +9340,7 @@ use_preset_vocabulary: false
 椅墊	ie55+laing242
 椅面	ie55+meing213	66666
 益命	ieh53+miang242
+熱飯損配	iek21+buong242+soung55+pui21
 熱凊	iek21+ceing213
 熱氣	iek21+ei213	7382214
 熱氣	iek21+kei213	7382214
@@ -8759,7 +9348,9 @@ use_preset_vocabulary: false
 熱燥	iek21+soo213	695441
 熱天頭	iek21+tieng55+tau53	7833911
 熱水壺	iek21+zui21+hu53
+熱水爐	iek21+zui21+lu53
 熱水壺	iek21+zui21+u53
+熱火	iek33+huo33
 熱落	iek33+loh5	447589
 熱焙焙	iek5+peo55+peo55	2000000
 熱焙焙	iek5+peo55+weo55	2000000
@@ -8768,9 +9359,12 @@ use_preset_vocabulary: false
 圓桌	ieng21+dooh24
 掩大目	ieng21+nai55+meoyk5
 演員	ieng21+nguong53
+圓車車	ieng21+njia55+jia55
 胭脂李	ieng21+njie53+li33	24893458
+圓⿱艹初	ieng21+njoo21
 圓珠珠	ieng21+njuo55+juo55	886452
 圓桌	ieng21+nooh24
+圓蒜囝	ieng21+noung53+ngiang33
 演員	ieng21+uong53
 胭脂李	ieng21+zie53+li33	24893458
 圓珠珠	ieng21+zuo55+zuo55	886452
@@ -8778,9 +9372,11 @@ use_preset_vocabulary: false
 圓環	ieng33+kuang53	999999999
 圓攏	ieng33+leoyng33	888888
 圓房	ieng33+mung53
+圓圓草	ieng33+ngieng33+njau33
 燕菜	ieng53+cai213	1400000
 魘法	ieng53+huak24
 煙火	ieng53+hui33
+燕殼	ieng53+kooyk24
 燕囝	ieng53+ngiang33
 魘法	ieng53+nguak24
 燕菜	ieng53+njai213	1400000
@@ -8797,6 +9393,7 @@ use_preset_vocabulary: false
 掩風掩大目	ieng55+ngung55+ieng21+nai55+meoyk5
 掩消	ieng55+niu55	888888
 胭脂	ieng55+njie55
+圓梭	ieng55+no55
 燕皮	ieng55+pui53
 掩消	ieng55+siu55	888888
 掩風	ieng55+ung55
@@ -8809,9 +9406,14 @@ use_preset_vocabulary: false
 一直	ik21+dik5
 一中	ik21+dyng55
 一月	ik21+nguok5
+一捧雪	ik21+pung55+nuok24
 入數	ik21+sou213
 乙醇	ik21+sung53
+一貼好	ik21+teik24+ho33
+一字絞	ik21+zi53+ga33
 一枝花	ik21+zie55+hua55
+一股	ik24+gu33
+一鳥	ik24+zeu33
 入伏	ik33+huk5
 一路	ik5+lou242
 一切	ik55+ciek24
@@ -8831,8 +9433,10 @@ use_preset_vocabulary: false
 榮幸	ing21+haing242
 伓好講	ing21+ho24+goung33
 伓好看	ing21+ho55+kang213	9965215
+人牌一	ing21+me21+eik24
 伓使錢	ing21+nai21+jieng53
 伓使細膩	ing21+nai21+se53+nei242
+人參果	ing21+neing53+nguo33
 人家厝	ing21+nga53+juo213	888888
 人家齋	ing21+nga55+je55	846215
 人家齋先生	ing21+nga55+ze55+sing55+nang55
@@ -8843,10 +9447,12 @@ use_preset_vocabulary: false
 陰烏天	ing21+ngu55+lieng55
 伓過錯	ing21+nguo53+joo213	764852
 伓是味	ing21+ni53+ei242
+伓是式	ing21+ni53+leik24
 伓是形	ing21+ni55+hing53	2135131
 伓是坯	ing21+ni55+pui55	9412565
 人力車	ing21+nik55+cia55	897675
 伓在覺	ing21+njai53+ooyk24
+人情簿	ing21+njing21+muo242
 伓像囝	ing21+njuong53+iang33	8462512
 伓像囝	ing21+njuong53+ngiang33	8462512
 伓像裝	ing21+njuong55+njoung55	15645631
@@ -8881,6 +9487,7 @@ use_preset_vocabulary: false
 人情	ing33+zing53
 伓仈	ing53+baik24	12345312
 應喙	ing53+cui213	33980908
+印度	ing53+dou242
 伓應	ing53+eing213	33985289
 伓講	ing53+goung33	29191929483
 陰去	ing53+keoy213
@@ -8888,6 +9495,10 @@ use_preset_vocabulary: false
 伓使	ing53+nai33	29281816829
 印色	ing53+naik24	999999999
 伓是	ing53+nei242	29281816829
+伓是復講	ing53+nei242+bu53+goung33
+伓是儥捨	ing53+nei242+me53+lia33
+伓值	ing53+neik5
+應應	ing53+ngeing21
 伓應	ing53+ngeing213	33985289
 應驗	ing53+ngieng242	31872874
 伓講	ing53+ngoung33	29191929483
@@ -8897,6 +9508,7 @@ use_preset_vocabulary: false
 伓成事	ing53+niang21+nai242	23123531
 伓成劑	ing53+niang21+za242	2649496
 伓啻	ing53+nie213	9874216
+伓食飯去	ing53+nieh21+buong242+o0
 伓在	ing53+njai242	2143364598
 伓存意	ing53+njoung21+ei213
 伓存意	ing53+njoung21+ngei213	8677637
@@ -8925,11 +9537,14 @@ use_preset_vocabulary: false
 伓驚	ing55+giang55
 陰入	ing55+ik5
 飲料	ing55+lau242
+人牌	ing55+me53
 伓通	ing55+neoyng55	29296238568952
 應該	ing55+ngai55	753573335353
 印柑	ing55+ngang55	12047202
 人工	ing55+ngeoyng55
 伓驚	ing55+ngiang55
+人人	ing55+nging53
+仍原	ing55+nguong53
 伓成	ing55+niang53	292912289
 應聲	ing55+niang55
 伓食	ing55+nieh5
@@ -8938,6 +9553,7 @@ use_preset_vocabulary: false
 伓存	ing55+njoung53	6486565
 伓掏	ing55+no53
 引道	ing55+noo242	854625
+湮酸	ing55+noung55
 衣裳	ing55+nuong53
 伓成	ing55+siang53	292912289
 伓食	ing55+sieh5
@@ -8947,6 +9563,7 @@ use_preset_vocabulary: false
 永泰	ing55+tai213
 伓通	ing55+teoyng55	29296238568952
 陰陽	ing55+yong53
+印慒	ing55+zeo55
 伓存	ing55+zoung53
 油白菜	iu21+bah53+cai213
 油菜	iu21+cai213
@@ -8980,6 +9597,7 @@ use_preset_vocabulary: false
 幼稚園	iu21+li55+uong53	6848525
 油天炮	iu21+lieng53+mau213
 腰心子	iu21+ling53+nji33
+油麥菜	iu21+ma21+jai21
 油膩	iu21+neoy242	864632
 由是	iu21+sei242
 酉時	iu21+si53	600000
@@ -9014,26 +9632,35 @@ use_preset_vocabulary: false
 腰袼	iu53+gooh24
 腰子	iu53+i33
 要緊	iu53+ing33	8452038
+幼幼	iu53+iu21
 又又	iu53+iu242	343733
 腰子	iu53+ji33
 腰帶	iu53+lai213
 幼雅	iu53+nga33	764589
+幺五	iu53+ngu33
 腰袼	iu53+ooh24
+幼骨	iu53+oouk24
 油熟	iu53+syk5	865421
+又補	iu53+wuo33
 腰子	iu53+zi33
 腰折	iu53+ziek24
 腰拔直去	iu55+beik5+dik5+go0	888888
 遊村	iu55+coung55
 幼學	iu55+houk5
 幼學瓊林	iu55+houk5+ging33+ning53
+遊金	iu55+ing55
+幺幺	iu55+iu55
 邀邀環環	iu55+iu55+kuang33+kuang53
 遊村	iu55+joung55
 妖虯	iu55+kiu53
 幼篩	iu55+lai55
+幺六	iu55+leoyk5
+油豬	iu55+ly55
 油龍	iu55+lyng53
 妖孽	iu55+ngiek5
 邀新人	iu55+sing55+ing53
 幼篩	iu55+tai55
+油灰	iu55+ui55
 骹後㬹	ka21+au55+dang55
 骹後㬹	ka21+au55+lang55
 骹柄下	ka21+bang53+a242	265132
@@ -9120,6 +9747,7 @@ use_preset_vocabulary: false
 骹爪	ka53+zau33
 骹迹	ka53+zieh24
 骹掌	ka53+zuong33	66666
+骹包	ka55+bau55
 骹伐	ka55+buak5	885476
 骹盤起	ka55+buang53+i0
 骹盤起	ka55+buang53+ki0
@@ -9143,6 +9771,7 @@ use_preset_vocabulary: false
 骹腰	ka55+iu55	768545
 骹翹𡅏	ka55+kiu213+le0
 骹蹺𡅏	ka55+kiu55+le0
+骹庫	ka55+kou21
 卡搭	ka55+lak24	777777
 骹㬹	ka55+lang55
 骹臁	ka55+lieng53	764511
@@ -9185,6 +9814,7 @@ use_preset_vocabulary: false
 客佻刀	kah55+tiu55+do55
 客佻熊	kah55+tiu55+hyng53
 開水壺	kai21+jui21+hu53
+開水爐	kai21+jui21+lu53
 開水壺	kai21+jui21+u53
 開幕式	kai21+mouk53+seik24
 開幕式	kai21+mouk55+seik24
@@ -9221,6 +9851,7 @@ use_preset_vocabulary: false
 拾留底	kak24+lau33+le33	666666
 拾義會	kak24+ngie53+hui242
 拾月華	kak24+nguok33+hua53
+拾死雞囝	kak24+si21+ie53+iang33
 拾刷	kak5+loouk24
 拾刷	kak5+soouk24	666666
 拾骨	kak55+goouk24
@@ -9236,20 +9867,26 @@ use_preset_vocabulary: false
 看花樹	kang21+hua53+ciu213
 看花樹	kang21+hua53+iu213
 看花樹	kang21+hua53+jiu213
+看輕看下	kang21+king21+kang53+gia242
 看病先生	kang21+mang21+ning55+nang55
 看儥重	kang21+me53+dooyng242
 看儥起	kang21+me53+i55
 看儥起	kang21+me53+ki55
+看儥𦾳	kang21+me53+looyk24
 看儥重	kang21+me53+looyng242
 垘爿	kang21+meing53	50000000
 垘爿塔	kang21+meing53+tak24
 看命先生	kang21+miang21+ning55+nang55
 看命先生	kang21+miang21+sing55+nang55
 看命先生	kang21+miang21+sing55+sang55
+看命包	kang21+miang55+mau55
 㦿門	kang21+muong53	851256
+坎門	kang21+muong53
 㦿門外斗	kang21+muong53+ngie33+dau33
 㦿門外斗	kang21+muong53+ngie33+lau33
 㦿門窗	kang21+muong53+njoung55	856254
+㦿門鉤	kang21+muong55+ngau55
+㦿門簾	kang21+muong55+nieng53
 看蜀看	kang21+noh21+ang213
 看蜀看	kang21+noh21+kang213
 看蜀看	kang21+soh21+kang213
@@ -9294,7 +9931,9 @@ use_preset_vocabulary: false
 看水	kang53+zui33	555555
 看親	kang55+cing55
 砍樹	kang55+ciu213
+看工	kang55+eoyng55
 㦿門囟	kang55+muong21+neing213	3384924
+㦿門座	kang55+muong21+njoo242
 㦿門囟	kang55+muong21+seing213	3384924
 㦿囟	kang55+neing213	2342342
 看儂	kang55+neoyng53
@@ -9309,6 +9948,7 @@ use_preset_vocabulary: false
 摳行	kau55+eing53
 瞘々	kau55+lau55	888888
 交𡅏	kau55+le0
+快熟麵	ke21+lyk5+mieng242
 快活仙	ke21+uak55+sieng55	8465253
 咳々	ke33+leh5
 快趕	ke53+ang33	765485
@@ -9325,6 +9965,7 @@ use_preset_vocabulary: false
 溪墘	ke55+ieng53	478290
 溪船	ke55+lung53	635215
 溪豬	ke55+ly55	9000000
+溪𩄻	ke55+muo53
 溪笍	ke55+nak5	421352
 溪河	ke55+o53	354092
 溪船	ke55+sung53	635215
@@ -9342,16 +9983,21 @@ use_preset_vocabulary: false
 犬尾秮	keing21+mui21+lai55
 犬尾草	keing21+mui24+cau33	16739842
 犬尾草	keing21+mui24+jau33	16739842
+犬撲屎	keing21+muk24+sai33
 犬頭梨	keing21+nau21+li53	17492933
 犬頭泅	keing21+nau33+siu53
+犬脰骨	keing21+nau53+oouk24
+犬头牲	keing21+nau55+lang55
 犬囝囝	keing21+ngiang24+ngiang33	454846161646
 犬囝販	keing21+ngiang55+nguang213
 犬囝販	keing21+ngiang55+uang213
 牽絲爿	keing21+ni55+weing53
+犬㑛	keing21+sa53
 牽絲爿	keing21+si55+being53
 犬食雞	keing21+sieh55+gie55
 犬頭梨	keing21+tau21+li53	17492933
 犬頭泅	keing21+tau33+siu53
+犬精	keing21+ziang55
 犬囝	keing24+giang33	5455584848175755757
 犬牯	keing24+gu33
 犬囝	keing24+iang33	5455584848175755757
@@ -9361,6 +10007,8 @@ use_preset_vocabulary: false
 犬豚囝	keing24+noung33+iang33	559595954
 犬豚囝	keing24+noung33+ngiang33	559595954
 犬豚囝	keing24+toung33+giang33	559595954
+犬咬粽	keing33+ga53+zooyng21
+犬𠚺汝奶	keing33+sa21+ny24+ne33
 牽手	keing53+ciu33	888888
 牽手	keing53+njiu33	888888
 㪠碗	keing53+uang33
@@ -9373,6 +10021,7 @@ use_preset_vocabulary: false
 犬角	keing55+gooyk24	45516545454555
 牽拔	keing55+meik5	555555
 犬吠	keing55+mui242
+犬紐	keing55+nau242
 犬宿	keing55+niu213
 㪠沖	keing55+njyng55
 犬宿	keing55+siu213
@@ -9417,6 +10066,7 @@ use_preset_vocabulary: false
 起火頭	ki21+hui21+tau53	9562155
 起風	ki21+hung55	876954
 汽車路	ki21+ia53+luo242	895738
+汽車保	ki21+ia53+wo33
 汽車路	ki21+jia53+duo242	895738
 汽車路	ki21+jia53+luo242	895738
 起骹動手	ki21+ka21+deoyng53+ciu33	1300000
@@ -9470,6 +10120,7 @@ use_preset_vocabulary: false
 錡碗其	ki33+uang33+ngi0
 柿餅	ki53+biang33	16428481
 柿棗	ki53+jo33	18479582
+氣水	ki53+jui33
 僛老	ki53+lo33
 柿軟	ki53+nooyng213	14928930
 柿餅	ki53+wiang33	16428481
@@ -9488,6 +10139,7 @@ use_preset_vocabulary: false
 棄嫌	ki55+hieng53	43338250
 汽車	ki55+ia55	9850389
 棄嫌	ki55+ieng53	43338250
+柿油	ki55+iu53
 起菜	ki55+jai213
 汽車	ki55+jia55	9850389
 齒座	ki55+joo242
@@ -9500,6 +10152,7 @@ use_preset_vocabulary: false
 氣力	ki55+lik5
 錡釘	ki55+ling55
 起動	ki55+looyng242	15000
+起動囇	ki55+looyng242+la242
 起事	ki55+seoy242
 起帖	ki55+taik24
 欹頭	ki55+tau53
@@ -9538,6 +10191,7 @@ use_preset_vocabulary: false
 徛機關	kie21+gi55+uang55
 徛機關其	kie21+gi55+uang55+i0
 徛機關其	kie21+gi55+uang55+ngi0
+契弟儂	kie21+le55+neoyng53
 啓蒙	kie21+mung53
 契弟	kie53+da242	2333333
 徛店	kie53+daing213
@@ -9554,17 +10208,20 @@ use_preset_vocabulary: false
 契弟	kie53+la242	2333333
 徛裏	kie53+lie33	7235533
 徛扇	kie53+lieng213	456123
+徛頂	kie53+ling33
 徛硬	kie53+ngaing242
 欺負	kie53+ou242
 徛扇	kie53+sieng213	456123
 徛邊	kie55+bieng55	888888
 徛櫥	kie55+diu53
 契哥	kie55+go55	233333
+徛莊	kie55+joung55
 徛骹	kie55+ka55
 徛櫥	kie55+liu53
 徛堂	kie55+loung53
 企業	kie55+ngiek5
 契哥	kie55+o55	233333
+徛胡	kie55+u53
 倚歪	kie55+uai55
 缺哥	kiek21+go55
 缺哥望小姐	kiek21+go55+uong21+niu24+jia33
@@ -9589,9 +10246,12 @@ use_preset_vocabulary: false
 琴亭橋	kieng55+ning55+ngyo53
 喫虧	kik21+kui55	846235
 㘌囝	kik33+giang33
+㘌搕屐	kik5+kouk5+kiak5
 輕重心	king21+deoyng55+sing55
 輕輕聲	king21+ing55+niang55
 輕輕聲	king21+king55+siang55
+輕莽莽	king21+moung24+moung33
+肯泥有博	king21+ne53+u53+boouk24
 肯讀	king21+neoyk5
 輕重心	king21+neoyng55+ning55
 輕輕聲	king21+nging55+niang55
@@ -9620,6 +10280,7 @@ use_preset_vocabulary: false
 磬磬	king55+king55
 肯博	king55+moouk24
 傾杯	king55+mui55
+輕盒	king55+ngak5
 肯幹	king55+ngang213
 輕鍋	king55+nguo55
 肯做	king55+njoo213
@@ -9628,6 +10289,7 @@ use_preset_vocabulary: false
 傾斜	king55+sia53	845744
 輕鍋	king55+uo55
 肯做	king55+zoo213
+翹骹頓地	kiu21+a21+loung53+lei242
 豈有此理	kiu21+cy24+li33	870100
 巧此理	kiu21+cy24+li33	870000
 翹轉天	kiu21+duong21+tieng55
@@ -9659,20 +10321,26 @@ use_preset_vocabulary: false
 巧妙	kiu55+miu242	845202
 翹齋	kiu55+ze55
 去了	ko0+lau0
+去出國	ko21+cuk5+guok24
 去搭𧜞	ko21+dak21+mang55
 去俤所	ko21+die24+neo33
 考場	ko21+duong53
 敲竹槓	ko21+dyk55+gooung213
+去告狀	ko21+go53+jooung242
 考書	ko21+jy55
 可憐	ko21+leing53	82347833
 傀儡戲	ko21+leoy55+hie213
 傀儡戲	ko21+leoy55+ie213
 考場	ko21+luong53
 敲竹槓	ko21+lyk55+gooung213
+去美國	ko21+mi55+uok24
 可能	ko21+neing53	5436895
 可疑	ko21+ngi53	8633552
 去濕熱	ko21+sik21+iek5
+去新加坡	ko21+sing21+ga55+po55
 考書	ko21+y55
+去做囝	ko21+zo53+giang33
+去做伲婿	ko21+zo53+nie21+lai21
 去做工	ko21+zo55+geoyng55
 考書	ko21+zy55
 去書齋	ko21+zy55+je55
@@ -9680,6 +10348,7 @@ use_preset_vocabulary: false
 可以	ko24+i33
 敲勒	ko33+leik5
 傀儡	ko33+leoy33
+烤扁橄欖	ko53+bieng33+ga24+lang33
 去覷	ko53+ceoy213
 𣹇淺	ko53+cieng33	6315325
 去厝	ko53+cuo213
@@ -9723,6 +10392,7 @@ use_preset_vocabulary: false
 考試	ko55+seoy213
 考卷	ko55+uong213
 靠𩩍	ko55+wiang55
+去揚州	ko55+yong55+njiu55
 去齋	ko55+ze55	652315
 唃囝	koh33+giang33
 去去	koo213+ko0
@@ -9749,6 +10419,7 @@ use_preset_vocabulary: false
 𠻞𠻞叫	koung21+koung55+giu213
 𠻞𠻞叫	koung21+koung55+iu213
 𠻞𠻞叫	koung21+koung55+ngiu213
+扛礱臂	koung21+leoyng21+mie21
 睏儥着	koung21+me55+duoh5
 睏儥着	koung21+me55+luoh5
 睏蜀醒	koung21+noh53+cang33
@@ -9777,7 +10448,9 @@ use_preset_vocabulary: false
 苦單單	ku21+lang55+nang55	845262
 褲斗底	ku21+lau24+le33
 苦𡅏氥	ku21+le21+se55
+箍桶蔑	ku21+leoyng21+miek5
 苦凋凋	ku21+leu55+leu55	632584
+苦爹	ku21+lie55
 苦楝子	ku21+lieng53+nji33
 苦楝子	ku21+lieng53+zi33
 苦桃	ku21+lo53	17345355
@@ -9835,19 +10508,25 @@ use_preset_vocabulary: false
 掛數	kua53+sou213
 誇話	kua55+ua242	5982333
 快熟麵	kuai21+lyk55+mieng242
+快速麵	kuai21+suk5+mieng242
 快熟麵	kuai21+syk55+mieng242
 快艇	kuai53+ting33	164525
 快樂	kuai55+louk5
 𦳋𩔀	kuai55+nguai242
+闊裨菜	kuak24+bie55+cai21
+闊辦	kuak55+baing242
 闊布	kuak55+buo213
 闊喙	kuak55+cui213	3984372
 闊氣	kuak55+kei213
+環七	kuang21+ceik24
 環環動	kuang21+kuang21+dooyng242
 窾窾叫	kuang21+kuang55+giu213	1000000
 寬莽莽	kuang21+moung24+moung33	365895
+寬緊鞋	kuang21+nging21+nge53
 環環動	kuang21+nguang21+nooyng242
 窾窾叫	kuang21+nguang55+ngiu213	1000000
 寬寬舒	kuang21+nguang55+njy55
+環攏鉤	kuang21+nung21+gau55
 環破	kuang21+puai213
 窾窾叫	kuang21+uang55+iu213	1000000
 環節	kuang21+ziek24
@@ -9856,9 +10535,12 @@ use_preset_vocabulary: false
 環環餅	kuang33+kuang33+biang33
 環環轉	kuang33+kuang33+duong33
 環環	kuang33+kuang53
+環餅	kuang33+miang33
+環五	kuang33+ngu33
 環環轉	kuang33+nguang33+duong33
 環環餅	kuang33+nguang33+miang33
 環城河	kuang33+niang33+o53	356575
+環攏	kuang33+nung33
 環城河	kuang33+siang33+o53	356575
 環環餅	kuang33+uang33+miang33
 寬板	kuang53+being33	845256
@@ -9867,6 +10549,7 @@ use_preset_vocabulary: false
 環街	kuang55+e55
 環街	kuang55+ge55
 寬寬	kuang55+kuang55
+環六	kuang55+leoyk24
 環街	kuang55+nge55
 寬心	kuang55+ning55	402934284
 寬舒	kuang55+njy55	845756
@@ -9874,6 +10557,7 @@ use_preset_vocabulary: false
 寬容	kuang55+yng53
 開斗褲	kui21+dau55+kou213
 開路神	kui21+duo55+sing53
+開花店	kui21+hua53+laing21
 開斗褲	kui21+lau55+ou213
 開路神	kui21+luo55+ling53
 開幕式	kui21+mouk53+seik24
@@ -9903,12 +10587,16 @@ use_preset_vocabulary: false
 盔帽	kui53+moo242
 開眼	kui53+ngang33
 開票	kui53+piu213
+開桶	kui53+teoyng33
+開町	kui53+tiang33
 開徹	kui53+tiek24	8908392
 開會	kui53+ui242
 開祭	kui53+zie213
 𨅠拜	kui55+bai213
 開箠	kui55+cui53
 開店	kui55+daing213
+開廚暝	kui55+duong55+mang53
+開金	kui55+ging55
 開花	kui55+hua55	39840274
 開方	kui55+huong55
 開幺	kui55+iu55
@@ -9919,6 +10607,7 @@ use_preset_vocabulary: false
 開聲	kui55+liang55	18242433
 氣力	kui55+lik5
 開銷	kui55+liu55
+開目	kui55+meoyk5
 開門	kui55+muong53
 開聲	kui55+siang55	18242433
 開銷	kui55+siu55
@@ -9952,10 +10641,13 @@ use_preset_vocabulary: false
 科場	kuo55+duong53
 科學	kuo55+houk5
 瘸骹	kuo55+ka55
+瘸螺	kuo55+leoy53
+瘸螺折骨	kuo55+leoy53+siek21+goouk24
 課程	kuo55+liang53
 科場	kuo55+luong53
 課銀	kuo55+ngyng53
 課程	kuo55+tiang53
+曲尺彎	kuoh21+cuoh55+uang55
 曲蹄婆厝	kuoh21+le21+wo21+cuo213
 曲本	kuoh53+buong33
 曲尺	kuoh53+cuoh24
@@ -9974,6 +10666,7 @@ use_preset_vocabulary: false
 壙前	kuong21+seing53
 壙前祭	kuong21+seing53+zie213
 框心菜	kuong21+sing53+cai213	555555
+礦焠	kuong21+zi53
 曠野	kuong24+ia33
 曠野	kuong24+ngia33
 楻鼎	kuong33+diang33
@@ -9982,6 +10675,7 @@ use_preset_vocabulary: false
 框格	kuong53+gah24	562354
 勸解	kuong53+ge33	19248923
 勸化	kuong53+hua213
+框架	kuong53+nga21
 框格	kuong53+ngah24	562354
 勸解	kuong53+nge33	19248923
 勸化	kuong53+ngua213
@@ -9998,7 +10692,9 @@ use_preset_vocabulary: false
 框心	kuong55+sing55	555555
 楻齋	kuong55+ze55	746515
 囷々	ky55+lyng53
+乞殲蠘	kyk21+cieng55+ciek5
 乞食	kyk21+sieh5	50000000
+乞食碗	kyk21+sieh53+uang33
 乞養囝	kyk21+yong24+giang33	700000
 乞養囝	kyk21+yong24+iang33	700000
 乞養囝	kyk21+yong24+ngiang33	700000
@@ -10055,6 +10751,7 @@ use_preset_vocabulary: false
 喇叭	la55+wa55
 垃渣	la55+za55	9956321
 賴伏雞	lai21+bu55+gie55	454548554
+賴飯位	lai21+buong53+ngui242
 來路	lai21+duo242
 雷霎	lai21+liak24
 來路	lai21+luo242
@@ -10075,6 +10772,8 @@ use_preset_vocabulary: false
 雷雨	lai33+y33
 賴伏	lai53+bou242	45454545
 賴伏雞母	lai53+bou242+gie53+mo33	45455
+賴漢	lai53+hang21
+賴保	lai53+wo33
 癩瘡	lai55+coung55
 癩呆	lai55+dai55	7951
 雷公	lai55+gung55	564330
@@ -10112,6 +10811,7 @@ use_preset_vocabulary: false
 兩晡頭	lang21+buo55+tau53
 爛喙角	lang21+cy53+gooyk24
 兩點水	lang21+deing24+zui33
+濫冬田	lang21+deoyng55+njeing53
 兩個聲	lang21+ga21+liang55	10000000
 兩個聲	lang21+ga21+siang55	10000000
 藍貫貫	lang21+guang53+guang213	741454
@@ -10132,6 +10832,7 @@ use_preset_vocabulary: false
 藍水	lang21+njui33
 濫潤天	lang21+nung55+nieng55
 濫潤天	lang21+nung55+tieng55
+攔路祭	lang21+nuo53+ie21
 灠𨑾	lang21+pouk5	1943833
 灠𨑾	lang21+puok5	1943833
 懶屍	lang21+si55
@@ -10140,6 +10841,7 @@ use_preset_vocabulary: false
 漤⿱艹越	lang21+uok5	900000
 兩樣心	lang21+yong55+ning55	12938141
 兩樣心	lang21+yong55+sing55	12938141
+攔錾	lang21+zang242
 濫之截	lang21+zi55+zeik5	9562312
 灠遮	lang21+zia55
 藍水	lang21+zui33
@@ -10179,14 +10881,18 @@ use_preset_vocabulary: false
 兩頭斧	lang53+tau33+puo33
 兩隻	lang53+zieh24
 欄杆	lang55+ang55	9854858
+濫冬	lang55+deoyng55
 欄杆	lang55+gang55	9854858
 兩工	lang55+geoyng55
 懶漢	lang55+hang213
+欄欄截截	lang55+lang55+zeik5+zeik5
 懶滷	lang55+lou242	826530
 兩粒螺	lang55+nak5+leoy53
 爛泥	lang55+ne53	7000000
 濫呶	lang55+neo55	432012
 欄杆	lang55+ngang55	9854858
+藍衣	lang55+ngi55
+攔胡	lang55+ngu53
 兩日	lang55+nik5
 濫精	lang55+ziang55	862300
 了吓	lau0+ua0
@@ -10209,15 +10915,20 @@ use_preset_vocabulary: false
 撈撈空	lau21+lau55+eoyng55	988000
 撈撈空	lau21+lau55+keoyng55	988000
 樓頂厝	lau21+ling55+cuo213
+漏蜀字	lau21+loh21+jei242
 流耳膿	lau21+ngi55+neoyng53
 樓庫	lau21+ou213
+流鼻痣	lau21+pi53+jei21
 流鼻水	lau21+pi53+jui33
 流鼻水	lau21+pi53+zui33
 流鼻膏	lau21+pi55+go55	10337843
 流鼻哥	lau21+pi55+go55	900000
 流鼻哥	lau21+pi55+o55	900000
+漏蜀字	lau21+soh21+zei242
+老虎窗	lau21+u21+coung55
 老虎衣	lau21+u21+i55
 老虎鉗	lau21+u21+king53	999999999
+老虎皮	lau21+u21+pui53
 老虎囝	lau21+u24+iang33
 老虎母	lau21+u24+mo33
 老虎牙齒	lau21+u24+ngai33	4334522
@@ -10225,12 +10936,11 @@ use_preset_vocabulary: false
 樓棚桁	lau21+wang21+ngooung213	564212
 樓棚桁	lau21+wang21+ooung213	564212
 老膣貨	lau21+zi53+huo213
+老蛇殼	lau24+lie21+kooyk24
 老其	lau242+gi0
 老其	lau242+i0	900000
 老去	lau242+ko0
-漏蜀字	lau242+loh21+jei242
 老去	lau242+o0
-漏蜀字	lau242+soh21+zei242
 樓棚	lau33+bang53	985462
 樓頂	lau33+ding33
 流嬉	lau33+hia33
@@ -10245,6 +10955,7 @@ use_preset_vocabulary: false
 流水	lau33+zui33
 老伯	lau53+bah24	9000000
 老病	lau53+bang242
+老婆姆	lau53+bo33+mu33
 老悖	lau53+bui242	5000000
 老鱔	lau53+ciang242
 老𦨮	lau53+da213
@@ -10258,16 +10969,21 @@ use_preset_vocabulary: false
 老𦨮	lau53+la213
 老婿	lau53+lai213
 漏瀉	lau53+lia213
+老蛇甲	lau53+lie21+ak24
 老蛇囝	lau53+lie33+giang33
 老蛇囝	lau53+lie33+iang33
 老媽	lau53+ma33	876945
 流目滓	lau53+meik33+zai33	888888
+老儂袋	lau53+neoyng21+nooy242
 老娘奶	lau53+noung33+ne33
 流鼻	lau53+pei213
+老伴	lau53+puang242
 老嗽	lau53+sau213
 漏瀉	lau53+sia213
 老蛇囝	lau53+sie33+giang33
 老虎	lau53+u33
+老虎拍的死	lau53+u33+pah21+lik24+si33
+老虎會拍死	lau53+u33+pah24+e53+si33
 老虎添翼	lau53+u33+tieng55+sik5
 老病	lau53+wang242
 老悖	lau53+wui242	5000000
@@ -10276,6 +10992,7 @@ use_preset_vocabulary: false
 老婆	lau55+bo53
 漏勺	lau55+cieh5
 老超	lau55+ciu55
+老胲	lau55+gai55
 琅岐	lau55+gie53	2133415
 老官	lau55+guang55	456737
 老公	lau55+gung55	869045
@@ -10285,6 +11002,7 @@ use_preset_vocabulary: false
 老生	lau55+leing55
 老蛇	lau55+lie53
 老貓	lau55+ma53	541541515
+流鰻	lau55+muang53
 老儂	lau55+neoyng53	8000000
 老婆	lau55+po53
 老生	lau55+seing55
@@ -10300,11 +11018,13 @@ use_preset_vocabulary: false
 禮金	le21+ing55
 奶子媽	le21+ji24+ma33
 禮書	le21+jy55
+犁頭草	le21+lau21+jau33
 犁頭鐵	le21+lau21+tiek24
 犁犁儉	le21+le21+gieng242	768542
 靂々	le21+leik24	666666
 禮生	le21+leing55
 禮生依俤	le21+leing55+i53+die242
+禮薪	le21+ling55
 禮儀	le21+ngi53
 禮生	le21+seing55
 禮生依俤	le21+seing55+i53+die242
@@ -10328,6 +11048,8 @@ use_preset_vocabulary: false
 禮拜	le55+bai213
 禮拜	le55+buai213
 蔞々	le55+leu55
+麗絲蚨蠅滑	le55+li55+bu55+ling55+gouk5
+麗絲骹踏車	le55+li55+ka21+lak5+cia55
 禮數	le55+lou213
 禮數	le55+sou213
 黎巴	le55+wa55
@@ -10344,6 +11066,7 @@ use_preset_vocabulary: false
 蓮花廋	leing21+ngua53+sau213
 蓮花座	leing21+ua53+joo242
 蓮花廋	leing21+ua53+sau213
+另蜀下	leing242+no21+a242
 蓮蓬箬	leing33+mung33+nuoh5	17498273
 蓮蓬	leing33+mung53	20174872
 龍眼	leing33+ngeing33	42238940
@@ -10351,6 +11074,7 @@ use_preset_vocabulary: false
 蓮蓬	leing33+pung53	20174872
 蓮子	leing33+zi33
 蓮花	leing55+hua55	27130948
+冷拌	leing55+muang242
 蓮花	leing55+ngua55	27130948
 楞蟶	leing55+teing55
 蓮花	leing55+ua55	27130948
@@ -10372,6 +11096,7 @@ use_preset_vocabulary: false
 銇鑽	leoy53+jooung213
 銇鑽	leoy53+zooung213
 雷鞭	leoy55+bieng55	565590
+耒碡	leoy55+deoyk5
 纇頭	leoy55+lau53
 螺絲	leoy55+li55	999999999
 螺絲	leoy55+si55
@@ -10379,12 +11104,16 @@ use_preset_vocabulary: false
 螺絲	leoy55+wi55	999999999
 漉飯	leoyk21+buong242	546789
 肋條骨	leoyk21+deu21+oouk24
+六甲蛇	leoyk21+gak21+sie53
+六角仙	leoyk21+geoyk21+sieng55
 六角絞	leoyk21+geoyk24+ga33
 六角𰱗	leoyk21+geoyk55+coo213
 六斤四	leoyk21+gyng53+sei213	8888889
 六分	leoyk21+houng242
 六十一	leoyk21+leik53+eik24
+六六粉	leoyk21+leoyk53+hung33
 六月早	leoyk21+nguok5+za33
+六月雪	leoyk21+nguok53+suok24
 六月麻	leoyk21+nguok55+ma53
 六月霜	leoyk21+nguok55+soung55
 六月天	leoyk21+nguok55+tieng55	764389
@@ -10402,6 +11131,7 @@ use_preset_vocabulary: false
 陸拾	leoyk33+seik5
 六旬	leoyk33+sung53
 漉其飯	leoyk5+gi0+buong242	897654
+六來風	leoyk5+li55+ung55
 漉蟆	leoyk5+mouk24
 漉薸	leoyk5+piu53
 鹿兔	leoyk5+tou213
@@ -10440,12 +11170,16 @@ use_preset_vocabulary: false
 利索	li53+sooh24
 能耐	li55+ai53
 理治	li55+dei242	777777
+梨瓜	li55+gua55
 理會	li55+hui242	1347852
 利錢	li55+ieng53
 利錢	li55+jieng53
 理缺	li55+kiek24	645548
+李片	li55+pieng55
 李杮	li55+pui213	28573948
+梨⿱艹越	li55+uok5
 利錢	li55+zieng53
+𥷒粿	liah53+ui33
 㔏罅	liah55+hia55	666666
 領頂扣	liang21+ding55+kau213
 領巾	liang21+gyng55
@@ -10464,6 +11198,7 @@ use_preset_vocabulary: false
 荔枝乾	lie21+ie55+ang55	20849241
 荔枝乾	lie21+jie55+ang55	20849241
 離離手開巴	lie21+lie53+iu33+kui55+wa55
+離婚退	lie21+uong53+tooy21
 釐戥	lie33+ding33
 釐毫	lie33+ho53	863568
 釐戥	lie33+ling33
@@ -10476,6 +11211,7 @@ use_preset_vocabulary: false
 荔枝	lie55+jie55	40198296
 𠠫刀	lie55+lo55
 離胡	lie55+u53
+釐盤	lie55+wuang53
 𠠫竈	lieh53+zau213
 𠠫牆	lieh55+cuong53
 𥷒𥷒	lieh55+lieh5
@@ -10494,6 +11230,7 @@ use_preset_vocabulary: false
 連步	lieng21+muo242	1284878513
 連刻	lieng21+ngaik24	5635385
 鐮鍥	lieng21+ngaik24
+連去連	lieng21+ngo21+lieng53
 連江表	lieng21+ngoung53+biu33	500000
 連江雞	lieng21+ngoung55+ngie55	700000
 連勢	lieng21+nie213	56284162
@@ -10505,6 +11242,7 @@ use_preset_vocabulary: false
 摙去	lieng213+ko0
 摙去	lieng213+ngo0
 摙去	lieng213+o0
+摙午	lieng24+ngu33
 連保	lieng33+bo33
 連手	lieng33+ciu33	2628547462
 連保	lieng33+mo33
@@ -10513,8 +11251,10 @@ use_preset_vocabulary: false
 鏈繞	lieng53+nau33
 連𡅏	lieng53+ne0	12346874
 連邊	lieng55+bieng55
+鏈槍	lieng55+cuong55
 鐮刀	lieng55+do55
 連潘	lieng55+mang55
+鏈盒	lieng55+ngak5
 連翹	lieng55+ngiu53
 連江	lieng55+ngoung55
 鐮刀	lieng55+no55
@@ -10529,11 +11269,13 @@ use_preset_vocabulary: false
 立秋	lik5+ciu55	754635
 立春	lik5+cung55	746389
 立冬	lik5+deoyng55	874355
+凜清	ling21+cing53
 靈動	ling21+doung242	876530
 𡳞核子	ling21+houk53+zi33
 零分	ling21+houng242
 靈竅	ling21+kiu213	846252
 伶俐	ling21+lei242	862941
+啉啉 張	ling21+ling55+nuong55
 靈前桌	ling21+neing21+dooh24
 靈前桌	ling21+neing21+nooh24
 零分	ling21+ngoung242
@@ -10557,11 +11299,13 @@ use_preset_vocabulary: false
 令弟	ling53+na242	675458
 靈影	ling53+ngiang33
 另外	ling53+ngui242
+另字	ling53+njei242
 令姐	ling53+zia33	869565
 令堂	ling55+doung53	895756
 令旗	ling55+gi53
 令兄	ling55+hing55	546475
 鈴鈴	ling55+ling55	999999999
+啉啉	ling55+ling55
 令郎	ling55+loung53
 𡳞脬	ling55+pa55	765421
 令尊	ling55+zoung55	895743
@@ -10635,6 +11379,7 @@ use_preset_vocabulary: false
 老鼠𢩅	lo21+jy55+kiak24
 老六	lo21+leoyk5
 老爹	lo21+lia55
+勞練	lo21+lieng242
 老實	lo21+lik5
 老實儂	lo21+lik5+neoyng53	2000000
 老𥆝後	lo21+lo53+au242
@@ -10643,6 +11388,7 @@ use_preset_vocabulary: false
 老昨年	lo21+loh55+nieng53	14829332
 老大媽	lo21+luai53+ma33	766578
 老大公	lo21+luai55+ung55	876576
+勞動命	lo21+lung53+miang242
 撈麵	lo21+mieng242
 老𪺾	lo21+nge53
 老三	lo21+sang55
@@ -10656,15 +11402,21 @@ use_preset_vocabulary: false
 鑼鼓板	lo21+u24+weing33
 老鴰	lo21+ua55
 羅漢肉	lo21+uang55+nyk5
+鑼叭	lo21+wa21
 癆病	lo21+wang242
+老婆	lo21+wo53
 鑼盆架	lo21+wuong21+ga213	999999999
+老鼠工	lo21+y21+eoyng55
+老鼠瓜	lo21+y21+gua55
 老鼠拖尾	lo21+y21+lai53+mui33	236854
 老鼠趼	lo21+y21+neing55
+老鼠烏	lo21+y21+u55
 老鼠灰	lo21+y21+ui55	867459
 老鼠囝	lo21+y24+iang33	869675
 老鼠母	lo21+y24+mo33
 老鼠尾	lo21+y24+mui33
 老鼠𤴯	lo21+y55+huong21
+老鼠燕	lo21+y55+ieng21
 老鼠𢩅	lo21+y55+kiak24
 老鼠趼	lo21+zy21+neing55
 老鼠囝	lo21+zy24+giang33	869675
@@ -10691,6 +11443,7 @@ use_preset_vocabulary: false
 鑼鼓	lo33+u33
 鑼坪	lo33+wang53
 蘿蔔	lo33+wuk5
+鑼盆囝	lo33+wuong33+ngiang33
 鑼盆	lo33+wuong53	999999999
 囉嘈	lo33+zo53	8903343
 撈麵	lo53+mieng242	865425
@@ -10698,6 +11451,7 @@ use_preset_vocabulary: false
 老辦	lo55+baing242	885479
 䇭簸	lo55+buai213
 老七	lo55+ceik24
+老雀	lo55+cuok24
 鑼刀	lo55+do55
 老大	lo55+duai242
 邏街	lo55+ge55
@@ -10743,13 +11497,18 @@ use_preset_vocabulary: false
 落鼎	loh53+diang33
 落鼎	loh53+liang33
 絡被	loh53+pui242
+落肆	loh53+seoy21
+落酒	loh53+ziu33
 落班	loh55+bang55
 落棺	loh55+guang55
+落陰	loh55+ing55
 落車	loh55+jia55
 落身	loh55+ling55
 落眠	loh55+ming53
 落身	loh55+sing55
 落班	loh55+wang55
+鑢伊奶	loo21+i53+ne33
+鑢汝奶	loo21+ny24+ne33
 𦾳去	looyk24+go0
 躒街	louk21+ge55
 撈化	louk55+hua21
@@ -10771,6 +11530,8 @@ use_preset_vocabulary: false
 卵燕	loung53+ieng21
 卵燕	loung53+ngieng21
 卵燕	loung53+ngieng213	800000
+卵黃色	loung53+nguong21+naik24
+卵酒	loung53+njiu33
 亂詛	loung53+zou213	20914331
 卵包	loung55+bau55
 卵脾	loung55+bi53
@@ -10827,11 +11588,13 @@ use_preset_vocabulary: false
 亂講亂聽	luang21+oung21+luang53+niang213	2000000
 亂不	luang21+{buk}
 亂世	luang53+sie213
+類裏去	lui242+lie33+o0
 碌碌	luk21+louk24
 碌碌過	luk21+louk24+guo213
 轆索	luk21+sooh24
 甪里	luk24+li33
 轆餅	luk33+biang33
+碌骨碌臼	luk5+goouk24+luk5+kou242
 碌臼	luk55+kou242
 律師	luk55+sy55
 輪鞋套	lung21+e21+too213
@@ -10864,9 +11627,11 @@ use_preset_vocabulary: false
 龍船頭	lung55+sung55+tau53
 綠豆	luoh21+dau242
 綠記記	luoh21+gi53+gei213	436589
+綠花菜	luoh21+hua53+jai21
 綠豆	luoh21+lau242
 綠豆枕	luoh21+lau53+jing33
 綠豆枕	luoh21+lau53+zing33
+綠心豆	luoh21+ling53+nau242
 攋頭	luoh33+lau53
 攋頭	luoh33+tau53
 着其	luoh5+gi0
@@ -10884,6 +11649,7 @@ use_preset_vocabulary: false
 涼茶	luong33+da53
 涼棚	luong33+mang53	800000
 涼茶	luong33+na53
+涼傘	luong33+nang33
 量看	luong53+ang213	763466
 量看	luong53+kang213	763466
 量看	luong53+ngang213	763466
@@ -10919,7 +11685,9 @@ use_preset_vocabulary: false
 龍頭	lyng33+tau53
 龍王	lyng33+uong53
 龍做清醒去	lyng53+zoo213+cing53+njang33+ngo0
+龍崩	lyng55+bung55
 龍燈	lyng55+ding55
+隆機	lyng55+ngi55
 龍燈	lyng55+ning55
 馬鞍牆	ma21+ang55+cuong53
 馬腹椅	ma21+buk24+ie33
@@ -10965,9 +11733,11 @@ use_preset_vocabulary: false
 媽孫兩隻	ma21+loung55+lang53+jieh24
 麻筍乾	ma21+lung21+ang55
 麻筍乾	ma21+lung21+ngang55
+麻竹架	ma21+lyk55+ga21
 馬龍	ma21+lyng53
 麻面	ma21+meing213
 馬尾㘌	ma21+mui21+kik5
+马尾咭	ma21+mui21+kik5
 貓蒂	ma21+nei213
 馬蜂	ma21+pung55
 媽孫	ma21+soung55	999999999
@@ -10979,8 +11749,10 @@ use_preset_vocabulary: false
 馬房	ma21+wung53	800000
 馬蜂	ma21+wung55
 馬扎椅	ma21+zak5+ie33
+马蹄笋	ma24+de33+lung33
 馬公	ma24+geoyng33	55555555555
 碼子	ma24+i33
+馬椅	ma24+ie33
 碼子	ma24+ji33
 媽祖	ma24+ju33
 媽祖婆婆	ma24+ju33+bo33+wo53
@@ -11008,6 +11780,7 @@ use_preset_vocabulary: false
 貓萑鳥	ma33+uong53+zeu33
 麻嘈	ma33+za53	685271
 罵囝	ma53+giang33
+摣魯	ma53+leo33
 媽媽	ma53+ma33	875465
 摣晬	ma53+zooy213
 馬鉋	ma55+bau242	999999999
@@ -11017,6 +11790,7 @@ use_preset_vocabulary: false
 馬肚	ma55+dou242
 馬路	ma55+duo242	9857389
 馬褂	ma55+gua213
+貓痚	ma55+heu55
 摣起	ma55+i33
 摣起拳頭母	ma55+i33+gung33+nau33+mo33
 摣起拳頭母	ma55+i33+gung33+tau33+mo33
@@ -11038,8 +11812,10 @@ use_preset_vocabulary: false
 摣藥	ma55+yoh5
 麻渣	ma55+za55
 傌㑀	mah21+lai213
+麥豆	mah21+lau242
 麥穗	mah21+lui213
 麥穗	mah21+sui213
+麥王蔥	mah21+uong55+njeoyng55
 麥稿	mah33+go33
 麥管	mah33+guang33
 麥芽糖	mah33+nga33+loung53
@@ -11048,9 +11824,12 @@ use_preset_vocabulary: false
 麥蟲	mah33+teoyng53
 麥房	mah33+wung53
 麥根	mah5+gyng55
+麥芽糟	mah5+nga55+jau55
 麥針	mah5+zeing55
 癟癟	mah53+mah24	765234
+麥蔥	mah55+ceoyng55
 麥雞	mah55+ie55
+麥芽𪏸	mah55+nga55+ni55
 貓囝囝	mai21+iang24+iang33
 貓囝囝	mai21+iang24+ngiang33
 魅鬼	mai24+gui33
@@ -11103,6 +11882,7 @@ use_preset_vocabulary: false
 暝晡	mang55+muo55
 猛搭	mang55+nak24	976251
 胮筋	mang55+ngyng55
+蠻三	mang55+sang55
 饅頭	mang55+tau53
 胮筋	mang55+yng55
 茅屋	mau21+ouk24
@@ -11126,7 +11906,9 @@ use_preset_vocabulary: false
 賣膏藥	me21+go55+yoh5
 賣膏藥其	me21+go55+yoh5+gi0
 賣膏藥其	me21+go55+yoh5+i0
+儥蓄儂	me21+heoyk21+neoyng53
 儥會意	me21+hui53+ei213	135264335
+儥正好	me21+iang53+ngo33
 儥驚死	me21+iang53+si33
 儥看見	me21+kang53+ngieng213
 儥爽快	me21+loung55+nguai213
@@ -11158,6 +11940,7 @@ use_preset_vocabulary: false
 儥赴	me53+hou213	19876523
 儥晓	me53+iu33	131029498
 儥曉	me53+iu33	18453543
+儥曉伊	me53+iu33+i55
 儥載	me53+jai213	1426523
 儥使	me53+lai33	14254
 儥捨	me53+lia33	129823742
@@ -11180,6 +11963,7 @@ use_preset_vocabulary: false
 買足	me55+jeoyk24
 儥來	me55+li53	215436
 儥搦	me55+nieh5
+儥𣆯其儂	me55+oung53+ngi0+neoyng53
 儥成	me55+siang53	12341255
 賣黃瓜	me55+uong55+gua55
 賣黃瓜白鰳魚	me55+uong55+gua55+bah21+lik55+ngy53
@@ -11188,6 +11972,7 @@ use_preset_vocabulary: false
 賣黃瓜	me55+uong55+ua55
 賣黃瓜白鰳魚	me55+uong55+ua55+bah21+lik55+ngy53
 買足	me55+zeoyk24
+妹囝	mei33+iang33
 茉莉	meik21+lei242
 密塞	meik21+saik24	846253
 目虱	meik21+seik24
@@ -11218,9 +12003,13 @@ use_preset_vocabulary: false
 目睭撐撐開	meik55+ziu55+tang21+tang55+kui55
 目睭有珠	meik55+ziu55+u55+zuo55	983313
 默書	meik55+zy55
+面報𡅏	meing21+boo21+le0
+面放落	meing21+boung21+loh5
+面𥏘々	meing21+kuk5+luk5
 慢慢行	meing21+meing55+giang53
 慢慢行	meing21+meing55+iang53
 慢慢行	meing21+meing55+ngiang53
+面撲屎𡅏	meing21+pouk24+sai33+le0
 面車過	meing213+cia55+guo213	888888
 面車過	meing213+cia55+uo213	888888
 慢慢行	meing53+maing242+giang53
@@ -11269,6 +12058,7 @@ use_preset_vocabulary: false
 蠓囝	meoyng24+giang33
 蠓囝	meoyng24+iang33
 蠓囝	meoyng24+ngiang33
+𦁧袋	meoyng53+nooy242
 朦糕	meoyng55+go55
 萌瓜	meoyng55+gua55
 綰髻	meoyng55+gui213
@@ -11283,6 +12073,8 @@ use_preset_vocabulary: false
 米粉肉	mi21+hung21+nyk5
 美人柴	mi21+ing55+ca53
 美人柴	mi21+ing55+nja53
+米椒	mi21+iu55
+米蕉	mi21+iu55
 米漿	mi21+juong55	869674
 米糠	mi21+koung55
 米箂	mi21+lai53
@@ -11297,6 +12089,7 @@ use_preset_vocabulary: false
 米行	mi21+oung53
 米糠	mi21+oung55
 米缸	mi21+oung55
+微波爐	mi21+po55+lu53
 米蜂	mi21+pung55	546878
 迷信	mi21+seing213
 迷信乇	mi21+seing213+nooh24
@@ -11311,6 +12104,7 @@ use_preset_vocabulary: false
 米房	mi21+wung53
 米蜂	mi21+wung55	546878
 米漿	mi21+zuong55	869674
+米絞	mi24+ga33
 米管	mi24+guong33
 米粉	mi24+hung33	869564
 米酒	mi24+iu33
@@ -11332,6 +12126,7 @@ use_preset_vocabulary: false
 咪囝	mi53+giang33	55455555
 咪囝	mi53+iang33	55455555
 米店	mi55+daing213
+獼猴桃	mi55+gau55+to53
 美國	mi55+guok24
 米棧	mi55+jang242
 米店	mi55+laing213
@@ -11418,6 +12213,7 @@ use_preset_vocabulary: false
 眠牀下	ming21+coung21+nga242	6666666
 眠牀墘	ming21+coung33+gieng53
 明旦	ming21+dang213
+閩中詩	ming21+dyng55+si55
 閩縣	ming21+gaing242
 明轎	ming21+giu242	564895
 明轎	ming21+iu242	564895
@@ -11436,7 +12232,9 @@ use_preset_vocabulary: false
 眠牀墘	ming21+njoung33+ngieng53
 面上蓋	ming21+nuong53+ngai213
 面上衫	ming21+nuong55+nang55
+閩派	ming21+puai21
 名信	ming21+seing213
+閩詩派	ming21+si53+puai21
 面上蓋	ming21+suong53+gai213
 面上衫	ming21+suong55+sang55
 眠牀頭	ming33+coung33+tau53
@@ -11473,8 +12271,11 @@ use_preset_vocabulary: false
 面上	ming53+suong242	66666666
 面桶	ming53+teoyng33	999999999
 閩清	ming55+ciang55
+閩東	ming55+deoyng55
 閩都	ming55+du55
+閩東	ming55+dung55
 閩中	ming55+dyng55
+閩中詩派	ming55+dyng55+si53+puai21
 閩江	ming55+eoyng55
 閩江	ming55+geoyng55
 冥衣	ming55+i55
@@ -11502,6 +12303,8 @@ use_preset_vocabulary: false
 閩山	ming55+sang55
 面前	ming55+seing53	6666666
 面前䙎	ming55+seing55+ke55
+閩詩	ming55+si55
+閩城	ming55+siang53
 面頭	ming55+tau53
 冥頭齋	ming55+tau55+je55
 面頭前	ming55+tau55+seing53	6666666
@@ -11523,6 +12326,8 @@ use_preset_vocabulary: false
 無干過	mo21+ang53+uo213	76458200
 毛筆	mo21+beik24
 無辦法	mo21+being53+huak24
+無步	mo21+buo242
+無步解	mo21+buo242+ge33
 無插	mo21+cak24
 無趣	mo21+ceoy213	23409235
 無事際	mo21+dai53+ie213
@@ -11535,6 +12340,7 @@ use_preset_vocabulary: false
 無定	mo21+diang242	869452
 無調	mo21+diu242
 無塊	mo21+dooy213	999999
+無當防	mo21+doung55+houng53
 無大無細	mo21+duai21+mo21+sa213
 無味	mo21+ei242	999999
 無敆食	mo21+gak55+sieh5
@@ -11560,40 +12366,55 @@ use_preset_vocabulary: false
 無迹	mo21+jieh24
 無做聲	mo21+jo55+liang55	49823983
 無主意	mo21+juo55+ei21
+無骹腰	mo21+ka55+iu55
 無看着	mo21+kang21+duoh5
 莫客氣	mo21+keik55+kei213
 無起稿	mo21+ki24+go33
 無苦食	mo21+ku21+sieh5
 無苦頌	mo21+ku55+seoyng242
 無事際	mo21+lai53+ie213
+無煞甲	mo21+lak5+gak24
 無賺	mo21+lang242
 無擔載	mo21+lang53+jai213	121343
+無山無岸	mo21+lang53+mo21+ngiang242
 無貪情	mo21+lang55+njing53
 無擔當	mo21+lang55+noung55
+無體無面	mo21+le55+mo21+meing21
 無利	mo21+lei242
+無前後	mo21+leing21+ngau242
 無生活	mo21+leing55+uak5
+無塊討底	mo21+leoy21+to24+de33
 無塊死	mo21+leoy53+si33
 無塊討	mo21+leoy53+to33
 無塊挌	mo21+leoy55+geoh5
+無塊听	mo21+leoy55+liang55
+無塊捎國	mo21+leoy55+sa53+guok24
+無塊尋	mo21+leoy55+sing53
 毛竹	mo21+leoyk24
 無𧷡	mo21+leu53
+無聲無音	mo21+liang21+mo55+ing55
 無成乇	mo21+liang21+nooh24	999999999
+無成話	mo21+liang21+ua242
 無定	mo21+liang242	869452
 無拆	mo21+lieh24	8767865555
 無挃錢	mo21+lih55+zieng53
 無的𦾳	mo21+lik55+looyk24
+無數算	mo21+lu53+looung21
 無大無細	mo21+luai21+mo21+sa213
+無輸贏	mo21+luo55+iang53
 無味	mo21+mei242	999999
 無面	mo21+meing213
 無名信	mo21+miang21+neing213
 無名信	mo21+miang21+seing213
 無名帖	mo21+miang21+taik24
+無眠無到	mo21+ming21+mo21+loo21
 無眠睏	mo21+ming21+ngooung213
 無尾虼蚤	mo21+mui21+ga24+jau33
 無尾虼蚤	mo21+mui21+ga24+zau33
 無奈何	mo21+nai55+ho53
 無牙齒姆	mo21+ngai24+mu33
 無牙齒伯	mo21+ngai55+bah24
+無𪏸拉	mo21+ni55+la55
 無能耐	mo21+nieng55+ai53
 無能耐	mo21+nieng55+ngai53	1354353
 無乇講	mo21+noh53+goung33	23452525
@@ -11605,6 +12426,7 @@ use_preset_vocabulary: false
 無乇做	mo21+noh53+zoo213	999999999
 無乇食	mo21+noh55+lieh5	999999999
 無乇食	mo21+noh55+sieh5	999999999
+無塢其話	mo21+ou21+i0+ua242
 無痕無迹	mo21+oung21+mo21+jieh24
 無生相	mo21+sang53+suong21
 無細膩	mo21+se53+nei242
@@ -11621,12 +12443,15 @@ use_preset_vocabulary: false
 無天良	mo21+tieng55+luong53
 無話頭	mo21+ua55+lau53
 無話頭	mo21+ua55+tau53
+無霸加霸	mo21+wa21+ga53+wa21
 毛筆	mo21+weik24
 無辦法	mo21+weing53+nguak24
 無辦法	mo21+weing53+uak24
 無這無許	mo21+y24+mo33
 無允霸	mo21+yng55+ma21
 無樣	mo21+yong242
+無字	mo21+zei242
+無字載書	mo21+zei242+zai55+zy55
 無這無許	mo21+zi24+mo33+hy33
 無者事	mo21+zia55+dai242
 無者事	mo21+zia55+lai242
@@ -11658,6 +12483,7 @@ use_preset_vocabulary: false
 無頭車	mo33+lau55+cia55
 無螺	mo33+leoy53
 無食	mo33+lieh5	999999999
+無聊巧	mo33+liu33+kiu33
 無聊理	mo33+liu33+li33	25098425
 無着	mo33+luoh5
 無名指	mo33+miang33+zai33	846574
@@ -11695,12 +12521,14 @@ use_preset_vocabulary: false
 磨環椅	mo53+kuang33+ie33
 帽帶	mo53+lai213
 無了	mo53+lau33
+磨電	mo53+lieng242
 無囉	mo53+lo0
 無去	mo53+o0
 無頭腦	mo53+tau33+no33	980000
 磨環椅	mo53+uang33+ie33
 磨盤	mo55+buang53
 磨房	mo55+bung53	800000
+無沖無破	mo55+cyng55+mo21+poo21
 毛澤東	mo55+deik55+dung55
 莫廮𡅏	mo55+eing55+ne0
 帽墘	mo55+gieng53
@@ -11715,15 +12543,19 @@ use_preset_vocabulary: false
 母利	mo55+lei213
 毛澤東	mo55+leik55+dung55
 磨心	mo55+ling55
+無名其牌	mo55+miang53+ngi0+be53
 饃饃	mo55+mo55
 無坯	mo55+pui55	952365
 磨心	mo55+sing55
 母相	mo55+suong213	9837183
 蘑菇	mo55+u55	21048478
+無盤	mo55+wuang53
 磨房	mo55+wung53	800000
 毛巾	mo55+yng55	999999999
+母腳	mo55+yoh24
 磨層	mo55+zeing53
 無錢	mo55+zieng53
+無族	mo55+zuk5
 莫客氣	moh21+keik5+kei21
 莫廮𡅏	moh55+eing55+ne0
 末伏	moh55+huk5
@@ -11732,6 +12564,7 @@ use_preset_vocabulary: false
 蟒裙	moung21+gung53
 蟒裙蟒襖	moung21+gung53+moung24+o33
 蟒裙	moung21+ngung53
+蟒蛇	moung21+nie53
 蟒裙	moung21+ung53
 蟒裙蟒襖	moung21+ung53+moung24+o33
 蟒襖	moung24+ngo33
@@ -11739,6 +12572,7 @@ use_preset_vocabulary: false
 杧果	moung33+guo33
 杧果	moung33+nguo33
 芒種	moung33+zyng33	767839
+忙不在一朝	moung53+buk5+zai242+ik21+diu55
 燜麵	moung53+mieng242
 忙忙眩	moung55+moung55+hing53
 姆婆	mu21+bo53
@@ -11753,6 +12587,7 @@ use_preset_vocabulary: false
 麻油醬	muai21+iu21+juong213
 麻油醬	muai21+iu21+zuong213
 麻帽	muai21+moo242
+麻耳菜	muai21+ngi53+jai21
 麻索	muai21+sooh24
 麻餅	muai33+biang33
 麻稿	muai33+go33
@@ -11774,9 +12609,11 @@ use_preset_vocabulary: false
 滿月	muang21+nguok5
 滿清尾	muang21+njing53+mui33
 蔓菁骹	muang21+njing55+nga55
+滿洲湯	muang21+njiu55+loung55
 滿四勢	muang21+si53+sie21
 蔓菁骹	muang21+zing55+ka55
 鰻魚	muang33+ngy53
+鰻伓像鱔	muang53+ing21+cuong53+ciang242
 滿磅	muang55+booung242	34567843
 鰻糠	muang55+koung55
 蔓菁	muang55+njing55
@@ -11786,6 +12623,7 @@ use_preset_vocabulary: false
 尾包蒂	mui21+bau53+dei213	764555
 尾包骨	mui21+bau53+goouk24	846525
 尾鰓	mui21+ci55
+未出臺	mui21+cuk21+dai52
 煤店	mui21+daing213
 尾兜蒂	mui21+dau53+dei213	445765
 尾兜骨	mui21+dau53+goouk24	886574
@@ -11793,7 +12631,10 @@ use_preset_vocabulary: false
 尾掌指	mui21+ieng24+njai33	786888
 糜粥	mui21+jeoyk24
 尾掌指	mui21+jieng24+njai33	786888
+煤氣灶	mui21+ki53+jau21
 煤店	mui21+laing213
+煤炭印	mui21+lang53+ngeing21
+煤炭灶	mui21+lang53+njau21
 煤炭釺	mui21+lang55+cieng55
 尾兜蒂	mui21+lau53+dei213	445765
 尾兜骨	mui21+lau53+goouk24	886574
@@ -11821,6 +12662,7 @@ use_preset_vocabulary: false
 尾梢	mui21+se55
 煤炭釺	mui21+tang55+cieng55
 尾抽	mui21+tiu55
+梅花絞	mui21+ua53+ga33
 尾坪	mui21+wang53
 尾包蒂	mui21+wau53+dei213	764555
 尾包骨	mui21+wau53+goouk24	846525
@@ -11850,19 +12692,24 @@ use_preset_vocabulary: false
 梅雨	mui33+y33
 妹倩	mui53+caing213
 霾濫	mui53+lang242
+未老先贅	mui53+lau242+seing53+tui21
 妹倩	mui53+njaing213
+未拍先勼	mui53+pah24+seing55+giu55
 尾後	mui55+au242	10000
 尾𡱰	mui55+douk24
 尾舵	mui55+duai242	754152
 妹夫	mui55+hu55	758678
+煤油爐	mui55+iu55+lu53
 尾症	mui55+jeing213
 尾翅	mui55+jie213
+尾藏	mui55+jooung242
 每蜀隻	mui55+loh21+ieh24
 尾𡱰	mui55+louk24
 尾舵	mui55+luai242	754152
 妹夫	mui55+u55	758678
 梅埔	mui55+wuo55
 尾症	mui55+zeing213
+木耳菜	muk21+ngi53+jai21
 木師父	muk21+sa53+au242
 木師父	muk21+sa53+hau242
 木師父	muk21+sa53+hou242
@@ -11872,9 +12719,13 @@ use_preset_vocabulary: false
 木耳	muk33+mi33	1400000
 牧師	muk5+sy55
 目標	muk55+biu55
+木瓜	muk55+gua55
+木薯	muk55+sy53
 蒙汗藥	mung21+ang55+yoh5
 燜飯	mung21+buong242
 蒙汗藥	mung21+gang55+yoh5
+悶悶疼	mung21+mung53+liang21
+悶悶汗	mung21+mung53+ngang242
 濛濛雨	mung21+mung53+ngy33
 懵頭癲腦	mung21+nau21+dieng53+no33	642581
 懵頭癲腦	mung21+nau21+lieng53+no33	642581
@@ -11890,6 +12741,8 @@ use_preset_vocabulary: false
 儚儚着	mung55+mung55+luoh5	542361
 摸魚摸蝦	muo21+ngy21+muo55+ha53
 𩄻霧	muo21+ou242
+摹鎖匙	muo21+so21+lie53
+模板	muo21+weing33
 𡚸囝	muo24+giang33
 𡚸囝	muo24+iang33
 模楷	muo33+kai33
@@ -11923,6 +12776,7 @@ use_preset_vocabulary: false
 門路	muong21+duo242	8659542
 晚番	muong21+huang55
 門臼	muong21+kou242	9956462
+門𦾳	muong21+looyk24
 門墊	muong21+naing242	8954625
 門搭	muong21+nak24	5621541
 晚冬	muong21+neoyng55
@@ -11967,7 +12821,9 @@ use_preset_vocabulary: false
 問聖	muong53+niang213
 問聖	muong53+siang213
 問算	muong53+sooung213	23849841
+門栓過去	muong53+soung55+uo21+o0
 問杯	muong55+bui55
+門閂	muong55+coung55
 晚粙	muong55+diu242
 悗去	muong55+koo213
 悗算	muong55+looung213
@@ -11984,6 +12840,7 @@ use_preset_vocabulary: false
 拉尿	na21+niu242
 拉屎尿	na21+sai55+niu242
 㑚仈順	na21+weik55+soung242
+拿口	na24+kau33
 哪裏	na24+li33
 那處	na33+ceoy213
 那個	na33+goo213
@@ -12025,13 +12882,17 @@ use_preset_vocabulary: false
 難悶難劑	nang21+mung21+nang21+nja242	768945
 難悶難劑	nang21+mung21+nang21+za242	768945
 難悶菜	nang21+mung53+cai21
+難悶𠏋	nang21+mung53+keo33
 難悶難菜	nang21+mung53+nang21+njai21
 難悶劑	nang21+mung53+nja242
 難悶菜	nang21+mung53+njai21
+難悶相	nang21+mung53+suong21
 難悶婆	nang21+mung55+bo53	900000
 難悶婆	nang21+mung55+mo53	900000
 難悶瓜	nang21+mung55+ngua55
+難悶膣	nang21+mung55+zi55
 南南北北	nang21+nang21+beoyk55+booyk24	650000
+喃喃告	nang21+nang21+ngeo21
 南嶼	nang21+neoy242
 儂家	nang21+nga55
 儂家儂	nang21+nga55+neoyng53	999999999
@@ -12050,6 +12911,7 @@ use_preset_vocabulary: false
 男女囝	nang21+ny24+iang33
 南勢	nang21+sie213	666666
 南風天	nang21+ung55+nieng55
+南洋靸	nang21+yong21+niak24
 難劑	nang21+za242
 南煎肝	nang21+zieng55+gang55
 南臺	nang33+deoy53	3346243
@@ -12130,8 +12992,10 @@ use_preset_vocabulary: false
 泥刀	ne55+lo55	999999999
 泥鏝	ne55+muang53
 尼姑	ne55+u55
+泥划	ne55+ua53
 泥巴	ne55+wa55
 凹鼻	neh24+pei213
+訥寶	neh33+bo33
 䐯鳥指	nei21+iu24+jai33
 眤眤目	nei21+nei55+meoyk5	890000
 餌餌目	nei21+nei55+meoyk5
@@ -12152,6 +13016,7 @@ use_preset_vocabulary: false
 乳乳	neing55+neing55
 趝骹	neing55+nga55
 能耐	neing55+ngai53
+乳癌	neing55+ngang53
 念經	neing55+nging55
 呶呶肉	neo21+neo55+nyk5
 內九彩	neoy21+au24+jai33
@@ -12159,6 +13024,7 @@ use_preset_vocabulary: false
 內九彩巷	neoy21+giu21+jai55+ooyng213
 內精通	neoy21+ing55+nung55
 內九彩巷	neoy21+iu21+jai55+ooyng213
+䐯鳥囝	neoy21+iu24+iang33
 䐯鳥指	neoy21+iu24+jai33
 內九彩	neoy21+iu24+jai33
 內精通	neoy21+jing55+nung55
@@ -12171,10 +13037,13 @@ use_preset_vocabulary: false
 䐯鳥	neoy33+ziu33
 內病	neoy53+bang242
 內蒙古	neoy53+mung33+gu33
+膩膩漬漬	neoy53+neoy21+zeoy53+zeoy21
 內病	neoy53+wang242
+內胎	neoy55+lai55
 內傷	neoy55+suong55
 儂囝書	neoyng21+giang21+zy55
 儂囝書	neoyng21+iang21+njy55
+䐯鳥儂	neoyng21+iu21+neoyng53
 儂客	neoyng21+kah24
 軟軟肉	neoyng21+neoyng55+nyk5
 儂客	neoyng21+ngah24
@@ -12185,6 +13054,8 @@ use_preset_vocabulary: false
 儂囝	neoyng33+iang33
 儂囝	neoyng33+ngiang33
 儂裏	neoyng33+nie33
+伓通講	neoyng53+goung33
+伓通講	neoyng53+ngoung33
 伓通	neoyng55	29296238568952
 儂家	neoyng55+a55	999999999
 儂家	neoyng55+ga55	999999999
@@ -12193,6 +13064,7 @@ use_preset_vocabulary: false
 儂家	neoyng55+nga55	999999999
 儂家各儂	neoyng55+nga55+gouk21+neoyng53
 儂工	neoyng55+ngeoyng55
+伓通	ng55+neoyng55
 牙箸	nga21+deoy242
 牙箸	nga21+leoy242
 睨會真	nga242+e55+zing55	888888
@@ -12208,6 +13080,7 @@ use_preset_vocabulary: false
 牙頭關	nga33+tau33+guang55	20984873
 蚜蟲	nga33+teoyng53
 閻羅王	nga55+la55+uong53
+呆家私	ngai21+a55+li55
 牙齒膏	ngai21+go55	999999999
 呆腳	ngai21+gyoh24	750000
 呆債	ngai21+jai213
@@ -12231,9 +13104,11 @@ use_preset_vocabulary: false
 呆囝	ngai33+giang33	7000000
 呆囝	ngai33+iang33	7000000
 呆儂	ngai33+neoyng53	10000000
+牙齿浮去	ngai33+pu53+o0
 牙齒浞	ngai55+ceoyk24	3894837
 牙齒店	ngai55+daing213
 牙齒罐	ngai55+guang213	999999999
+應該吓	ngai55+ia21
 牙齒店	ngai55+laing213
 呆天	ngai55+lieng55	500000
 牙齒刷	ngai55+soouk24	999999999
@@ -12244,11 +13119,13 @@ use_preset_vocabulary: false
 牙齒醬	ngai55+zuong213	999999999
 硬刁刁	ngaing242+diu55+diu55	884521
 顏色	ngang21+naik24
+顏料	ngang21+nau242
 𤟟𤟟叫	ngang21+ngang53+giu213
 𤟟𤟟叫	ngang21+ngang53+iu213
 𤟟𤟟叫	ngang21+ngang53+ngiu213
 嚚嚚叫	ngang21+ngang53+niu213	23479213
 顏色	ngang21+saik24
+眼過無淨	ngang33+guo21+u21+zeing242
 眼鏡	ngang55+giang213
 眼鏡	ngang55+iang213
 眼鏡	ngang55+ngiang213
@@ -12261,10 +13138,12 @@ use_preset_vocabulary: false
 藕花	ngau55+ua55
 虠集	ngau55+zik5
 吃々	nge21+leik24
+霓虹鏡	nge21+ung21+ngiang21
 𨶯々	nge33+le33
 椏垂	nge55+sui53
 睨真	nge55+zing55	888888
 耳朝西	ngei242+diu55+se55	892833
+耳割去	ngei242+gak24+go0
 耳塞	ngei242+seik24	3842421
 耳蕪	ngei242+u53
 硬確確	ngeing21+kouk33+kouk5
@@ -12272,11 +13151,13 @@ use_preset_vocabulary: false
 硬襯	ngeing53+caing213
 硬殼	ngeing53+kooyk24
 硬朗	ngeing53+loung33	646598
+硬保	ngeing53+mo33
 硬尾	ngeing53+mui33
 硬耳	ngeing53+ngei242
 硬殼	ngeing53+ngooyk24
 硬殼	ngeing53+ooyk24
 硬塞	ngeing53+seik24
+硬綱	ngeing55+ngoung55
 咬舌	ngeu21+liek5	3982742
 咬舌	ngeu21+siek5	3982742
 耳扒	ngi21+ba53	999999999
@@ -12286,6 +13167,7 @@ use_preset_vocabulary: false
 宜興罐	ngi21+ing53+nguang213
 宜興罐	ngi21+ing53+uang213
 㘈嚕傲	ngi21+lu53+ngoo213
+耳墜菜	ngi21+lui53+jai21
 耳耳	ngi21+ngei242
 㘈傲傲	ngi21+ngo53+ngoo21
 耳扒	ngi21+wa53	999999999
@@ -12297,13 +13179,17 @@ use_preset_vocabulary: false
 耳角	ngi53+gooyk24	2174821
 耳囝	ngi53+iang33	1827313
 耳屎	ngi53+lai33	3928183
+耳聾𠟶	ngi53+leoyng21+tooyk24
 耳墜	ngi53+lui242
 耳尾	ngi53+mui33	2347293
 㘈鋸	ngi53+ngeoy21
+㘈傲白辣煠	ngi53+ngoo21+bah21+lak5+sak5
+㘈傲倒偏山	ngi53+ngoo21+do21+pieng55+nang55
 耳角	ngi53+ooyk24	2174821
 耳皮軟	ngi53+pui33+nuong33	2081938
 耳屎	ngi53+sai33	3928183
 耳扒囝	ngi53+wa33+iang33	999999999
+耳扒草	ngi53+wa33+jau33
 耳墘	ngi55+gieng53	2471931
 耳珠	ngi55+juo55
 耳空	ngi55+keoyng55	2041746
@@ -12311,6 +13197,7 @@ use_preset_vocabulary: false
 耳聾	ngi55+leoyng53
 㘈哩唔嚕	ngi55+li55+ngu55+lu55
 疑心	ngi55+ling55	52346355
+耳心	ngi55+ling55
 疑難	ngi55+nang53
 㘈𠾒	ngi55+nga55
 㘈𨶯	ngi55+nge55
@@ -12322,6 +13209,7 @@ use_preset_vocabulary: false
 耳珠	ngi55+zuo55	2849332
 閻王	ngia33+uong53
 閻羅王	ngia55+la55+uong53
+𡅅𡅅𰇵	ngiak21+ngiak21+seo53
 𩓥𩓥癢	ngiak21+ngiak21+suong242
 𩓥𩓥癢	ngiak5+ngiak5+suong242
 迎佽	ngiang21+cei213
@@ -12371,6 +13259,7 @@ use_preset_vocabulary: false
 外甥孫婿	ngie21+leing21+noung53+nai213
 外甥孫婿	ngie21+leing21+noung53+sai213
 外甥女	ngie21+leing53+ny33
+外甥猴	ngie21+leing55+gau53
 外甥人	ngie21+leing55+ing53
 外甥人	ngie21+leing55+nging53
 外甥孫	ngie21+leing55+noung55
@@ -12407,6 +13296,7 @@ use_preset_vocabulary: false
 外媽	ngie53+ma33	896864
 藝滿	ngie53+muang33
 義奶	ngie53+ne33	846342
+外外	ngie53+ngie242
 義娘奶	ngie53+noung33+ne33	789533
 義女	ngie53+ny33
 誼女	ngie53+ny33
@@ -12423,6 +13313,7 @@ use_preset_vocabulary: false
 外甥	ngie55+seing55
 外甥娘舅兩隻	ngie55+seing55+nuong21+giu242+lang53+zieh24	999999999
 外公	ngie55+ung55	896865
+外邊	ngie55+weing55
 議齊	ngie55+ze53	23412352
 額角	ngieh21+gooyk24	33847282
 額頭	ngieh33+lau53	29843849
@@ -12443,12 +13334,14 @@ use_preset_vocabulary: false
 研麵	ngieng55+mieng242	865421
 研究	ngieng55+ngiu213
 凝師爺	ngik21+sa55+ie53	892308
+凝師師	ngik21+sa55+la55
 逆風	ngik5+hung55	459878
 凝軟	ngik5+nooyng213
 凝師	ngik5+sa55	982349
 𠶐地	nging21+dei242
 迎接	nging21+ziek24
 㘈𨶯	nging55+ngeo55
+憢憢其乇	ngiu53+ngiu242+i0+nooh24
 牛螕	ngiu55+bi55
 翹齋	ngiu55+je55
 翹齋去了	ngiu55+je55+o0+lau0
@@ -12474,17 +13367,33 @@ use_preset_vocabulary: false
 嗷嗷	ngo55+ngo55	700000
 嗷嗷	ngo55+o55	700000
 鰲峰	ngo55+ung55
+齶々	ngoo21+loouk24
+歞儥食去	ngooung242+me55+sieh5+go0
+齶々	ngou21+louk24
+齶齶	ngouk21+ngouk24
+歞馬壯	ngoung21+ma55+cua21
 歞頭歞腦	ngoung21+nau21+ngoung53+no33
 昂昂叫	ngoung21+ngoung21+giu213	8231142
 歞頭歞腦	ngoung21+tau21+ngoung53+no33
+歞婆	ngoung53+bo53
+歞䠓魺	ngoung53+cy21+koo21
+歞直	ngoung53+dik5
 歞囝	ngoung53+giang33
+歞角	ngoung53+gooyk24
 歞囝	ngoung53+iang33
 歞犬	ngoung53+keing33
+歞𠏋	ngoung53+keo33
+歞魯	ngoung53+leo33
 歞馬	ngoung53+ma33
+歞母	ngoung53+mo33
 歞囝	ngoung53+ngiang33
+歞伲婿	ngoung53+nie21+lai21
 歞腦	ngoung53+no33
 歞癖	ngoung53+peik24
+歞相	ngoung53+suong21
+歞戰々	ngoung53+zie21+lieng21
 歞豬	ngoung55+dy55	5000000
+歞䶥	ngoung55+seo53
 歞頭	ngoung55+tau53
 五骹馬	ngu21+a53+ma33
 五加皮	ngu21+a55+pui53
@@ -12510,10 +13419,12 @@ use_preset_vocabulary: false
 牛屎龜	ngu21+lai21+ui55
 牛頭粽	ngu21+lau21+jooyng213	675489
 牛頭粽	ngu21+lau21+zooyng213	675489
+五十肩	ngu21+leik5+gieng55
 五十一	ngu21+leik53+eik24
 五零四散	ngu21+ling53+si53+sang213
 忤流	ngu21+liu53	963425
 牛腸馬肚	ngu21+loung21+ma55+lou242
+牛顺	ngu21+loung242
 五毒蛇	ngu21+luk5+sie53
 梧桐子	ngu21+lung33+zi33
 五銖錢大空	ngu21+ly55+ieng53+duai55+eoyng55
@@ -12523,9 +13434,11 @@ use_preset_vocabulary: false
 牛母牛囝	ngu21+mo24+ngu33+iang33
 牛哞	ngu21+moo242	55554545454545
 牛尾狸	ngu21+mui21+li53
+牛乳棒	ngu21+neing21+mooung242
 唔唔青	ngu21+ngu55+cang55	646659
 唔唔呻	ngu21+ngu55+ceing55	6021384
 五月初四水	ngu21+nguok21+ceo21+si53+jui33
+五月梨	ngu21+nguok5+li53
 五月節	ngu21+nguok53+zaik24	9876231154
 五月端	ngu21+nguok55+duang55
 五言雜字	ngu21+ngyong53+zak21+zei242
@@ -12542,9 +13455,12 @@ use_preset_vocabulary: false
 牛皮菜	ngu21+wui21+jai213
 牛皮痘	ngu21+wui21+lau242
 牛筋帶	ngu21+yng53+nai213
+伍幸	ngu21+{eing}
 五九六一	ngu24+au33+leoyk21+eik24
 五九六一	ngu24+gau33+leoyk21+eik24
+五囝	ngu24+iang33
 午馬	ngu24+ma33	680000
+五五	ngu24+ngu33
 牛喙罩	ngu33+cui53+dooyk24
 牛喙罩	ngu33+cy53+dooyk24
 牛腸	ngu33+doung53
@@ -12559,34 +13475,44 @@ use_preset_vocabulary: false
 牛母	ngu33+mo33	554545454
 牛乳膏	ngu33+neing33+go55
 牛乳油	ngu33+neing33+iu53
+牛乳草	ngu33+neing33+njau33
 牛乳	ngu33+neing53
 牛舌	ngu33+siek5
 牛頭蜂	ngu33+tau33+pung55
-牛頭	ngu33+tau53
 五號	ngu53+hoo242
 五號	ngu53+oo242
-五鳳	ngu53+oung242
+牛頭	ngu53+tau53
 牛車	ngu55+cia55
 五帝	ngu55+da213
+牛墩	ngu55+doung55
 五中	ngu55+dyng55
 五穀	ngu55+gouk24
 牛筋	ngu55+gyng55	4546546465
 牛車	ngu55+ia55
 牛車	ngu55+jia55
+仵倅	ngu55+jooh24
 五臟	ngu55+jooung242
 五帝	ngu55+la213
 五帝儥搦	ngu55+la213+me55+nieh5
 五帝搦	ngu55+la213+nieh5
+牛頭	ngu55+lau53
 五十	ngu55+leik5
+伍𦤟	ngu55+leing21
 忤流氓	ngu55+liu21+mooung242	852471
 忤流絮	ngu55+liu21+seoy213	1000000
+牛刀	ngu55+lo55
 五滷	ngu55+lou242	765230
+五順	ngu55+loung242
 唔嚕	ngu55+lu55	18920389
 五中	ngu55+lyng55
+牛牛	ngu55+ngu53
 五穀	ngu55+ouk24
+五鳳	ngu55+oung242
 五十	ngu55+seik5
+牛頭	ngu55+tau53
 仵倅	ngu55+zooh24
 五臟	ngu55+zooung242
+齶々	ngua21+luak24
 瓦片囝	ngua21+pieng53+giang33	50000000
 瓦片囝	ngua21+wieng53+iang33	50000000
 瓦片囝	ngua21+wieng53+ngiang33	50000000
@@ -12624,6 +13550,7 @@ use_preset_vocabulary: false
 外套	ngui53+too213
 外國	ngui53+uok24
 外水	ngui53+zui33
+外胎	ngui55+lai55
 誤犯	nguo53+huang242
 玉鐲	nguoh33+loh5
 玉鐲	nguoh33+soh5
@@ -12635,6 +13562,7 @@ use_preset_vocabulary: false
 月桌	nguok21+dooh24
 月大	nguok21+duai242	9013434
 月份	nguok21+houng242	879433
+月鱧	nguok21+la242
 月利	nguok21+lei242
 月利婆	nguok21+li55+bo53
 月利婆	nguok21+li55+wo53
@@ -12701,6 +13629,7 @@ use_preset_vocabulary: false
 魚骨	ngy21+goouk24
 魚魺	ngy21+koo213
 魚簍	ngy21+leu33
+魚腥草	ngy21+ling53+jau33
 魚麵	ngy21+mieng242
 魚𦁧	ngy21+mooyng242
 語言	ngy21+ngyong53
@@ -12709,6 +13638,7 @@ use_preset_vocabulary: false
 魚囝	ngy33+giang33
 魚鼓	ngy33+gu33
 魚囝	ngy33+iang33
+魚鱗草	ngy33+ling33+jau33
 魚鱗	ngy33+ling53
 漁船	ngy33+lung53
 魚脣	ngy33+lung53
@@ -12721,8 +13651,10 @@ use_preset_vocabulary: false
 魚鼓	ngy33+u33
 魚丸	ngy33+uong53
 魚子	ngy33+zi33
+御豆	ngy53+dau242
 魚膠	ngy53+ga55
 魚鰓	ngy55+ci55
+魚戳	ngy55+coh5
 魚竿	ngy55+gang55
 魚鉤	ngy55+gau55
 玉皇	ngyk33+huong53
@@ -12757,6 +13689,8 @@ use_preset_vocabulary: false
 二千零兩	ni21+ieng21+ning53+nang242
 二千零兩	ni21+jieng21+ning53+nang242
 二都蚶	ni21+lu55+hang55
+二豬母	ni21+ly53+mo33
+𪏸𪏸紙	ni21+ni53+jai21
 𪏸𪏸錡	ni21+ni55+i53
 二萬坯	ni21+uang55+pui55
 二分一	ni21+ung53+eik24
@@ -12780,6 +13714,7 @@ use_preset_vocabulary: false
 二八平光	ni53+waik24+bang55+nguong55	342598
 二八平光	ni53+waik24+bang55+uong55	342598
 二保	ni53+wo33
+𪏸布	ni53+wuo21
 二房	ni55+bung53
 二行	ni55+giang53
 二婚	ni55+huong55
@@ -12787,11 +13722,17 @@ use_preset_vocabulary: false
 二衫	ni55+lang55
 二十	ni55+leik5
 能耐	ni55+ngai53
+𪏸𪏸拉拉	ni55+ni55+la55+la55
+二哥	ni55+o55
 二衫	ni55+sang55
 二十	ni55+seik5
+二盤商	ni55+uang55+nuong55
 二婚	ni55+uong55
 二房	ni55+wung53
 二橋	ni55+yo53
+惹伊股	nia33+i53+gu33
+惹伊奶	nia33+i53+ne33
+惹汝奶	nia33+ny53+ne33
 尿壺	nia55+hu53
 尿壺	nia55+u53
 𥍉囇	niak24+da242
@@ -12817,16 +13758,19 @@ use_preset_vocabulary: false
 伲囝囝	nie21+iang24+ngiang33	7000000
 伲囝痞	nie21+iang24+pi33	80000000
 伲囝蒂	nie21+iang55+dei213	80000000
+伲囝節	nie21+iang55+njaik24
 伲婿	nie21+lai213
 伲婿	nie21+sai213
 伲囝	nie53+giang33	100000000
 伲囝	nie53+iang33	100000000
 能耐	nie55+ai53
+尿頭	nie55+lau53
 能耐	nie55+ngai53	3538313
 搦罵	nieh21+ma213
 搦牙齒蟲	nieh21+ngai21+teoyng53
 搦魚	nieh33+ngy53
 搦起	nieh5+ki33
+搦龍	nieh5+lyng53
 搦螞蝴	nieh5+ma33+u53
 搦舵	nieh53+duai242
 搦字	nieh53+jei242
@@ -12875,12 +13819,14 @@ use_preset_vocabulary: false
 日本亂	nik21+buong55+nooung21
 日本話	nik21+buong55+ua242
 日晝	nik21+dau213
+仂侗	nik21+dung53
 入味	nik21+ei242	8465152
 日記牌	nik21+gi55+be53
 日日晡	nik21+nik5+buo55
 仂仂滴	nik21+nik55+deik24
 日日工	nik21+nik55+geoyng55
 仂𣆯	nik21+oung53	867900
+日用雜	nik21+yng55+zak5
 日子單	nik21+zi21+dang55
 日子單	nik21+zi21+lang55
 仂囝	nik24+giang33	53783655
@@ -12895,6 +13841,7 @@ use_preset_vocabulary: false
 日暝	nik5+mang53
 日日暝晡	nik5+nik5+mang55+buo55
 日日暝晡	nik5+nik5+mang55+muo55
+仂乇	nik5+nooh24
 日蝕	nik5+seik24	3000000
 日頭彈着其地方	nik5+tau53+dang53+duoh5+gi0+di55+huong55
 日頭彈着其地方	nik5+tau53+dang53+duoh5+i0+di55+uong55
@@ -12908,7 +13855,9 @@ use_preset_vocabulary: false
 寧德	ning21+daik24
 寧波席	ning21+mo55+cuoh5
 寧波席	ning21+po55+cuoh5
+檸檬	ning55+mung53
 能耐	ning55+ngai53
+仁仁喏	ning55+ning53+nuoh24
 認真	ning55+zing55
 扭秧歌	niu21+oung55+go55
 扭秧歌	niu21+oung55+ngo55
@@ -12922,6 +13871,8 @@ use_preset_vocabulary: false
 尿搊	niu55+jau55
 尿壺	niu55+u53
 紐約	niu55+yok24
+腦擘散	no33+bah24+sang21
+乇好	no53+o33
 哪吒鬧海	no55+ca55+nau53+hai33
 哪吒	no55+ja55
 挪寬	no55+kuang55
@@ -12933,6 +13884,7 @@ use_preset_vocabulary: false
 乇前後	noh55+leing21+ngau242
 乇儂	noh55+neoyng53
 乇事際	nooh24+dai242+zie21
+乇的	nooh24+lik
 亂去了	nooung213+ngo0+lau0
 怒飽	nou242+ba33	73478024
 郎罷囝	noung21+ma53+giang33	999999999
@@ -12975,6 +13927,7 @@ use_preset_vocabulary: false
 捼麵	nui21+mieng242	8954215
 捼劑	nui53+za242	865421
 餒色	nui55+saik24	854956
+潤潤汗	nung21+nung53+ngang242
 農民	nung33+ming53	1000000
 潤氣	nung53+ei213
 潤氣	nung53+kei213
@@ -13010,14 +13963,18 @@ use_preset_vocabulary: false
 娘舅	nuong21+ngiu242	657542
 軟腰拔骨	nuong21+ngiu55+beik21+goouk24
 軟糕	nuong21+ngo55	968676
+軟綱	nuong21+ngoung55
+軟肉	nuong21+nyk5
 軟糕	nuong21+o55	968676
 軟文	nuong21+ung53
 軟板	nuong24+being33	526325
 軟炒	nuong24+ca33	5621523
 軟板	nuong24+meing33	526325
+軟油餅	nuong24+ngiu33+wiang33
 軟炒	nuong24+nja33	5621523
 軟主	nuong24+njuo33	764521
 軟主	nuong24+zuo33	764521
+軟保	nuong242+mo33
 娘奶	nuong33+ne33
 讓喙	nuong53+cui213	854615
 暖閣	nuong55+gooh24
@@ -13037,6 +13994,13 @@ use_preset_vocabulary: false
 女囝	ny24+giang33	900000
 女囝	ny24+iang33	900000
 汝奶	ny24+ne33
+汝奶霸霸	ny24+ne33+ba21+wa21
+汝奶霸霸疼	ny24+ne33+ba21+wa21+tiang21
+汝奶倩我𠚺	ny24+ne33+ciang21+nguai55+sa21
+汝奶乞犬𠚺	ny24+ne33+kyk24+keing33+sa21
+汝奶乞儂𠚺	ny24+ne33+kyk55+neoyng21+sa21
+汝奶我𠚺	ny24+ne33+nguai55+sa21
+汝奶膣䫌	ny24+ne33+zi53+we33
 汝各儂	ny33+gok21+neoyng53	999999999
 汝各儂	ny33+gouk21+neoyng53	999999999
 汝好	ny33+ho33
@@ -13118,6 +14082,7 @@ use_preset_vocabulary: false
 𥮕叉	oung55+nja55
 䁐羊	oung55+yong53
 拋畚斗	pa21+bung53+nau33
+爬起復倒	pa21+i21+bu53+do33
 拋碇	pa53+deing213	765154
 拋碇	pa53+leing213	765154
 拋𦁧	pa53+mooyng242
@@ -13164,14 +14129,18 @@ use_preset_vocabulary: false
 拍拳頭其	pah21+gung55+tau53+gi0
 拍飛機	pah21+hi55+gi55
 拍核桃	pah21+houk33+to53	596231
+拍花舌	pah21+hua55+liek5
 拍劫樶	pah21+iek21+leoy55
 拍腰鼓	pah21+iu53+gu33
 拍腰鼓	pah21+iu53+u33
+拍草鞋其	pah21+jau21+e53+i0
 拍喙花	pah21+jui55+ua55
 拍獅馬	pah21+lai53+ma33
 拍鐵鐧	pah21+liek24+gang33	800000
 拍鐵鐧其	pah21+liek24+gang33+i0
 拍鐵鐧其	pah21+liek24+gang33+ngi0
+拍折牙齒	pah21+liek53+ngai33
+拍辛苦	pah21+ling53+ngu33
 拍倒店	pah21+lo55+laing213
 拍刀花	pah21+lo55+ua55
 拍落身	pah21+loh5+ling55
@@ -13200,12 +14169,14 @@ use_preset_vocabulary: false
 拍拍	pah21+pah24
 拍獅馬	pah21+sai53+ma33
 拍屎嗝	pah21+sai55+geoh24
+拍食力	pah21+siah55+lik5
 拍折牙齒	pah21+siek53+ngai33
 拍鐵鐧	pah21+tiek24+gang33	800000
 拍鐵鐧其	pah21+tiek24+gang33+gi0
 拍官司	pah21+uang55+ni55
 拍滾斗	pah21+ung24+nau33
 拍巴掌	pah21+wa53+juong33	888888
+拍搏併	pah21+wouk55+biang21
 拍駁並	pah21+wouk55+piang242
 拍紙片	pah21+zai55+wieng213
 拍字法	pah21+zi53+huak24
@@ -13263,11 +14234,13 @@ use_preset_vocabulary: false
 拍鐵師父	pah53+tiek24+sa53+hau242
 拍鐵師父	pah53+tiek24+sa53+hou242
 拍仗	pah53+tuong213
+拍併	pah53+wiang21
 拍子	pah53+y33
 拍扎	pah53+zak24
 拍走	pah53+zau33
 拍字	pah53+zei242
 拍子	pah53+zi33
+拍錢箭	pah53+zieng21+njieng21
 拍掌	pah53+zuong33	999999
 拍子	pah53+zy33
 拍白	pah55+bah5	42394341
@@ -13282,11 +14255,13 @@ use_preset_vocabulary: false
 拍銅師父	pah55+deoyng53+sa53+au242
 拍銅師父	pah55+deoyng53+sa53+hau242
 拍銅師父	pah55+deoyng53+sa53+hou242
+拍樁	pah55+doung55
 拍寒	pah55+gang53
 拍更	pah55+gang55
 拍金	pah55+ging55
 拍球	pah55+giu53
 拍拳頭其	pah55+gung33+nau53+i0	300000
+拍夯	pah55+hang55
 拍風	pah55+hung55	409853
 拍風做暴	pah55+hung55+zo53+boo213
 拍喳	pah55+ja53
@@ -13303,6 +14278,7 @@ use_preset_vocabulary: false
 拍落僮	pah55+loh55+leoyng53
 拍塗	pah55+lu53	956235
 拍輪環	pah55+lung55+kuang53	888888
+拍廚暝	pah55+luo55+mang53
 拍石子	pah55+luoh33+ji33
 拍無	pah55+mo53	999999
 拍門	pah55+muong53
@@ -13325,9 +14301,11 @@ use_preset_vocabulary: false
 拍雜	pah55+zak5	234892
 拍針	pah55+zeing55
 痞囝頭	pai21+giang21+tau53	5000000
+痞囝齋	pai21+iang21+nje55
 痞囝頭	pai21+iang21+tau53	5000000
 痞囝	pai24+giang33	10000000
 痞囝	pai24+iang33	10000000
+痞神氣	pai55+ling55+ngei21
 鋍鋍跳	pak21+pak33+tiu213
 評嫁	pang21+a213
 平地	pang21+dei242
@@ -13337,6 +14315,7 @@ use_preset_vocabulary: false
 膨膨脹	pang21+mang21+duong213
 彭彭戰	pang21+mang21+njieng213
 膨膨脹	pang21+mang21+nuong213
+膨體紗	pang21+ne21+la55
 平地	pang21+nei242
 評嫁	pang21+nga213
 蟛蜞醬	pang21+ngi21+juong213
@@ -13361,6 +14340,7 @@ use_preset_vocabulary: false
 冇粟	pang53+njuoh24
 冇鎖	pang53+no33
 冇講	pang53+oung33	50983398
+冇覆	pang53+pouk24
 冇鎖	pang53+so33
 冇炭	pang53+tang213	5000000
 冇話	pang53+ua242
@@ -13380,6 +14360,7 @@ use_preset_vocabulary: false
 跑馬	pau33+ma33
 拋帳	pau53+duong213
 拋轎	pau53+giu242
+炮彈	pau53+lang242
 拋帳	pau53+luong213
 炮仗	pau53+luong242
 炮仗	pau53+tuong242
@@ -13392,8 +14373,10 @@ use_preset_vocabulary: false
 跑差	pau55+je55
 鮑魚	pau55+ngy53
 泡湯	pau55+toung55
+蜱蜱重	pe21+we21+looyng242
 稗草	pe53+cau33
 稗草	pe53+jau33
+鼻長	pei21+doung53
 鼻糊其	pei213+gu53+i0
 鼻野靈	pei213+ia21+ling53	3014756
 鼻塞去	pei213+seik24+go0
@@ -13441,6 +14424,7 @@ use_preset_vocabulary: false
 鼻心	pi55+sing55	2037534
 鼻頭	pi55+tau53	3875463
 鼻花	pi55+ua55	2837472
+擗擗	piak21+piak24
 竮骹	piang21+a55
 竮骹	piang21+ka55
 竮骹	piang21+nga55
@@ -13497,6 +14481,7 @@ use_preset_vocabulary: false
 漂白	piu55+bah5	885946
 瓢羹	piu55+eing55
 瓢羹	piu55+geing55
+飄張	piu55+luong55
 滂沱大雨	po21+lo21+duai53+y33
 滂沱大雨	po21+lo21+luai53+y33
 坡地	po53+dei242
@@ -13521,6 +14506,7 @@ use_preset_vocabulary: false
 碰造化	poung21+zo53+hua213	666666
 碰造化	poung21+zo53+ua213	666666
 碰電	poung53+dieng242	777777
+碰母	poung53+mo33
 碰時道	poung53+ni21+loo242	666666
 碰電	poung53+nieng242	777777
 碰時道	poung53+si21+doo242	666666
@@ -13532,6 +14518,7 @@ use_preset_vocabulary: false
 烰豆腐乾	pu21+lau55+u55+ang55	1000000
 烰豆乾	pu21+lau55+uang55
 浮𤃶	pu21+looyng213	3458465
+浮露	pu21+lou21
 浮露	pu21+lou213	777777
 烰卵包	pu21+loung55+bau55
 烰卵包	pu21+loung55+mau55
@@ -13549,6 +14536,8 @@ use_preset_vocabulary: false
 浮花	pu55+hua55	999999999
 烰油𥻵	pu55+iu55+li53
 烰油𥻵	pu55+iu55+si53
+浮頭儂	pu55+lau55+neoyng53
+烰豬	pu55+ly55
 烰魚	pu55+ngy53
 浮花	pu55+ua55	999999999
 破腹產	puai21+buk24+sang33
@@ -13576,6 +14565,7 @@ use_preset_vocabulary: false
 派頭俤	puai53+tau21+die242
 派頭妹	puai53+tau21+mui213	800000
 破頭髮	puai53+tau21+uok24
+破芋	puai53+uo242
 破病	puai53+wang242
 破腹	puai53+wouk24
 破剪	puai53+zeing33
@@ -13588,6 +14578,7 @@ use_preset_vocabulary: false
 潑辣	puak21+lak5	158495
 伐桶索	puak21+teoyng55+sooh24
 潑水	puak24+zui33
+伐斗	puak33+dau33
 伐桶	puak33+teoyng33
 潑旦	puak55+dang213
 鏺鍥	puak55+gaik24
@@ -13599,6 +14590,7 @@ use_preset_vocabulary: false
 伴房媽	puang53+mung33+ma33
 伴房	puang55+mung53
 伴生	puang55+seing55
+配留配底	pui21+lau21+pui53+de33
 皮絲熏	pui21+li55+oung55
 皮卵	pui21+looung242
 皮箱墊	pui21+luong53+daing242
@@ -13614,6 +14606,7 @@ use_preset_vocabulary: false
 皮鞋	pui33+e53
 皮襖	pui33+o33
 配草	pui53+cau33	840000
+配底	pui53+de33
 配對	pui53+dooy213
 被袋	pui53+dooy242
 配䍜	pui53+dooyk24
@@ -13666,6 +14659,7 @@ use_preset_vocabulary: false
 噴符水	pung53+hu33+zui33
 潘桶	pung53+neoyng33
 蜂宿	pung53+niu213
+蜂姐	pung53+njia33
 蜂宿	pung53+siu213
 縫瑞	pung53+sui242
 潘桶	pung53+teoyng33
@@ -13682,6 +14676,7 @@ use_preset_vocabulary: false
 扶分數	puo21+hung53+sou213
 斧頭	puo21+lau53	999999999
 斧頭喙	puo21+lau53+cui213	999999999
+浦城紅	puo21+liang55+ngeoyng53
 莆田	puo21+lieng53
 斧頭	puo21+tau53
 斧頭喙	puo21+tau53+cui213
@@ -13710,6 +14705,7 @@ use_preset_vocabulary: false
 沙包地	sa21+bau53+lei242
 掃帚星	sa21+ciu21+sing55	100000
 掃帚栽	sa21+ciu21+zai55
+沙縣熏	sa21+eing55+oung55
 師父徒弟兩隻	sa21+hau21+du21+da242+lang53+zieh24	999999999
 掃帚栽	sa21+jiu21+jai55
 掃帚星	sa21+jiu21+ling55	100000
@@ -13732,6 +14728,7 @@ use_preset_vocabulary: false
 砂槍	sa55+juong55
 𦼩鑶	sa55+lang55
 𦼩鑶裏去	sa55+lang55+die33+ko0
+𦼩㘕裏去	sa55+lang55+nie33+o0
 𦼩鑶裏去	sa55+lang55+nie33+o0
 紗羅	sa55+lo53
 砂糖	sa55+loung53
@@ -13763,8 +14760,10 @@ use_preset_vocabulary: false
 鯊囝	sai53+iang33
 獅犬	sai53+keing33	454848484855
 獅帽	sai53+moo242
+獅被	sai53+pui242
 私家	sai55+a55
 屎布	sai55+buo213
+獅鞋	sai55+e53
 私家	sai55+ga55
 使壞	sai55+guai242
 師公	sai55+gung55
@@ -13772,10 +14771,12 @@ use_preset_vocabulary: false
 師兄	sai55+iang55
 沙楻	sai55+kuong53	40000000
 使料	sai55+lau242
+沙岳	sai55+ngouk5
 鯊魚	sai55+ngy53
 屎尿	sai55+niu242	776845
 沙壀	sai55+pieh5	50000000
 沙坡	sai55+po55	50000000
+獅皮	sai55+pui53
 獅頭	sai55+tau53
 師公	sai55+ung55
 沙楻	sai55+uong53	40000000
@@ -13786,23 +14787,27 @@ use_preset_vocabulary: false
 煞臺	sak21+dai53
 煞局	sak21+guoh5
 煠卵	sak21+looung242
+煞年	sak21+nieng53
 煞煞尾	sak21+sak24+mui33	55555
 殺頭	sak21+tau53
 煞把	sak24+ba33	845825
 煞手	sak24+ciu33	888888
 煞去	sak24+goo213
 煞鼓	sak24+gu33
+煞馬	sak24+ma33
 𧏫母	sak24+mo33
 煞尾	sak24+mui33	55555
 𧏫母	sak33+mo33
+煞甲	sak5+gak24
+煞季	sak5+gie21
 煞飯	sak55+buong242
+煞勁	sak55+geing21
 煞氣	sak55+kei213
 煞燥	sak55+soo213	846997
 三個指醫生	sang21+a24+zai33+i55+leing55
 三界桌	sang21+ai53+looh24
 三把兩日	sang21+ba21+lang55+nik5
 三百一	sang21+bah53+eik24
-三不主兩	sang21+buk21+zuo55+lang242
 三春雨	sang21+cung53+y33
 三點水	sang21+deing24+zui33
 山東粉	sang21+deoyng53+hung33	500000
@@ -13815,6 +14820,7 @@ use_preset_vocabulary: false
 三角井	sang21+geoyk24+zang33
 三姑六婆	sang21+gu21+leoyk55+bo53	790000
 三花面	sang21+hua53+meing213
+生火蛾	sang21+hui21+ngo53
 三坊七巷	sang21+huong21+cik55+hooyng21
 傘油	sang21+iu53
 三落透後	sang21+loh21+lau53+au242	542165
@@ -13824,10 +14830,13 @@ use_preset_vocabulary: false
 三保街	sang21+mo21+e55
 生不蜀時	sang21+muk21+soh33+li53	738829
 生不蜀時	sang21+muk21+soh55+li53
-三不主兩	sang21+muk21+zuo55+lang242
+三不像兩	sang21+muk55+cuong21+nang242
+三不像	sang21+muk55+cuong242
 產門	sang21+muong53
 山頭嶺尾	sang21+nau21+liang24+mui33
 三屜桌	sang21+ne53+looh24
+三十六媽	sang21+neik21+leoyk53+ma33
+三十六公	sang21+neik21+leoyk55+gung55
 三十暝晡	sang21+neik21+mang55+muo55
 三十一	sang21+neik53+eik24
 三十暝晡	sang21+neik55+mang55+muo55
@@ -13837,16 +14846,23 @@ use_preset_vocabulary: false
 山東白	sang21+neoyng55+bah5
 山東蔥	sang21+neoyng55+ceoyng55
 山東白	sang21+neoyng55+mah5
+山東枹	sang21+neoyng55+pau55
 三個指醫生	sang21+nga24+zai33+i55+leing55
 三界桌	sang21+ngai53+looh24
 三佮埕	sang21+ngak21+diang53
 三佮塗	sang21+ngak21+tu53
+三合飯	sang21+ngak53+buong242
 三佮地	sang21+ngak55+dei242
+三角旗	sang21+ngeoyk21+gi53
+三角尖	sang21+ngeoyk21+zieng55
 三角靸	sang21+ngeoyk55+liak24
 產業	sang21+ngiek5
+三金倒	sang21+nging53+no33
 三音機	sang21+nging55+gi55
 三姑六婆	sang21+ngu21+leoyk55+bo53	790000
 三花面	sang21+ngua53+meing213
+三棺帶	sang21+nguang53+nai21
+生分鋪	sang21+ngung55+muo55
 三坊七巷	sang21+nguong21+cik55+hooyng21
 山裏角	sang21+nie55+gooyk24
 生的呆	sang21+nik21+ngai53	8452502
@@ -13855,6 +14871,7 @@ use_preset_vocabulary: false
 三日風兩日雨	sang21+nik55+hung55+lang21+nik53+y33
 三日三	sang21+nik55+sang55
 三日三九日九	sang21+nik55+sang55+giu21+nik53+giu33
+三差兩	sang21+nja53+lang242
 山楂糕	sang21+nja55+o55
 三春雨	sang21+njung53+ngy33
 三春雨	sang21+njung53+y33
@@ -13863,6 +14880,8 @@ use_preset_vocabulary: false
 生肉柱	sang21+nyk53+tiu242
 生冇蛇	sang21+pang55+nie53
 生冇蛇	sang21+pang55+sie53
+生脬趼	sang21+pau55+neing55
+生鼻母	sang21+pi53+mo33
 三十暝晡	sang21+seik21+mang55+buo55
 三十一	sang21+seik53+eik24
 三十暝晡	sang21+seik55+mang55+buo55
@@ -13884,6 +14903,7 @@ use_preset_vocabulary: false
 三百	sang53+bah24
 三板	sang53+being33	684551
 生疿	sang53+bui213
+生布	sang53+buo21
 三七	sang53+ceik24
 三七廿一	sang53+ceik24+niek55+eik24
 三七四六	sang53+ceik24+si21+leoyk5
@@ -13891,6 +14911,7 @@ use_preset_vocabulary: false
 三旦	sang53+dang213
 散斗	sang53+dau33
 山地	sang53+dei242
+山竹	sang53+deoyk24
 山頂	sang53+ding33	666666
 山氣	sang53+ei213	236545
 三一	sang53+eik24
@@ -13918,6 +14939,7 @@ use_preset_vocabulary: false
 三百	sang53+mah24
 三面六議	sang53+meing213+leoyk21+ngie242
 三板	sang53+meing33	684551
+生目胛	sang53+meoyk21+gak24
 三保	sang53+mo33
 山縫	sang53+moung213
 使伓使	sang53+nai33
@@ -13926,6 +14948,7 @@ use_preset_vocabulary: false
 生肖	sang53+nau213
 山頭頂	sang53+nau33+ling33
 山地	sang53+nei242
+生呆乇	sang53+ngai21+nooh24
 山澗	sang53+ngang213
 山後	sang53+ngau242	666666
 山猴囝	sang53+ngau33+iang33	550000
@@ -13933,11 +14956,13 @@ use_preset_vocabulary: false
 山隙	sang53+ngiak24	362549
 山崗	sang53+ngooung213
 生分	sang53+ngoung242	846202
+生牛母	sang53+ngu33+mo33
 山裏	sang53+nie33	87565265
 山頂	sang53+ning33	666666
 杉樹	sang53+njiu213
 三嫂	sang53+no33
 生乇	sang53+nooh24
+三輪扑	sang53+nung21+poouk24
 三重㾪	sang53+nyng33+neing33
 生分	sang53+oung242	846202
 山縫	sang53+poung213
@@ -13956,19 +14981,24 @@ use_preset_vocabulary: false
 三更	sang55+ang55
 三扒兩空	sang55+ba53+lang53+kooyng213
 三扒兩擂	sang55+ba53+lang53+looy242
+生八饼喨	sang55+beik24+biang33+luong242
+三不像兩	sang55+buk21+cuong53+lang242
 杉柴	sang55+ca53
 山田	sang55+ceing53
 生瘡	sang55+coung55
 傘店	sang55+daing213
 三條簪	sang55+deu55+zang55
+三丁	sang55+ding55
 生疔	sang55+ding55
 三叮兩在	sang55+ding55+lang53+zai242
 三更	sang55+gang55
 山猴	sang55+gau53	600000
 山溝撈	sang55+gau55+lau55	986543
 山懸頂	sang55+ge33+leing33	4265237
+生共屎喨	sang55+geoyng53+sai33+luong242
 三行兩回頭	sang55+giang53+lang55+hui55+tau53
 省儉	sang55+gieng242
+三飛	sang55+hi55
 三花	sang55+hua55
 三槐	sang55+huai53
 三番兩次	sang55+huang55+lang53+ceoy213
@@ -13976,6 +15006,7 @@ use_preset_vocabulary: false
 山峰	sang55+hung55	223564
 三坊	sang55+huong55
 三坊七巷	sang55+huong55+cik55+hooyng21
+生野驚儂	sang55+ia21+giang55+neoyng53
 生野俊	sang55+ia55+joung213	1520202
 生野俊	sang55+ia55+zoung213	1520202
 三行兩回頭	sang55+iang53+lang55+ui55+lau53
@@ -13995,11 +15026,13 @@ use_preset_vocabulary: false
 生儥俊	sang55+me53+zoung213	8452020
 三明	sang55+ming53
 杉木	sang55+muk5
+山𩄻	sang55+muo53
 三門櫥	sang55+muong55+diu53
 三門櫥	sang55+muong55+niu53
 傘店	sang55+naing213
 產難	sang55+nang242
 三山	sang55+nang55
+三頭金	sang55+nau55+ing55
 山𡅏	sang55+ne0	87565265
 靜訥	sang55+neh5	10278433
 三十	sang55+neik5
@@ -14015,8 +15048,10 @@ use_preset_vocabulary: false
 山峰	sang55+ngung55	223564
 三月三	sang55+nguok55+sang33
 山羊	sang55+ngyong53
+三鲜	sang55+nieng55
 生日	sang55+nik5
 三叮兩在	sang55+ning55+lang53+njai242
+山林𤡮	sang55+ning55+yong53
 杉柴	sang55+nja53
 山楂	sang55+nja55	10283394
 山田	sang55+njeing53
@@ -14084,6 +15119,8 @@ use_preset_vocabulary: false
 価心事	se21+sing53+seoy242	2151331
 洗身	se21+sing55
 洗湯	se21+toung55
+洗碗池	se21+uang21+nie53
+洗碗槽	se21+uang21+no53
 洗手	se24+ciu33
 洗港	se24+geoyng33
 洗水	se24+jui33
@@ -14128,10 +15165,12 @@ use_preset_vocabulary: false
 細姑	se55+gu55	657456
 細姑兄嫂	se55+gu55+hiang53+no33	999999999
 西瓜	se55+gua55	50291838
+洗血	se55+haik24
 西湖	se55+hu53	78464233
 細姨	se55+i53	867456
 西施舌	se55+i55+liek5
 西裝	se55+joung55
+西芹	se55+kyng53
 西頭	se55+lau53	66666
 細心	se55+ling55	4355274
 細思	se55+ly55	2355675
@@ -14151,6 +15190,7 @@ use_preset_vocabulary: false
 西洋	se55+yong53
 西裝	se55+zoung55
 四角框	sei21+geoyk24+kuong55
+四傼𡅏六	sei21+hang21+le33+leoyk5
 是伓是	sei242+ing53+nei242	4333
 是伓是	sei242+ing53+sei242	4333
 十把年	seik21+ba21+nieng53	4394243
@@ -14186,6 +15226,8 @@ use_preset_vocabulary: false
 十上工	seik21+suong55+geoyng55
 十上工	seik21+suong55+ngeoyng55
 十上日	seik21+suong55+nik5
+十字架路	seik21+zi21+a53+luo242
+十字絞	seik21+zi53+ga33
 十隻	seik21+zieh24
 十絕哥	seik21+zuok5+go55	9000000
 十八	seik21+{beik}
@@ -14275,6 +15317,8 @@ use_preset_vocabulary: false
 坐船	seoy55+sung53	7654215
 坐齋	seoy55+ze55	846512
 坐齋先生	seoy55+ze55+sing55+sang55	621542
+摔台	seoyk21+dai53
+摔乾	seoyk21+gang55
 摔跤	seoyk21+gau55
 摔麥	seoyk21+mah5
 䟉籤	seoyk5+cieng55
@@ -14293,11 +15337,14 @@ use_preset_vocabulary: false
 雙生囝	seoyng21+sang53+giang33
 頌去	seoyng242+o0
 頌去了	seoyng242+o0+lau0
+雙搶	seoyng53+cuong21
 鬆動	seoyng53+dooyng242	846250
 送客	seoyng53+kah24
 送禮	seoyng53+le33
 雙浦	seoyng53+muo33
 雙塔	seoyng53+nak24	5876786
+雙頭斧	seoyng53+nau33+wuo33
+雙扇	seoyng53+nieng21
 送葬	seoyng53+njooung213
 鬆動	seoyng53+nooyng242	846250
 雙塔	seoyng53+tak24	5876786
@@ -14323,6 +15370,7 @@ use_preset_vocabulary: false
 雙字姓	seoyng55+zi242+sang213
 雙全	seoyng55+zuong53	765345
 梢長大漢	seu21+doung21+duai53+hang213
+稠稠大	seu21+leu21+luai242
 搜心挖空	seu21+ling21+uak5+keoyng213	790000
 搜心挖空	seu21+ling21+uak5+kooyng213
 梢長大漢	seu21+loung21+nuai53+ang213
@@ -14365,13 +15413,17 @@ use_preset_vocabulary: false
 死儂骹尾	si21+neoyng21+ka53+mui33	6666
 死儂骹尾	si21+neoyng21+nga53+mui33	6666
 死儂	si21+neoyng53	5000000
+死儂車	si21+neoyng55+njia55
 時運	si21+oung242
+死嫖活賭	si21+piu53+uak33+du33
 時式	si21+seik24	668958
 四十一	si21+seik53+eik24
 四扇三	si21+sieng55+sang55	542165
 𥻵粿店	si21+ui55+laing213
 四半酒	si21+wuang53+njiu33
+四不像	si21+wuk55+cuong242
 時症	si21+zeing213
+死絞	si24+a33
 死囝	si24+giang33	5000000
 死囝	si24+iang33	5000000
 死等	si24+ling33	700000
@@ -14405,6 +15457,7 @@ use_preset_vocabulary: false
 四半	si53+wuang213
 時間	si55+ang55
 四平八穩	si55+bing53+beik24+ung33
+鰣炊	si55+cui55
 時間	si55+gang55
 死腳	si55+gyoh24	800000
 絲毫	si55+ho53	5376353
@@ -14414,9 +15467,11 @@ use_preset_vocabulary: false
 四千	si55+ieng55
 豉油	si55+iu53
 豉油膏	si55+iu55+go55
+死劑	si55+ja242
 四川	si55+juong55
 死色	si55+laik24	462589
 四十	si55+leik5
+四六	si55+leoyk5
 四鄰八舍	si55+ling53+beik55+sia213
 死命	si55+miang242	58828282
 死儂面	si55+neing21+meing213	462587
@@ -14451,12 +15506,12 @@ use_preset_vocabulary: false
 謝謝	sia53+lia242
 賒數	sia53+lou213
 瀉賣	sia53+ma242
-社把	sia53+ma33
 舍妹	sia53+mui213	876967
 謝願	sia53+nguong242
 瀉色	sia53+saik24	479563
 謝謝	sia53+sia242
 賒數	sia53+sou213
+社把	sia53+wa33
 謝罪	sia53+zooy242
 謝槳	sia53+zuong33
 寫白字	sia55+bah21+jei242
@@ -14467,6 +15522,7 @@ use_preset_vocabulary: false
 寫賺去	sia55+dang242+o0
 社旗	sia55+gi53
 卸肩	sia55+gieng55
+斜肩	sia55+gieng55
 捨命	sia55+miang242
 畲婆	sia55+wo53	400000
 寫字	sia55+zei242
@@ -14563,10 +15619,14 @@ use_preset_vocabulary: false
 受風	sie55+ung55
 施埔	sie55+wuo55
 泄精	sie55+zing55
+食白卵	sieh21+bah21+looung242
+食部隊	sieh21+buo53+lui242
 食飯	sieh21+buong242	9845125
+食飯廳	sieh21+buong55+niang55
 食菜	sieh21+cai213	765215
 食菜其	sieh21+cai213+gi0
 食菜其	sieh21+cai213+i0
+食生羊肉	sieh21+cang55+yong55+nyk5
 食醋	sieh21+cou213
 食晝	sieh21+dau213
 食點心囝	sieh21+dieng21+ning53+iang33	6663335
@@ -14576,11 +15636,16 @@ use_preset_vocabulary: false
 食長齋	sieh21+doung55+ze55
 食大草	sieh21+duai53+cau33	684512
 食大草	sieh21+duai53+jau33	684512
+食大頓	sieh21+duai53+looung21
+食家堂暝	sieh21+ga55+loung55+mang53
 食館店	sieh21+guang55+daing213
 食館店	sieh21+guang55+naing213
+食好頓	sieh21+ho55+looung21
 食花齋	sieh21+hua55+je55
 食花齋	sieh21+hua55+ze55
 食貨	sieh21+huo213
+食客佻	sieh21+kah55+liu53
+食辣薑	sieh21+lak5+gyong55
 食儥帶	sieh21+me53+dai213
 食儥帶	sieh21+me53+lai213
 食麵	sieh21+mieng242
@@ -14589,16 +15654,23 @@ use_preset_vocabulary: false
 食細草	sieh21+se53+cau33	684512
 食細草	sieh21+se53+jau33	684512
 食塞去	sieh21+seik24+go0	9648525
+食聲孔	sieh21+siang53+keoyng33
 食索	sieh21+sooh24
+食天水	sieh21+tieng53+njui33
+食有味	sieh21+u53+mei242
+食枉卵	sieh21+uong55+looung242
 食早齋	sieh21+za21+je55
 食早齋	sieh21+za21+ze55
 食粥	sieh21+zeoyk24	9451365
 食打	sieh33+da33	845215
+食鼎	sieh33+diang33
 食打	sieh33+la33	845215
 食暝	sieh33+mang53
 食藥	sieh33+yoh5	8621542
 食早	sieh33+za33	9546213
 食酒	sieh33+ziu33	8945213
+食飽告脹	sieh5+ba33+geo53+duong21
+食飽換空	sieh5+ba33+uang55+keoyng55
 食褒	sieh5+bo55
 食半暝頓	sieh5+buang53+mang21+dooung213	633336
 食半暝頓	sieh5+buang53+mang21+nooung213	633336
@@ -14617,6 +15689,7 @@ use_preset_vocabulary: false
 食過飽	sieh5+guo53+wa33	864521
 食恰飽	sieh5+kak24+ba33	9546215
 食去	sieh5+koo213
+食两两半	sieh5+lang21+luong55+muang21
 食了	sieh5+lau33
 食去	sieh5+oo213
 食塞去	sieh5+seik24+go0
@@ -14627,6 +15700,7 @@ use_preset_vocabulary: false
 食力	sieh55+lik5	884759
 食儥焦	sieh55+me55+da55
 食乳	sieh55+neing55
+食聲	sieh55+siang55
 食齋	sieh55+ze55
 薛剛	siek21+goung55	3900000
 設施	siek21+sie55
@@ -14634,6 +15708,7 @@ use_preset_vocabulary: false
 設使	siek24+sy33	4568677
 折本	siek33+buong33
 舌囝	siek33+giang33	2192837
+屑箸	siek5+deoy242
 舌苔	siek5+tai55	4727391
 卌一	siek55+eik24
 世乇事際	sieng21+dai53+ie213
@@ -14643,6 +15718,7 @@ use_preset_vocabulary: false
 仙朝桌	sieng21+niu53+looh24
 禪寺	sieng21+sei242
 銑鋧	sieng24+hieng33
+簷鼠	sieng33+cy33
 檐墘	sieng33+gieng53
 檐墘	sieng33+ieng53
 簷馬	sieng33+ma33
@@ -14677,6 +15753,7 @@ use_preset_vocabulary: false
 銑鐵	sieng55+tiek24
 鹽精	sieng55+zing55
 塞車	sik21+cia55	9482523
+塞胲	sik21+gai55
 習慣	sik21+guang213
 濕熱	sik21+iek5
 塞儥裏	sik21+me53+lie33
@@ -14685,6 +15762,7 @@ use_preset_vocabulary: false
 實在	sik21+zai242
 實際	sik21+zie21
 息錢	sik21+zieng53
+實就	sik21+ziu242
 失禮	sik24+le33
 塞屎	sik24+sai33
 實落	sik33+loh5	658489
@@ -14693,6 +15771,7 @@ use_preset_vocabulary: false
 濕痺	sik55+bei213
 蟋蟀	sik55+soouk24
 習俗	sik55+syk5
+錫礈	sik55+tui242
 心肝大撞	sing21+ang21+duai53+dooung242
 心肝頭	sing21+ang33+nau53	6477420
 心肝前	sing21+ang55+neing53	664774
@@ -14728,6 +15807,9 @@ use_preset_vocabulary: false
 心肝大撞	sing21+ngang21+duai53+dooung242
 心肝頭	sing21+ngang33+nau53	6477420
 心肝前	sing21+ngang55+neing53	664774
+神氣	sing21+ngei21
+神氣野通	sing21+ngei21+ia21+leoyng55
+神氣儥通	sing21+ngei21+me55+leoyng55
 神麴	sing21+ngeoyk24
 成衣店	sing21+ngi53+laing213
 承惠	sing21+ngie242
@@ -14749,6 +15831,7 @@ use_preset_vocabulary: false
 嬸媽	sing24+ma33
 承澤	sing33+deik5
 承行	sing33+eing53
+蟳牯	sing33+gu33
 承行	sing33+heing53
 檐墘	sing33+ieng53
 誠懇	sing33+koung33	646589
@@ -14787,6 +15870,8 @@ use_preset_vocabulary: false
 信鴿	sing53+ngak24
 嵩口	sing53+ngau33
 心氣	sing53+ngei21
+心氣野通	sing53+ngei21+ia21+leoyng55
+心氣儥通	sing53+ngei21+me55+leoyng55
 新硯	sing53+ngieng213
 新人轎	sing53+nging21+ngiu242
 新人伴	sing53+nging21+puang242
@@ -14820,6 +15905,7 @@ use_preset_vocabulary: false
 心𡅏	sing55+ne0	666666
 身𡅏	sing55+ne0
 心肝	sing55+ngang55
+心肝儥制	sing55+ngang55+me53+zie21
 心肝篾	sing55+ngang55+miak5
 心肝疼	sing55+ngang55+tiang213
 新人	sing55+nging53
@@ -14860,6 +15946,7 @@ use_preset_vocabulary: false
 小錢	siu21+ieng53
 紹興乳	siu21+ing53+njuo33	500000
 紹興乳	siu21+ing53+zuo33	500000
+酬債	siu21+jai21
 小錢	siu21+jieng53
 修骹趼	siu21+ka55+neing55	765211
 小框	siu21+kuong55	785421
@@ -14868,6 +15955,7 @@ use_preset_vocabulary: false
 小生	siu21+leing55
 小條桌	siu21+leu53+looh24
 酬謝	siu21+lia242
+小食	siu21+lieh5
 修道女	siu21+lo53+ny33
 小腸	siu21+loung53
 小樑	siu21+luong53
@@ -14890,6 +15978,7 @@ use_preset_vocabulary: false
 小邊手	siu21+weing53+njiu33	435845
 小橋頭	siu21+yo33+lau53
 小錢	siu21+zieng53
+小九	siu24+au33
 守本	siu24+buong33
 小彩	siu24+cai33
 小產	siu24+cang33
@@ -14946,6 +16035,7 @@ use_preset_vocabulary: false
 收煞	siu53+sak24
 消息	siu53+seik24
 燒死	siu53+si33
+尿𭌋	siu53+suo242
 受暑	siu53+sy33
 燒炭	siu53+tang213
 邵武	siu53+u33
@@ -14958,6 +16048,7 @@ use_preset_vocabulary: false
 小便	siu55+bieng242
 小輩	siu55+bui213
 壽柴	siu55+ca53
+燒田	siu55+ceing53
 小事	siu55+dai242
 小旦	siu55+dang213
 收冬	siu55+deoyng55
@@ -14979,6 +16070,7 @@ use_preset_vocabulary: false
 壽柴	siu55+ja53
 小竈	siu55+jau213	585642
 收針	siu55+jeing55	621523
+小藏	siu55+jooung242
 修骹	siu55+ka55	876452
 小事	siu55+lai242
 小旦	siu55+lang213
@@ -15030,6 +16122,7 @@ use_preset_vocabulary: false
 蜀涿	soh21+douk24
 蜀個月日	soh21+ga21+nguok33+nik5	3478342
 蜀角	soh21+gooyk24
+蜀䶎䶑	soh21+ha55+cei242
 蜀隻	soh21+ieh24
 蜀隻銅片	soh21+ieh24+deoyng21+mieng213
 蜀隻儂	soh21+ieh24+neoyng53
@@ -15039,12 +16132,14 @@ use_preset_vocabulary: false
 蜀隻錢子	soh21+jieh24+zieng21+nji33
 蜀厝	soh21+juo213
 蜀刻	soh21+kaik24	333333
+蜀窟蜀凹	soh21+koouk24+soh21+nah24
 蜀課	soh21+kuo213
 蜀禮拜	soh21+le55+bai213
 蜀禮拜	soh21+le55+wai213
 蜀點鐘	soh21+leing21+zyng55
 蜀世面	soh21+lie53+meing213	678586
 蜀塊	soh21+looy213
+蜀門𦾳裏	soh21+muong21+leoyk24+die33
 蜀日遘暗	soh21+nik21+gau53+ang213
 蜀日遘暗	soh21+nik21+gau53+uang213
 蜀日遘暝	soh21+nik21+gau55+mang53
@@ -15052,6 +16147,7 @@ use_preset_vocabulary: false
 蜀式	soh21+seik24	45612331
 蜀世	soh21+sie213	968790
 欶欶	soh21+sooh24
+蜀褪	soh21+tooung21
 蜀萬	soh21+uang242
 蜀萬零蜀	soh21+uang242+ling55+suoh5
 蜀萬零蜀	soh21+uang242+ning55+suoh5
@@ -15103,6 +16199,7 @@ use_preset_vocabulary: false
 蜀千	soh55+cieng55
 蜀千零	soh55+cieng55+ling53
 蜀堆	soh55+deoy55	9787650
+蜀侗	soh55+dung53
 蜀工遘暗	soh55+eoyng55+gau53+ang213
 蜀工遘暗	soh55+eoyng55+gau53+uang213
 蜀工遘暝	soh55+eoyng55+gau55+mang53
@@ -15123,8 +16220,11 @@ use_preset_vocabulary: false
 蜀年半載	soh55+nieng53+buang53+zai33
 蜀𣆯蜀式	soh55+oung53+soh21+seik24
 蜀時蜀式	soh55+si53+soh21+seik24
+蜀身會撙其	soh55+sing55+e53+coung242+ngi0
+蜀身沉去	soh55+sing55+teing53+ngo0
 蜀挑	soh55+tiu55
 蜀張錢	soh55+tuong55+zieng53
+蜀烏蜀白	soh55+u55+soh5+bah5
 蜀畫	soh55+uah5
 送人情	sooyng213+ing33+zing53
 送禮餅	sooyng213+le24+biang33
@@ -15152,6 +16252,7 @@ use_preset_vocabulary: false
 ⿰忄桑	soung53
 桑樹	soung53+ciu213
 算打	soung53+da33
+蒜臺	soung53+deoy53
 孫囝	soung53+giang33
 霜降	soung53+gooung213	543987
 相好	soung53+ho33	1000000
@@ -15197,6 +16298,7 @@ use_preset_vocabulary: false
 相干	soung55+ang55	27830423
 桑白	soung55+bah5
 算盤	soung55+buang53
+酸甜橄欖	soung55+dieng55+ga24+lang33
 相干	soung55+gang55	27830423
 酸覯々	soung55+geu21+leu213
 酸覯々	soung55+gia55+lia213
@@ -15216,6 +16318,7 @@ use_preset_vocabulary: false
 狻猊	soung55+nge53
 算學	soung55+ngouk5
 爽快	soung55+nguai213	8462029
+霜風	soung55+ngung55
 孫悟空	soung55+nguo55+kung55
 孀居	soung55+ngy55	400000
 相爭	soung55+njang55	29890482
@@ -15258,7 +16361,10 @@ use_preset_vocabulary: false
 素珠	su55+juo55
 數單	su55+lang55
 酥螺	su55+leoy53
+蘇聯哥	su55+lieng55+ngo55
+蘇聯脬	su55+lieng55+pa55
 數房	su55+wung53
+酥蓉	su55+yng53
 所在	su55+zai242	100000
 素珠	su55+zuo55
 唰尾	sua53+mui33
@@ -15281,11 +16387,13 @@ use_preset_vocabulary: false
 筍乾	sung21+gang55
 筍䗔	sung21+gau53
 順風順水	sung21+hung21+sung53+zui33	1000000
+巡骹跡	sung21+ka53+zieh24
 船面	sung21+meing213	845612
 船票	sung21+miu213
 順頭順意	sung21+nau21+lung53+ei213	800000
 順頭順意	sung21+nau21+lung53+ngei213	800000
 筍乾	sung21+ngang55
+筍花	sung21+ngua242
 順風順水	sung21+ngung21+sung53+njui33	1000000
 筍絲	sung21+ni55
 順頭順意	sung21+tau21+lung53+ei213	800000
@@ -15307,6 +16415,7 @@ use_preset_vocabulary: false
 順眼	sung53+ngang33	458526
 順字	sung53+njei242
 順字	sung53+zei242
+船馱	sung55+do53
 筍咬	sung55+ga242
 筍殼做帽	sung55+gooyk24+zo53+moo242	740000
 順風	sung55+hung55	687293
@@ -15324,7 +16433,9 @@ use_preset_vocabulary: false
 石板路	suoh21+being55+nuo242	134355
 石橄欖	suoh21+ga24+lang33
 石敢當	suoh21+gang21+doung55
+石巨	suoh21+geoy242
 石櫃	suoh21+gui242
+石胰皂	suoh21+i21+joo242
 蜀隻	suoh21+ieh24
 蜀隻	suoh21+jieh24
 蜀隻儂	suoh21+jieh24+neoyng53
@@ -15358,12 +16469,14 @@ use_preset_vocabulary: false
 石灰	suoh55+hui55	6000000
 石獅	suoh55+lai55
 石頭	suoh55+lau53
+石蟳	suoh55+ling53
 石灰	suoh55+ui55	6000000
 石碑	suoh55+wi55
 射箭	suoh55+zieng213
 雪柑	suok21+gang55	13984828
 雪峰山	suok21+hung55+nang55
 雪峰山	suok21+hung55+sang55
+雪梨	suok21+li53
 鱈魚	suok21+ngy53
 雪雪白	suok21+suok21+bah5	800000
 雪烊了	suok24+yong53+lau0	4333123
@@ -15380,6 +16493,8 @@ use_preset_vocabulary: false
 上界爺	suong21+gai55+ie53
 尚幹	suong21+gang213
 常例	suong21+lie242
+上馬祭	suong21+ma55+ie21
+上馬宴	suong21+ma55+ieng21
 償命	suong21+miang242
 詳夢	suong21+mooyng213
 上半暝	suong21+muang55+mang53
@@ -15392,6 +16507,8 @@ use_preset_vocabulary: false
 賞銀牌	suong21+ngyng55+me53
 祥壽	suong21+niu242
 相思樹	suong21+ny53+ciu213
+相思水	suong21+ny53+jui33
+上四府	suong21+si53+hu33
 祥壽	suong21+siu242
 祥瑞	suong21+sui242
 相思樹	suong21+sy53+ciu213
@@ -15405,22 +16522,28 @@ use_preset_vocabulary: false
 旋熟	suong33+syk5	5945125
 上下	suong53+a242
 上海	suong53+ai33
+上布	suong53+buo21
 上菜	suong53+cai213
+上七下五	suong53+ceik24+a53+ngou242
 上晝	suong53+dau213
 上桌	suong53+dooh24
 上路	suong53+duo242	2346243
 上界	suong53+gai213
+上九下七	suong53+gau33+a53+ceik24
 箱囝	suong53+giang33
 上緊	suong53+ging33
 上轎纏骹	suong53+giu242+dieng55+ka55	1800000
 上下	suong53+ha242
 上好	suong53+ho33	345345315
 商號	suong53+hoo242
+上府	suong53+hu33
 商販	suong53+huang213
 箱囝	suong53+iang33
 上椅踏桌	suong53+ie33+dak21+dooh24
 上緊	suong53+ing33
+上喙	suong53+jui21
 上去	suong53+keoy213
+上馬	suong53+ma33
 上晝	suong53+nau213
 上下	suong53+nga242
 上海	suong53+ngai33
@@ -15461,6 +16584,7 @@ use_preset_vocabulary: false
 上入	suong55+ik5
 想看	suong55+kang213	35456253
 上排	suong55+me53
+上門	suong55+muong53
 上門看	suong55+muong53+kang213
 上藤	suong55+neing53
 相干	suong55+ngang55
@@ -15489,6 +16613,7 @@ use_preset_vocabulary: false
 詞匯	sy21+hui242
 輸入法	sy21+ik53+huak24
 私生子	sy21+leing53+njy33	4000000
+祠竹	sy21+leoyk24
 暑邪	sy21+lia53
 辭退	sy21+looy213
 詞彙	sy21+lui242
@@ -15535,6 +16660,7 @@ use_preset_vocabulary: false
 斯文儂	sy55+ung55+neoyng53	800000
 俗語話	syk21+ngy55+ua242
 宿宿味	syk21+syk55+ei242	884521
+宿寶	syk24+bo33
 續弦	syk33+hieng53
 屬於	syk5+gi0
 蓄糞	syk55+boung213
@@ -15572,6 +16698,7 @@ use_preset_vocabulary: false
 松毛針	syng55+mo55+zeing55
 松秋	syng55+njiu55	768542
 頭先	ta21+eing55
+塌々槽	ta21+lak21+so53
 頭頭隻	ta21+lau21+ieh24
 頭先早	ta21+leing53+ja33
 頭先早	ta21+leing53+nja33
@@ -15592,6 +16719,7 @@ use_preset_vocabulary: false
 拖貨車	tai21+huo55+cia55	594652
 拖貨車	tai21+huo55+ia55	594652
 拖貨車	tai21+huo55+jia55	594652
+刣劑	tai21+ja242
 太師椅	tai21+ly53+ie33
 太師椅	tai21+sy53+ie33
 刣白	tai33+bah5
@@ -15600,7 +16728,9 @@ use_preset_vocabulary: false
 刣魚	tai33+ngy53
 刣頭	tai33+tau53
 刣白	tai33+wah5
+梯架	tai53+a21
 抬舉	tai53+gy33
+梯椅	tai53+ie33
 太老	tai53+lo33	350000
 拖尾	tai53+mui33
 太奶	tai53+ne33	350000
@@ -15634,6 +16764,7 @@ use_preset_vocabulary: false
 錔板	tak24+being33
 疊骨	tak5+goouk24
 塌八	tak55+baik24	764521
+塌市	tak55+cei242
 攤骹舞手	tang21+a21+u24+iu33	666666
 譚諫	tang21+ang213	12451255
 坦白	tang21+beik5	34333636
@@ -15649,6 +16780,7 @@ use_preset_vocabulary: false
 痰嗽	tang21+nau213
 攤骹舞手	tang21+nga21+u24+jiu33	666666
 譚諫	tang21+ngang213	12451255
+貪心歞	tang21+ning53+ngooung242
 痰嗽	tang21+sau213
 撐撐開	tang21+tang55+kui55
 痰盆	tang33+buong53
@@ -15675,6 +16807,7 @@ use_preset_vocabulary: false
 貪邵	tang53+siu242	1237819
 撐篙	tang55+go55
 撐篙搖櫓	tang55+go55+iu33+lu33	625521
+攤拳師傅	tang55+gung53+sa53+au242
 攤拳頭	tang55+gung55+nau53
 攤拳頭	tang55+gung55+tau53
 攤拳頭	tang55+ngung55+nau53
@@ -15725,6 +16858,7 @@ use_preset_vocabulary: false
 偷捏挾	tau21+niek21+geik5
 頭腦哥	tau21+no21+go55
 頭腦哥	tau21+no21+o55
+頭𣆯	tau21+oung53
 頭帕	tau21+pa213	999999999
 頭生囝	tau21+sang53+giang33
 偷食婆	tau21+sieh5+bo53
@@ -15771,6 +16905,8 @@ use_preset_vocabulary: false
 頭整	tau33+zing33	7239813
 頭水	tau33+zui33	684512
 偷看	tau53+ang213	999999
+頭剝去疼	tau53+boouk24+go0+tiang21
+透戰	tau53+cieng21
 透底	tau53+de33	253578572
 偷舵	tau53+duai242
 透骨	tau53+goouk24	8462535
@@ -15781,6 +16917,7 @@ use_preset_vocabulary: false
 透老	tau53+lau242	1000000
 透底	tau53+le33	253578572
 偷食餡	tau53+lieh21+ang242
+頭罵瘌	tau53+ma21+lak24
 頭𩓥懸去	tau53+ngiak5+geing53+ko0
 頭𩓥懸去	tau53+ngiak5+geing53+ngo0
 頭𩓥懸去	tau53+ngiak5+geing53+o0
@@ -15803,6 +16940,7 @@ use_preset_vocabulary: false
 偷食	tau55+lieh5
 偷掏	tau55+lo53
 㪗𦾳	tau55+looyk24	555555
+頭湯	tau55+loung55
 透日	tau55+nik5
 㪗鼻	tau55+pei213	999999
 頭三尾四	tau55+sang55+mui55+sei213
@@ -15812,6 +16950,7 @@ use_preset_vocabulary: false
 頭頭日	tau55+tau55+nik5
 頭胎	tau55+teoy55
 透蟲	tau55+teoyng53
+頭白	tau55+wah5
 頭幫	tau55+woung55
 偷瞕	tau55+zuong55	777777
 體操	te21+jau55
@@ -15822,6 +16961,7 @@ use_preset_vocabulary: false
 屜拔	te55+beik5
 替肩	te55+gieng55
 體現	te55+hieng242
+替金	te55+ing55
 體氣	te55+kei213
 替身	te55+ling55
 體儂意	te55+neoyng21+ei213	9102437
@@ -15829,16 +16969,20 @@ use_preset_vocabulary: false
 替身	te55+sing55
 屜拔	te55+weik5
 貼邊	teik21+bieng55	652352
+蟶抱卵	teing21+mo53+looung242
 很拈	teing21+nieng55
 趁錢	teing213+zieng53
 頭先早	teing24+nja33
 頭先早	teing24+za33
 蟶度	teing53+lou242
 蟶底	teing53+ne33
+蟶溜	teing53+niu242
+蟶鼻	teing53+pei21
 蟶乾	teing55+ang55
 蟶爿	teing55+being53
 蟶埕	teing55+diang53
 蟶乾	teing55+gang55
+蟶骹	teing55+ka55
 蟶流蜞	teing55+lau55+i53
 蟶流蜞	teing55+lau55+ki53
 蟶爿	teing55+meing53
@@ -15864,6 +17008,7 @@ use_preset_vocabulary: false
 退休	teoy55+hiu55
 退和	teoy55+huo53
 退休	teoy55+iu55
+退台	teoy55+lai53
 腿頭骨	teoy55+lau21+goouk24	768588
 腿頭骨	teoy55+lau21+oouk24	768588
 退時	teoy55+li53	6523122
@@ -15872,23 +17017,28 @@ use_preset_vocabulary: false
 推辭	teoy55+sy53
 腿頭骨	teoy55+tau21+goouk24	768588
 退和	teoy55+uo53
+退冰	teoy55+wing55
 讀書哥	teoyk21+zy33+go55
 讀書哥	teoyk21+zy33+o55
+讀書滓	teoyk21+zy53+dai33
 讀書漏	teoyk21+zy53+lau213
 讀書儂	teoyk21+zy55+neoyng53
 讀書	teoyk55+zy55
 讀書其	teoyk55+zy55+i0
 桶盤	teoyng21+buang53
 桐樹	teoyng21+ciu213
+桶彈	teoyng21+dang53
 蟲卵	teoyng21+looung242
 桶盤	teoyng21+muang53
 通通光	teoyng21+neoyng55+nguong55	990000
 通通光	teoyng21+neoyng55+uong55	990000
 蟲蟻	teoyng21+ngie242
 桐樹	teoyng21+njiu213
+桶石店	teoyng21+nuoh53+laing21
 通通光	teoyng21+teoyng55+guong55	990000
 桐油	teoyng33+iu53
 桶桶	teoyng33+teoyng33
+通底	teoyng53+de33
 通野	teoyng53+ia33
 通野	teoyng53+ngia33
 桶店	teoyng55+daing213
@@ -15921,22 +17071,28 @@ use_preset_vocabulary: false
 蜘蛛	ti55+ty55
 鰨鯊	tiak21+sai55
 聽唱曲	tiang21+cuong53+kuoh24
+聽金坎	tiang21+ging53+kang33
 程埔頭	tiang21+muo55+lau53
 聽唱曲	tiang21+njuong53+nguoh24
 聽唱曲	tiang21+njuong53+uoh24
+廳中下	tiang21+noung53+nga242
+疼爬去	tiang21+pa53+o0
 呈詞	tiang33+ny53
 呈詞	tiang33+sy53
 聽喙	tiang53+cui213	23433423
 疼囝	tiang53+giang33
 聽見	tiang53+gieng213
 聽見	tiang53+ieng213
+聽坎	tiang53+kang33
 聽訊	tiang53+neing213	23433412
 聽話	tiang53+ngua242	21491843
 聽喙	tiang53+njui213	23433423
 聽訊	tiang53+seing213	23433412
 聽話	tiang53+ua242	21491843
+聽牌	tiang55+be53
 廳中	tiang55+doung55
 聽講	tiang55+goung33
+捵墓	tiang55+muo21
 廳中	tiang55+noung55
 聽真	tiang55+zing55	33487242
 剃頭師父	tie21+lau21+la53+au242
@@ -15946,6 +17102,7 @@ use_preset_vocabulary: false
 剃頭師父	tie21+tau21+sa53+hau242
 剃頭師父	tie21+tau21+sa53+hou242
 跇書漏	tie21+zy53+lau213
+啼麻雨	tie33+ma33+y33
 啼嘛	tie33+ma53	999999
 跇手	tie53+ciu33	14818486
 跇手	tie53+iu33	14818486
@@ -15976,11 +17133,14 @@ use_preset_vocabulary: false
 鐵鍬	tiek21+ciu55
 鐵蹄	tiek21+de53
 鐵釘斗	tiek21+ding53+nau33
+鐵釘椅	tiek21+ding53+ngie33
+鐵釘轎	tiek21+ding53+ngiu242
 鐵釘	tiek21+ding55	999999999
 鐵球	tiek21+giu53
 鐵骨雞	tiek21+gouk21+gie55	690000
 鐵骨鬼	tiek21+gouk24+gui33	690000
 鐵瓢	tiek21+piu53
+鐵線絲	tiek21+siang55+ni55
 鐵線蛇	tiek21+siang55+nie53
 鐵實	tiek21+sik5
 鐵錘囝	tiek21+tui33+iang33
@@ -16001,11 +17161,13 @@ use_preset_vocabulary: false
 天官鎖	tieng21+guang53+so33
 天光白日	tieng21+guong21+bah33+nik5
 天光早	tieng21+guong53+za33
+天光白	tieng21+guong55+bah5
 天花板	tieng21+hua53+being33	9856462
 䋎衣裳	tieng21+i55+luong53
 天老爺	tieng21+lo21+ie53
 ⿰魚田卵	tieng21+looung242
 天明日中	tieng21+mang21+nik55+doung55
+天九王	tieng21+ngau21+uong53
 天花板	tieng21+ngua53+being33	9856462
 天瓦頂	tieng21+ngua53+ling33
 天花板	tieng21+ngua53+weing33	9856462
@@ -16037,6 +17199,7 @@ use_preset_vocabulary: false
 天凊	tieng53+ceing213	1000000
 添秤	tieng53+ceing213
 天地	tieng53+dei242	4000000
+天地人和宗間扁	tieng53+dei242+ing55+huo53+zung55+gang55+bieng33
 天頂	tieng53+ding33	666666
 天意	tieng53+ei213
 天狗	tieng53+eu33
@@ -16046,10 +17209,13 @@ use_preset_vocabulary: false
 天狗食月	tieng53+geu33+sieh21+nguok5	1000000
 天狗食日	tieng53+geu33+sieh21+nik5	1000000
 天倖	tieng53+haing242
+天幸	tieng53+haing242
 天佑	tieng53+iu242
 䋎扣	tieng53+kau213	596235
 天氣	tieng53+kei213
 天棚頂	tieng53+mang33+ning33
+天牌四	tieng53+me21+lei21
+天牌八	tieng53+me21+waik24
 天板	tieng53+meing33
 添米	tieng53+mi33
 添補	tieng53+muo33	777777
@@ -16060,10 +17226,12 @@ use_preset_vocabulary: false
 天意	tieng53+ngei213
 天狗	tieng53+ngeu33
 天狗食日	tieng53+ngeu33+sieh21+nik5	1000000
+天槓	tieng53+ngooung21
 天份	tieng53+ngoung242
 添養	tieng53+ngyong33
 天頂	tieng53+ning33	666666
 天井	tieng53+njang33
+天子	tieng53+njy33
 天數	tieng53+nou213
 天色	tieng53+saik24	1000000
 天數	tieng53+sou213
@@ -16101,6 +17269,7 @@ use_preset_vocabulary: false
 天平樓	tieng55+mang55+lau53
 天平針	tieng55+mang55+njeing55
 天棚中	tieng55+mang55+noung55
+天牌	tieng55+me53
 天模模光	tieng55+meo55+meo55+guong55
 天模模光	tieng55+meo55+meo55+uong55
 天臺	tieng55+nai53
@@ -16108,8 +17277,12 @@ use_preset_vocabulary: false
 天呆	tieng55+ngai53
 天干	tieng55+ngang55	300000
 天河	tieng55+ngo53	500000
+天胡	tieng55+ngu53
+天牛三	tieng55+ngu55+lang33
 天光	tieng55+nguong55
+天然脬	tieng55+ngyong55+pa55
 天年	tieng55+nieng53	1863355
+天天	tieng55+nieng55
 天青	tieng55+njang55	785411
 天暖暖熱	tieng55+noung21+noung21+iek5
 天暖暖熱	tieng55+noung21+noung21+ngiek5
@@ -16120,10 +17293,12 @@ use_preset_vocabulary: false
 天河	tieng55+o53	500000
 天晴	tieng55+sang53	1000000
 添箱	tieng55+suong55
+天他六套	tieng55+ta55+leoyk21+too21
 天烏暗去	tieng55+u53+ang213+ko0
 天烏暗去	tieng55+u53+ang213+ngo0
 天烏暗去	tieng55+u53+ang213+o0
 天光	tieng55+uong55
+天棕	tieng55+zeoyng55
 天做旱	tieng55+zo53+ang242
 天做變	tieng55+zo53+bieng213
 踢水	tik24+zui33
@@ -16173,6 +17348,7 @@ use_preset_vocabulary: false
 挑土爿	tiu21+tu21+weing53
 跳舞衣	tiu21+u21+i55
 糶粟	tiu53+cuoh24
+跳長索	tiu53+doung21+nooh24
 挑才手	tiu53+jai33+iu33
 挑才手	tiu53+jai33+jiu33
 挑剔	tiu53+leik24
@@ -16186,14 +17362,17 @@ use_preset_vocabulary: false
 跳班	tiu55+bang55	846251
 抽包	tiu55+bau55
 抽籤	tiu55+cieng55
+調羹	tiu55+eing55
 跳高	tiu55+go55
 抽筋	tiu55+gyng55
 挑花	tiu55+hua55	526512
 跳棋	tiu55+i53
+挑機	tiu55+i55
 柱珠	tiu55+juo55	546123
 跳框	tiu55+kuong55
 抽頭家	tiu55+lau55+a55
 柱聯	tiu55+lieng53
+抽芯	tiu55+ling55
 挑唆	tiu55+lo55	52355234
 挑唆尋事	tiu55+lo55+ling21+neoy242	23492489
 挑唆尋事	tiu55+lo55+sing21+neoy242	23492489
@@ -16231,6 +17410,7 @@ use_preset_vocabulary: false
 討小海	to21+liu24+ai33
 沰々窩	to21+louk53+uo33
 妥當儂	to21+loung55+neoyng53	2000000
+妥拇伲	to21+mo21+nie53
 討魚	to21+ngy53
 討魚婆	to21+ngy55+bo53	770000
 討魚婆	to21+ngy55+wo53	770000
@@ -16282,6 +17462,7 @@ use_preset_vocabulary: false
 討債	to55+zai213
 托衣店	toh21+i53+daing213
 托衣店	toh21+i53+laing213
+褪𡅏褪𡅏	tooung21+ne0+tooung21+ne0
 褪鞋	tooung213+e53	9586525
 褪衣裳	tooung213+i55+luong53
 褪衣裳	tooung213+i55+suong53
@@ -16291,6 +17472,7 @@ use_preset_vocabulary: false
 沰價	touk21+ga213
 託兒所	touk21+i33+lu33
 脫胎	touk21+tai55	999999999
+沰債	touk21+zai21
 託兒所	touk24+i33+lu33
 沰形	touk33+hing53	765224
 沰腸	touk5+doung53
@@ -16308,9 +17490,11 @@ use_preset_vocabulary: false
 褪澈澈	toung21+nah53+lah24
 褪股馬	toung21+ngu24+ma33
 褪褲螺	toung21+ngu55+leoy53
+糖粿𪏸	toung21+ngui21+ni55
 褪跣骹	toung21+nieng21+a55	768542
 褪跣骹	toung21+nieng21+nga55	768542
 糖蔗	toung21+njia213	18942002
+豚豚大	toung21+noung21+nuai242
 褪𩩍𩩍	toung21+piang55+miang55	765842
 褪跣骹	toung21+sieng21+ka55	768542
 褪澈澈	toung21+tah53+tah24
@@ -16361,6 +17545,7 @@ use_preset_vocabulary: false
 糖包	toung55+mau55
 褪毛	toung55+mo53
 湯頭	toung55+nau53	837064
+糖油	toung55+ngiu53
 糖糕餅囝	toung55+ngo55+biang24+ngiang33
 湯壺	toung55+ngu53
 湯丸	toung55+nguong53
@@ -16392,6 +17577,7 @@ use_preset_vocabulary: false
 土地公	tu21+li55+ung55
 塗托	tu21+looh24	999999999
 土名	tu21+miang53
+塗帽	tu21+moo242
 塗師父	tu21+sa53+hau242
 塗色	tu21+saik24	755458
 塗托	tu21+tooh24
@@ -16417,6 +17603,7 @@ use_preset_vocabulary: false
 塗儂囝	tu33+neoyng33+ngiang33
 塗肉	tu33+nyk5	55000000
 凸頭	tu33+tau53	888888
+塗鬼	tu33+ui33
 塗粉	tu33+ung33	8000000
 兔公	tu53+geoyng33
 兔囝	tu53+giang33	4555555555555
@@ -16425,6 +17612,7 @@ use_preset_vocabulary: false
 塗裏爬	tu53+lie33+ba53
 塗裏爬塗裏𡎔	tu53+lie33+ba53+tu53+lie33+oouk24	400000
 塗裏𡎔	tu53+lie33+oouk24
+吐老	tu53+lo33
 兔母	tu53+mo33	555454555
 吐瀉	tu53+sia213
 土豹	tu55+bau213	700000
@@ -16456,12 +17644,15 @@ use_preset_vocabulary: false
 錘囝	tui33+giang33
 錘囝	tui33+iang33	999999999
 贅悶	tui53+moung242	8902349
+禿肘	tuk33+diu33
 通心粉	tung21+ning53+ngung33
 通心粉	tung21+ning53+ung33
 通心粉	tung21+sing53+hung33
 通過	tung53+guo213
+通䐯鳥	tung53+neoy33+iu33
 通過	tung53+nguo213
 通過	tung53+uo213
+通養	tung53+yong33
 統併	tung55+biang213	2353133
 通街	tung55+ge55
 通學	tung55+houk5	648542
@@ -16488,6 +17679,7 @@ use_preset_vocabulary: false
 鋤頭	ty33+lau53
 鋤頭	ty33+tau53
 重慶	tyng21+keing213
+重絮	tyng21+neoy21
 重陽節	tyng21+ngyong21+njaik24
 重陽節	tyng21+yong21+njaik24
 重陽節	tyng21+yong21+zaik24
@@ -16499,6 +17691,7 @@ use_preset_vocabulary: false
 有擔戴	u21+dang53+dai213
 有擔戴	u21+dang53+nai213
 有敆食	u21+gak55+sieh5
+有夠影	u21+gau53+iang33
 有經硬	u21+ging53+ngaing242
 嗚呼哀哉	u21+hu21+ai55+zai55
 烏雲黑暗	u21+hung21+heik55+ang213
@@ -16516,6 +17709,7 @@ use_preset_vocabulary: false
 有連有隊	u21+lieng21+u53+lui242
 有身喜	u21+ling53+i33
 有身喜	u21+ling53+ngi33
+烏塗生憖	u21+lu21+sang53+ngeoyng21
 烏黜鬼	u21+luk24+gui33	630000
 烏黜黜	u21+luk55+louk24	6658950
 烏石山	u21+luoh55+lang55
@@ -16532,6 +17726,7 @@ use_preset_vocabulary: false
 有身喜	u21+sing53+hi33
 烏石山	u21+suoh55+sang55
 有貪情	u21+tang55+zing53
+有天線	u21+tieng53+niang21
 烏黜鬼	u21+tuk24+gui33	630000
 烏黜黜	u21+tuk55+touk24	6658950
 有話頭	u21+ua55+lau53	1382749
@@ -16557,6 +17752,7 @@ use_preset_vocabulary: false
 有長	u53+duong242
 有味	u53+ei242	999999
 有敢	u53+gang33	33098520
+有害無益	u53+hai242+mo21+ieh24
 瘀血	u53+haik24
 有許無謝	u53+hy33+mo21+sia242
 烏子	u53+i33
@@ -16570,12 +17766,14 @@ use_preset_vocabulary: false
 有使	u53+lai33
 烏豆	u53+lau242
 烏櫓	u53+leo33
+烏壽	u53+liu242
 有露	u53+lou213	4333123
 有味	u53+mei242	999999
 有面	u53+meing242
 有硬	u53+ngaing242
 有眼	u53+ngang33	842502
 有価	u53+sa242	7865950
+有食暝粥	u53+sieh21+mang21+njeoyk24
 烏痣	u53+zei213
 烏子	u53+zi33
 烏棗	u53+zo33	8372784
@@ -16604,14 +17802,20 @@ use_preset_vocabulary: false
 有禁相	u55+ing53+nuong213	513202
 烏渴	u55+kik5	765214
 烏䲯	u55+kik5
+嗚𫫭	u55+kui242
+烏獅	u55+lai55
 武旦	u55+lang213
 烏山	u55+lang55	59234287
 湖頭街	u55+lau55+e55
 有聲	u55+liang55	23784918
 有食	u55+lieh5	946521
+烏蛉	u55+ling53
+烏桃	u55+lo53
 烏塗坯	u55+lu55+pui55
 烏豬	u55+ly55
+烏龍	u55+lyng53
 有名儂	u55+miang53+neoyng53
+有名其牌	u55+miang53+ngi0+be53
 湖南	u55+nang53
 誣捏	u55+niek5
 烏𬠖	u55+nieng53
@@ -16620,6 +17824,7 @@ use_preset_vocabulary: false
 烏山	u55+sang55	59234287
 武聖	u55+seing213
 有聲	u55+siang55	23784918
+有食無吞	u55+sieh5+mo55+toung55
 有心	u55+sing55	23404351
 湖頭街	u55+tau55+ge55
 烏塗坯	u55+tu55+pui55
@@ -16629,6 +17834,7 @@ use_preset_vocabulary: false
 𩾹𩾹	ua21+ua21
 畫畫板	ua21+ua53+being33
 畫畫板	ua21+ua53+weing33
+輠財	ua21+zai53
 劃節	ua21+zaik24
 劃早水	ua21+zia24+jy33
 輠轉	ua33+duong33
@@ -16652,8 +17858,10 @@ use_preset_vocabulary: false
 活腳	uak21+gyoh24	660000
 活跳跳	uak21+tiu53+liu213	445985
 活跳跳	uak21+tiu53+tiu213	445985
+活劑	uak21+za242
 挖嶺	uak24+liang33
 活寶	uak33+bo33	2000000
+活絞	uak33+ga33
 襪桶	uak33+teoyng33
 襪連褲	uak5+lieng21+kou213
 襪連褲	uak5+lieng21+ngou213
@@ -16663,6 +17871,7 @@ use_preset_vocabulary: false
 襪䉐	uak55+ku55
 萬把兩	uang21+ba55+lang242
 萬八哥	uang21+beik21+go55
+萬八三	uang21+beik21+sang55
 萬八嫂	uang21+beik24+so33
 碗釘	uang21+ding55	999999999
 碗糕	uang21+go55	687554
@@ -16670,6 +17879,7 @@ use_preset_vocabulary: false
 晚霞	uang21+ha53
 換花盆	uang21+hua55+buong53
 萬把兩	uang21+ma55+lang242
+萬代绝	uang21+neoy55+zuok5
 碗糕	uang21+ngo55	687554
 換花盆	uang21+ngua55+wuong53
 萬二隻	uang21+ni53+ieh24
@@ -16704,6 +17914,9 @@ use_preset_vocabulary: false
 碗菜	uang55+njai213	800000
 彎𩩍	uang55+piang55
 違拗	ui21+au213
+衛生𧜛	ui21+leing53+loung33
+衛生褲	ui21+leing53+ngou21
+衛生衣	ui21+leing55+ngi55
 圍身裙	ui21+ling55+ngung53
 圍身裙	ui21+ling55+ung53
 圍身裙	ui21+sing55+gung53
@@ -16718,8 +17931,10 @@ use_preset_vocabulary: false
 位置	ui53+lei213
 爲顧	ui53+ou213
 畏羞	ui55+ciu55
+偉大	ui55+duai242
 圍巾	ui55+gyng55
 衛生	ui55+leing55
+偉大	ui55+luai242
 偎鋪	ui55+puo55
 衛生	ui55+seing55
 圍巾	ui55+yng55
@@ -16755,6 +17970,7 @@ use_preset_vocabulary: false
 問親	ung55+cing55
 問題	ung55+de53	23498343
 塕塵	ung55+ding53	1000000
+耘頭	ung55+nau53
 問題	ung55+ne53	23498343
 䱵鮐	ung55+ni53
 䱵鮐𩸞	ung55+ni55+gie53
@@ -16762,6 +17978,7 @@ use_preset_vocabulary: false
 塕塵	ung55+ning53	1000000
 文章	ung55+njuong55
 文書	ung55+njy55
+溫鋪	ung55+puo55
 䱵鮐	ung55+ti53
 䱵鮐𩸞	ung55+ti55+gie53
 溫泉	ung55+zuong53	898452
@@ -16770,11 +17987,14 @@ use_preset_vocabulary: false
 溫書	ung55+zy55
 窩風	uo21+hung55	630498
 芋鴨	uo53+ak24
+芋頭歞	uo53+lau21+ngooung242
 窩領	uo53+liang33
 芋卵	uo53+looung242
 萵筍	uo53+lung33
+芋麵	uo53+mieng242
 萵筍	uo53+sung33
 芋粿	uo53+ui33
+倭匏滓	uo53+wu33+dai33
 倭匏	uo55+bu53
 窩䙎	uo55+e55
 窩熱	uo55+iek5	846522
@@ -16793,10 +18013,12 @@ use_preset_vocabulary: false
 黃蛤	uong21+ak24
 黃布	uong21+buo213
 往幫	uong21+buong55	66666
+黃翅	uong21+cie21
 黃鼠狼	uong21+cy21+loung53
 黃彈	uong21+dang242	17489279
 黃豆	uong21+dau242
 王道	uong21+doo242
+沿路	uong21+duo242
 黃蛤	uong21+gak24
 網球	uong21+giu53
 往回	uong21+hui53	66666
@@ -16805,6 +18027,7 @@ use_preset_vocabulary: false
 網絡	uong21+louk5
 黃䱝精草	uong21+me21+ing53+njau33	10237284
 黃䱝精草	uong21+me21+jing53+njau33	10237284
+黃帽	uong21+moo242
 黃埔	uong21+muo213
 黃布	uong21+muo213
 往幫	uong21+muong55	66666
@@ -16830,9 +18053,11 @@ use_preset_vocabulary: false
 黃韌魺	uong21+noung21+oo213
 忘恩背義	uong21+oung21+bui53+ngie242
 黃䱝精草	uong21+pe21+zing53+cau33	10237284
+黃鷿	uong21+peik24
 往時	uong21+si53	666666
 䘼頭	uong21+tau53
 王天君	uong21+tieng55+gung55
+黃兔	uong21+tou21
 往回	uong21+ui53	66666
 黃占粙	uong21+zieng53+diu242
 黃占粙	uong21+zieng53+niu242
@@ -16849,6 +18074,7 @@ use_preset_vocabulary: false
 往曩回	uong24+nang33+ui53
 往曩早	uong24+nang33+za33	66666
 往早	uong24+nja33
+往老	uong24+no33
 往往	uong24+uong33
 往早	uong24+za33
 黃鼠	uong33+cy33
@@ -16885,12 +18111,14 @@ use_preset_vocabulary: false
 怨嘆	uong53+tang213	8674333
 冤家	uong55+a55	40983098
 完親	uong55+cing55
+王台	uong55+dai53
 黃秮	uong55+dai55
 冤家	uong55+ga55	40983098
 黃梔	uong55+gi55
 黃瓜	uong55+gua55
 昏眩	uong55+hing53
 冤魂	uong55+hung53
+黃骹	uong55+ka55
 冤愆	uong55+kieng55
 黃樓	uong55+leu53
 枉卵	uong55+looung242	4545545
@@ -16899,8 +18127,10 @@ use_preset_vocabulary: false
 黃梅丁	uong55+mui55+ling55
 黃蜂	uong55+mung55
 冤家	uong55+nga55	40983098
+黃衣	uong55+ngi55
 忘恩	uong55+ngoung55
 黃瓜	uong55+ngua55
+完身	uong55+ning55
 完親	uong55+njing55
 忘恩	uong55+oung55
 黃䱝	uong55+pe53
@@ -16936,29 +18166,36 @@ use_preset_vocabulary: false
 雨夾雪	y33+eik5+suok24	4333123
 雨夾雪	y33+geik5+suok24	4333123
 如果	y33+guo33	2437683533
+雨野狂	y33+ia21+guong53
 雨無了	y33+mo53+lau33	873399
 雨無囉	y33+mo53+lo0	873399
 雨煞去	y33+sak24+go0
+雨趁摒落	y33+ting53+biang21+loh5
+雨趁倒落	y33+ting53+doo21+loh5
 衣架	y53+a213
 預辦	y53+baing242	888888
 榆甘	y55+ang55	23890241
 雨布	y55+buo213
 榆甘	y55+gang55	23890241
 于山	y55+lang55	42317333
+雨涿	y55+louk24
 雨濛	y55+moung213	874398
 于山	y55+sang55	42317333
 迂迂	y55+y55	465232
+欲罷不能	yk21+ba242+buk21+neing53
 育兒園	yk21+i55+uong53
 絨布	yng21+buo213
 容易	yng21+ei242
 絨布	yng21+muo213
 容恕	yng21+neoy213	42398529
 容易	yng21+ngei242
+絨褲	yng21+ngou21
 容恕	yng21+seoy213	42398529
 容縱	yng21+zeoyng213	41230430
 勇敢	yng24+gang33	764582
 容囝	yng33+giang33
 融和	yng33+huo53
+絨𧜛	yng33+loung33
 榕語	yng33+ngy33
 容呆	yng53+ngai53
 容呆去	yng53+ngai53+o0
@@ -16988,6 +18225,7 @@ use_preset_vocabulary: false
 藥資	yoh55+y55
 藥資	yoh55+zy55
 約略伲	yok21+luok55+nie53
+約略伲	yok21+nouk55+nie53
 蒻𠺮噻	yok21+si55+sai53
 蒻𠺮噻	yok24+si53+sai53
 若果	yok33+guo33	2246834
@@ -17016,6 +18254,7 @@ use_preset_vocabulary: false
 洋油店	yong21+iu21+laing213
 陽去	yong21+keoy213
 洋褲	yong21+kou213
+洋䱝草	yong21+me21+jau33
 鉛筆	yong21+meik24
 鉛筆車	yong21+mik21+cia55
 鉛筆𢯽	yong21+mik55+coo213
@@ -17089,6 +18328,7 @@ use_preset_vocabulary: false
 洋青	yong55+cang55
 洋蔥	yong55+ceoyng55
 陽間	yong55+gang55
+洋鎬	yong55+go55
 洋花	yong55+hua55
 洋灰	yong55+hui55	10000000
 洋衣	yong55+i55
@@ -17108,6 +18348,7 @@ use_preset_vocabulary: false
 紙衣	za21+i55
 早齋	za21+je55
 早冬	za21+leoyng55
+早米粿	za21+mi24+gui33
 早年	za21+nieng53	60933379
 早番	za21+uang55
 竈公龕	za21+ung55+ang55
@@ -17119,6 +18360,7 @@ use_preset_vocabulary: false
 炸々	za33+la53	688451
 榨菜	za53+cai213
 榨菜	za53+jai213
+炸彈	za53+lang242
 渣粕	za53+pooh24
 早市	za55+cei242
 早市	za55+jei242
@@ -17197,11 +18439,13 @@ use_preset_vocabulary: false
 雜燴	zak21+hui242	1200000
 雜貨店	zak21+huo53+daing213
 雜貨店	zak21+huo53+laing213
+雜雜念	zak21+zak21+naing242
 砸錢	zak33+zieng53
 雜排攤	zak5+be55+lang55
 雜排攤	zak5+be55+tang55
 雜貨	zak55+huo213
 盞糕	zang21+go55
+殘做	zang21+joo21
 井眉	zang21+mi53
 盞糕	zang21+ngo55
 盞糕	zang21+o55
@@ -17212,12 +18456,14 @@ use_preset_vocabulary: false
 臢漬	zang53+zeoy21
 臢‌	zang55
 棧房	zang55+bung53
+鏨纏	zang55+dieng53
 鏨刀	zang55+do55	999999999
 簪花	zang55+hua55
 棧房	zang55+mung53
 簪花	zang55+ngua55
 簪花	zang55+ua55
 走堂	zau21+doung53
+糟橄欖	zau21+ga24+lang33
 糟糟亂	zau21+jau53+looung213	765421
 竈糖竈囝	zau21+loung21+zau53+iang33
 竈糖竈餅	zau21+loung21+zau53+wiang33
@@ -17305,20 +18551,27 @@ use_preset_vocabulary: false
 齋規	ze55+gie55	765158
 齋公	ze55+gung55
 纃衣	ze55+i55
+齋野厚	ze55+ia55+au242
 纃衫	ze55+lang55
 懠疑	ze55+ngi53	24515636
 纃衫	ze55+sang55
 齋公	ze55+ung55
 漬漬濫	zeh33+zeh5+lang242
 至於	zei213+y55
+字做暗去	zei242+zo21+ang21+ngo0
+字做拍無	zei242+zo21+pah55+mo53
 鍘刀	zeik21+do55
 截玉爿	zeik21+ngyk55+being53
 即兜	zeik24+dau55	666666
+汁底	zeik24+de33
 積去	zeik24+go0
 截堵	zeik33+du33
 截門	zeik33+muong53	234561
 節兜	zeik55+dau55	223564
 節氣	zeik55+kei213	873399
+剪眉	zeing21+mi53
+剪饃	zeing21+mo55
+針蒉草	zeing21+ngui53+jau33
 曾孫新婦	zeing21+noung21+ning53+mou242
 曾孫新婦	zeing21+noung21+sing53+mou242
 曾孫婿	zeing21+noung53+nai213
@@ -17353,6 +18606,8 @@ use_preset_vocabulary: false
 贈槳	zeing53+zuong33
 針骹	zeing55+ka55	999999999
 剪頭髪	zeing55+nau21+uok24
+贈安	zeing55+ngang55
+針車	zeing55+njia55
 曾孫	zeing55+noung55
 曾孫	zeing55+soung55
 剪頭髪	zeing55+tau21+huok24
@@ -17382,6 +18637,7 @@ use_preset_vocabulary: false
 棕襯	zeoyng53+caing213
 粽草	zeoyng53+cau33	687543
 棕樹	zeoyng53+ciu213
+粽母粽囝	zeoyng53+mo33+zeoyng53+ngiang33
 棕掃	zeoyng53+nau21
 棕薦	zeoyng53+njaing213
 粽草	zeoyng53+njau33	687543
@@ -17397,7 +18653,9 @@ use_preset_vocabulary: false
 粽箬	zeoyng55+nuoh5	869675
 熧去	zeoyng55+o0
 棕蓑	zeoyng55+sai55
+鳥蔥	zeu21+ceoyng55
 鳥雄	zeu21+hyng53
+鳥囝囝	zeu21+iang24+ngiang33
 鳥鳥囝	zeu21+jeu24+giang33	846521
 鳥鳥囝	zeu21+jeu24+iang33	846521
 縐紗卵	zeu21+la53+looung242
@@ -17465,6 +18723,9 @@ use_preset_vocabulary: false
 這頭	zi21+tau53
 子瓜	zi21+ua55	10982737
 這回	zi21+ui53	999999999
+膣䫌儂	zi21+we21+neoyng53
+膣䫌鬼	zi21+we24+ui33
+膣䫌喙	zi21+we55+jui21
 這邊	zi21+weing55	425335467547
 這芘	zi21+wiek5
 這芘	zi21+wik5
@@ -17492,11 +18753,13 @@ use_preset_vocabulary: false
 嗞嗞桶	zi33+i33+leoyng33
 嗞嗞桶	zi33+ji33+leoyng33
 這剌	zi33+la33
+籽未𠕆	zi33+mui53+daing242
 子子	zi33+zi33	22057241
 字簿	zi53+buo242
 字典	zi53+dieng33
 字據	zi53+eoy213
 字據	zi53+geoy213
+膣血	zi53+haik24
 這隻	zi53+ieh24	425335467547
 字紙	zi53+jai33
 質證	zi53+jeing213
@@ -17528,14 +18791,17 @@ use_preset_vocabulary: false
 自家	zi55+ia55	36543
 自家厝	zi55+ia55+cuo213	999999999
 這隻	zi55+ieh24
+膣空	zi55+keoyng55
 這塊	zi55+kuai213
 這価	zi55+la242
 這頭勢	zi55+lau21+lie213
+這前後	zi55+leing21+ngau242
 吱來花	zi55+li55+ua55
 這蜀隻	zi55+loh21+ieh24
 這蜀類	zi55+loh21+lui242
 這塊	zi55+looy213	999999999
 這面	zi55+meing213
+膣脬囉唆	zi55+pa55+lo55+so55
 這価	zi55+sa242
 字爿	zi55+weing53
 之至	zi55+zei213	890000
@@ -17573,13 +18839,17 @@ use_preset_vocabulary: false
 姐妹兩隻	zia55+mui213+lang53+zieh24	999999999
 者儂𠚺	zia55+neoyng21+sa21
 者式	zia55+seik24	999999999
+才𡅏想𡅏	ziah21+le24+suong33+ne0
 雀囝	ziah53+giang33
 雀囝	ziah53+iang33
 鷓鴣	ziak5+gu55
+精雞犬	ziang21+gie53+eing33
 正月初一	ziang21+nguok21+ceo53+eik24	987623115
 正月正頭	ziang21+nguok21+ziang55+nau53	987623116
 正月正頭	ziang21+nguok21+ziang55+tau53	987623116
 怔怔媽	ziang21+njiang53+ma33
+正正是	ziang21+njiang53+nei242
+䭕厨	ziang21+nuo53
 正正好	ziang21+ziang53+ho33
 怔怔媽	ziang21+ziang53+ma33
 正正好	ziang21+ziang53+ngo33
@@ -17588,6 +18858,7 @@ use_preset_vocabulary: false
 正當	ziang53+dooung213	945870
 精怪	ziang53+guai213
 正好	ziang53+ho33	9845756
+精犬	ziang53+keing33
 正是	ziang53+nei242	125897895
 正好	ziang53+ngo33	9845756
 精怪	ziang53+nguai213
@@ -17599,6 +18870,8 @@ use_preset_vocabulary: false
 正正	ziang53+ziang213	87695400
 正邊	ziang55+being55
 正房	ziang55+bung53
+正檯	ziang55+dai53
+精雞	ziang55+gie55
 正經	ziang55+ging55	9845769
 正經	ziang55+ing55	9845769
 正司	ziang55+ly55
@@ -17611,10 +18884,13 @@ use_preset_vocabulary: false
 正月	ziang55+nguok5	28903479
 正月十五	ziang55+nguok5+seik21+ngou242	987623117
 正日	ziang55+nik55
+正蠘	ziang55+njiek5
 正司	ziang55+ny55
 正頭	ziang55+tau53
 精逴	ziang55+zoh5	89024982
 正宗	ziang55+zung55
+紫匏	zie21+bu53
+紫茄	zie21+gyo53
 戰々	zie21+lieng213
 這些	zie21+sie55
 這種	zie24+jyng33
@@ -17681,6 +18957,7 @@ use_preset_vocabulary: false
 賤骨頭	zieng21+gouk21+tau53	800000
 前後	zieng21+hau242
 錢利	zieng21+lei213
+煎包鼎	zieng21+mau53+liang33
 尖尾粽	zieng21+mui55+jooyng213	576789
 尖尾粽	zieng21+mui55+zooyng213	576789
 錢店	zieng21+naing213
@@ -17697,6 +18974,7 @@ use_preset_vocabulary: false
 掌甲縫	zieng21+ngak55+poung213	786524
 錢案	zieng21+ngang213
 前後	zieng21+ngau242
+戔姜	zieng21+ngyong55
 錢債	zieng21+njai213
 錢塘巷	zieng21+noung21+ngooyng21
 錢塢	zieng21+ou213
@@ -17708,6 +18986,7 @@ use_preset_vocabulary: false
 枕頭心	zieng21+tau55+sing55
 枕頭箱	zieng21+tau55+suong55
 錢債	zieng21+zai213
+戔母	zieng24+mo33
 枕頭囝	zieng24+nau33+giang33
 枕頭囝	zieng24+nau33+iang33
 掌頭母	zieng24+nau33+mo33
@@ -17733,6 +19012,7 @@ use_preset_vocabulary: false
 氈帽	zieng53+moo242
 戰坂	zieng53+muang33
 尖尾	zieng53+mui33	66666
+賤劑	zieng53+nja242
 沾炒	zieng53+nja33
 賤相	zieng53+suong213	7865985
 佔頭陣	zieng53+tau21+deing242
@@ -17743,6 +19023,7 @@ use_preset_vocabulary: false
 沾光	zieng55+guong55
 煎去	zieng55+koo213
 煎包	zieng55+mau55
+櫼裨	zieng55+mie55
 枕頭布	zieng55+nau21+buo21
 枕頭絡	zieng55+nau21+looh24
 枕頭套	zieng55+nau21+too213
@@ -17769,6 +19050,7 @@ use_preset_vocabulary: false
 積掌	zik24+zuong33
 集美	zik33+mi33
 疾疾族族	zik33+zik5+zuk33+zuk5
+集力	zik55+lik5
 晉安河	zing21+ang55+o53
 征東餅	zing21+dung53+biang33
 晉安河	zing21+hang55+o53
@@ -17780,6 +19062,7 @@ use_preset_vocabulary: false
 進鳥囝	zing21+njeu24+iang33
 真珠雪	zing21+njuo53+luok24
 真珠雪	zing21+njuo53+suok24
+真珠雞	zing21+njuo55+ie55
 蒸酥糕	zing21+nu55+o55
 征東餅	zing21+nung53+biang33
 征東餅	zing21+nung53+miang33
@@ -17822,6 +19105,7 @@ use_preset_vocabulary: false
 酒埕	ziu21+ding53
 酒家	ziu21+ga55
 昭君套	ziu21+gung53+too213
+酒渾	ziu21+hung53
 酒傾	ziu21+ing53
 招親做	ziu21+ing53+zoo213
 酒罌	ziu21+ing55
@@ -17833,6 +19117,7 @@ use_preset_vocabulary: false
 酒席	ziu21+lik5
 照身鏡	ziu21+ling53+iang213
 照身鏡	ziu21+ling53+ngiang213
+招上門	ziu21+luong55+muong53
 酒源	ziu21+nguong53
 守生寡	ziu21+sang53+gua33
 守生寡	ziu21+sang53+ngua33
@@ -17846,15 +19131,18 @@ use_preset_vocabulary: false
 酒瓶	ziu21+wing53
 酒杯	ziu21+wui55
 酒盅	ziu21+yng55
+酒精爐	ziu21+zing55+lu53
 照照日	ziu21+ziu55+nik5
 酒盅	ziu21+zyng55
 就是	ziu21+{li}
+酒底	ziu24+de33
 守寡	ziu24+gua33
 守寡諸娘儂	ziu24+gua33+zy55+neoyng55+neoyng53
 酒飲	ziu24+ing33
 酒盞	ziu24+jang33
 守媽	ziu24+ma33
 酒盞	ziu24+zang33
+招裏	ziu53+die33
 照顧	ziu53+gou213
 招貼	ziu53+laik24
 醮料	ziu53+lau242
@@ -17886,7 +19174,9 @@ use_preset_vocabulary: false
 酒榨	ziu55+la213
 焦焦	ziu55+la55
 酒店	ziu55+laing213
+酒漏	ziu55+lau21
 焦着	ziu55+luoh5
+酒凹	ziu55+nah24
 周年	ziu55+nieng53
 洲田	ziu55+njeing53
 酒甕	ziu55+ooyng213
@@ -17914,11 +19204,13 @@ use_preset_vocabulary: false
 做大水	zo21+duai53+zui33	799602
 做大水	zo21+duai53+zy33
 棗紅	zo21+eoyng53	845221
+做嘰嘰俤	zo21+gi21+i53+lie242
 做戲出	zo21+hie53+couk24
 做戲出	zo21+hie53+jouk24
 做形做腦	zo21+hing21+zo53+no33
 做風颱	zo21+hung55+nai55	876390
 做風颱	zo21+hung55+tai55	876390
+左機	zo21+i55
 做衣食	zo21+i55+lik5
 做衣裳	zo21+i55+luong53	9865252
 做衣食	zo21+i55+sik5
@@ -17943,6 +19235,8 @@ use_preset_vocabulary: false
 做世名	zo21+lie55+miang53
 做新婦	zo21+ling53+mou242
 做滿月	zo21+muang21+nguok5
+做揇潤	zo21+nang55+noung21
+做屎骨	zo21+sai55+goouk24
 做三旦	zo21+sang53+dang213
 做三旦	zo21+sang53+nang213
 做生日	zo21+sang55+nik5
@@ -17952,7 +19246,7 @@ use_preset_vocabulary: false
 做生意	zo21+seing53+ei213
 做生意其	zo21+seing53+ei213+gi0
 做死坯	zo21+si21+pui55
-做社把	zo21+sia53+ma33
+做社把	zo21+sia53+wa33
 做世乇	zo21+sie53+nooh24
 做世名	zo21+sie55+miang53
 做承行	zo21+sing33+eing53
@@ -17969,6 +19263,7 @@ use_preset_vocabulary: false
 做小買賣其	zo21+siu21+me55+ma242+i0
 做小歲	zo21+siu55+hui213	7565265
 做小歲	zo21+siu55+ui213	7565265
+做私事	zo21+sy53+lai242
 左邊	zo21+weing55
 做走水	zo21+zau24+jui33
 做走水	zo21+zau24+zui33
@@ -17997,6 +19292,7 @@ use_preset_vocabulary: false
 做竹	zo53+deoyk24
 做竹師父	zo53+deoyk24+sa53+au242
 做竹師父	zo53+deoyk24+sa53+ou242
+做裏	zo53+die33
 做點	zo53+dieng33
 做對	zo53+dooy213
 做假	zo53+ga33
@@ -18004,6 +19300,7 @@ use_preset_vocabulary: false
 做猴戲	zo53+gau21+ie213
 做猴戲其	zo53+gau21+ie213+gi0
 做猴戲其	zo53+gau21+ie213+i0
+做記	zo53+gei21
 做供	zo53+geoyng213
 做𧼨	zo53+giak24	12486543
 做夏	zo53+ha242
@@ -18029,15 +19326,18 @@ use_preset_vocabulary: false
 做死	zo53+li33
 做蜀下	zo53+loh21+a242	9687978
 做碼	zo53+ma33
+做貓囝	zo53+ma33+iang33
 做面	zo53+meing213
 做米	zo53+mi33
 做命	zo53+miang242
 做麵	zo53+mieng242	895421
 做無算	zo53+mo21+looung213
 做夢	zo53+mooyng213
+做䐯骨	zo53+neoy21+goouk24
 做儂客	zo53+neoyng21+ah24
 做儂客	zo53+neoyng21+kah24
 做儂客	zo53+neoyng21+ngah24
+做蚯蚓	zo53+nga33+ung33
 做囝	zo53+ngiang33
 做忤	zo53+ngu33
 做月利	zo53+nguok21+lei242
@@ -18064,10 +19364,12 @@ use_preset_vocabulary: false
 做字	zo53+zei242
 做症	zo53+zeing213
 做祭	zo53+zie213
+做酒	zo53+ziu33
 做晬	zo53+zooy213
 做水	zo53+zui33
 做家	zo55+a55
 做盤	zo55+buang53
+做青	zo55+cang55
 做田	zo55+ceing53
 做田其	zo55+ceing53+gi0
 做田其	zo55+ceing53+i0
@@ -18108,7 +19410,10 @@ use_preset_vocabulary: false
 做愆	zo55+kieng55
 做劇	zo55+kyok5
 做聲	zo55+liang55	72313552
+做蜀聲	zo55+loh55+liang55
 左道	zo55+loo242	765847
+做郎郎	zo55+loung55+loung55
+做篾其	zo55+miek5+gi0
 做媒儂	zo55+mui55+neoyng53
 做儂	zo55+neoyng53
 做膿	zo55+neoyng53
@@ -18134,6 +19439,7 @@ use_preset_vocabulary: false
 做公做媽	zo55+ung55+zo53+ma33
 做盤	zo55+wuang53
 做貨其	zoo21+huo21+gi53
+做汝數	zoo21+ny33+sou21
 做去	zoo213+koo213
 做六旬	zoo213+leoyk33+sung53
 做去	zoo213+oo213
@@ -18160,6 +19466,7 @@ use_preset_vocabulary: false
 存款	zoung33+kuang33
 存活	zoung33+uak5
 存錢	zoung33+zieng53
+裝病	zoung53+bang242
 妝打	zoung53+da33
 鑽囝	zoung53+giang33	999999999
 尊號	zoung53+hoo242
@@ -18169,6 +19476,7 @@ use_preset_vocabulary: false
 鑽囝	zoung53+ngiang33	999999999
 狀元境	zoung53+nguong33+ging33
 贓證	zoung53+njeing213
+裝束	zoung53+nouk24
 贓證	zoung53+zeing213
 莊家	zoung55+a55
 裝車	zoung55+cia55
@@ -18249,9 +19557,11 @@ use_preset_vocabulary: false
 水頭	zui21+tau53	61763
 水桶索	zui21+teoyng55+sooh24
 水池	zui21+tie53	802366
+水蕹菜	zui21+ung53+jai21
 水火爐	zui21+uo21+lu53
 水平	zui21+wang53
 水平	zui21+wing53
+水浮蓮	zui21+wu55+leing53
 水梔花	zui21+zie55+hua55	23949829
 水漲	zui24+doung33	892393
 水漲水汐	zui24+doung33+zui55+puong213
@@ -18293,6 +19603,7 @@ use_preset_vocabulary: false
 水蕹	zui55+oung213
 水泡	zui55+pa213	1902825
 水撇	zui55+piek24
+水被	zui55+pui242
 水汐	zui55+puong213
 水獺	zui55+tiak24
 水脱	zui55+toouk24
@@ -18319,9 +19630,11 @@ use_preset_vocabulary: false
 準備	zung55+bei242
 總簿	zung55+buo242
 準過	zung55+guo213	5231552
+宗牌	zung55+me53
 準謎	zung55+mei242
 總簿	zung55+muo242
 準過	zung55+nguo213	5231552
+宗宗	zung55+njung55
 準過	zung55+uo213	5231552
 主心	zuo21+ling55	21308434
 主儂	zuo21+neoyng53
@@ -18329,6 +19642,7 @@ use_preset_vocabulary: false
 主心	zuo21+sing55	21308434
 這塊所	zuo24+neo33
 鑄鼎	zuo53+diang33
+珠柿	zuo53+ei242
 這蜀隻	zuo53+ieh24
 鑄鐵	zuo53+liek24
 珠套	zuo53+loo213	765855
@@ -18352,10 +19666,12 @@ use_preset_vocabulary: false
 燭蒂	zuoh53+lei213
 燭碟	zuoh55+diek5
 燭花	zuoh55+hua55
+借支	zuoh55+ie55
 燭碟	zuoh55+liek5
 燭花	zuoh55+ua55
 絕對	zuok21+dooy213
 絕硬	zuok21+ngaing242
+絕式	zuok21+seik24
 絕嗣	zuok21+seoy242	550000
 全家福	zuong21+a53+ouk24	1111111
 全部	zuong21+buo242
@@ -18372,6 +19688,8 @@ use_preset_vocabulary: false
 全家福	zuong21+nga53+ouk24	1111111
 蔣介石	zuong21+ngai55+lik5
 蔣其	zuong21+ngi53
+全季考	zuong21+ngie53+o33
+全鏈盒	zuong21+nieng55+ngak5
 蔣蔣做	zuong21+njuong53+njoo213
 蔣蔣做	zuong21+njuong53+zoo213
 蔣蔣做	zuong21+njuong55+njoo213
@@ -18389,6 +19707,7 @@ use_preset_vocabulary: false
 醬園店	zuong53+nguong21+naing213
 將養	zuong53+ngyong33
 磚竈	zuong53+njau213	300000
+磚厝	zuong53+njuo21
 樟段	zuong53+nooung242
 樟堵	zuong53+nu33
 醬園店	zuong53+uong21+daing213
@@ -18402,6 +19721,7 @@ use_preset_vocabulary: false
 全番	zuong55+huang55
 漿衣裳	zuong55+i55+luong53	658231
 漿衣裳	zuong55+i55+suong53	658231
+漿鑼	zuong55+lo53
 漳冰	zuong55+ming55
 掌盤婿	zuong55+muang21+nai213
 樟木	zuong55+muk5
@@ -18435,6 +19755,7 @@ use_preset_vocabulary: false
 水梔花	zy21+jie55+ua55	23949829
 嗞嗞囝	zy21+jy53+iang33
 水𧏫	zy21+lak5
+自來火信	zy21+lau21+ui55+leing21
 水頭	zy21+lau53	61763
 水桶索	zy21+leoyng55+looh24
 子時	zy21+li53	600000
@@ -18443,6 +19764,7 @@ use_preset_vocabulary: false
 水仙花	zy21+lieng55+ngua55	19302743
 水仙花	zy21+lieng55+ua55	19302743
 水槽	zy21+lo53	879456
+子孫桶	zy21+loung53+neoyng33
 水月燈	zy21+nguok55+deing55
 水銀	zy21+ngyng53
 水缸	zy21+oung55
@@ -18483,8 +19805,10 @@ use_preset_vocabulary: false
 漬濫	zy53+lang242	777777
 自來火	zy53+lau33+ui33
 廁所	zy53+lu33
+诸儂儂老	zy53+neoyng21+neoyng21+nau242
 諸娘囝	zy53+neoyng33+giang33	100000000
 諸娘囝	zy53+neoyng33+iang33	100000000
+諸娘儂母	zy53+neoyng33+neoyng33+mo33
 諸娘囝	zy53+neoyng33+ngiang33	100000000
 書語	zy53+ngy33
 諸娘老	zy53+nuong21+au242
@@ -18492,12 +19816,14 @@ use_preset_vocabulary: false
 自細	zy53+sa213	99999
 廁所	zy53+su33
 嘴䫌	zy53+we33	781237
+漬雨	zy53+y33
 書包	zy55+bau55
 煮飯	zy55+buong242	9584565
 聚餐	zy55+cuang55	946513
 子弟	zy55+da242
 水碓	zy55+dai213
 書呆	zy55+dai55
+書合去	zy55+hak5+go0
 滋陰	zy55+ing55
 書齋	zy55+je55	765154
 自稱	zy55+jing55
