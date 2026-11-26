@@ -1,0 +1,21 @@
+diff --git a/install.nsi b/install.nsi
+index 3d5130c..a5a5cf1 100644
+--- a/install.nsi
++++ b/install.nsi
+@@ -293,6 +293,8 @@ program_files:
+   File "data\*.yaml"
+   File /nonfatal "data\*.txt"
+   File /nonfatal "data\*.gram"
++  SetOutPath $INSTDIR\data\lua
++  File /r "data\lua\*.lua"
+   ; opencc data files
+   SetOutPath $INSTDIR\data\opencc
+   File "data\opencc\*.json"
+@@ -407,6 +409,7 @@ Section "Uninstall"
+   SetOutPath $TEMP
+   Delete  "$INSTDIR\data\opencc\*.*"
+   Delete  "$INSTDIR\data\preview\*.*"
++  RMDir /r "$INSTDIR\data\lua"
+   Delete  "$INSTDIR\data\*.*"
+   Delete  "$INSTDIR\*.*"
+   RMDir  "$INSTDIR\data\opencc"

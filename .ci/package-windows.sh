@@ -80,6 +80,11 @@ pdm run python "../../.ci/preset_color.py" \
   "../../$SCHEMA_DIR/../theme/seedict.weasel.yaml"
 
 curl -L "https://raw.githubusercontent.com/rime/weasel/${WEASEL_VERSION}/output/install.nsi" -o install.nsi
+git -C ../.. apply \
+  --no-index \
+  --directory="$OUTPUT_DIR/weasel" \
+  .ci/weasel-install.patch
+
 mkdir -p ../resource
 curl -L "https://raw.githubusercontent.com/rime/weasel/${WEASEL_VERSION}/resource/weasel.ico" -o ../resource/weasel.ico
 
